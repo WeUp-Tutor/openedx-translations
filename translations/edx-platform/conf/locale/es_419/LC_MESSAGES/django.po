@@ -9384,6 +9384,24 @@ msgstr "Resumen semanal de notificaciones para la semana del"
 msgid "Daily Notifications Digest for"
 msgstr "Resumen diario de notificaciones para"
 
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr "Resumen Semanal de Notificaciones"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr "Resumen Diario de Notificaciones"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr "Resumen semanal de notificaciones para la semana del"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr "Resumen diario de notificaciones para"
+
 #: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:5
 msgid "Email Digest Preferences Updated"
 msgstr "Preferencias de resumen de correo electrónico actualizadas"
@@ -13494,7 +13512,7 @@ msgstr "Generado"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} No publicado - 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Los puntajes más bajos {drop_count} {section_type} se descartan."

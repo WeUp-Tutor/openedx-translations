@@ -22,26 +22,6 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin.py:112
-msgid "internally reviewed"
-msgstr "αναθεωρήθηκε εσωτερικά"
-
-#: admin.py:121
-msgid "All Unreviewed"
-msgstr "Όλα τα μη ελεγμένα"
-
-#: admin.py:122
-msgid "All Unreviewed Failures"
-msgstr "Όλες οι μη ελεγμένες αποτυχίες"
-
-#: admin.py:142
-msgid "active proctored exams"
-msgstr "ενεργές επιτηρούμενες εξετάσεις"
-
-#: admin.py:197
-msgid "courses with active proctored exams"
-msgstr "κύκλοι μαθημάτων με ενεργές επιτηρούμενες εξετάσεις"
-
 #: admin.py:354
 msgid "Course Id"
 msgstr "Ταυτότητα μαθήματος"

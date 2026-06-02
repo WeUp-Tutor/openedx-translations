@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nathan Robertson, 2024
+# Brian Smith, 2025
 # 
 #, fuzzy
 msgid ""

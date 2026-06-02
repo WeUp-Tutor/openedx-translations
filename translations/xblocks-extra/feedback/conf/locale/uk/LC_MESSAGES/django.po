@@ -40,7 +40,7 @@ msgstr ""
 "Подумайте про матеріал і спробуйте синтезувати ключові засвоєні уроки, а "
 "також ключові прогалини в нашій презентації."
 
-#: feedback.py:35
+#: feedback.py:37
 msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "
@@ -92,7 +92,7 @@ msgstr "Список голосів користувачів"
 
 #: feedback.py:94
 msgid "Feedback"
-msgstr "Відгук"
+msgstr "Зворотній зв'язок"
 
 #: feedback.py:96
 msgid "Display Name"
@@ -167,10 +167,6 @@ msgid "Comment"
 msgstr "Коментар"
 
 #: static/html/feedback_instructor.html:40
-msgid "Vote"
-msgstr "Голосуйте"
-
-#: static/html/feedback_instructor.html:40
 msgid "No vote"
 msgstr "Без голосування"
 
@@ -236,10 +232,6 @@ msgstr "Текст-підказка довільної форми"
 msgid "This is shown as grayed out text before the student has answered."
 msgstr "Це відображається як сірий текст до того, як учень відповість."
 
-#: templates/html/studio_view.html:60
-msgid "Likert icon set"
-msgstr "Лайкерт набір іконок"
-
 #: templates/html/studio_view.html:62
 msgid "Faces (happy to sad)"
 msgstr "Обличчя (від радісних до сумних)"
@@ -260,34 +252,18 @@ msgstr "Зірки"
 msgid "We can either show happy/sad faces, numbers 1-5 or stars."
 msgstr "Ми можемо показувати щасливі/сумні обличчя, цифри 1-5, або зірочки."
 
-#: templates/html/studio_view.html:73
-msgid "Likert prompt"
-msgstr "Підказка Лайкерта"
-
 #: templates/html/studio_view.html:76
 msgid "Example: Please rate your overall experience with this section."
 msgstr ""
 "Приклад: будь ласка, оцініть свій загальний досвід роботи з цим розділом."
 
-#: templates/html/studio_view.html:81
-msgid "Likert option 1"
-msgstr "Варіант Лайкерта 1"
-
 #: templates/html/studio_view.html:84
 msgid "Example: Excellent!"
 msgstr "Приклад: Відмінно!"
 
-#: templates/html/studio_view.html:89
-msgid "Likert option 2"
-msgstr "Варіант Лайкерта 2"
-
 #: templates/html/studio_view.html:92
 msgid "Example: Good"
 msgstr "Приклад: Добре"
-
-#: templates/html/studio_view.html:97
-msgid "Likert option 3"
-msgstr "Варіант Лайкерта 3"
 
 #: templates/html/studio_view.html:100
 msgid "Example: Average"

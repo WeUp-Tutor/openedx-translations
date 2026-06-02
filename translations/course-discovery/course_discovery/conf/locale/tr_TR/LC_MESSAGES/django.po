@@ -2158,6 +2158,16 @@ msgstr ""
 "edX Öğrencilerimiz için sorunsuz bir deneyim sağlamak amacıyla lütfen "
 "aşağıdaki eylemlerden birini gerçekleştirin:"
 
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:23
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+msgid ""
+"If this was intentional, no action is needed. However, if this course was "
+"meant to remain available, you have two options to restore access:"
+msgstr ""
+"Eğer bu kasıtlı olarak yapıldıysa, herhangi bir işlem yapılmasına gerek "
+"yoktur. Ancak bu dersin erişime açık kalması gerekiyorsa, erişimi yeniden "
+"sağlamak için iki seçeneğiniz mevcut:"
+
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:62
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:95
@@ -2424,7 +2434,18 @@ msgstr "Studio sayfası: %(studio_url)s"
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
 #, python-format
 msgid "Restricted Course admin: %(restricted_admin_url)s"
-msgstr "Kısıtlanmış Ders admini: %(restricted_admin_url)s"
+msgstr "Kısıtlanmış Ders yöneticisi: %(restricted_admin_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+msgstr ""
+"{org_name} {course_name} dersini incelemeye gönderdi. OFAC durumunu "
+"belirlemek için {link_start}{course_page_url}{link_middle}Publisher'da "
+"çalıştırılan bu dersi görüntüleyin{link_end}."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
 #, python-brace-format

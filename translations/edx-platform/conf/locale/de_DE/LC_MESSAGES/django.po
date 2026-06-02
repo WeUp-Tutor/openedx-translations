@@ -9552,6 +9552,55 @@ msgstr "Benachrichtigungen als gelesen markiert."
 msgid "Invalid app_name or notification_id."
 msgstr "Ungültiger App-Name oder Benachrichtigungs-ID."
 
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr "Wöchentliche Benachrichtigungsübersicht"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr "Tägliche Benachrichtigungsübersicht"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr "Wöchentliche Benachrichtigungsübersicht für die Woche vom"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr "Tägliche Benachrichtigungsübersicht für"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:5
+msgid "Email Digest Preferences Updated"
+msgstr "E-Mail-Digest-Einstellungen aktualisiert"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:9
+msgid ""
+"You have successfully unsubscribed from email digest for learning activity"
+msgstr ""
+"Sie haben sich erfolgreich von der E-Mail-Zusammenfassung für "
+"Lernaktivitäten abgemeldet"
+
+#: openedx/core/djangoapps/notifications/views.py:174
+msgid "Invalid app name."
+msgstr "Ungültiger App-Name."
+
+#: openedx/core/djangoapps/notifications/views.py:184
+msgid "Notifications marked as seen."
+msgstr "Als gesehen markierte Benachrichtigungen."
+
+#: openedx/core/djangoapps/notifications/views.py:223
+msgid "Notification marked read."
+msgstr "Benachrichtigung als gelesen markiert."
+
+#: openedx/core/djangoapps/notifications/views.py:235
+msgid "Notifications marked read."
+msgstr "Benachrichtigungen als gelesen markiert."
+
+#: openedx/core/djangoapps/notifications/views.py:237
+msgid "Invalid app_name or notification_id."
+msgstr "Ungültiger App-Name oder Benachrichtigungs-ID."
+
 #: openedx/core/djangoapps/oauth_dispatch/models.py:81
 msgid ""
 "Comma-separated list of scopes that this application will be allowed to "

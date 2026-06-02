@@ -35,3 +35,7 @@ msgstr "सेव करें"
 #: templates/html/audio_edit.html:19
 msgid "Cancel"
 msgstr "रद्द करें"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "TX शाखाओं का परीक्षण"

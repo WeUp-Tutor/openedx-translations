@@ -22,55 +22,9 @@ msgstr ""
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: default_data.py:5
-msgid ""
-"An isosceles triangle with three layers of similar height. It is shown "
-"upright, so the widest layer is located at the bottom, and the narrowest "
-"layer is located at the top."
-msgstr ""
-"समान ऊँचाई की तीन परतों वाला एक समद्विबाहु त्रिभुज। इसे सीधा दिखाया गया है, "
-"इसलिए सबसे चौड़ी परत नीचे स्थित है, और सबसे संकीर्ण परत शीर्ष पर स्थित है।"
-
 #: default_data.py:14
 msgid "The Top Zone"
 msgstr "शीर्ष क्षेत्र"
-
-#: default_data.py:15
-msgid "The Middle Zone"
-msgstr "मध्य क्षेत्र"
-
-#: default_data.py:16
-msgid "The Bottom Zone"
-msgstr "निचला क्षेत्र"
-
-#: default_data.py:18
-msgid "Use this zone to associate an item with the top layer of the triangle."
-msgstr ""
-"किसी आइटम को त्रिभुज की शीर्ष परत से जोड़ने के लिए इस क्षेत्र का उपयोग करें।"
-
-#: default_data.py:19
-msgid ""
-"Use this zone to associate an item with the middle layer of the triangle."
-msgstr ""
-"किसी आइटम को त्रिभुज की मध्य परत से जोड़ने के लिए इस क्षेत्र का उपयोग करें।"
-
-#: default_data.py:20
-msgid ""
-"Use this zone to associate an item with the bottom layer of the triangle."
-msgstr ""
-"किसी आइटम को त्रिभुज की निचली परत से जोड़ने के लिए इस क्षेत्र का उपयोग करें।"
-
-#: default_data.py:22
-msgid "Correct! This one belongs to The Top Zone."
-msgstr "सही! यह द टॉप जोन का है."
-
-#: default_data.py:23
-msgid "Correct! This one belongs to The Middle Zone."
-msgstr "सही! यह मध्य क्षेत्र का है।"
-
-#: default_data.py:24
-msgid "Correct! This one belongs to The Bottom Zone."
-msgstr "सही! यह बॉटम ज़ोन का है।"
 
 #: default_data.py:25
 msgid "No, this item does not belong here. Try again."
@@ -491,14 +445,6 @@ msgstr "एक ज़ोन जोड़ें"
 msgid "Items"
 msgstr "इटेम्स "
 
-#: templates/html/drag_and_drop_edit.html:274
-msgid "Item definitions"
-msgstr "आइटम परिभाषाएँ"
-
-#: templates/html/drag_and_drop_edit.html:278
-msgid "Add an item"
-msgstr "एक आइटम जोड़ें"
-
 #: templates/html/drag_and_drop_edit.html:288
 msgid "Continue"
 msgstr "जारी रखें"
@@ -559,49 +505,9 @@ msgstr[1] "{missing_count} आवश्यक वस्तुएँ नहीं
 msgid "Submitting"
 msgstr "भेजने से"
 
-#: public/js/drag_and_drop.js:162
-msgid "Unknown Zone"
-msgstr "अज्ञात क्षेत्र"
-
-#: public/js/drag_and_drop.js:166
-msgid "Placed in: {zone_title}"
-msgstr "इसमें रखा गया: {zone_title}"
-
-#: public/js/drag_and_drop.js:170
-msgid "Correctly placed in: {zone_title}"
-msgstr "सही ढंग से रखा गया: {zone_title}"
-
-#: public/js/drag_and_drop.js:182
-msgid ", draggable, grabbed"
-msgstr ", खींचने योग्य, पकड़ लिया गया"
-
-#: public/js/drag_and_drop.js:182
-msgid ", draggable"
-msgstr ", खींचने योग्य"
-
-#: public/js/drag_and_drop.js:259
-msgid "No items placed here"
-msgstr "यहां कोई सामान नहीं रखा गया है"
-
-#: public/js/drag_and_drop.js:265
-msgid "Items placed here: "
-msgstr "यहां रखे गए आइटम: "
-
-#: public/js/drag_and_drop.js:297
-msgid ", dropzone"
-msgstr ", ड्रॉप क्षेत्र"
-
-#: public/js/drag_and_drop.js:300
-msgid "droppable"
-msgstr "droppable"
-
 #: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
 msgid "Feedback"
 msgstr "प्रतिक्रिया"
-
-#: public/js/drag_and_drop.js:336 public/js/drag_and_drop.js:341
-msgid "Explanation"
-msgstr "व्याख्या"
 
 #: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
 msgid "Close"

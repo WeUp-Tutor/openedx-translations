@@ -20,11 +20,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it_IT\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#: channel/braze.py:105 channel/sailthru.py:172
-msgid "Unsubscribe from this list"
-msgstr "Annulla l&#39;iscrizione a questa lista"
-
-#: channel/sailthru.py:169
-msgid "View on Web"
-msgstr "Visualizza sul Web"

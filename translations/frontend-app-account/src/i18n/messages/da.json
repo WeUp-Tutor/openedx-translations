@@ -1,10 +1,10 @@
 {
-  "account.settings.message.duplicate.tpa.provider": "Den {provider}-konto, du valgte, er allerede knyttet til en anden {siteName}-konto.",
-  "account.settings.message.managed.settings": "Dine profilindstillinger administreres af {managerTitle}. Kontakt din administrator eller {support} for at få hjælp.",
-  "account.settings.message.managed.settings.support": "support",
-  "account.settings.page.heading": "Kontoinstillinger",
-  "account.settings.loading.message": "Indlæser...",
-  "account.settings.loading.error": "Fejl: {error}",
+  "account.settings.message.duplicate.tpa.provider": "",
+  "account.settings.message.managed.settings": "",
+  "account.settings.message.managed.settings.support": "",
+  "account.settings.page.heading": "",
+  "account.settings.loading.message": "",
+  "account.settings.loading.error": "",
   "account.settings.banner.beta.language": "Du har indstillet dit sprog til {beta_language}, som i øjeblikket ikke er fuldt oversat. Du kan hjælpe os med at oversætte dette sprog fuldt ud ved at deltage i Transifex-fællesskabet og tilføje oversættelser fra engelsk til kursister, der taler {beta_language}.",
   "account.settings.banner.beta.language.action.switch.back": "Skift tilbage til {previous_language}",
   "account.settings.banner.beta.language.action.help.translate": "Hjælp med at oversætte til {beta_language}",
@@ -57,7 +57,7 @@
   "account.settings.field.dob.year": "År",
   "account.settings.field.month.year.default": "Vælg måned",
   "account.settings.field.dob.year.default": "Vælg år",
-  "account.settings.field.dob.form.button": "Bekræft venligst din fødselsdato",
+  "account.settings.field.dob.form.button": "",
   "account.settings.field.dob.form.title": "Indtast din fødselsmåned og -år",
   "account.settings.field.dob.form.help.text": "Vi beder om fødselsmåned og -år Information to hjælpe os med at overholde vores legal forpligtelser.",
   "account.settings.field.dob.form.success": "Tak fordi du indtastede din Information .",
@@ -330,5 +330,5 @@
   "id.verification.requirements.card.device.text": "Du skal bruge en enhed, der har et kamera. Hvis du modtager en browserprompt om adgang til dit kamera, skal du sørge for at klikke på {allow}.",
   "id.verification.account.name.summary.alert": "Dine kontoindstillinger administreres af {managerTitle}. Hvis navnet på dit billed-id ikke stemmer overens med navnet på din konto, skal du kontakte din {profileDataManager}-administrator eller {support} for at få hjælp.",
   "idv.submission.alert.error": "Vi stødte på en teknisk fejl under forsøget på at indsende id-bekræftelse. Dette kan være et midlertidigt problem, så prøv igen om et par minutter. Hvis problemet fortsætter, skal du gå til {support_link} for at få hjælp",
-  "id.verification.account.name.edit": "Rediger {sr}"
+  "id.verification.account.name.edit": ""
 }

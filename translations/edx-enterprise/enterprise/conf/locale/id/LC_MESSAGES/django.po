@@ -1900,6 +1900,34 @@ msgstr "SFTP username"
 
 #: enterprise/models.py:3509
 msgid ""
+"This password will be used to secure the zip file. It will be encrypted when"
+" stored in the database."
+msgstr ""
+"This password will be used to secure the zip file. It will be encrypted when"
+" stored in the database."
+
+#: enterprise/models.py:3493
+msgid "SFTP Host name"
+msgstr "SFTP Host name"
+
+#: enterprise/models.py:3494
+msgid "If the delivery method is sftp, the host to deliver the report to."
+msgstr "If the delivery method is sftp, the host to deliver the report to."
+
+#: enterprise/models.py:3499
+msgid "SFTP Port"
+msgstr "SFTP Port"
+
+#: enterprise/models.py:3500
+msgid "If the delivery method is sftp, the port on the host to connect to."
+msgstr "If the delivery method is sftp, the port on the host to connect to."
+
+#: enterprise/models.py:3507
+msgid "SFTP username"
+msgstr "SFTP username"
+
+#: enterprise/models.py:3508
+msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
 msgstr ""

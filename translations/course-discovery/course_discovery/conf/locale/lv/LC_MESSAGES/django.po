@@ -450,7 +450,7 @@ msgstr "Veiksmīgi %(status)s %(count)d %(items)s ."
 
 #: apps/course_metadata/algolia_models.py:54
 msgid "Certificates"
-msgstr "Sertifikāti"
+msgstr "Apliecināji"
 
 #: apps/course_metadata/algolia_models.py:55
 msgid "Pathways to Degrees"
@@ -1170,7 +1170,7 @@ msgid ""
 "Certificate type granted if this mode is eligible for a certificate, or "
 "blank if not."
 msgstr ""
-"Sertifikāta veids piešķirts, ja šis režīms ir piemērots sertifikātam, vai "
+"Apliecināja veids piešķirts, ja šis režīms ir piemērots Apliecinājumam, vai "
 "tukšs, ja nav."
 
 #: apps/course_metadata/models.py:582
@@ -1831,7 +1831,7 @@ msgstr "Zvans"
 
 #: apps/course_metadata/models.py:4289
 msgid "Certificate"
-msgstr "Sertifikāts"
+msgstr "Apliecinājums"
 
 #: apps/course_metadata/models.py:4290
 msgid "Checkmark"

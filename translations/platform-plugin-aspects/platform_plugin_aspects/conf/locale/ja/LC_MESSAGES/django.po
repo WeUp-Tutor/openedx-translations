@@ -4,7 +4,7 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Eden Huthmacher, 2025
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""

@@ -397,10 +397,6 @@ msgstr "Feedback introduttivo"
 msgid "Final feedback"
 msgstr "Feedback finale"
 
-#: templates/html/drag_and_drop_edit.html:100
-msgid "Explanation Text"
-msgstr "Testo esplicativo"
-
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
 msgstr "Zone"
@@ -520,10 +516,6 @@ msgstr "Aggiungi una zona"
 #: templates/html/drag_and_drop_edit.html:240
 msgid "Items"
 msgstr "Oggetti"
-
-#: templates/html/drag_and_drop_edit.html:274
-msgid "Item definitions"
-msgstr "Definizioni degli articoli"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"

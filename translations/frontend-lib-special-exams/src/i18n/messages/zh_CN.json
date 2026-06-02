@@ -88,8 +88,8 @@
   "exam.RejectedProctoredExamInstructions.title": "您的监考课程已经过审核，但未通过所有要求",
   "exam.RejectedProctoredExamInstructions.description": "如果您对监考会话结果的状态有疑问，请联系{platformName}支持人员。",
   "exam.skipProctoredExamButton": "关闭本次考试的监考功能。",
-  "exam.skipProctoredExamInstructions.text1": "您确定要在没有监考的情况下参加该考试吗？",
-  "exam.skipProctoredExamInstructions.text2": "如果您在没有监考的情况下参加此考试，您将没有资格获得课程学分或 MicroMasters 证书（如果其中任何一项适用于本课程）。",
+  "exam.skipProctoredExamInstructions.text1": "",
+  "exam.skipProctoredExamInstructions.text2": "",
   "exam.entranceExamInstructions.skipConfirmExamButtonText1": "关闭监考模式",
   "exam.entranceExamInstructions.skipCancelExamButtonText": "返回",
   "exam.SubmitProctoredExamInstructions.title": "您确定要结束监考考试吗？",
@@ -143,6 +143,6 @@
   "exam.PendingPrerequisitesProctoredExamInstructions.text1": "您尚未完成本次考试的先决条件。您必须满足所有要求才能参加此监考考试。",
   "exam.PendingPrerequisitesProctoredExamInstructions.text2": "满足以下先决条件",
   "exam.PendingPrerequisitesProctoredExamInstructions.text3": "待定",
-  "exam.PendingPrerequisitesProctoredExamInstructions.text4": "说明并且必须成功完成才能继续：",
-  "exam.PendingPrerequisitesProctoredExamInstructions.text5": "仅当成功完成所有先决条件说明后，您才能参加有监考的考试。"
+  "exam.PendingPrerequisitesProctoredExamInstructions.text4": "",
+  "exam.PendingPrerequisitesProctoredExamInstructions.text5": ""
 }

@@ -35,3 +35,7 @@ msgstr "Αποθήκευση"
 #: templates/html/audio_edit.html:19
 msgid "Cancel"
 msgstr "Ακύρωση"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "Δοκιμή κλάδων TX"

@@ -9358,6 +9358,24 @@ msgstr "Weeklikse kennisgewingsopsomming vir die week van"
 msgid "Daily Notifications Digest for"
 msgstr "Daaglikse kennisgewingsopsomming vir"
 
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:25
+msgid "Weekly Notifications Digest"
+msgstr "Weeklikse Kennisgewingsopsomming"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
+msgid "Daily Notifications Digest"
+msgstr "Daaglikse kennisgewingsopsomming"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
+msgid "Weekly Notifications Digest for the Week of"
+msgstr "Weeklikse kennisgewingsopsomming vir die week van"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:6
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:6
+msgid "Daily Notifications Digest for"
+msgstr "Daaglikse kennisgewingsopsomming vir"
+
 #: openedx/core/djangoapps/notifications/templates/notifications/email_digest_preference_update.html:5
 msgid "Email Digest Preferences Updated"
 msgstr "E-pos-samevatting-voorkeure opgedateer"
@@ -13419,7 +13437,7 @@ msgstr "Gegenereer"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Onvrygestel - 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Die laagste {drop_count} {section_type} tellings word laat val."

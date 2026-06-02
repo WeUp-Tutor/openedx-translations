@@ -26,7 +26,7 @@ msgstr ""
 "Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/open-edx/teams/6205/tr_TR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: tr_TR\n"
@@ -3652,7 +3652,7 @@ msgstr "Mevcut yapılandırılmış kohortunuz yok"
 #: lms/static/js/groups/views/cohorts.js:99
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:22
 msgid "Add Cohort"
-msgstr "Topluluk Ekle"
+msgstr "Kohort Ekle"
 
 #: lms/static/js/groups/views/cohorts.js:239
 msgid ""

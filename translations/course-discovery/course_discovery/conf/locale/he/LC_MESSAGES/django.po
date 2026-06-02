@@ -196,18 +196,6 @@ msgstr "אינך מורשה לגשת למסמכי ה-API"
 msgid "Catalog name"
 msgstr "שם הקטלוג"
 
-#: apps/catalogs/models.py:18
-msgid "Query to retrieve Course Run catalog contents"
-msgstr "שאילתה לאחזור תוכן הקטלוג של Course Run"
-
-#: apps/catalogs/models.py:22
-msgid "Query to retrieve Program catalog contents"
-msgstr "שאילתה לאחזור תוכן קטלוג התוכנית"
-
-#: apps/catalogs/models.py:25
-msgid "Include archived courses"
-msgstr "כלול קורסים בארכיון"
-
 #: apps/core/admin.py:17
 msgid "Personal info"
 msgstr "מידע אישי"

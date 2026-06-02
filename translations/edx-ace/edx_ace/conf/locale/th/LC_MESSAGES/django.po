@@ -20,11 +20,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: channel/braze.py:105 channel/sailthru.py:172
-msgid "Unsubscribe from this list"
-msgstr "ยกเลิกการเป็นสมาชิกจากรายการนี้"
-
-#: channel/sailthru.py:169
-msgid "View on Web"
-msgstr "ดูบนเว็บ"

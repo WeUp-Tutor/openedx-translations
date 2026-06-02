@@ -13024,7 +13024,7 @@ msgstr "Généré"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Indisponible - 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Les {drop_count} {section_type} scores les plus bas sont ignorés."

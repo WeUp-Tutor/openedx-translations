@@ -13340,7 +13340,7 @@ msgstr "Oluşturuldu"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Yayınlanmamış - %0 (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "En düşük {drop_count} {section_type} not göz ardı edildi."

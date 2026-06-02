@@ -20,11 +20,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: channel/braze.py:105 channel/sailthru.py:172
-msgid "Unsubscribe from this list"
-msgstr "取消订阅此列表"
-
-#: channel/sailthru.py:169
-msgid "View on Web"
-msgstr "在网络上查看"

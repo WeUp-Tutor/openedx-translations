@@ -5,10 +5,7 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2023
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2024
+# Brian Smith, 2025
 # 
 msgid ""
 msgstr ""

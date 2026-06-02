@@ -67,7 +67,7 @@ msgstr ""
 "Voer die naam in wat leerders vir hierdie komponent sien. Hierdie naam kan "
 "ook in verslae verskyn."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "LTI Verbruiker"
 
@@ -75,7 +75,7 @@ msgstr "LTI Verbruiker"
 msgid "Data Sharing Notice"
 msgstr "Kennisgewing oor datadeling"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Tool Public Key"
 msgstr "Gereedskap publieke sleutel"
 
-#: lti_xblock.py:376
+#: lti_xblock.py:377
 msgid ""
 "Enable this to allow the tool to access the names and roles of enrolled "
 "learners, if the tool supports NRPS."

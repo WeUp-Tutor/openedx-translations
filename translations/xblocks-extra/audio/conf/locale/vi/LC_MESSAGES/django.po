@@ -35,3 +35,7 @@ msgstr "Lưu"
 #: templates/html/audio_edit.html:19
 msgid "Cancel"
 msgstr "Hủy bỏ"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "Kiểm tra các chi nhánh TX"

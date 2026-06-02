@@ -71,7 +71,7 @@ msgstr ""
 "Ievadiet nosaukumu, ko izglītojamie redzēs šim komponentam. Šis nosaukums "
 "var parādīties arī atskaitēs."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "LTI patērētājs"
 
@@ -79,7 +79,7 @@ msgstr "LTI patērētājs"
 msgid "Data Sharing Notice"
 msgstr "Paziņojums par datu koplietošanu"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

@@ -1477,7 +1477,7 @@ msgstr ""
 " apprenants sur le portail des apprenants. Cela ne s’applique qu’aux clients"
 " bénéficiant des « offres », l’ancienne version du crédit apprenant."
 
-#: enterprise/models.py:385
+#: enterprise/models.py:391
 msgid ""
 "Specifies whether to display the Learner Credit message box in the learner "
 "portal."

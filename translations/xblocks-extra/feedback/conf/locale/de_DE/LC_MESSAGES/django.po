@@ -38,7 +38,7 @@ msgstr ""
 "gewonnenen Erkenntnisse sowie die wichtigsten Lücken in unserer Präsentation"
 " zusammenzufassen."
 
-#: feedback.py:35
+#: feedback.py:37
 msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "

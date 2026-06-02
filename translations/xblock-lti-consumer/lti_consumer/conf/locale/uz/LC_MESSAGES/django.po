@@ -74,7 +74,7 @@ msgstr ""
 "Oʻquvchilar ushbu komponent uchun koʻradigan nomni kiriting. Bu nom "
 "hisobotlarda ham koʻrinishi mumkin."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "LTI iste'molchisi"
 
@@ -82,7 +82,7 @@ msgstr "LTI iste'molchisi"
 msgid "Data Sharing Notice"
 msgstr "Ma'lumot almashish bildirishnomasi"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

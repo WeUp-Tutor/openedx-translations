@@ -73,7 +73,7 @@ msgstr ""
 "نامی را وارد کنید که فراگیران برای این مؤلفه می‌بینند. این نام ممکن است در "
 "گزارش‌ها نیز ظاهر شود."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "مصرف کننده LTI"
 
@@ -81,7 +81,7 @@ msgstr "مصرف کننده LTI"
 msgid "Data Sharing Notice"
 msgstr "اطلاعیه اشتراک‌گذاری داده"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

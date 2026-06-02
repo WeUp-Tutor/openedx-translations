@@ -18,7 +18,7 @@ msgstr ""
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Hungarian (https://app.transifex.com/open-edx/teams/6205/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1675,6 +1675,10 @@ msgstr "Társult végzettség"
 msgid "Secondary/high school"
 msgstr "Szakközépiskola/gimnázium"
 
+#: common/djangoapps/student/models/user.py:482
+msgid "Junior secondary/junior high/middle school"
+msgstr "Szakiskola"
+
 #: common/djangoapps/student/models/user.py:483
 msgid "Junior secondary/junior high/middle school"
 msgstr "Szakiskola"
@@ -1697,6 +1701,12 @@ msgstr "Egyéb oktatás"
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr "{platform_name} becsületkódex bizonyítvány a(z) {course_name} számára"
+
+#: common/djangoapps/student/models/user.py:1365
+#, python-brace-format
+msgid "{platform_name} Verified Certificate for {course_name}"
+msgstr ""
+"{platform_name} Hitelesített Bizonyítvány a(z) {course_name} kurzushoz"
 
 #: common/djangoapps/student/models/user.py:1366
 #, python-brace-format
@@ -5372,6 +5382,10 @@ msgstr "A feladat jelenlegi állapota."
 msgid "Identifies the kind of task being performed, e.g. rescoring."
 msgstr "Azonosítja az elvégzett feladat típusát, pl. pontozás."
 
+#: lms/djangoapps/instructor/views/api.py:2418
+msgid "The celery ID for the task."
+msgstr "A feladat zellerazonosítója."
+
 #: lms/djangoapps/instructor/views/api.py:2419
 msgid "The celery ID for the task."
 msgstr "A feladat zellerazonosítója."
@@ -7412,6 +7426,16 @@ msgstr ""
 
 #: lms/templates/oauth2_provider/authorize.html:48
 #: openedx/core/djangoapps/user_api/admin.py:111
+msgid "Cancel"
+msgstr "Megszakít"
+
+#: lms/templates/oauth2_provider/authorize.html:48
+#: openedx/core/djangoapps/user_api/admin.py:111
+#: cms/templates/course-create-rerun.html:36
+#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:132
+#: cms/templates/index.html:200 cms/templates/manage_users.html:68
+#: cms/templates/manage_users_lib.html:69
+#: cms/templates/videos_index_pagination.html:15
 msgid "Cancel"
 msgstr "Megszakít"
 

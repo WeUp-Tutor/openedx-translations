@@ -5320,6 +5320,10 @@ msgid "Cannot rescore with all_students and unique_student_identifier."
 msgstr ""
 "all_students və unique_student_identifier ilə yenidən qiymətləndirə bilmir."
 
+#: lms/djangoapps/instructor/views/api.py:2416
+msgid "Current status of task."
+msgstr "Cari tapşırığın vəziyyəti."
+
 #: lms/djangoapps/instructor/views/api.py:2417
 msgid "Current status of task."
 msgstr "Cari tapşırığın vəziyyəti."
@@ -5371,6 +5375,10 @@ msgstr "Müəllim vəzifələrinin siyahısı."
 #: lms/djangoapps/instructor/views/api.py:2711
 msgid "The requested course does not exist."
 msgstr "Tələb olunan kurs mövcud deyil."
+
+#: lms/djangoapps/instructor/views/api.py:2672
+msgid "URL from which report can be downloaded."
+msgstr "Hesabatın yüklənə biləcəyi URL."
 
 #: lms/djangoapps/instructor/views/api.py:2673
 msgid "URL from which report can be downloaded."

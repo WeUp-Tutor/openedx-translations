@@ -35,3 +35,7 @@ msgstr "保存"
 #: templates/html/audio_edit.html:19
 msgid "Cancel"
 msgstr "キャンセル"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "TXブランチのテスト"

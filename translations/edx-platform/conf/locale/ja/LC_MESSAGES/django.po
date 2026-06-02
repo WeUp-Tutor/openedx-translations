@@ -12228,7 +12228,7 @@ msgstr "生成"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} 未公開 - 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "最低の{drop_count}件の{section_type}スコアが除外されます。"

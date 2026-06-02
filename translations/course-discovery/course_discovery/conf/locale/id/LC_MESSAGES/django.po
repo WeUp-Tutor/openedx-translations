@@ -288,10 +288,6 @@ msgstr ""
 msgid "Courses API URL"
 msgstr "URL API kursus"
 
-#: apps/core/models.py:59
-msgid "Course Mode API URL"
-msgstr "Course Mode API URL"
-
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
 msgstr "URL API E-Commerce"
@@ -324,41 +320,9 @@ msgstr "Sandi API Situs Marketing"
 msgid "Studio URL"
 msgstr "URL Studio"
 
-#: apps/core/models.py:75
-msgid "Publisher URL"
-msgstr "Publisher URL"
-
-#: apps/core/models.py:76
-msgid ""
-"The base URL of your publisher service, if used. Example: "
-"https://publisher.example.com/"
-msgstr ""
-"The base URL of your publisher service, if used. Example: "
-"https://publisher.example.com/"
-
 #: apps/core/models.py:79
 msgid "LMS URL"
 msgstr "URL LMS"
-
-#: apps/core/models.py:81
-msgid "LMS Admin URL"
-msgstr "LMS Admin URL"
-
-#: apps/core/models.py:82
-msgid ""
-"The public URL of your LMS Django admin. Example: https://lms-"
-"internal.example.com/admin"
-msgstr ""
-"The public URL of your LMS Django admin. Example: https://lms-"
-"internal.example.com/admin"
-
-#: apps/core/models.py:84
-msgid "Analytics API URL"
-msgstr "Analytics API URL"
-
-#: apps/core/models.py:85
-msgid "Analytics Access Token"
-msgstr "Analytics Access Token"
 
 #: apps/core/models.py:94
 msgid "Partner"
@@ -779,39 +743,6 @@ msgstr ""
 #: apps/course_metadata/forms.py:102
 msgid "Programs can only be activated if they have a banner image."
 msgstr "Program hanya dapat diaktifkan jika memiliki gambar banner."
-
-#: apps/course_metadata/management/commands/add_tag_to_courses.py:15
-msgid "Tag to add to courses"
-msgstr "Tag to add to courses"
-
-#: apps/course_metadata/management/commands/add_tag_to_courses.py:16
-msgid "UUIDs of courses to tag"
-msgstr "UUIDs of courses to tag"
-
-#: apps/course_metadata/management/commands/add_tag_to_courses.py:18
-msgid ""
-"Use arguments from the TagCourseUUIDsConfig model instead of the command "
-"line."
-msgstr ""
-"Use arguments from the TagCourseUUIDsConfig model instead of the command "
-"line."
-
-#: apps/course_metadata/management/commands/add_tag_to_courses.py:27
-msgid "Missing required arguments"
-msgstr "Missing required arguments"
-
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:10
-msgid "Backpopulate new-style CourseType and CourseRunType where possible."
-msgstr "Backpopulate new-style CourseType and CourseRunType where possible."
-
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:15
-msgid "CODE"
-msgstr "CODE"
-
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:16
-#: apps/course_metadata/management/commands/delete_person_dups.py:33
-msgid "Short code for a partner."
-msgstr "Short code for a partner."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:20
 #: apps/course_metadata/models.py:238 apps/course_metadata/models.py:493

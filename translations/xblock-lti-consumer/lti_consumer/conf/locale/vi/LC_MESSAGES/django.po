@@ -76,7 +76,7 @@ msgstr ""
 "Nhập tên mà người học nhìn thấy cho thành phần này. Tên này cũng có thể xuất"
 " hiện trong báo cáo."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "Người tiêu dùng LTI"
 
@@ -84,7 +84,7 @@ msgstr "Người tiêu dùng LTI"
 msgid "Data Sharing Notice"
 msgstr "Thông báo chia sẻ dữ liệu"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

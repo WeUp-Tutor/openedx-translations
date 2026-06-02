@@ -285,7 +285,7 @@ msgstr "Δεν επιλέχθηκαν αρχεία για μεταφόρτωση
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:354
 msgid "Please provide a description for each file you are uploading."
-msgstr "Δώστε μια περιγραφή για κάθε αρχείο που ανεβάζετε."
+msgstr "Παρακαλούμε συμπεριλάβετε μια περιγραφή για κάθε αρχείο που ανεβάζετε"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:363

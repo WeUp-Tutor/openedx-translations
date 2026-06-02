@@ -149,7 +149,7 @@ msgstr ""
 
 #: lti_xblock.py:332
 msgid "Registered Redirect URIs"
-msgstr "Kayıtlı Yönlendirme URI&#39;leri"
+msgstr "Kayıtlı Yönlendirme URL adresleri"
 
 #: lti_xblock.py:334
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: lti_xblock.py:385
 msgid "Deep linking"
-msgstr "Derin bağlantı"
+msgstr "Derin bağlantılama"
 
 #: lti_xblock.py:387
 msgid ""
@@ -216,7 +216,7 @@ msgstr ""
 
 #: lti_xblock.py:393
 msgid "Deep Linking Launch URL"
-msgstr "Derin Bağlantı Başlatma URL&#39;si"
+msgstr "Derin Bağlantı Başlatma URL adresi"
 
 #: lti_xblock.py:397
 msgid ""
@@ -475,8 +475,9 @@ msgid ""
 "LTI Configuration stored on the model for LTI 1.3 must have a value for one "
 "of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
 msgstr ""
-"LTI 1.3 için modelde depolanan LTI Yapılandırması, lti_1p3_tool_public_key "
-"veya lti_1p3_tool_keyset_url&#39;den biri için bir değere sahip olmalıdır."
+"LTI 1.3 için model üzerinde saklanan LTI yapılandırmasının "
+"lti_1p3_tool_public_key veya lti_1p3_tool_keyset_url alanlarından en az biri"
+" için bir değere sahip olması gerekir."
 
 #: models.py:203
 msgid "Configuration Stored on XBlock fields"
@@ -529,7 +530,7 @@ msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
 "Proctoring Services."
 msgstr ""
-"CONFIG_ON_XBLOCK ve CONFIG_EXTERNAL, LTI 1.3 Gözetmenlik Hizmetleri için "
+"CONFIG_ON_XBLOCK ve CONFIG_EXTERNAL, LTI 1.3 Gözetim Hizmetleri içinde "
 "desteklenmez."
 
 #: models.py:369
@@ -554,15 +555,15 @@ msgstr ""
 
 #: templates/html/lti-dl/dl_response_error.html:6
 msgid "LTI Deep Linking failed."
-msgstr "LTI Derin Bağlantısı başarısız oldu."
+msgstr "LTI Derin Bağlantılama başarısız oldu."
 
 #: templates/html/lti-dl/dl_response_saved.html:6
 msgid "LTI Deep Linking"
-msgstr "LTI Derin Bağlantısı"
+msgstr "LTI Derin Bağlantılama"
 
 #: templates/html/lti-dl/dl_response_saved.html:10
 msgid "The LTI Deep Linking content was successfully saved in the LMS."
-msgstr "LTI Deep Linking içeriği LMS&#39;e başarıyla kaydedildi."
+msgstr "LTI Derin Bağlantılama içeriği LMS içine başarıyla kaydedildi."
 
 #: templates/html/lti-dl/dl_response_saved.html:13
 msgid "You can safely close this page now."
@@ -577,12 +578,12 @@ msgid ""
 "Students don't have permissions to perform LTI Deep Linking configuration "
 "launches."
 msgstr ""
-"Öğrencilerin LTI Derin Bağlantı yapılandırması başlatma işlemlerini "
+"Öğrencilerin LTI Derin Bağlantılama yapılandırması başlatma işlemlerini "
 "gerçekleştirme izinleri yoktur."
 
 #: templates/html/lti_1p3_studio.html:3
 msgid "LTI 1.3 Launches can only be performed from the LMS."
-msgstr "LTI 1.3 Başlatmaları yalnızca LMS&#39;den gerçekleştirilebilir."
+msgstr "LTI 1.3 Başlatmaları yalnızca LMS içinden gerçekleştirilebilir."
 
 #: templates/html/lti_1p3_studio.html:7
 msgid ""
@@ -598,15 +599,15 @@ msgstr "Müşteri Kimliği: "
 
 #: templates/html/lti_1p3_studio.html:16
 msgid "Deployment ID: "
-msgstr "Dağıtım Kimliği: "
+msgstr "Deployment Kimliği: "
 
 #: templates/html/lti_1p3_studio.html:21
 msgid "Keyset URL: "
-msgstr "Anahtar seti URL&#39;si: "
+msgstr "Anahtar seti URL: "
 
 #: templates/html/lti_1p3_studio.html:26
 msgid "Access Token URL: "
-msgstr "Erişim Belirteci URL&#39;si: "
+msgstr "Erişim Belirteci URL: "
 
 #: templates/html/lti_1p3_studio.html:31
 msgid "Login URL: "
@@ -614,7 +615,7 @@ msgstr "Giriş URL: "
 
 #: templates/html/lti_1p3_studio.html:39
 msgid "Deep Linking is configured on this tool."
-msgstr "Derin Bağlantı bu araçta yapılandırılmıştır."
+msgstr "Derin Bağlantılama bu araçta yapılandırılmıştır."
 
 #: templates/html/lti_1p3_studio.html:40
 msgid "The Deep Linking configuration stored is presented below:"
@@ -623,17 +624,19 @@ msgstr "Saklanan Derin Bağlantı yapılandırması aşağıda sunulmuştur:"
 #: templates/html/lti_1p3_studio.html:45
 msgid "If you run deep linking again, the content above will be replaced."
 msgstr ""
-"Derin bağlantıyı tekrar çalıştırırsanız yukarıdaki içerik değiştirilecektir."
+"Derin bağlantılamayı tekrar çalıştırırsanız, yukarıdaki içerik "
+"değiştirilecektir."
 
 #: templates/html/lti_1p3_studio.html:49
 msgid "You can configure this tool's content using LTI Deep Linking."
 msgstr ""
-"Bu aracın içeriğini LTI Derin Bağlantıyı kullanarak yapılandırabilirsiniz."
+"Bu aracın içeriğini LTI Derin Bağlantılamayı kullanarak "
+"yapılandırabilirsiniz."
 
 #: templates/html/lti_1p3_studio.html:50
 msgid "To do that, make sure the block is published and click the link below:"
 msgstr ""
-"Bunu yapmak için bloğun yayınlandığından emin olun ve aşağıdaki bağlantıya "
+"Bunu yapmak için blockun yayınlandığından emin olun ve aşağıdaki bağlantıya "
 "tıklayın:"
 
 #: templates/html/lti_1p3_studio.html:53

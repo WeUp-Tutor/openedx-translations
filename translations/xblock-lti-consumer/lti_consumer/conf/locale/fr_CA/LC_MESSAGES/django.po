@@ -77,7 +77,7 @@ msgstr ""
 "Saisissez le nom que les apprenants verront pour ce composant. Ce nom peut "
 "également apparaître dans les rapports."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "Consommateur LTI"
 
@@ -85,7 +85,7 @@ msgstr "Consommateur LTI"
 msgid "Data Sharing Notice"
 msgstr "Avis de partage de données"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

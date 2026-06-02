@@ -333,10 +333,14 @@
 	<string name="course.course_of_grade">%1$s %% der Note</string>
 	<string name="course.course_review_grading_policy">Überprüfen Sie die Kursbewertungspolitik</string>
 	<string name="course.course_return_to_course_home">Zurück zur Kursübersicht</string>
+	<!-- Videos UI -->
+	<string name="course.course_continue_watching">fortsetzen</string>
 	<string name="course.course_next_video">Nächstes Video</string>
 	<string name="course.course_view_all_videos">Alle Videos anzeigen</string>
 	<string name="course.course_video_time_remaining">%1$s übrig</string>
 	<string name="course.course_videos_completed">Videos\nabgeschlossen</string>
+	<!-- Assignments UI -->
+	<string name="course.course_assignments_completed">Aufgaben\nabgeschlossen</string>
 	<string name="course.course_view_all_assignments">Alle Aufgaben anzeigen</string>
 	<string name="course.course_next_assignment">Nächste Aufgabe</string>
 	<string name="course.course_due_today">Fällig heute: %1$s</string>

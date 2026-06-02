@@ -72,7 +72,7 @@ msgstr ""
 "Introduza o nome que os estudantes veem para este componente. Este nome "
 "também pode aparecer em relatórios."
 
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "Consumidor LTI"
 
@@ -80,7 +80,7 @@ msgstr "Consumidor LTI"
 msgid "Data Sharing Notice"
 msgstr "Aviso de Partilha de Dados"
 
-#: lti_xblock.py:272
+#: lti_xblock.py:273
 msgid ""
 "Enter a short notice about the tool. Use this field to explain why learner "
 "data may be shared with it."

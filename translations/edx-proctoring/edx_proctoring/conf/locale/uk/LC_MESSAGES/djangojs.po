@@ -26,10 +26,6 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: static/proctoring/js/exam_action_handler.js:44
-msgid "OK"
-msgstr "Гаразд"
-
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
 #: static/proctoring/js/exam_action_handler.js:206
@@ -87,10 +83,6 @@ msgstr "Додати час (хвилини)"
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
 msgstr "Додайте множник як число, більше 1"
-
-#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
-msgid "Add Policy Exception"
-msgstr "Додати виняток політики"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276

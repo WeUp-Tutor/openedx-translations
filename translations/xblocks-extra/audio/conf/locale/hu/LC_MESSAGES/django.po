@@ -35,3 +35,7 @@ msgstr "Mentés"
 #: templates/html/audio_edit.html:19
 msgid "Cancel"
 msgstr "Megszakít"
+
+#: added_by_omar.py:14
+msgid "Testing TX Branches"
+msgstr "TX ágak tesztelése"

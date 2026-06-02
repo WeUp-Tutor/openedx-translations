@@ -91,13 +91,6 @@ msgstr "请更正概述的字段。"
 msgid "Clear Value"
 msgstr "清除值"
 
-#: templates/html/google_calendar_edit.html:35
-msgid ""
-"Google provides an ID for publicly available calendars. In the Google "
-"Calendar, open Settings and copy the ID from the Calendar Address section "
-"into this field. You can "
-msgstr "Google 为公开可用的日历提供 ID。在 Google 日历中，打开“设置”并将日历地址部分中的 ID 复制到此字段中。你可以 "
-
 #: templates/html/google_calendar_edit.html:60
 #: templates/html/google_docs_edit.html:47
 msgid "Save"
@@ -107,11 +100,3 @@ msgstr "保存"
 #: templates/html/google_docs_edit.html:51
 msgid "Cancel"
 msgstr "取消"
-
-#: templates/html/google_docs_edit.html:9
-msgid "Invalid Google Document"
-msgstr "无效的 Google 文档"
-
-#: templates/html/google_docs_edit.html:35
-msgid "Alternative text"
-msgstr "替代文本"

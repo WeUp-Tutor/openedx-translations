@@ -607,12 +607,12 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:115
 msgid "must have name of the certificate"
-msgstr "jābūt sertifikāta nosaukumam"
+msgstr "jābūt Apliecinājuma nosaukumam"
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:200
 #, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr "Sertifikāta dict {0} trūkst vērtības atslēgas '{1}'"
+msgstr "Apliecināja dict {0} trūkst vērtības atslēgas '{1}'"
 
 #: cms/djangoapps/contentstore/views/certificates.py:148
 #, python-brace-format
@@ -1155,6 +1155,19 @@ msgstr "Vārdnīca ar pieejamajiem tagiem"
 msgid "Linked `upstream_key` is not a valid key"
 msgstr "Saistītā `upstream_key` nav derīga atslēga"
 
+#: cms/lib/xblock/upstream_sync.py:290
+#, python-brace-format
+msgid ""
+"Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
+"to {upstream_id}."
+msgstr ""
+"Satura tipa nesakritība: {downstream_id} ({downstream_type}) nevar saistīt "
+"ar {upstream_id}."
+
+#: cms/lib/xblock/upstream_sync_block.py:108
+msgid "Linked library item could not be loaded: {}"
+msgstr "Nebija iespējams ielādēt saistītās bibliotēkas elementu: {}"
+
 #: cms/templates/admin/base_site.html:4 lms/templates/admin/base_site.html:3
 msgid "Django site admin"
 msgstr "Django vietnes administrators"
@@ -1550,18 +1563,18 @@ msgstr "Cita izglītība"
 #: common/djangoapps/student/models/user.py:1364
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr "{platform_name} Goda koda sertifikāts par {course_name}"
+msgstr "{platform_name} Goda koda Apliecinājums par {course_name}"
 
 #: common/djangoapps/student/models/user.py:1365
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr "{platform_name} verificēts sertifikāts {course_name}"
+msgstr "{platform_name} verificēts Apliecinājums {course_name}"
 
 #: common/djangoapps/student/models/user.py:1366
 #: common/djangoapps/student/models/user.py:1367
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr "{platform_name} profesionālais sertifikāts {course_name}"
+msgstr "{platform_name} profesionālais Apliecinājums {course_name}"
 
 #: common/djangoapps/student/models/user.py:1373
 msgid ""
@@ -1576,7 +1589,7 @@ msgstr ""
 #: common/djangoapps/student/models/user.py:1446
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
-msgstr "{platform_name} sertifikāts {course_name}"
+msgstr "{platform_name} Apliecinājums {course_name}"
 
 #: common/djangoapps/student/models/user.py:1539
 #: common/djangoapps/student/models/user.py:1571
@@ -1734,7 +1747,7 @@ msgstr "Jūs neesat reģistrēti šajā kursā"
 
 #: common/djangoapps/student/views/management.py:458
 msgid "Your certificate prevents you from unenrolling from this course"
-msgstr "Jūsu sertifikāts neļauj jums atteikties no šī kursa"
+msgstr "Jūsu Apliecinājums neļauj jums atteikties no šī kursa"
 
 #: common/djangoapps/student/views/management.py:469
 msgid "Enrollment action is invalid"
@@ -3241,8 +3254,8 @@ msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
 msgstr ""
-"Cilvēka salasāms sertifikāta parauga apraksts. Piemēram, “verificēts” vai "
-"“gods”, lai atšķirtu divu veidu sertifikātus."
+"Cilvēka salasāms Apliecinājuma parauga apraksts. Piemēram, “verificēts” vai "
+"“gods”, lai atšķirtu divu veidu Apliecinājumus."
 
 #: lms/djangoapps/certificates/models.py:847
 msgid ""
@@ -3250,8 +3263,8 @@ msgid ""
 "receive a response from the queue to determine which example certificate was"
 " processed."
 msgstr ""
-"Unikāls sertifikāta parauga identifikators.  To izmanto, kad saņemam atbildi"
-" no rindas, lai noteiktu, kurš parauga sertifikāts tika apstrādāts."
+"Unikāls Apliecinājuma parauga identifikators.  To izmanto, kad saņemam "
+"atbildi no rindas, lai noteiktu, kurš parauga Apliecinājums tika apstrādāts."
 
 #: lms/djangoapps/certificates/models.py:858
 msgid ""
@@ -3259,29 +3272,29 @@ msgid ""
 "response from the queue to validate that the sender is the same entity we "
 "asked to generate the certificate."
 msgstr ""
-"Piemēra sertifikāta piekļuves atslēga.  To izmanto, kad saņemam atbildi no "
-"rindas, lai apstiprinātu, ka sūtītājs ir tā pati persona, kurai lūdzām "
-"ģenerēt sertifikātu."
+"Piemēra Apliecinājuma piekļuves atslēga.  To izmanto, kad saņemam atbildi no"
+" rindas, lai apstiprinātu, ka sūtītājs ir tā pati persona, kurai lūdzām "
+"ģenerēt Apliecinājumu."
 
 #: lms/djangoapps/certificates/models.py:868
 msgid "The full name that will appear on the certificate."
-msgstr "Pilns vārds, kas tiks parādīts sertifikātā."
+msgstr "Pilns vārds, kas tiks parādīts Apliecinājumā."
 
 #: lms/djangoapps/certificates/models.py:873
 msgid "The template file to use when generating the certificate."
-msgstr "Veidnes fails, kas jāizmanto, ģenerējot sertifikātu."
+msgstr "Veidnes fails, kas jāizmanto, ģenerējot Apliecinājumu."
 
 #: lms/djangoapps/certificates/models.py:885
 msgid "The status of the example certificate."
-msgstr "Sertifikāta parauga statuss."
+msgstr "Apliecināja parauga statuss."
 
 #: lms/djangoapps/certificates/models.py:891
 msgid "The reason an error occurred during certificate generation."
-msgstr "Iemesls, kāpēc sertifikāta ģenerēšanas laikā radās kļūda."
+msgstr "Iemesls, kāpēc Apliecinājuma ģenerēšanas laikā radās kļūda."
 
 #: lms/djangoapps/certificates/models.py:898
 msgid "The download URL for the generated certificate."
-msgstr "Ģenerētā sertifikāta lejupielādes URL."
+msgstr "Ģenerētā Apliecinājuma lejupielādes URL."
 
 #: lms/djangoapps/certificates/models.py:1137
 msgid "Name of template."
@@ -3365,7 +3378,7 @@ msgstr "Lietotājs {user_id} nav reģistrēts kursā {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py:218
 msgid "An unexpected error occurred while regenerating certificates."
-msgstr "Atjaunojot sertifikātus, radās neparedzēta kļūda."
+msgstr "Atjaunojot Apliecinājumus, radās neparedzēta kļūda."
 
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
@@ -3380,7 +3393,7 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
-"Sertifikāts {cert_type} norāda, ka kursa dalībnieks ir piekritis ievērot "
+"Apliecinājums {cert_type} norāda, ka kursa dalībnieks ir piekritis ievērot "
 "{platform_name} noteikto goda kodeksu un ir izpildījis visus šim kursam "
 "nepieciešamos uzdevumus saskaņā ar tā vadlīnijām."
 
@@ -3395,7 +3408,7 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines. "
 msgstr ""
-"Sertifikāts {cert_type} norāda, ka kursa dalībnieks ir piekritis ievērot "
+"Apliecinājums {cert_type} norāda, ka kursa dalībnieks ir piekritis ievērot "
 "{platform_name} noteikto goda kodeksu un ir izpildījis visus šim kursam "
 "nepieciešamos uzdevumus saskaņā ar tā vadlīnijām. "
 
@@ -3405,7 +3418,7 @@ msgid ""
 "A {cert_type} certificate also indicates that the identity of the learner "
 "has been checked and is valid."
 msgstr ""
-"Arī sertifikāts {cert_type} norāda, ka kursa dalībnieka identitāte ir "
+"Arī Apliecinājums {cert_type} norāda, ka kursa dalībnieka identitāte ir "
 "pārbaudīta un ir derīga."
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
@@ -3418,8 +3431,8 @@ msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
 msgstr ""
-"Sertifikāts {cert_type} apliecina augstu sasniegumu līmeni studiju programmā"
-" un ietver studenta identitātes apliecinājumu."
+"Apliecinājums {cert_type} apliecina augstu sasniegumu līmeni studiju "
+"programmā un ietver studenta identitātes apliecinājumu."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
@@ -3428,7 +3441,7 @@ msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
 msgstr ""
-"Šis ir derīgs {platform_name} sertifikāts {user_name} , kurš piedalījās "
+"Šis ir derīgs {platform_name} Apliecinājums {user_name} , kurš piedalījās "
 "{partner_short_name} {course_number}"
 
 #. Translators:  This text is bound to the HTML 'title' element of the page
@@ -3436,7 +3449,7 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py:136
 #, python-brace-format
 msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
-msgstr "{partner_short_name} {course_number} Sertifikāts | {platform_name}"
+msgstr "{partner_short_name} {course_number} Apliecinājums | {platform_name}"
 
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
@@ -3449,7 +3462,7 @@ msgid ""
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
 "sekmīgi pabeidza, saņēma sekmīgu vērtējumu un saņēma šo {platform_name} "
-"{certificate_type} sertifikātu "
+"{certificate_type} Apliecinājumu "
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -3459,8 +3472,8 @@ msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
 "awarded for course activities that {platform_name} students complete."
 msgstr ""
-"{platform_name} atzīst sasniegumus ar sertifikātiem, kas tiek piešķirti par "
-"kursa aktivitātēm, ko {platform_name} dalībnieki pabeidz."
+"{platform_name} atzīst sasniegumus ar Apliecinājumiem, kas tiek piešķirti "
+"par kursa aktivitātēm, ko {platform_name} dalībnieki pabeidz."
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
@@ -3479,13 +3492,13 @@ msgstr "Visas tiesības aizsargātas"
 #. recognized
 #: lms/djangoapps/certificates/views/webview.py:185
 msgid "Invalid Certificate"
-msgstr "Nederīgs sertifikāts"
+msgstr "Nederīgs Apliecinājums"
 
 #. Translators: This line appears as a byline to a header image and describes
 #. the purpose of the page
 #: lms/djangoapps/certificates/views/webview.py:193
 msgid "Certificate Validation"
-msgstr "Sertifikāta apstiprināšana"
+msgstr "Apliecināja apstiprināšana"
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
@@ -3504,17 +3517,17 @@ msgstr "Izdots:"
 #. each individual certificate
 #: lms/djangoapps/certificates/views/webview.py:204
 msgid "Certificate ID Number"
-msgstr "Sertifikāta ID numurs"
+msgstr "Apliecināja ID numurs"
 
 #: lms/djangoapps/certificates/views/webview.py:206
 #, python-brace-format
 msgid "About {platform_name} Certificates"
-msgstr "Par {platform_name} sertifikātiem"
+msgstr "Par {platform_name} Apliecinājumiem"
 
 #: lms/djangoapps/certificates/views/webview.py:210
 #, python-brace-format
 msgid "How {platform_name} Validates Student Certificates"
-msgstr "Kā {platform_name} apstiprina dalībnieku sertifikātus"
+msgstr "Kā {platform_name} apstiprina dalībnieku Apliecinājumus"
 
 #. Translators:  This text describes the validation mechanism for a
 #. certificate file (known as GPG security)
@@ -3526,14 +3539,14 @@ msgid ""
 "key. For independent verification, {platform_name} uses what is called a "
 "\"detached signature\"&quot;\"."
 msgstr ""
-"Sertifikātus, ko izsniedz {platform_name}, paraksta ar gpg atslēgu, lai tos "
+"Apliecinājus, ko izsniedz {platform_name}, paraksta ar gpg atslēgu, lai tos "
 "neatkarīgi varētu apstiprināt jebkurš, kam ir {platform_name} publiskā "
 "atslēga. Neatkarīgai pārbaudei {platform_name} izmanto tā saukto \"atdalīto "
 "parakstu\"&quot;\"."
 
 #: lms/djangoapps/certificates/views/webview.py:221
 msgid "Validate this certificate for yourself"
-msgstr "Apstipriniet šo sertifikātu sev pašrocīgi"
+msgstr "Apstipriniet šo Apliecinājumu sev pašrocīgi"
 
 #. Translators:  This text describes (at a high level) the mission and charter
 #. the edX platform and organization
@@ -3600,19 +3613,19 @@ msgstr "Es pabeidzu {course_title} kursu vietnē {platform_name} ."
 msgid ""
 "I completed a course at {platform_name}. Take a look at my certificate."
 msgstr ""
-"Es pabeidzu kursu vietnē {platform_name} . Apskatiet manu sertifikātu."
+"Es pabeidzu kursu vietnē {platform_name} . Apskatiet manu Apliecinājumu."
 
 #: lms/djangoapps/certificates/views/webview.py:324
 #, python-brace-format
 msgid "More Information About {user_name}'s Certificate:"
-msgstr "Papildinformācija par {user_name} sertifikātu:"
+msgstr "Papildinformācija par {user_name} Apliecinājumu:"
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
 #: lms/djangoapps/certificates/views/webview.py:328
 #, python-brace-format
 msgid "{fullname}, you earned a certificate!"
-msgstr "{fullname} , jūs nopelnījāt sertifikātu!"
+msgstr "{fullname} , jūs nopelnījāt Apliecinājumu!"
 
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
@@ -3709,6 +3722,45 @@ msgstr "Laika eksāmens"
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:95
 msgid "Exam"
 msgstr "Eksāmens"
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:41
+#, python-format
+msgid ""
+"\n"
+"            You’re almost there, %(user_name)s!\n"
+"        "
+msgstr ""
+"\n"
+"            Jūs jau gandrīz tur esat, %(user_name)s!\n"
+"        "
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
+#, python-format, python-brace-format
+msgid ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    Jūs izvirzāt mērķi mācīties {start_bold}%(days_per_week)s reizes nedēļā %(course_name)s{end_bold} . Tagad jūsu ziņā ir šos mērķus īstenot.\n"
+"                "
+msgstr[1] ""
+"\n"
+"                    Jūs izvirzāt mērķi mācīties {start_bold}%(days_per_week)s laiku nedēļā %(course_name)s{end_bold} . Tagad jūsu ziņā ir šos mērķus īstenot.\n"
+"                    "
+msgstr[2] ""
+"\n"
+"                    Jūs izvirzāt mērķi mācīties {start_bold}%(days_per_week)s reizes nedēļā %(course_name)s{end_bold} . Tagad jūsu ziņā ir šos mērķus īstenot.\n"
+"                "
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:99
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:118
+msgid "You can always"
+msgstr "Jūs vienmēr varat"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:144
 msgid ""
@@ -4049,7 +4101,7 @@ msgid ""
 msgstr ""
 "Pēc šī datuma kurss tiks arhivēts, kas nozīmē, ka varat pārskatīt kursa "
 "saturu, bet vairs nevarēsit piedalīties vērtētos uzdevumos vai strādāt, lai "
-"iegūtu sertifikātu."
+"iegūtu Apliecinājumu."
 
 #: lms/djangoapps/courseware/date_summary.py:302
 msgid ""
@@ -4075,17 +4127,17 @@ msgstr "Audita piekļuves termiņš beidzas"
 
 #: lms/djangoapps/courseware/date_summary.py:420
 msgid "Certificate Available"
-msgstr "Sertifikāts ir pieejams"
+msgstr "Apliecinājums ir pieejams"
 
 #: lms/djangoapps/courseware/date_summary.py:432
 msgid "Day certificates will become available for passing verified learners."
 msgstr ""
-"Dienas sertifikāti būs pieejami nokārtotajiem verificētajiem dalībniekiem."
+"Dienas Apliecinājumi būs pieejami nokārtotajiem verificētajiem dalībniekiem."
 
 #: lms/djangoapps/courseware/date_summary.py:457
 #: lms/djangoapps/courseware/date_summary.py:486
 msgid "Upgrade to Verified Certificate"
-msgstr "Jauniniet uz verificēto sertifikātu"
+msgstr "Jauniniet uz verificēto Apliecinājumu"
 
 #: lms/djangoapps/courseware/date_summary.py:488
 msgid "Verification Upgrade Deadline"
@@ -4097,15 +4149,15 @@ msgid ""
 "earning a verified certificate."
 msgstr ""
 "Nepalaidiet garām iespēju izcelt savas jaunās zināšanas un prasmes, nopelnot"
-" pārbaudītu sertifikātu."
+" pārbaudītu Apliecinājumu."
 
 #: lms/djangoapps/courseware/date_summary.py:503
 msgid ""
 "You are still eligible to upgrade to a Verified Certificate! Pursue it to "
 "highlight the knowledge and skills you gain in this course."
 msgstr ""
-"Jūs joprojām varat jaunināt uz verificēto sertifikātu! Izmantojiet to, lai "
-"izceltu zināšanas un prasmes, ko iegūstat šajā kursā."
+"Jūs joprojām varat jaunināt uz verificēto Apliecinājumu! Izmantojiet to, lai"
+" izceltu zināšanas un prasmes, ko iegūstat šajā kursā."
 
 #. Translators: This describes the time by which the user
 #. should upgrade to the verified track. 'date' will be
@@ -4143,7 +4195,7 @@ msgid ""
 "You must successfully complete verification before this date to qualify for "
 "a Verified Certificate."
 msgstr ""
-"Lai pretendētu uz verificēto sertifikātu, jums ir sekmīgi jāpabeidz "
+"Lai pretendētu uz verificēto Apliecinājumu, jums ir sekmīgi jāpabeidz "
 "verifikācija līdz šim datumam."
 
 #: lms/djangoapps/courseware/masquerade.py:188
@@ -4284,7 +4336,7 @@ msgid ""
 "not include a certificate."
 msgstr ""
 "Jūs esat uzņemti šī kursa audita programmā. Audita kurss neietver "
-"sertifikātu."
+"Apliecinājumu."
 
 #: lms/djangoapps/courseware/views/views.py:190
 msgid "Your enrollment: Honor track"
@@ -4294,7 +4346,7 @@ msgstr "Jūsu reģistrācija: Goda dziesma"
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
-msgstr "Jūs esat uzņemti šajā kursā. Goda kursā nav iekļauts sertifikāts."
+msgstr "Jūs esat uzņemti šajā kursā. Goda kursā nav iekļauts Apliecinājums."
 
 #: lms/djangoapps/courseware/views/views.py:204
 msgid "We're working on it..."
@@ -4305,12 +4357,12 @@ msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
-"Mēs izveidojam jūsu sertifikātu. Jūs varat turpināt darbu savos kursos, un "
-"saite uz to parādīsies šeit un jūsu vadības panelī, kad tas būs gatavs."
+"Mēs izveidojam jūsu Apliecinājumu. Jūs varat turpināt darbu savos kursos, un"
+" saite uz to parādīsies šeit un jūsu vadības panelī, kad tas būs gatavs."
 
 #: lms/djangoapps/courseware/views/views.py:216
 msgid "Your certificate has been invalidated"
-msgstr "Jūsu sertifikāts ir anulēts"
+msgstr "Jūsu Apliecinājums ir anulēts"
 
 #: lms/djangoapps/courseware/views/views.py:217
 msgid "Please contact your course team if you have any questions."
@@ -4318,16 +4370,16 @@ msgstr "Ja jums ir kādi jautājumi, lūdzu, sazinieties ar savu kursa komandu."
 
 #: lms/djangoapps/courseware/views/views.py:225
 msgid "Congratulations, you qualified for a certificate!"
-msgstr "Apsveicam, jūs kvalificējāties sertifikāta saņemšanai!"
+msgstr "Apsveicam, jūs kvalificējāties Apliecinājuma saņemšanai!"
 
 #: lms/djangoapps/courseware/views/views.py:226
 #: lms/djangoapps/courseware/views/views.py:259
 msgid "You've earned a certificate for this course."
-msgstr "Jūs ieguvāt sertifikātu par šo kursu."
+msgstr "Jūs ieguvāt Apliecinājumu par šo kursu."
 
 #: lms/djangoapps/courseware/views/views.py:236
 msgid "Your certificate will be available soon!"
-msgstr "Jūsu sertifikāts būs pieejams drīz!"
+msgstr "Jūsu Apliecinājums būs pieejams drīz!"
 
 #: lms/djangoapps/courseware/views/views.py:237
 #: lms/djangoapps/courseware/views/views.py:248
@@ -4336,15 +4388,19 @@ msgid ""
 "with your certificate."
 msgstr ""
 "Pēc šī kursa oficiālās beigām jūs saņemsit e-pasta paziņojumu ar "
-"sertifikātu."
+"Apliecinājumu."
+
+#: lms/djangoapps/courseware/views/views.py:244
+msgid "Your certificate will be available after the indicated date"
+msgstr "Jūsu Apliecinājums būs pieejams pēc norādītā datuma."
 
 #: lms/djangoapps/courseware/views/views.py:258
 msgid "Your certificate is available"
-msgstr "Jūsu sertifikāts ir pieejams"
+msgstr "Jūsu Apliecinājums ir pieejams"
 
 #: lms/djangoapps/courseware/views/views.py:272
 msgid "Certificate unavailable"
-msgstr "Sertifikāts nav pieejams"
+msgstr "Apliecinājums nav pieejams"
 
 #: lms/djangoapps/courseware/views/views.py:274
 #, python-brace-format
@@ -4352,7 +4408,7 @@ msgid ""
 "You have not received a certificate because you do not have a current "
 "{platform_name} verified identity."
 msgstr ""
-"Jūs nesaņēmāt sertifikātu, jo jums nav pašreizējās {platform_name} "
+"Jūs nesaņēmāt Apliecinājumu, jo jums nav pašreizējās {platform_name} "
 "verificētās identitātes."
 
 #: lms/djangoapps/courseware/views/views.py:577
@@ -4412,7 +4468,7 @@ msgstr "Lietotājs {username} nekad nav piekļuvis uzdevumam {location}"
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr ""
-"Lai izveidotu sertifikātu, jums ir jāpierakstās vietnē {platform_name} ."
+"Lai izveidotu Apliecinājumu, jums ir jāpierakstās vietnē {platform_name} ."
 
 #: lms/djangoapps/courseware/views/views.py:1476
 msgid "Course is not valid"
@@ -4420,15 +4476,31 @@ msgstr "Kurss nav derīgs"
 
 #: lms/djangoapps/courseware/views/views.py:1492
 msgid "Your certificate will be available when you pass the course."
-msgstr "Jūsu sertifikāts būs pieejams, kad veiksmīgi nokārtosiet kursu."
+msgstr "Jūsu Apliecinājums būs pieejams, kad veiksmīgi nokārtosiet kursu."
 
 #: lms/djangoapps/courseware/views/views.py:1505
 msgid "Certificate has already been created."
-msgstr "Sertifikāts jau ir izveidots."
+msgstr "Apliecinājums jau ir izveidots."
 
 #: lms/djangoapps/courseware/views/views.py:1507
 msgid "Certificate is being created."
-msgstr "Tiek veidots sertifikāts."
+msgstr "Tiek veidots Apliecinājums."
+
+#: lms/djangoapps/courseware/views/views.py:2051
+msgid ""
+"We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance program. \n"
+"Please note that while assistance is available in most courses that offer verified certificates, a few courses and programs are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified Certificates. \n"
+"2. Complete this application. \n"
+"3. Check your email, please allow 4 weeks for your application to be processed."
+msgstr ""
+"Mēs plānojam izmantot šo informāciju, lai izvērtētu jūsu finansiālās palīdzības pieteikumu un turpmāk attīstītu mūsu finansiālās palīdzības programmu. \n"
+"Lūdzu, ņemiet vērā, ka, lai gan palīdzība ir pieejama lielākajā daļā kursu, kas piedāvā verificētus Apliecinājumus, daži kursi un programmas nav piemērotas. Jums ir jāaizpilda atsevišķs pieteikums par katru kursu, ko apgūstat. Finansiālo palīdzību jums var apstiprināt piecas (5) reizes gadā (pamatojoties uz 12 mēnešu periodu no pirmā apstiprinājuma saņemšanas brīža). \n"
+"Lai pieteiktos finansiālajai palīdzībai: \n"
+"1. Reģistrējieties audita kursā, par kuru ir tiesības saņemt atbalstu un par kuru ir iespējams saņemt verificētus Apliecinājumus. \n"
+"2. Aizpildiet šo pieteikumu. \n"
+"3. Pārbaudiet savu e-pastu, lūdzu, paredziet 4 nedēļas, lai jūsu pieteikums tiktu apstrādāts."
 
 #: lms/djangoapps/courseware/views/views.py:2257
 msgid ""
@@ -4436,8 +4508,9 @@ msgid ""
 "course does not appear in the list, make sure that you have enrolled in the "
 "audit track for the course."
 msgstr ""
-"Izvēlieties kursu, par kuru vēlaties iegūt verificētu sertifikātu. Ja kurss "
-"neparādās sarakstā, pārliecinieties, vai reģistrējāties kursa audita trasē."
+"Izvēlieties kursu, par kuru vēlaties iegūt verificētu Apliecinājumu. Ja "
+"kurss neparādās sarakstā, pārliecinieties, vai reģistrējāties kursa audita "
+"trasē."
 
 #: lms/djangoapps/courseware/views/views.py:2264
 msgid "I certify that: "
@@ -4448,13 +4521,13 @@ msgid ""
 "Paying the verified certificate fee for the above course would cause me "
 "economic hardship"
 msgstr ""
-"Maksājot apstiprinātā sertifikāta maksu par iepriekšminēto kursu, es "
+"Maksājot apstiprinātā Apliecinājuma maksu par iepriekšminēto kursu, es "
 "sagādātu man ekonomiskas grūtības"
 
 #: lms/djangoapps/courseware/views/views.py:2283
 msgid ""
 "I will work diligently to complete the course work and receive a certificate"
-msgstr "Uzcītīgi strādāšu, lai pabeigtu kursa darbu un saņemtu sertifikātu"
+msgstr "Uzcītīgi strādāšu, lai pabeigtu kursa darbu un saņemtu Apliecinājumu"
 
 #: lms/djangoapps/courseware/views/views.py:2295
 #, python-brace-format
@@ -4808,11 +4881,11 @@ msgstr "Kursa ID"
 
 #: lms/djangoapps/instructor/views/api.py:1427
 msgid "Certificate Type"
-msgstr "Sertifikāta veids"
+msgstr "Apliecināja veids"
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Total Certificates Issued"
-msgstr "Kopējais izsniegto sertifikātu skaits"
+msgstr "Kopējais izsniegto Apliecinājumu skaits"
 
 #: lms/djangoapps/instructor/views/api.py:1429
 msgid "Date Report Run"
@@ -5163,7 +5236,7 @@ msgid ""
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
-"Ir uzsākta sertifikātu ģenerēšana visiem šī kursa dalībniekiem. Jūs varat "
+"Ir uzsākta Apliecinājumu ģenerēšana visiem šī kursa dalībniekiem. Jūs varat "
 "apskatīt ģenerēšanas uzdevuma statusu sadaļā \"Nepabeigtie uzdevumi\"."
 
 #: lms/djangoapps/instructor/views/api.py:3549
@@ -5171,7 +5244,7 @@ msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
-"Sertifikāta reģenerācijas uzdevums ir sākts. Ģenerēšanas uzdevuma statusu "
+"Apliecināja reģenerācijas uzdevums ir sākts. Ģenerēšanas uzdevuma statusu "
 "var apskatīt sadaļā \"Nepabeigtie uzdevumi\"."
 
 #: lms/djangoapps/instructor/views/api.py:3633
@@ -5220,14 +5293,14 @@ msgid ""
 "Student {user} is already on the certificate invalidation list and cannot be"
 " added to the certificate exception list."
 msgstr ""
-"Dalībnieks/ce {user} jau ir iekļauti sertifikātu anulēšanas sarakstā, un to "
-"nevar pievienot sertifikātu izņēmumu sarakstam."
+"Dalībnieks/ce {user} jau ir iekļauti Apliecinājumu anulēšanas sarakstā, un "
+"to nevar pievienot Apliecinājumu izņēmumu sarakstam."
 
 #: lms/djangoapps/instructor/views/api.py:3867
 #, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
-"Dalībnieks (lietotājvārds/e-pasts= {user} ) jau ir sertifikātu izņēmumu "
+"Dalībnieks (lietotājvārds/e-pasts= {user} ) jau ir Apliecinājumu izņēmumu "
 "sarakstā."
 
 #: lms/djangoapps/instructor/views/api.py:3903
@@ -5262,7 +5335,8 @@ msgstr "Nederīgi dati, gener_for ir jābūt “new” vai “all”."
 #: lms/djangoapps/instructor/views/api.py:4004
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"Sākta sertifikātu ģenerēšana atļaušanas sarakstā iekļautajiem dalībniekiem."
+"Sākta Apliecinājumu ģenerēšana atļaušanas sarakstā iekļautajiem "
+"dalībniekiem."
 
 #: lms/djangoapps/instructor/views/api.py:4057
 #, python-brace-format
@@ -5281,9 +5355,9 @@ msgid ""
 "{course}. Please remove them from the Certificate Exception list before "
 "attempting to invalidate their certificate."
 msgstr ""
-"Dalībnieks {student} tiek parādīts sertifikāta izņēmumu sarakstā kursā "
-"{course} . Pirms mēģināt anulēt sertifikātu, lūdzu, noņemiet tos no "
-"sertifikātu izņēmumu saraksta."
+"Dalībnieks {student} tiek parādīts Apliecinājuma izņēmumu sarakstā kursā "
+"{course} . Pirms mēģināt anulēt Apliecinājumu, lūdzu, noņemiet tos no "
+"Apliecinājumu izņēmumu saraksta."
 
 #: lms/djangoapps/instructor/views/api.py:4229
 #, python-brace-format
@@ -5291,7 +5365,7 @@ msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-"Sertifikāts {user} jau ir anulēts. Lūdzu, pārbaudiet pareizrakstību un "
+"Apliecinājums {user} jau ir anulēts. Lūdzu, pārbaudiet pareizrakstību un "
 "mēģiniet vēlreiz."
 
 #: lms/djangoapps/instructor/views/api.py:4237
@@ -5300,15 +5374,15 @@ msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
 msgstr ""
-"Dalībnieka {user} sertifikāts jau nav derīgs. Lūdzu, pārbaudiet, vai šim "
-"dalībniekam ir ģenerēts sertifikāts, un pēc tam turpiniet."
+"Dalībnieka {user} Apliecinājums jau nav derīgs. Lūdzu, pārbaudiet, vai šim "
+"dalībniekam ir ģenerēts Apliecinājums, un pēc tam turpiniet."
 
 #: lms/djangoapps/instructor/views/api.py:4274
 msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
 msgstr ""
-"Sertifikāts nav derīgs, Lūdzu, atsvaidziniet lapu un mēģiniet vēlreiz."
+"Apliecinājums nav derīgs, Lūdzu, atsvaidziniet lapu un mēģiniet vēlreiz."
 
 #: lms/djangoapps/instructor/views/api.py:4310
 msgid ""
@@ -5326,7 +5400,7 @@ msgid ""
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
 msgstr ""
-"Dalībniekam {student} nav sertifikāta par kursu {course} . Lūdzu, "
+"Dalībniekam {student} nav Apliecinājuma par kursu {course} . Lūdzu, "
 "pārbaudiet, vai dalībnieka lietotājvārds/e-pasts un izvēlētais kurss ir "
 "pareizs, un mēģiniet vēlreiz."
 
@@ -5358,7 +5432,7 @@ msgstr "Īpašie eksāmeni"
 #: lms/djangoapps/instructor/views/serializers_v2.py:176
 #: lms/djangoapps/support/views/index.py:15
 msgid "Certificates"
-msgstr "Sertifikāti"
+msgstr "Apliecināji"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:428
 msgid "Please Enter the numeric value for the course price"
@@ -5645,7 +5719,7 @@ msgstr "izdalītie uzdevumi novērtēti"
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:295
 msgid "certificates generated"
-msgstr "ģenerētie sertifikāti"
+msgstr "ģenerētie Apliecinājumi"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -5985,7 +6059,7 @@ msgstr "Viens no parametriem user vai external_user_key nedrīkst būt nulle."
 
 #: lms/djangoapps/support/views/index.py:16
 msgid "View and regenerate certificates."
-msgstr "Skatiet un atjaunojiet sertifikātus."
+msgstr "Skatiet un atjaunojiet Apliecinājumus."
 
 #: lms/djangoapps/support/views/index.py:20
 msgid "Enrollment"
@@ -6244,7 +6318,7 @@ msgstr "Izvēlētā cena nav derīgs numurs."
 
 #: lms/djangoapps/verify_student/views.py:788
 msgid "This course doesn't support paid certificates"
-msgstr "Šis kurss neatbalsta apmaksātus sertifikātus"
+msgstr "Šis kurss neatbalsta apmaksātus Apliecinājumus"
 
 #: lms/djangoapps/verify_student/views.py:794
 msgid "No selected price or selected price is below minimum."
@@ -6869,7 +6943,7 @@ msgid ""
 "upon successful completion."
 msgstr ""
 "Jūs varēsiet atkārtoti izmēģināt šo kursu un pēc sekmīgas pabeigšanas iegūt "
-"verificētu sertifikātu."
+"verificētu Apliecinājumu."
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:31
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:6
@@ -6931,8 +7005,8 @@ msgid ""
 "You must have a valid ID verification to take proctored exams and qualify "
 "for certificates."
 msgstr ""
-"Lai kārtotu uzraudzīto eksāmenu un kvalificētos sertifikāta saņemšanai, jums"
-" ir jābūt derīgai ID verifikācijai."
+"Lai kārtotu uzraudzīto eksāmenu un kvalificētos Apliecinājuma saņemšanai, "
+"jums ir jābūt derīgai ID verifikācijai."
 
 #: lms/templates/verify_student/edx_ace/verificationexpiry/email/body.html:24
 #: lms/templates/verify_student/edx_ace/verificationexpiry/email/body.txt:6
@@ -7509,7 +7583,7 @@ msgid ""
 "%(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Nepalaidiet garām iespēju izcelt savas jaunās zināšanas un prasmes, nopelnot"
-" verificētu sertifikātu. Jauniniet, izmantojot "
+" verificētu Apliecinājumu. Jauniniet, izmantojot "
 "%(user_schedule_upgrade_deadline_time)s ."
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html:26
@@ -9023,9 +9097,9 @@ msgid ""
 "by %(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Mēs ceram, ka jums līdz šim patīk mācīties kopā ar mums pa %(platform_name)s"
-" ! Verificēts sertifikāts ļauj izcelt savas jaunās zināšanas un prasmes. "
-"Sertifikāts %(platform_name)s ir oficiāls un viegli kopīgojams. Jauniniet, "
-"izmantojot %(user_schedule_upgrade_deadline_time)s ."
+" ! Verificēts Apliecinājums ļauj izcelt savas jaunās zināšanas un prasmes. "
+"Apliecinājums %(platform_name)s ir oficiāls un viegli kopīgojams. Jauniniet,"
+" izmantojot %(user_schedule_upgrade_deadline_time)s ."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:20
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:21
@@ -9037,8 +9111,8 @@ msgid ""
 "by %(user_schedule_upgrade_deadline_time)s."
 msgstr ""
 "Mēs ceram, ka jums līdz šim patīk mācīties kopā ar mums "
-"%(first_course_name)s ! Verificēts sertifikāts ļauj izcelt savas jaunās "
-"zināšanas un prasmes. Sertifikāts %(platform_name)s ir oficiāls un viegli "
+"%(first_course_name)s ! Verificēts Apliecinājums ļauj izcelt savas jaunās "
+"zināšanas un prasmes. Apliecinājums %(platform_name)s ir oficiāls un viegli "
 "kopīgojams. Jauniniet, izmantojot %(user_schedule_upgrade_deadline_time)s ."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:35
@@ -9055,9 +9129,9 @@ msgid ""
 "certificate is official and easily shareable."
 msgstr ""
 "Mēs ceram, ka līdz šim jums patīk mācīties kopā ar mums vietnē "
-"{start_strong} %(platform_name)s {end_strong} ! Verificēts sertifikāts ļauj "
-"izcelt savas jaunās zināšanas un prasmes. Sertifikāts %(platform_name)s ir "
-"oficiāls un viegli kopīgojams."
+"{start_strong} %(platform_name)s {end_strong} ! Verificēts Apliecinājums "
+"ļauj izcelt savas jaunās zināšanas un prasmes. Apliecinājums "
+"%(platform_name)s ir oficiāls un viegli kopīgojams."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:46
 #, python-brace-format
@@ -9068,9 +9142,9 @@ msgid ""
 "certificate is official and easily shareable."
 msgstr ""
 "Mēs ceram, ka jums līdz šim patīk mācīties kopā ar mums {start_strong} "
-"{first_course_name} {end_strong} ! Verificēts sertifikāts ļauj izcelt savas "
-"jaunās zināšanas un prasmes. Sertifikāts {platform_name} ir oficiāls un "
-"viegli kopīgojams."
+"{first_course_name} {end_strong} ! Verificēts Apliecinājums ļauj izcelt "
+"savas jaunās zināšanas un prasmes. Apliecinājums {platform_name} ir oficiāls"
+" un viegli kopīgojams."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:55
 #, python-format, python-brace-format
@@ -9088,7 +9162,7 @@ msgstr "Jums ir tiesības uz jaunināšanu šajos kursos:"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:76
 #: openedx/features/content_type_gating/templates/content_type_gating/access_denied_message.html:21
 msgid "Example of a verified certificate"
-msgstr "Verificēta sertifikāta piemērs"
+msgstr "Verificēta Apliecinājuma piemērs"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:19
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:29
@@ -9098,12 +9172,13 @@ msgstr "Jauniniet tūlīt plkst"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:5
 #, python-format
 msgid "Upgrade to earn a verified certificate on %(platform_name)s"
-msgstr "Jauniniet, lai iegūtu verificētu sertifikātu vietnē %(platform_name)s"
+msgstr ""
+"Jauniniet, lai iegūtu verificētu Apliecinājumu vietnē %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/subject.txt:7
 #, python-format
 msgid "Upgrade to earn a verified certificate in %(first_course_name)s"
-msgstr "Jauniniet, lai iegūtu verificētu sertifikātu %(first_course_name)s"
+msgstr "Jauniniet, lai iegūtu verificētu Apliecinājumu %(first_course_name)s"
 
 #: openedx/core/djangoapps/theming/views.py:78
 #, python-brace-format
@@ -9872,7 +9947,7 @@ msgstr "Tas ir tas, ko izmantosit, lai pieteiktos."
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:560
 msgid "This name will be used on any certificates that you earn."
-msgstr "Šis vārds tiks izmantots visos jūsu nopelnītajos sertifikātos."
+msgstr "Šis vārds tiks izmantots visos jūsu nopelnītajos Apliecinājumos."
 
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
@@ -11591,7 +11666,7 @@ msgstr "Datums, kad šī nodarbība beidzas"
 
 #: xmodule/course_block.py:372
 msgid "Date that certificates become available to learners"
-msgstr "Datums, kad sertifikāti kļūst pieejami dalībniekiem"
+msgstr "Datums, kad Apliecinājumi kļūst pieejami dalībniekiem"
 
 #: xmodule/course_block.py:376
 msgid "Cosmetic Course Display Price"
@@ -11954,7 +12029,7 @@ msgstr ""
 
 #: xmodule/course_block.py:597
 msgid "Certificates Downloadable Before End"
-msgstr "Sertifikāti lejupielādējami pirms beigām"
+msgstr "Apliecināji lejupielādējami pirms beigām"
 
 #: xmodule/course_block.py:599
 msgid ""
@@ -11962,12 +12037,12 @@ msgid ""
 "course ends, if they've met certificate requirements."
 msgstr ""
 "Ievadiet True vai False. Ja tā ir True, dalībnieki var lejupielādēt "
-"sertifikātus pirms kursa beigām, ja viņi ir izpildījuši sertifikāta "
+"Apliecinājumus pirms kursa beigām, ja viņi ir izpildījuši Apliecinājuma "
 "prasības."
 
 #: xmodule/course_block.py:608
 msgid "Certificates Display Behavior"
-msgstr "Sertifikātu parādīšanas uzvedība"
+msgstr "Apliecināju parādīšanas uzvedība"
 
 #: xmodule/course_block.py:610
 msgid ""
@@ -11975,7 +12050,7 @@ msgid ""
 "user can see their certificate for the course"
 msgstr ""
 "Šis lauks kopā ar certificate_available_date noteiks, kad lietotājs var "
-"redzēt savu sertifikātu par kursu."
+"redzēt savu Apliecinājumu par kursu."
 
 #: xmodule/course_block.py:617
 msgid "Course About Page Image"
@@ -12021,13 +12096,13 @@ msgid ""
 "marks, enter the short name of the type of certificate that students receive"
 " when they complete the course. For instance, \"Certificate\"."
 msgstr ""
-"Šo iestatījumu izmantojiet tikai tad, ja ģenerējat PDF sertifikātus. Starp "
-"pēdiņām ievadiet īsu tā sertifikāta veida nosaukumu, ko kursa dalībnieki "
-"saņem, pabeidzot kursu. Piemēram, \"Sertifikāts\"."
+"Šo iestatījumu izmantojiet tikai tad, ja ģenerējat PDF Apliecinājumus. Starp"
+" pēdiņām ievadiet īsu tā Apliecinājuma veida nosaukumu, ko kursa dalībnieki "
+"saņem, pabeidzot kursu. Piemēram, \"Apliecinājums\"."
 
 #: xmodule/course_block.py:654
 msgid "Certificate Name (Short)"
-msgstr "Sertifikāta nosaukums (īss)"
+msgstr "Apliecināja nosaukums (īss)"
 
 #: xmodule/course_block.py:660
 msgid ""
@@ -12035,27 +12110,27 @@ msgid ""
 "marks, enter the long name of the type of certificate that students receive "
 "when they complete the course. For instance, \"Certificate of Achievement\"."
 msgstr ""
-"Šo iestatījumu izmantojiet tikai tad, ja ģenerējat PDF sertifikātus. Starp "
-"pēdiņām ierakstiet sertifikāta veida garo nosaukumu, ko kursa dalībnieki "
-"saņem pēc kursa pabeigšanas. Piemēram, \"Sertifikāts par sasniegumiem\"."
+"Šo iestatījumu izmantojiet tikai tad, ja ģenerējat PDF Apliecinājumus. Starp"
+" pēdiņām ierakstiet Apliecinājuma veida garo nosaukumu, ko kursa dalībnieki "
+"saņem pēc kursa pabeigšanas. Piemēram, \"Apliecinājums par sasniegumiem\"."
 
 #: xmodule/course_block.py:664
 msgid "Certificate Name (Long)"
-msgstr "Sertifikāta nosaukums (garš)"
+msgstr "Apliecināja nosaukums (garš)"
 
 #: xmodule/course_block.py:669
 msgid "Certificate Web/HTML View Enabled"
-msgstr "Sertifikāta Web/HTML skats ir iespējots"
+msgstr "Apliecināja Web/HTML skats ir iespējots"
 
 #: xmodule/course_block.py:670
 msgid "If true, certificate Web/HTML views are enabled for the course."
-msgstr "Ja True, kursam ir iespējoti sertifikāta Web/HTML skati."
+msgstr "Ja True, kursam ir iespējoti Apliecinājuma Web/HTML skati."
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
 #: xmodule/course_block.py:677
 msgid "Certificate Web/HTML View Overrides"
-msgstr "Sertifikāta Web/HTML skata ignorēšana"
+msgstr "Apliecināja Web/HTML skata ignorēšana"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -12071,7 +12146,7 @@ msgstr ""
 #. configuration values
 #: xmodule/course_block.py:686
 msgid "Certificate Configuration"
-msgstr "Sertifikāta konfigurācija"
+msgstr "Apliecināja konfigurācija"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -12588,10 +12663,16 @@ msgstr "Ģenerēts"
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
 msgstr "{section_type} {index} Neizlaists — 0% (?/?)"
 
-#: xmodule/graders.py:415
+#: xmodule/graders.py:417
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
 msgstr "Zemākie {drop_count} {section_type} rādītāji tiek samazināti."
+
+#. Translators: "Homework Average = 0%"
+#: xmodule/graders.py:436
+#, python-brace-format
+msgid "{section_type} Average = {percent:.2%}"
+msgstr "{section_type} Vidējais = {percent:.2%}"
 
 #. Translators: Avg is short for Average
 #: xmodule/graders.py:439
@@ -13557,6 +13638,33 @@ msgstr "Šajā satura eksperimentā ir uzdevumi, kas ietekmē satura redzamību.
 #: xmodule/tabs.py:398 xmodule/tabs.py:433
 msgid "External Discussion"
 msgstr "Ārējā diskusija"
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+"Nospiediet {link_start}Skatīt{link_end}, lai pārskatītu, "
+"sinhronizētu/atjauninātu un/vai noņemtu atlasītos komponentus."
+
+#: xmodule/templates/item_bank/author_view.html:38
+#, python-brace-format
+msgid ""
+"Press {link_start}Edit{link_end} to configure how many will be shown and "
+"other settings."
+msgstr ""
+"Nospiediet {link_start}Rediģēt{link_end}, lai konfigurētu, cik daudz tiks "
+"rādīts, un citus iestatījumus."
+
+#: xmodule/templates/item_bank/author_view_add.html:11
+#, python-brace-format
+msgid ""
+"{button_start}Add components{button_end} from a content library to this "
+"problem bank."
+msgstr ""
+"{button_start}Pievienojiet šai problēmu bankai komponentus{button_end} no "
+"satura bibliotēkas."
 
 #: xmodule/vertical_block.py:45
 msgid "Enable in-context discussions for the Unit"

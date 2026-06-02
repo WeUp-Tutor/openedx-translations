@@ -20,7 +20,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: static/js/catalogs-change-form.js:17
-msgid "Preview"
-msgstr "Forhåndsvisning"
