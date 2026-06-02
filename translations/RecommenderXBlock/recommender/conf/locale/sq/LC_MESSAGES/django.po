@@ -5,15 +5,14 @@
 # 
 # Translators:
 # Brian Smith, 2025
-# Omar Al-Ithawi <i@omardo.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
+"PO-Revision-Date: 2023-06-03 00:54+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Albanian (https://app.transifex.com/open-edx/teams/6205/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -449,6 +448,10 @@ msgstr ""
 #: static/js/src/cats.js:120
 msgid "Endorse this resource and give the reason why you do that."
 msgstr "Mbështeteni këtë burim dhe jepni arsyen pse e bëni këtë."
+
+#: static/js/src/cats.js:121
+msgid "Remove this resource and give the reason why you do that."
+msgstr "Hiqeni këtë burim dhe jepni arsyen pse e bëni këtë."
 
 #: static/js/src/cats.js:157
 msgid "Hide related resources"

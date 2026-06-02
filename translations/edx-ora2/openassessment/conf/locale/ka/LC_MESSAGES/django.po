@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"POT-Creation-Date: 2026-02-22 00:44+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Lasha Kokilashvili, 2026\n"
 "Language-Team: Georgian (https://app.transifex.com/open-edx/teams/6205/ka/)\n"
 "MIME-Version: 1.0\n"
@@ -528,8 +528,8 @@ msgid ""
 "Specify the number of peer assessments that each learner must complete. "
 "Valid numbers are 1 to 99."
 msgstr ""
-"მიუთითეთ ურთიერთშეფასებისას ჯგუფის თითოეული წევრის მიერ შესაფასებელი "
-"ნამუშევრების რაოდენობა. შესაძლებელია მიუთითოთ 1 -დან 99 -მდე. "
+"მიუთითეთ თანატოლების შეფასებების რაოდენობა, რომელიც თითოეულმა მოსწავლემ უნდა"
+" დაასრულოს. მოქმედი ნომრებია 1-დან 99-მდე."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:36
 msgid "Graded By"
@@ -540,8 +540,8 @@ msgid ""
 "Specify the number of learners that each response must be assessed by. Valid"
 " numbers are 1 to 99."
 msgstr ""
-"მიუთითეთ მსმენელეთა რაოდენობა, რომლებმაც უნდა შეაფასონ თითოეული პასუხი. "
-"შესაძლებელია მიუთითოთ 1 -დან 99 -მდე"
+"მიუთითეთ მოსწავლეთა რაოდენობა, რომლითაც თითოეული პასუხი უნდა შეფასდეს. "
+"მოქმედი ნომრებია 1-დან 99-მდე."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:43
 msgid "Enable Flexible Peer Grade Averaging"
@@ -1271,7 +1271,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    მიმდინარეობს ამ დავალების შესრულება. თქვენ ჯერ კიდევ გჭირდებათ %(start_link)sთვითშეფასების%(end_link)s საფეხურის დასრულება.\n"
+"ეს დავალება მიმდინარეობს. თქვენ ჯერ კიდევ უნდა დაასრულოთ %(start_link)sთანატოლების შეფასება%(end_link)s ნაბიჯი.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_no_team.html:4
@@ -2817,16 +2817,6 @@ msgstr "წარდგენა ვერ მოიძებნა"
 #: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
 msgstr "გუნდის დავალებაზე წარდგენას არ აქვს ასოცირებული გუნდის წარდგენა"
-
-#: xblock/staff_area_mixin.py:754
-msgid ""
-"The learner submission has been removed from peer assessment. The learner "
-"receives a grade of zero unless you delete the learner's state for the "
-"problem to allow them to resubmit a response."
-msgstr ""
-"მოსწავლის ამოცანის პასუხი წაიშალა ურთიერთშეფასებებიდან. მოსწავლე მიიღებს "
-"ნულოვან შეფასებას, ვიდრე არ წაშლით მოსწავლის ამოცანის სტატუსს და არ მისცემთ "
-"მას ხელახლა გამოგზავნის საშუალებას."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""

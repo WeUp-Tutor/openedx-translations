@@ -1,19 +1,21 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2025
+# Brian Smith, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Greek (https://app.transifex.com/open-edx/teams/301281/el/)\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
+"Language-Team: Greek (https://app.transifex.com/open-edx/teams/6205/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -616,6 +618,14 @@ msgstr "Η εγγραφή έκλεισε"
 msgid "Ends"
 msgstr "Τελειώνει"
 
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"Το κρυπτογραφημένο αναγνωριστικό πελάτη OAuth. Θα κρυπτογραφηθεί όταν "
+"αποθηκευτεί στη βάση δεδομένων."
+
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
 msgstr "Βασική διεύθυνση URL του API παραγόντων επιτυχίας."
@@ -627,6 +637,14 @@ msgstr "Αναγνωριστικό εταιρείας παράγοντες επ�
 #: integrated_channels/sap_success_factors/models.py:131
 msgid "Success factors user identifier."
 msgstr "Αναγνωριστικό χρήστη παράγοντες επιτυχίας."
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"Το κρυπτογραφημένο μυστικό του πελάτη OAuth. Θα κρυπτογραφηθεί όταν "
+"αποθηκευτεί στη βάση δεδομένων."
 
 #: integrated_channels/sap_success_factors/models.py:173
 msgid "Type of SAP User (admin or user)."
@@ -1320,7 +1338,7 @@ msgstr "Εταιρικοί τύποι πελατών"
 msgid "Specifies enterprise customer type."
 msgstr "Καθορίζει τον τύπο εταιρικού πελάτη."
 
-#: enterprise/models.py:215 enterprise/models.py:3404
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "Επιχειρηματικός πελάτης"
 
@@ -1442,6 +1460,14 @@ msgstr ""
 "Καθορίζει εάν οι εταιρικές προσφορές θα γίνονται γνωστές στους μαθητές στην "
 "πύλη μαθητών. Αυτό ισχύει μόνο για πελάτες με «προσφορές», την παλιά έκδοση "
 "της πίστωσης μαθητή."
+
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"Καθορίζει εάν θα εμφανίζεται το πλαίσιο μηνύματος Πιστωτικές μονάδες "
+"εκπαιδευόμενου στη διαδικτυακή πύλη εκπαιδευόμενου."
 
 #: enterprise/models.py:391
 msgid ""
@@ -1621,43 +1647,43 @@ msgstr "Εκμάθηση εταιρικού πελάτη"
 msgid "Enterprise Customer Learners"
 msgstr "Μαθητές Επιχειρηματικών Πελατών"
 
-#: enterprise/models.py:1738
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "Οι εικόνες λογότυπου πρέπει να είναι σε μορφή .png."
 
-#: enterprise/models.py:1765
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "Διαμόρφωση επωνυμίας"
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "Διαμορφώσεις επωνυμίας"
 
-#: enterprise/models.py:1854
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 "Καθορίζει εάν αυτός είναι ο προεπιλεγμένος πάροχος για εταιρικό πελάτη."
 
-#: enterprise/models.py:1939
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 "Το UUID του μαθήματος (όχι διεξαγωγή μαθήματος) στο οποίο δικαιούται ο "
 "εκπαιδευόμενος."
 
-#: enterprise/models.py:1949
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Ο εκπαιδευόμενος επιχείρησης στον οποίο συνδέεται αυτό το δικαίωμα."
 
-#: enterprise/models.py:2072
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "Ο εκπαιδευόμενος επιχείρησης στον οποίο επισυνάπτεται αυτή η εγγραφή."
 
-#: enterprise/models.py:2079
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "Το αναγνωριστικό του μαθήματος στο οποίο εγγράφηκε ο εκπαιδευόμενος."
 
-#: enterprise/models.py:2086
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -1665,7 +1691,7 @@ msgstr ""
 "Καθορίζει εάν ένας χρήστης επισήμανε αυτό το μάθημα ως αποθηκευμένο για "
 "αργότερα στην πύλη μαθητών."
 
-#: enterprise/models.py:2102
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1673,7 +1699,7 @@ msgstr ""
 "Καθορίζει εάν το αντικείμενο εγγραφής μαθήματος της εγγραφής σε μάθημα "
 "επιχείρησης καταργήθηκε."
 
-#: enterprise/models.py:2112
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
@@ -1681,16 +1707,16 @@ msgstr ""
 "Καθορίζει πότε καταργήθηκε η εγγραφή του αντικειμένου εγγραφής σε μάθημα "
 "μιας επιχείρησης."
 
-#: enterprise/models.py:2370
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr ""
 "Το δικαίωμα του μαθήματος για το οποίο προορίζεται η σχετική επιδότηση."
 
-#: enterprise/models.py:2381
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "Για την εγγραφή στο μάθημα προορίζεται η σχετική επιδότηση."
 
-#: enterprise/models.py:2388
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -1698,7 +1724,53 @@ msgstr ""
 "Εάν ανακληθεί η επιχορήγηση της επιχείρησης, π.χ. όταν ανακληθεί η άδεια "
 "χρήσης ενός χρήστη."
 
-#: enterprise/models.py:2836
+#: enterprise/models.py:2550
+msgid "The customer for which this default enrollment will be realized."
+msgstr ""
+"Ο πελάτης για τον οποίο θα πραγματοποιηθεί αυτή η προεπιλεγμένη εγγραφή."
+
+#: enterprise/models.py:2559
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr ""
+"Το είδος του περιεχομένου (π.χ. ένα μάθημα σε σχέση με μια σειρά μαθημάτων)."
+
+#: enterprise/models.py:2567
+msgid ""
+"A course or course run that related users should be automatically enrolled "
+"into."
+msgstr ""
+"Ένα μάθημα ή μια σειρά μαθημάτων στα οποία θα πρέπει να εγγραφούν αυτόματα "
+"οι σχετικοί χρήστες."
+
+#: enterprise/models.py:2739
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"Μια προεπιλεγμένη πρόθεση εγγραφής με αυτόν τον εταιρικό πελάτη και το "
+"κλειδί περιεχόμενο υπάρχει ήδη, αλλά έχει διαγραφεί. Παρακαλούμε επαναφέρετέ"
+" το <a href=\"{existing_record_admin_url}\">εδώ</a>."
+
+#: enterprise/models.py:2754
+msgid "The content key did not resolve to a valid course run."
+msgstr "Το κλειδί περιεχόμενο δεν αντιστοιχούσε σε έγκυρη διαδρομή μαθημάτων."
+
+#: enterprise/models.py:2822
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"Παράμετροι ερώτησης που θα χρησιμοποιηθούν για το φιλτράρισμα των "
+"αποτελεσμάτων αναζήτησης/όλων των τελικών σημείων της υπηρεσίας ανακάλυψης, "
+"οι οποίες καθορίζονται ως αντικείμενο JSON. Ένα κενό αντικείμενο JSON "
+"σημαίνει ότι όλα τα διαθέσιμα στοιχεία περιεχομένου θα συμπεριληφθούν στον "
+"κατάλογο. Πρέπει να είναι μοναδικό."
+
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1711,15 +1783,15 @@ msgstr ""
 "μαθημάτων executive-education-2u δεν θα εξαιρούνται από το περιεχόμενο του "
 "σχετικού καταλόγου."
 
-#: enterprise/models.py:2843
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "Ερώτημα Καταλόγου Επιχειρήσεων"
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "Ερωτήματα Καταλόγου Επιχειρήσεων"
 
-#: enterprise/models.py:2957
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1731,7 +1803,7 @@ msgstr ""
 "προσδιορίζονται ως αντικείμενο Json. Ένα κενό αντικείμενο Json σημαίνει ότι "
 "όλα τα διαθέσιμα στοιχεία περιεχομένου θα συμπεριληφθούν στον κατάλογο."
 
-#: enterprise/models.py:2965
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1739,7 +1811,7 @@ msgstr ""
 "Ταξινομημένη λίστα τρόπων εγγραφής που μπορούν να εμφανιστούν στους μαθητές "
 "για την εκτέλεση μαθημάτων σε αυτόν τον κατάλογο."
 
-#: enterprise/models.py:2971
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -1747,15 +1819,15 @@ msgstr ""
 "Καθορίζει εάν τα μαθήματα θα πρέπει να δημοσιεύονται με διευθύνσεις URL "
 "εγγραφής απευθείας σε έλεγχο."
 
-#: enterprise/models.py:2978
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "Κατάλογος εταιρικών πελατών"
 
-#: enterprise/models.py:2979 enterprise/models.py:3526
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "Κατάλογοι πελατών επιχειρήσεων"
 
-#: enterprise/models.py:3246
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1763,7 +1835,7 @@ msgstr ""
 "Συμπληρώστε ένα τυπικό πρότυπο Django το οποίο, όταν αποδοθεί, παράγει το μήνυμα ηλεκτρονικού ταχυδρομείου που θέλετε να αποσταλεί στους νεοεγγραφμένους μαθητές Enterprise Customer. Οι ακόλουθες μεταβλητές μπορεί να είναι διαθέσιμες:\n"
 "<ul><li> user_name: Ένα αναγνώσιμο από τον άνθρωπο όνομα για το άτομο στο οποίο αποστέλλεται email. Φροντίστε να χειριστείτε την περίπτωση όπου αυτό δεν ορίζεται, καθώς μπορεί να λείπει σε ορισμένες περιπτώσεις. Μπορεί επίσης να είναι ένα όνομα χρήστη, εάν ο εκπαιδευόμενος δεν έχει διαμορφώσει το &quot;πραγματικό&quot; όνομά του στο σύστημα.</li><li> Organization_name: Το όνομα του οργανισμού που χορηγεί την εγγραφή.</li><li> enrolled_in: Λεπτομέρειες του μαθήματος ή του προγράμματος στο οποίο εγγράφηκε. Μπορεί να περιέχει:<ul><li> όνομα: Το όνομα του στοιχείου με δυνατότητα εγγραφής (π.χ. &quot;Μάθημα επίδειξης&quot;).</li><li> url: Ένας σύνδεσμος προς την αρχική σελίδα του εγγεγραμμένου στοιχείου.</li><li> επωνυμία: Ένα προσαρμοσμένο όνομα επωνυμίας για το εγγεγραμμένο στοιχείο. Για παράδειγμα, η επωνυμία ενός προγράμματος MicroMasters θα ήταν &quot;MicroMasters&quot;.</li><li> start: Η ημερομηνία που το εγγεγραμμένο στοιχείο γίνεται διαθέσιμο. Αποδώστε το σε κείμενο χρησιμοποιώντας το φίλτρο προτύπου «ημερομηνία» του Django (δείτε <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">την τεκμηρίωση του Django</a> ).</li><li> type: Είτε το εγγεγραμμένο αντικείμενο είναι μάθημα, πρόγραμμα ή κάτι άλλο.</li></ul></ul>"
 
-#: enterprise/models.py:3264
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1775,27 +1847,27 @@ msgstr ""
 "ειδοποίησης. Το σύμβολο κράτησης θέσης {course_name} θα αντικατασταθεί με το"
 " όνομα του μαθήματος ή του προγράμματος στο οποίο εγγράφηκε."
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "Ενεργό"
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "Συμπεριλάβετε την ημερομηνία"
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "Συμπεριλάβετε την ημερομηνία στο όνομα του αρχείου αναφοράς"
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "Τρόπος Παράδοσης"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "Η μέθοδος με την οποία πρέπει να σταλούν τα δεδομένα."
 
-#: enterprise/models.py:3420
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -1803,46 +1875,46 @@ msgstr ""
 "Καθορίζει εάν η αναφορά θα πρέπει να συμπιέζεται. Χωρίς συμπίεση τα αρχεία "
 "δεν θα προστατεύονται ή θα κρυπτογραφούνται με κωδικό πρόσβασης."
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "Κλειδί κρυπτογράφησης PGP"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr ""
 "Το κλειδί για κρυπτογράφηση, εάν απαιτείται κρυπτογραφημένο αρχείο PGP."
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "Τύπος δεδομένων"
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "Το είδος των δεδομένων που πρέπει να περιέχει αυτή η αναφορά."
 
-#: enterprise/models.py:3444
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "Τύπος αναφοράς"
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "Ο τύπος αυτής της αναφοράς θα πρέπει να αποσταλεί ως, π.χ. CSV."
 
-#: enterprise/models.py:3449
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "Email"
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr ""
 "Τα μηνύματα ηλεκτρονικού ταχυδρομείου, ένα ανά γραμμή, όπου πρέπει να σταλεί"
 " η αναφορά."
 
-#: enterprise/models.py:3457
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "Συχνότητα"
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
@@ -1850,11 +1922,11 @@ msgstr ""
 "Το διάστημα συχνότητας (ημερήσια, εβδομαδιαία ή μηνιαία) που πρέπει να "
 "αποστέλλεται η αναφορά."
 
-#: enterprise/models.py:3463
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "Ημέρα του Μήνα"
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1862,11 +1934,11 @@ msgstr ""
 "Η ημέρα του μήνα για την αποστολή της αναφοράς. Αυτό το πεδίο είναι "
 "υποχρεωτικό και ισχύει μόνο όταν η συχνότητα είναι μηνιαία."
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "Μερα της ΕΒΔΟΜΑΔΑΣ"
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1874,11 +1946,11 @@ msgstr ""
 "Η ημέρα της εβδομάδας για την αποστολή της αναφοράς. Αυτό το πεδίο είναι "
 "υποχρεωτικό και ισχύει μόνο όταν η συχνότητα είναι εβδομαδιαία."
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "Ώρα της ημέρας"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1886,7 +1958,7 @@ msgstr ""
 "Η ώρα της ημέρας για την αποστολή της αναφοράς, σε ανατολική τυπική ώρα "
 "(EST). Αυτό απαιτείται για όλες τις ρυθμίσεις συχνότητας."
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1894,31 +1966,31 @@ msgstr ""
 "Αυτός ο κωδικός πρόσβασης θα χρησιμοποιηθεί για την ασφάλεια του αρχείου "
 "zip. Θα κρυπτογραφηθεί όταν αποθηκευτεί στη βάση δεδομένων."
 
-#: enterprise/models.py:3493
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "Όνομα κεντρικού υπολογιστή SFTP"
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr ""
 "Εάν η μέθοδος παράδοσης είναι sftp, ο κεντρικός υπολογιστής στον οποίο θα "
 "παραδώσει την αναφορά."
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "Θύρα SFTP"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr ""
 "Εάν η μέθοδος παράδοσης είναι sftp, η θύρα στον κεντρικό υπολογιστή για "
 "σύνδεση."
 
-#: enterprise/models.py:3507
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "Όνομα χρήστη SFTP"
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1926,7 +1998,7 @@ msgstr ""
 "Εάν η μέθοδος παράδοσης είναι sftp, το όνομα χρήστη που θα χρησιμοποιήσετε "
 "για την ασφαλή πρόσβαση στον κεντρικό υπολογιστή."
 
-#: enterprise/models.py:3514
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1935,11 +2007,11 @@ msgstr ""
 "χρησιμοποιήσετε για την ασφαλή πρόσβαση στον κεντρικό υπολογιστή. Ο κωδικός "
 "πρόσβασης θα κρυπτογραφηθεί όταν αποθηκευτεί στη βάση δεδομένων."
 
-#: enterprise/models.py:3521
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "Διαδρομή αρχείου SFTP"
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
@@ -1947,58 +2019,58 @@ msgstr ""
 "Εάν η μέθοδος παράδοσης είναι sftp, η διαδρομή στον κεντρικό υπολογιστή στον"
 " οποίο θα παραδοθεί η αναφορά."
 
-#: enterprise/models.py:3630
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "Η μέθοδος παράδοσης δεν μπορεί να ενημερωθεί"
 
-#: enterprise/models.py:3646
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr ""
 "Η ημέρα της εβδομάδας πρέπει να ρυθμιστεί εάν η συχνότητα είναι εβδομαδιαία."
 
-#: enterprise/models.py:3650
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "Η ημέρα του μήνα πρέπει να οριστεί εάν η συχνότητα είναι μηνιαία."
 
-#: enterprise/models.py:3653
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr ""
 "Η συχνότητα πρέπει να ρυθμιστεί είτε σε ημερήσια, εβδομαδιαία ή μηνιαία."
 
-#: enterprise/models.py:3659
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "Πρέπει να οριστούν email(α) εάν η μέθοδος παράδοσης είναι email."
 
-#: enterprise/models.py:3663
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 "Πρέπει να οριστεί αποκρυπτογραφημένος κωδικός πρόσβασης εάν η μέθοδος "
 "παράδοσης είναι email."
 
-#: enterprise/models.py:3667
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr ""
 "Το όνομα κεντρικού υπολογιστή SFTP πρέπει να οριστεί εάν η μέθοδος παράδοσης"
 " είναι sftp."
 
-#: enterprise/models.py:3669
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr ""
 "Το όνομα χρήστη SFTP πρέπει να οριστεί εάν η μέθοδος παράδοσης είναι sftp."
 
-#: enterprise/models.py:3671
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr ""
 "Η διαδρομή αρχείου SFTP πρέπει να οριστεί εάν η μέθοδος παράδοσης είναι "
 "sftp."
 
-#: enterprise/models.py:3674
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 "Ο αποκρυπτογραφημένος κωδικός πρόσβασης SFTP πρέπει να οριστεί εάν η μέθοδος"
 " παράδοσης είναι SFTP."
 
-#: enterprise/models.py:3737
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2012,19 +2084,19 @@ msgstr ""
 "δημιουργήστε πρώτα την εγγραφή και, στη συνέχεια, τροποποιήστε το πεδίο "
 "εταιρικού πελάτη χρησιμοποιώντας το αναπτυσσόμενο μενού."
 
-#: enterprise/models.py:4026
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "Φίλτρα για την εμφάνιση ειδοποιήσεων banner υπό όρους."
 
-#: enterprise/models.py:4031
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "Φίλτρο ειδοποιήσεων διαχειριστή"
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "Φίλτρα ειδοποιήσεων διαχειριστή"
 
-#: enterprise/models.py:4058
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -2032,7 +2104,7 @@ msgstr ""
 "Τίτλος banner ειδοποίησης που θα εμφανίζεται στον διαχειριστή της "
 "επιχείρησης στην πύλη διαχειριστή."
 
-#: enterprise/models.py:4066
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2044,38 +2116,38 @@ msgstr ""
 "https://commonmark.org/help/ για τις υποστηριζόμενες δυνατότητες "
 "επισήμανσης."
 
-#: enterprise/models.py:4083
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "Ειδοποίηση διαχειριστή"
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "Ειδοποιήσεις διαχειριστή"
 
-#: enterprise/models.py:4122
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "Διαβάστηκε η ειδοποίηση διαχειριστή"
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "Διαβάστε τις ειδοποιήσεις διαχειριστή"
 
-#: enterprise/models.py:4156 enterprise/models.py:4260
-#: enterprise/models.py:4405
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "Η επιχείρηση που μπορεί να συνδεθεί χρησιμοποιώντας αυτό το κλειδί."
 
-#: enterprise/models.py:4165
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr ""
 "Πόσες φορές αυτό το κλειδί μπορεί να χρησιμοποιηθεί για τη σύνδεση ενός "
 "μαθητή."
 
-#: enterprise/models.py:4174
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "Το κλειδί δεν θα είναι πλέον έγκυρο μετά από αυτήν την ημερομηνία."
 
-#: enterprise/models.py:4183
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2083,60 +2155,60 @@ msgstr ""
 "Καθορίζει εάν το κλειδί είναι ενεργό. Μόλις απενεργοποιηθεί, το κλειδί δεν "
 "είναι πλέον έγκυρο και δεν μπορεί να επανενεργοποιηθεί."
 
-#: enterprise/models.py:4264
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "Προτροπή ChatGPT."
 
-#: enterprise/models.py:4266
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "Απόκριση ChatGPT."
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "Τύπος προτροπής."
 
-#: enterprise/models.py:4271
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "Απάντηση ChatGPT"
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "Απαντήσεις ChatGPT"
 
-#: enterprise/models.py:4382
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "Διαμόρφωση SSO εταιρικού πελάτη"
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "Διαμορφώσεις SSO για εταιρικούς πελάτες"
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "Το εμφανιζόμενο όνομα της διαμόρφωσης SSO."
 
-#: enterprise/models.py:4414
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "Καθορίζει εάν η ενοποίηση με την ενορχήστρωση SSO είναι ενεργή."
 
-#: enterprise/models.py:4423
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "Ο πάροχος ταυτότητας ενσωματώθηκε από τον ενορχηστρωτή SSO."
 
-#: enterprise/models.py:4432
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "Το url μεταδεδομένων του παρόχου ταυτότητας."
 
-#: enterprise/models.py:4440
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "Τα μεταδεδομένα xml του παρόχου ταυτότητας."
 
-#: enterprise/models.py:4449
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "Το αναγνωριστικό οντότητας του παρόχου ταυτότητας."
 
-#: enterprise/models.py:4458
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2144,14 +2216,14 @@ msgstr ""
 "Καθορίζει εάν η ενοποίηση με τον πάροχο ταυτότητας του πελάτη θα πρέπει να "
 "ενημερώνει αυτόματα τα μεταδεδομένα."
 
-#: enterprise/models.py:4512
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr ""
 "Η ημερομηνία και η ώρα υποβολής της διαμόρφωσης στην ενορχήστρωση SSO."
 
-#: enterprise/models.py:4520
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
@@ -2159,7 +2231,7 @@ msgstr ""
 "Η ημερομηνία και η ώρα που ολοκληρώθηκε η διαμόρφωση από την ενορχήστρωση "
 "SSO."
 
-#: enterprise/models.py:4528
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
@@ -2167,7 +2239,7 @@ msgstr ""
 "Η ημερομηνία και η ώρα που η διαμόρφωση επικυρώθηκε και χρησιμοποιήθηκε για "
 "πρώτη φορά."
 
-#: enterprise/models.py:4536
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
@@ -2175,14 +2247,14 @@ msgstr ""
 "Η ημερομηνία και η ώρα που ο ενορχηστρωτής αντιμετώπισε σφάλμα κατά τη "
 "διαμόρφωση."
 
-#: enterprise/models.py:4545
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Εάν ο διαχειριστής έχει υποδείξει ότι τα μεταδεδομένα του παρόχου υπηρεσιών "
 "έχουν μεταφορτωθεί."
 
-#: enterprise/models.py:4555 enterprise/models.py:4591
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
@@ -2190,57 +2262,61 @@ msgstr ""
 "Ειδική διαμόρφωση SAP: το διάστημα χρονικού ορίου για το API OData σε "
 "δευτερόλεπτα."
 
-#: enterprise/models.py:4565
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "Ειδική διαμόρφωση SAP: το ριζικό url του API OData."
 
-#: enterprise/models.py:4574
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "Ειδική διαμόρφωση SAP: το εταιρικό αναγνωριστικό του API OData."
 
-#: enterprise/models.py:4583
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
 "Ειδική διαμόρφωση SAP: το ριζικό url του SAP SuccessFactors OAuth API."
 
-#: enterprise/models.py:4600
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "Ειδική διαμόρφωση SAP: το ιδιωτικό κλειδί που χρησιμοποιείται για την "
 "υπογραφή της δήλωσης SAML."
 
-#: enterprise/models.py:4609
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "Ειδική διαμόρφωση SAP: το αναγνωριστικό πελάτη του API OData."
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "Ειδική διαμόρφωση SAP: το αναγνωριστικό χρήστη του OAuth API."
 
-#: enterprise/models.py:4640
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "Το πεδίο είναι κλειδωμένο καθώς η διαμόρφωση έχει ήδη υποβληθεί."
 
-#: enterprise/models.py:4678
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "Η εγγραφή έχει ήδη υποβληθεί για διαμόρφωση."
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "Καθορίζει το όνομα της ομάδας επιχειρήσεων."
 
-#: enterprise/models.py:4749
+#: enterprise/models.py:4744
+msgid "The type of enterprise group"
+msgstr "Ο τύπος του ομίλου επιχειρήσεων"
+
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Όμιλος Επιχειρήσεων"
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "Ομάδες Επιχειρήσεων"
 
-#: enterprise/models.py:4863
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -2248,11 +2324,11 @@ msgstr ""
 "Η στιγμή κατά την οποία η εγγραφή μέλους εγγράφεται με μια εγγραφή χρήστη "
 "εταιρικού πελάτη."
 
-#: enterprise/models.py:4873
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "Τρέχουσα κατάσταση της εγγραφής μέλους"
 
-#: enterprise/models.py:4880
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
@@ -2260,7 +2336,7 @@ msgstr ""
 "Η στιγμή κατά την οποία το αρχείο μέλους ανακλήθηκε από έναν διαχειριστή της"
 " Enterprise."
 
-#: enterprise/models.py:4888
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
@@ -2268,13 +2344,53 @@ msgstr ""
 "Την τελευταία φορά που η ενέργεια συμμετοχής ήταν σε κατάσταση σφάλματος. "
 "Μηδενικό σημαίνει ότι η ιδιότητα μέλους δεν είναι εσφαλμένη."
 
-#: enterprise/models.py:4893
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "Μέλος του Ομίλου Επιχειρήσεων"
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Μέλη Ομίλου Επιχειρήσεων"
+
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "Τίτλος που συνοψίζει τη ροή εισαγωγής."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Καθορίζει εάν αυτή η ροή είναι ενεργή και εμφανίζεται στους χρήστες "
+"διαχειριστές στην περιήγηση εισαγωγής."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr "Ο χρήστης του εταιρικού πελάτη που είναι διαχειριστής."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr "Η τελευταία φορά που ο διαχειριστής συνδέθηκε στην πύλη διαχείρισης."
+
+#: enterprise/models.py:4999
+msgid "The onboarding flows that this admin has completed."
+msgstr "Οι ροές εισαγωγής που έχει ολοκληρώσει αυτός ο διαχειριστής."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "Εάν ο διαχειριστής έχει απορρίψει την ξενάγηση επιβίβασης."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "Εάν ο διαχειριστής έχει ολοκληρώσει την ξενάγηση για την εισαγωγή."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "Διαχειριστής πελατών Enterprise"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "Διαχειριστές εταιρικών πελατών"
 
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
 #: enterprise/views.py:1616 enterprise/views.py:2118

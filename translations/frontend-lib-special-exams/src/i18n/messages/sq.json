@@ -1,5 +1,5 @@
 {
-  "exam.hiddenContent": "Ky provim është i fshehur nga nxënësi.",
+  "exam.hiddenContent": "Ky provim fsheh nxënësin.",
   "exam.apiError.supportText.withLink": "Nëse problemi vazhdon, ju lutemi kontaktoni {supportLink} për ndihmë dhe kthehuni në provim pasi të merrni udhëzime të mëtejshme.",
   "exam.apiError.default": "Ka ndodhur një gabim sistemi me provimin tuaj.",
   "exam.apiError.supportText.withoutLink": "Nëse problemi vazhdon, ju lutemi kontaktoni mbështetjen për ndihmë dhe kthehuni në provim pasi të merrni udhëzime të mëtejshme.",
@@ -16,7 +16,7 @@
   "exam.examTimer.showLessLink": "Trego më pak",
   "exam.examTimer.showMoreLink": "Trego më shumë",
   "exam.aria.examTimerAndEndExamButton": "Kohëmatësi i provimit dhe butoni i përfundimit të provimit",
-  "exam.examTimer.endExamBtn": "Mbyll provimin tim",
+  "exam.examTimer.endExamBtn": "Mbyll provimin",
   "exam.EntranceOnboardingExamInstructions.title": "Proctoring onboarding provim",
   "exam.EntranceOnboardingExamInstructions.text1": "Pse kjo është e rëndësishme për ju:",
   "exam.EntranceOnboardingExamInstructions.listItem1": "Vendosni identitetin tuaj me sistemin e proctoring për të marrë një provim proctored",

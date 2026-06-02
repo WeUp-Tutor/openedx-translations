@@ -1,30 +1,33 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
-# Brian Smith, 2025
-# Omar Al-Ithawi <i@omardo.com>, 2025
+# Transifex Bot <>, 2025
+# Gerardo Núñez, 2026
+# Kaori Myatt <kaorimyatt@gmail.com>, 2026
+# Brian Smith, 2026
+# Eden Huthmacher, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 00:44+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
+"POT-Creation-Date: 2026-02-08 00:54+0000\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: Eden Huthmacher, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/open-edx/teams/6205/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: ja\n"
@@ -37,11 +40,11 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
-"サーバーのエラーまたはインターネット接続の問題が原因で発生している可能性があります。ページを更新するか、オンラインであることを確認してください。"
+"サーバーまたはユーザー側のインターネット接続の問題が原因でこのエラーが発生している可能性があります。ページを更新するか、インターネットに接続されているかどうかを確認してください。"
 
 #: cms/static/cms/js/main.js:47
 msgid "Studio's having trouble saving your work"
-msgstr "スタジオが作業の保存に問題を抱えています"
+msgstr "Studioが作業内容を保存する際に問題が発生しています"
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js:98
 msgid "OpenAssessment Save Error"
@@ -53,10 +56,8 @@ msgstr "OpenAssessment保存エラー"
 #: cms/static/js/views/asset.js:85 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:58
 #: cms/static/js/views/course_info_update.js:170
-#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
 #: cms/static/js/views/modals/edit_xblock.js:216
-#: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
@@ -126,7 +127,6 @@ msgstr "この操作は元に戻せません。"
 #: cms/static/js/certificates/views/signatory_editor.js:140
 #: cms/static/js/views/asset.js:57 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 #: cms/templates/js/certificate-details.underscore:66
 #: cms/templates/js/certificate-details.underscore:67
@@ -148,7 +148,6 @@ msgstr "この操作は元に戻せません。"
 #: cms/templates/js/partition-group-details.underscore:31
 #: cms/templates/js/partition-group-details.underscore:32
 #: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
 #: cms/templates/js/video-transcripts.underscore:47
 #: cms/templates/js/xblock-outline.underscore:31
@@ -159,8 +158,7 @@ msgstr "削除"
 
 #: cms/static/js/certificates/views/signatory_editor.js:143
 #: cms/static/js/views/course_info_update.js:249
-#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:174
+#: cms/static/js/views/list_item.js:63
 #: cms/static/js/views/utils/xblock_utils.js:216
 msgid "Deleting"
 msgstr "削除中"
@@ -179,7 +177,6 @@ msgstr "削除中"
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
 #: cms/static/js/views/modals/select_v2_library_content.js:60
-#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1092
@@ -192,7 +189,6 @@ msgstr "削除中"
 #: cms/templates/js/content-group-editor.underscore:32
 #: cms/templates/js/course_info_handouts.underscore:20
 #: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
 #: cms/templates/js/group-configuration-editor.underscore:46
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
@@ -261,11 +257,11 @@ msgstr "すでに図書館チームのメンバーです"
 #: cms/static/js/factories/manage_users_lib.js:13
 msgid ""
 "Are you sure you want to delete {email} from the library “{container}”?"
-msgstr "図書館「{container}」から{email}を削除してもよろしいですか？"
+msgstr "ライブラリ「{container}」から{email}を削除してもよろしいですか？"
 
 #: cms/static/js/factories/manage_users_lib.js:21
 msgid "Library User"
-msgstr "図書館利用者"
+msgstr "ライブラリユーザー"
 
 #: cms/static/js/factories/settings_advanced.js:41
 msgid "Hide Deprecated Settings"
@@ -274,11 +270,6 @@ msgstr "非推奨設定を非表示"
 #: cms/static/js/factories/settings_advanced.js:45
 msgid "Show Deprecated Settings"
 msgstr "非推奨設定を表示"
-
-#: cms/static/js/factories/textbooks.js:20
-#: cms/static/js/views/pages/group_configurations.js:84
-msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr "変更が保存されていません。本当にこのページを離れますか？"
 
 #: cms/static/js/features/import/factories/import.js:22
 msgid "There was an error during the upload process."
@@ -348,18 +339,6 @@ msgstr "アップロードが完了しました"
 #: cms/static/js/models/active_video_upload.js:16
 msgid "Upload failed"
 msgstr "アップロードに失敗しました"
-
-#: cms/static/js/models/chapter.js:35
-msgid "Chapter name and asset_path are both required"
-msgstr "章の名前とasset_pathの両方が必要です"
-
-#: cms/static/js/models/chapter.js:40
-msgid "Chapter name is required"
-msgstr "章の名前が必要です"
-
-#: cms/static/js/models/chapter.js:45
-msgid "asset_path is required"
-msgstr "asset_pathが必要です"
 
 #: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
 msgid "You must specify a name"
@@ -470,18 +449,6 @@ msgstr "猶予期間はHH:MM形式で指定する必要があります。"
 #: cms/static/js/models/settings/course_grading_policy.js:90
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr "合格点を%(minimum_grade_cutoff)s%未満に設定することはできません。"
-
-#: cms/static/js/models/textbook.js:62
-msgid "Textbook name is required"
-msgstr "教科書名は必須です"
-
-#: cms/static/js/models/textbook.js:68
-msgid "Please add at least one chapter"
-msgstr "少なくとも1つの章を追加してください"
-
-#: cms/static/js/models/textbook.js:81
-msgid "All chapters must have a name and asset"
-msgstr "すべての章には名前とアセットが必要です。"
 
 #: cms/static/js/models/uploads.js:17
 msgid ""
@@ -660,7 +627,7 @@ msgstr "ライブラリコンテンツを追加"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:652
+#: cms/static/js/views/pages/container.js:655
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "追加"
@@ -679,8 +646,8 @@ msgstr "この更新を削除してもよろしいですか？"
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:424
-#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:426
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -690,7 +657,7 @@ msgid "OK"
 msgstr "OK"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:779
+#: cms/static/js/views/pages/container.js:782
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "コピー中"
@@ -700,31 +667,31 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr "「{componentDisplayName}」のコピー"
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:395
+#: cms/static/js/views/pages/container.js:397
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "貼り付け"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "いくつかのエラーが発生しました。"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:421
+#: cms/static/js/views/pages/container.js:423
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "コースに追加できなかった必要なファイルは次のとおりです。"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "ファイルを手動で更新する必要があるかもしれません。"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:432
+#: cms/static/js/views/pages/container.js:434
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -732,22 +699,28 @@ msgid ""
 msgstr "このコースにはすでに以下のファイルが存在しますが、貼り付けたコンポーネントで使用されているバージョンと一致しません。"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "新しいファイルが「ファイルとアップロード」に追加されました。"
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/pages/container.js:445
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "このコースにインポートされた必要なファイルは次のとおりです。"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:448
+#: cms/static/js/views/pages/container.js:450
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "ファイルを表示"
+
+#: cms/static/js/views/course_outline.js:422
+#: cms/static/js/views/pages/container.js:459
+#: cms/static/js/views/utils/xblock_utils.js:134
+msgid "Dismiss"
+msgstr "閉じる"
 
 #: cms/static/js/views/course_rerun.js:53
 msgid "Create Re-run"
@@ -818,14 +791,6 @@ msgstr "自動トランスクリプトは無効になっています。"
 #: cms/static/js/views/course_video_settings.js:719
 msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} の認証情報が保存されました"
-
-#: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%- name %>”"
-msgstr "「<%- name %>」に新しいPDFをアップロード"
-
-#: cms/static/js/views/edit_chapter.js:64
-msgid "Please select a PDF file to upload."
-msgstr "PDFファイルをアップロードしてください。"
 
 #: cms/static/js/views/export.js:312
 msgid "There has been an error while exporting."
@@ -1003,6 +968,13 @@ msgstr "この%(item_display_name)sを削除しますか？"
 msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
 msgstr "この%(item_display_name)sを削除すると元に戻せません。"
 
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/manage_users_and_roles.js:11
+#: xmodule/js/src/html/edit.js:880
+msgid "Ok"
+msgstr "了解しました"
+
 #: cms/static/js/views/manage_users_and_roles.js:12
 msgid "There was an error changing the user's role"
 msgstr "ユーザーの役割を変更する際にエラーが発生しました"
@@ -1027,6 +999,10 @@ msgstr "有効なメールアドレスが必要です"
 #: cms/static/js/views/manage_users_and_roles.js:21
 msgid "You must enter a valid email address in order to add a new team member"
 msgstr "新しいチームメンバーを追加するには、有効なメールアドレスを入力する必要があります。"
+
+#: cms/static/js/views/manage_users_and_roles.js:22
+msgid "Return and add email address"
+msgstr "戻ってメールアドレスを追加する"
 
 #: cms/static/js/views/manage_users_and_roles.js:25
 msgid "Already a member"
@@ -1064,7 +1040,6 @@ msgstr "ファイルをアップロード"
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
 #: cms/templates/js/group-configuration-editor.underscore:45
 #: cms/templates/js/section-name-edit.underscore:3
 #: cms/templates/js/signatory-actions.underscore:3
@@ -1264,7 +1239,7 @@ msgstr "追加日"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:731
+#: cms/static/js/views/pages/container.js:734
 msgid "Editing access for: {title}"
 msgstr "{title} の編集アクセス"
 
@@ -1325,6 +1300,10 @@ msgstr "コースインデックス"
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
 msgstr "コースの再インデックス化中にエラーが発生しました。"
+
+#: cms/static/js/views/pages/group_configurations.js:84
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "変更が保存されていません。本当にこのページを離れますか？"
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1459,25 +1438,6 @@ msgstr "バナー画像をアップロードしてください。"
 #: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
 msgstr "ビデオのサムネイル画像をアップロードしてください。"
-
-#: cms/static/js/views/show_textbook.js:33
-msgid "Delete “<%- name %>”?"
-msgstr "「<%- name %>」を削除しますか？"
-
-#: cms/static/js/views/show_textbook.js:36
-msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
-msgstr "教科書を削除すると元に戻すことはできず、一度削除されるとコースウェアのナビゲーション内の参照も削除されます。"
-
-#: cms/static/js/views/tabs.js:160
-msgid "Delete Page Confirmation"
-msgstr "ページ削除の確認"
-
-#: cms/static/js/views/tabs.js:161
-msgid ""
-"Are you sure you want to delete this page? This action cannot be undone."
-msgstr "このページを削除してもよろしいですか？この操作は元に戻せません。"
 
 #: cms/static/js/views/uploads.js:30
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
@@ -1665,6 +1625,15 @@ msgstr "サムネイルを追加"
 msgid "Edit Thumbnail"
 msgstr "サムネイルを編集"
 
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+
 #: cms/static/js/views/video_thumbnail.js:52
 msgid "Image upload failed"
 msgstr "画像のアップロードに失敗しました"
@@ -1715,6 +1684,21 @@ msgstr "{minutes} {unit}"
 #: cms/static/js/views/video_thumbnail.js:198
 msgid "seconds"
 msgstr "秒数"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "秒"
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#. Translators: `and` will be used to combine both miuntes and seconds like
+#. `13 minutes and 45 seconds`
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr " と "
 
 #: cms/static/js/views/video_thumbnail.js:234
 msgid "Video image upload started"
@@ -2892,6 +2876,10 @@ msgstr "リンクの説明を入力してください"
 msgid "Blockquote"
 msgstr "引用文"
 
+#: lms/static/js/Markdown.Editor.js:1997 lms/static/js/Markdown.Editor.js:2017
+msgid "enter code here"
+msgstr "コードを入力"
+
 #: lms/static/js/Markdown.Editor.js:2106
 msgid "List item"
 msgstr "リスト項目"
@@ -3738,6 +3726,10 @@ msgstr "ユーザーの登録/登録解除エラー。"
 msgid "The following email addresses and/or usernames are invalid:"
 msgstr "以下のメールアドレスおよび/またはユーザー名は無効です。"
 
+#: lms/static/js/instructor_dashboard/membership.js:768
+msgid "Successfully enrolled and sent email to the following users:"
+msgstr "登録を完了し、メールを次のユーザーに送りました："
+
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:780
 msgid "Successfully enrolled the following users:"
@@ -3763,11 +3755,21 @@ msgid ""
 msgstr "以下のユーザーにメールが送信されました。登録が完了すると、受講が可能になります。"
 
 #. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:828
+msgid "These users will be enrolled once they register:"
+msgstr "これらのユーザーは登録後に参加します。"
+
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:840
 msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
 msgstr "メールが正常に送信されました。次のユーザーはコースに登録されていません。"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:852
+msgid "The following users are no longer enrolled in the course:"
+msgstr "次のユーザーは現在は、このコースには参加していません。"
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
@@ -4822,15 +4824,232 @@ msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
 msgstr[0] "{total_results} 件の結果が「{search_term}」に対して見つかりました"
 
-#: xmodule/assets/library_content/public/js/library_content_edit.js:16
-#: xmodule/js/public/js/library_content_edit.js:16
+#: xmodule/assets/library_content/public/js/library_content_edit.js:44
+#: xmodule/js/public/js/library_content_edit.js:44
 msgid "Updating with latest library content"
 msgstr "最新のライブラリコンテンツで更新中"
+
+#: xmodule/assets/library_content/public/js/library_content_edit.js:64
+#: xmodule/js/public/js/library_content_edit.js:64
+msgid "Migrating to Problem Bank"
+msgstr "問題バンクへの移行"
 
 #: xmodule/assets/split_test/public/js/split_test_author_view.js:12
 #: xmodule/js/public/js/split_test_author_view.js:12
 msgid "Creating missing groups"
 msgstr "不足しているグループを作成中"
+
+#: xmodule/assets/video/public/js/00_i18n.js:10
+#: xmodule/assets/video/public/js/09_play_pause_control.js:31
+#: xmodule/assets/video/public/js/09_play_pause_control.js:89
+#: xmodule/assets/video/public/js/09_play_skip_control.js:28
+msgid "Play"
+msgstr "再生"
+
+#: xmodule/assets/video/public/js/00_i18n.js:11
+#: xmodule/assets/video/public/js/09_play_pause_control.js:79
+msgid "Pause"
+msgstr "一時停止"
+
+#: xmodule/assets/video/public/js/00_i18n.js:12
+msgid "Mute"
+msgstr "ミュート"
+
+#: xmodule/assets/video/public/js/00_i18n.js:13
+msgid "Unmute"
+msgstr "ミュート解除"
+
+#: xmodule/assets/video/public/js/00_i18n.js:14
+#: xmodule/assets/video/public/js/04_video_full_screen.js:227
+msgid "Exit full browser"
+msgstr "全画面表示を終了"
+
+#: xmodule/assets/video/public/js/00_i18n.js:16
+#: xmodule/assets/video/public/js/08_video_speed_control.js:43
+msgid "Speed"
+msgstr "速度"
+
+#: xmodule/assets/video/public/js/00_i18n.js:17
+#: xmodule/assets/video/public/js/08_video_auto_advance_control.js:38
+#: xmodule/js/src/video/08_video_auto_advance_control.js:40
+msgid "Auto-advance"
+msgstr "自動進行"
+
+#: xmodule/assets/video/public/js/00_i18n.js:18
+#: xmodule/assets/video/public/js/07_video_volume_control.js:70
+msgid "Volume"
+msgstr "音量"
+
+#. Translators: Volume level equals 0%.
+#: xmodule/assets/video/public/js/00_i18n.js:20
+msgid "Muted"
+msgstr "ミュート"
+
+#. Translators: Volume level in range ]0,20]%
+#: xmodule/assets/video/public/js/00_i18n.js:22
+msgid "Very low"
+msgstr "非常に低い"
+
+#. Translators: Volume level in range ]20,40]%
+#: xmodule/assets/video/public/js/00_i18n.js:24
+msgid "Low"
+msgstr "低い"
+
+#. Translators: Volume level in range ]40,60]%
+#: xmodule/assets/video/public/js/00_i18n.js:26
+msgid "Average"
+msgstr "平均"
+
+#. Translators: Volume level in range ]80,99]%
+#: xmodule/assets/video/public/js/00_i18n.js:30
+msgid "Very loud"
+msgstr "非常に大きい音"
+
+#. Translators: Volume level equals 100%.
+#: xmodule/assets/video/public/js/00_i18n.js:32
+msgid "Maximum"
+msgstr "最大"
+
+#: xmodule/assets/video/public/js/02_html5_video.js:82
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "このブラウザでは .mp4、.ogg、または .webm ファイルを再生できません。"
+
+#: xmodule/assets/video/public/js/02_html5_video.js:83
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "別のブラウザ、例えばGoogle Chromeを試してみてください。"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:22
+msgid "High Definition"
+msgstr "高精細"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:23
+#: xmodule/assets/video/public/js/05_video_quality_control.js:156
+msgid "off"
+msgstr "オフ"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:150
+msgid "on"
+msgstr "オン"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:11
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:102
+msgid "Video position. Press space to toggle playback"
+msgstr "ビデオの位置。スペースキーを押して再生を切り替えます。"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:299
+msgid "Video ended"
+msgstr "ビデオが終了しました"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:303
+msgid "Video position"
+msgstr "ビデオ位置"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:319
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s 時間"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:322
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s 分"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:325
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s 秒"
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:68
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr "このボタンをクリックしてビデオをミュートまたはミュート解除するか、UPまたはDOWNボタンを押して音量を上げたり下げたりしてください。"
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:69
+msgid "Adjust video volume"
+msgstr "ビデオの音量を調整する"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:33
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr ""
+"速度メニューに入るにはUPを押し、UPとDOWNの矢印キーを使って異なる速度をナビゲートし、選択した速度に変更するにはENTERを押します。"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:37
+msgid "Adjust video speed"
+msgstr "動画の速度を調整する"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr "ビデオ速度: "
+
+#: xmodule/assets/video/public/js/09_play_skip_control.js:77
+msgid "Skip"
+msgstr "スキップ"
+
+#: xmodule/assets/video/public/js/09_poster.js:25
+msgid "Play video"
+msgstr "動画を再生"
+
+#: xmodule/assets/video/public/js/09_skip_control.js:31
+msgid "Do not show again"
+msgstr "再表示しない"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:105
+msgid "Open language menu"
+msgstr "言語メニューを開く"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:628
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "ビデオを再生すると、トランスクリプトが表示されます。"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:876
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr "このグループのリンクをアクティブにすると、ビデオの対応するポイントにスキップします。"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:879
+msgid "Video transcript"
+msgstr "ビデオトランスクリプト"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:882
+msgid "Start of transcript. Skip to the end."
+msgstr "トランスクリプトの開始。最後までスキップ。"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:886
+msgid "End of transcript. Skip to the start."
+msgstr "トランスクリプトの終了。最初にスキップ。"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:890
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr ""
+"言語メニューに入るにはUP矢印キーを押し、言語オプションをナビゲートするにはUPおよびDOWN矢印キーを使用します。選択した言語に変更するにはENTERを押します。"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1246
+msgid "Hide closed captions"
+msgstr "字幕を非表示"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1264
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(ビデオの再生を開始するとキャプションが表示されます。)"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1271
+msgid "Turn on closed captioning"
+msgstr "字幕をオンにする"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1379
+msgid "Turn on transcripts"
+msgstr "トランスクリプトをオンにする"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1394
+msgid "Turn off transcripts"
+msgstr "トランスクリプトをオフにする"
 
 #: xmodule/assets/word_cloud/src/js/word_cloud_main.js:258
 msgid "{start_strong}{total}{end_strong} words submitted in total."
@@ -4874,28 +5093,28 @@ msgstr "注釈に返信"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:235
+#: xmodule/js/src/capa/display.js:248
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
 msgstr[0] "{num_points}点可能（採点済み、結果非表示）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:242
+#: xmodule/js/src/capa/display.js:255
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
 msgstr[0] "{num_points} ポイント可能（未採点、結果非表示）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:253
+#: xmodule/js/src/capa/display.js:266
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
 msgstr[0] "{num_points} 点可能（採点済み）"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:259
+#: xmodule/js/src/capa/display.js:273
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
 msgstr[0] "{num_points}点可能（未採点）"
@@ -4904,7 +5123,7 @@ msgstr[0] "{num_points}点可能（未採点）"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:269
+#: xmodule/js/src/capa/display.js:284
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
 msgstr[0] "{earned}/{possible} 点（採点済み）"
@@ -4913,20 +5132,20 @@ msgstr[0] "{earned}/{possible} 点（採点済み）"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:276
+#: xmodule/js/src/capa/display.js:292
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned}/{possible} ポイント (未採点)"
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr "採点プロセスはまだ進行中です。ページを更新して最新情報を確認してください。"
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "あなたの回答を採点できませんでした。提出は中止されました。"
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -4934,33 +5153,33 @@ msgid ""
 msgstr ""
 "送信が中止されました！申し訳ありませんが、お使いのブラウザはファイルのアップロードをサポートしていません。可能であれば、ファイルのアップロードがサポートされていることが確認されているChromeまたはSafariをご利用ください。"
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "あなたは{filename}を提出しましたが、許可されているのは{allowedFiles}のみです。"
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "ファイル{filename}は大きすぎます（最大サイズ：{maxSize}MB）。"
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "必要なファイルが提出されていません: {requiredFiles}。"
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr "ファイルが選択されていません。"
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr "この問題はリセットされました。"
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr "未提出"
 
@@ -5320,7 +5539,6 @@ msgstr "HTMLを編集"
 #: cms/templates/js/course_info_update.underscore:20
 #: cms/templates/js/group-configuration-details.underscore:45
 #: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
 #: cms/templates/js/signatory-details.underscore:5
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
@@ -5475,7 +5693,7 @@ msgstr "ヘッダーセル"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
 msgstr "ヘッダー"
 
@@ -6190,259 +6408,11 @@ msgstr ""
 "\n"
 "情報を送信せずにこのページに戻るには、キャンセルをクリックしてください。"
 
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr "不正解"
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr "正解"
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr "回答"
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr "簡単な説明"
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"高度なエディターを使用すると、この問題はXMLに変換され、シンプルエディターインターフェースに戻ることはできません。\n"
-"\n"
-"高度なエディターに進んで、この問題をXMLに変換しますか？"
-
-#: xmodule/js/src/problem/edit.js:406 xmodule/js/src/problem/edit.js:439
-#: xmodule/js/src/problem/edit.js:502
-msgid ""
-"An answer option has been left blank. Please review and edit the component."
-msgstr "回答の選択肢が空白のままです。コンポーネントを確認して編集してください。"
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr "説明"
-
 #: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr "シーケンスエラー！現在のSequenceModuleで%(tab_name)sに移動できません。コーススタッフに連絡してください。"
-
-#: xmodule/js/src/video/00_i18n.js:15
-#: xmodule/js/src/video/09_play_pause_control.js:30
-#: xmodule/js/src/video/09_play_pause_control.js:88
-#: xmodule/js/src/video/09_play_skip_control.js:30
-msgid "Play"
-msgstr "再生"
-
-#: xmodule/js/src/video/00_i18n.js:16
-#: xmodule/js/src/video/09_play_pause_control.js:78
-msgid "Pause"
-msgstr "一時停止"
-
-#: xmodule/js/src/video/00_i18n.js:17
-msgid "Mute"
-msgstr "ミュート"
-
-#: xmodule/js/src/video/00_i18n.js:18
-msgid "Unmute"
-msgstr "ミュート解除"
-
-#: xmodule/js/src/video/00_i18n.js:19
-#: xmodule/js/src/video/04_video_full_screen.js:229
-msgid "Exit full browser"
-msgstr "全画面表示を終了"
-
-#: xmodule/js/src/video/00_i18n.js:21
-#: xmodule/js/src/video/08_video_speed_control.js:46
-msgid "Speed"
-msgstr "速度"
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr "自動進行"
-
-#: xmodule/js/src/video/00_i18n.js:23
-#: xmodule/js/src/video/07_video_volume_control.js:72
-msgid "Volume"
-msgstr "音量"
-
-#. Translators: Volume level equals 0%.
-#: xmodule/js/src/video/00_i18n.js:25
-msgid "Muted"
-msgstr "ミュート"
-
-#. Translators: Volume level in range ]0,20]%
-#: xmodule/js/src/video/00_i18n.js:27
-msgid "Very low"
-msgstr "非常に低い"
-
-#. Translators: Volume level in range ]20,40]%
-#: xmodule/js/src/video/00_i18n.js:29
-msgid "Low"
-msgstr "低い"
-
-#. Translators: Volume level in range ]40,60]%
-#: xmodule/js/src/video/00_i18n.js:31
-msgid "Average"
-msgstr "平均"
-
-#. Translators: Volume level in range ]80,99]%
-#: xmodule/js/src/video/00_i18n.js:35
-msgid "Very loud"
-msgstr "非常に大きい音"
-
-#. Translators: Volume level equals 100%.
-#: xmodule/js/src/video/00_i18n.js:37
-msgid "Maximum"
-msgstr "最大"
-
-#: xmodule/js/src/video/02_html5_video.js:87
-msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr "このブラウザでは .mp4、.ogg、または .webm ファイルを再生できません。"
-
-#: xmodule/js/src/video/02_html5_video.js:88
-msgid "Try using a different browser, such as Google Chrome."
-msgstr "別のブラウザ、例えばGoogle Chromeを試してみてください。"
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr "高精細"
-
-#: xmodule/js/src/video/05_video_quality_control.js:26
-#: xmodule/js/src/video/05_video_quality_control.js:159
-msgid "off"
-msgstr "オフ"
-
-#: xmodule/js/src/video/05_video_quality_control.js:153
-msgid "on"
-msgstr "オン"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:16
-#: xmodule/js/src/video/06_video_progress_slider.js:107
-msgid "Video position. Press space to toggle playback"
-msgstr "ビデオの位置。スペースキーを押して再生を切り替えます。"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:304
-msgid "Video ended"
-msgstr "ビデオが終了しました"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:308
-msgid "Video position"
-msgstr "ビデオ位置"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:324
-msgid "%(value)s hour"
-msgid_plural "%(value)s hours"
-msgstr[0] "%(value)s 時間"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:327
-msgid "%(value)s minute"
-msgid_plural "%(value)s minutes"
-msgstr[0] "%(value)s 分"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:330
-msgid "%(value)s second"
-msgid_plural "%(value)s seconds"
-msgstr[0] "%(value)s 秒"
-
-#: xmodule/js/src/video/07_video_volume_control.js:70
-msgid ""
-"Click on this button to mute or unmute this video or press UP or DOWN "
-"buttons to increase or decrease volume level."
-msgstr "このボタンをクリックしてビデオをミュートまたはミュート解除するか、UPまたはDOWNボタンを押して音量を上げたり下げたりしてください。"
-
-#: xmodule/js/src/video/07_video_volume_control.js:71
-msgid "Adjust video volume"
-msgstr "ビデオの音量を調整する"
-
-#: xmodule/js/src/video/08_video_speed_control.js:36
-msgid ""
-"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
-"navigate the different speeds, then press ENTER to change to the selected "
-"speed."
-msgstr ""
-"速度メニューに入るにはUPを押し、UPとDOWNの矢印キーを使って異なる速度をナビゲートし、選択した速度に変更するにはENTERを押します。"
-
-#: xmodule/js/src/video/08_video_speed_control.js:40
-msgid "Adjust video speed"
-msgstr "動画の速度を調整する"
-
-#: xmodule/js/src/video/08_video_speed_control.js:271
-msgid "Video speed: "
-msgstr "ビデオ速度: "
-
-#: xmodule/js/src/video/09_play_skip_control.js:79
-msgid "Skip"
-msgstr "スキップ"
-
-#: xmodule/js/src/video/09_poster.js:31
-msgid "Play video"
-msgstr "動画を再生"
-
-#: xmodule/js/src/video/09_skip_control.js:33
-msgid "Do not show again"
-msgstr "再表示しない"
-
-#: xmodule/js/src/video/09_video_caption.js:107
-msgid "Open language menu"
-msgstr "言語メニューを開く"
-
-#: xmodule/js/src/video/09_video_caption.js:630
-msgid "Transcript will be displayed when you start playing the video."
-msgstr "ビデオを再生すると、トランスクリプトが表示されます。"
-
-#: xmodule/js/src/video/09_video_caption.js:878
-msgid ""
-"Activating a link in this group will skip to the corresponding point in the "
-"video."
-msgstr "このグループのリンクをアクティブにすると、ビデオの対応するポイントにスキップします。"
-
-#: xmodule/js/src/video/09_video_caption.js:881
-msgid "Video transcript"
-msgstr "ビデオトランスクリプト"
-
-#: xmodule/js/src/video/09_video_caption.js:884
-msgid "Start of transcript. Skip to the end."
-msgstr "トランスクリプトの開始。最後までスキップ。"
-
-#: xmodule/js/src/video/09_video_caption.js:888
-msgid "End of transcript. Skip to the start."
-msgstr "トランスクリプトの終了。最初にスキップ。"
-
-#: xmodule/js/src/video/09_video_caption.js:892
-msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
-" keys to navigate language options. Press ENTER to change to the selected "
-"language."
-msgstr ""
-"言語メニューに入るにはUP矢印キーを押し、言語オプションをナビゲートするにはUPおよびDOWN矢印キーを使用します。選択した言語に変更するにはENTERを押します。"
-
-#: xmodule/js/src/video/09_video_caption.js:1248
-msgid "Hide closed captions"
-msgstr "字幕を非表示"
-
-#: xmodule/js/src/video/09_video_caption.js:1266
-msgid "(Caption will be displayed when you start playing the video.)"
-msgstr "(ビデオの再生を開始するとキャプションが表示されます。)"
-
-#: xmodule/js/src/video/09_video_caption.js:1273
-msgid "Turn on closed captioning"
-msgstr "字幕をオンにする"
-
-#: xmodule/js/src/video/09_video_caption.js:1381
-msgid "Turn on transcripts"
-msgstr "トランスクリプトをオンにする"
-
-#: xmodule/js/src/video/09_video_caption.js:1396
-msgid "Turn off transcripts"
-msgstr "トランスクリプトをオフにする"
 
 #: cms/templates/js/access-editor.underscore:3
 msgid "Limit Access"
@@ -6927,6 +6897,12 @@ msgstr "将来リリースされるコンテンツへの未公開の変更"
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr "このユニットへのアクセスは、次のグループに制限されています: {selectedGroupsLabel}"
 
+#: cms/templates/js/course-outline.underscore:92
+msgid ""
+"Access to some content in this unit is restricted to specific groups of "
+"learners"
+msgstr "このユニットの一部のコンテンツへのアクセスは、特定の学習者グループに制限されています"
+
 #: cms/templates/js/course-outline.underscore:97
 msgid "Ungraded"
 msgstr "未採点"
@@ -7319,32 +7295,6 @@ msgstr "PDFをアップロード"
 msgid "delete chapter"
 msgstr "章を削除"
 
-#: cms/templates/js/edit-textbook.underscore:10
-msgid "Textbook information"
-msgstr "教科書情報"
-
-#: cms/templates/js/edit-textbook.underscore:12
-msgid "Textbook Name"
-msgstr "教科書名"
-
-#: cms/templates/js/edit-textbook.underscore:13
-msgid "Introduction to Cookie Baking"
-msgstr "クッキー作りの入門"
-
-#: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
-msgstr "教科書のタイトル／名前を、学生が見ることを想定して提供してください。"
-
-#: cms/templates/js/edit-textbook.underscore:18
-msgid "Chapter information"
-msgstr "章情報"
-
-#: cms/templates/js/edit-textbook.underscore:21
-msgid "Add a Chapter"
-msgstr "章を追加"
-
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "タイトルを編集"
@@ -7511,6 +7461,10 @@ msgid ""
 "pages within your course:"
 msgstr "コース内のコースウェアページの下部に次のメッセージが表示されます。"
 
+#: cms/templates/js/license-selector.underscore:101
+msgid "Creative Commons licensed content, with terms as follow:"
+msgstr "クリエイティブ・コモンズ・ライセンスのコンテンツ、使用条件は次の通りです。"
+
 #: cms/templates/js/license-selector.underscore:105
 msgid "Some Rights Reserved"
 msgstr "一部の権利を留保"
@@ -7563,14 +7517,6 @@ msgstr "現在地"
 #: cms/templates/js/move-xblock-list.underscore:41
 msgid "Currently selected"
 msgstr "現在選択中"
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "You haven't added any textbooks to this course yet."
-msgstr "このコースにはまだ教科書が追加されていません。"
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "Add your first textbook"
-msgstr "最初の教科書を追加"
 
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
@@ -7807,13 +7753,19 @@ msgid ""
 " when they submit answers to assessments."
 msgstr "サブセクションに期限がない場合、学習者は評価に対する回答を提出するときに常にスコアを確認できます。"
 
-#: cms/templates/js/show-textbook.underscore:12
-msgid "PDF Chapters"
-msgstr "PDF章"
+#: cms/templates/js/show-correctness-editor.underscore:40
+msgid ""
+"Never show individual assessment results, but show overall assessment "
+"results after due date"
+msgstr "個別の評価結果は表示せず、締切日後に全体の評価結果を表示する"
 
-#: cms/templates/js/show-textbook.underscore:37
-msgid "View Live"
-msgstr "ライブ表示"
+#: cms/templates/js/show-correctness-editor.underscore:43
+msgid ""
+"Learners do not see question-level correctness or scores before or after the"
+" due date. However, once the due date passes, they can see their overall "
+"score for the subsection on the Progress page."
+msgstr ""
+"学習者は、締切日以前または以降に問題レベルの正誤やスコアを確認することはできません。しかし、締切日を過ぎると、進捗ページで小節の総合スコアを確認することができます。"
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -8525,6 +8477,10 @@ msgstr "回答済みの質問"
 #: common/static/common/templates/discussion/templates.underscore:313
 msgid "unanswered question"
 msgstr "未回答の質問"
+
+#: common/static/common/templates/discussion/templates.underscore:337
+msgid "Following"
+msgstr "フォロー中"
 
 #: common/static/common/templates/discussion/templates.underscore:351
 msgid "Community TA"
@@ -9306,6 +9262,11 @@ msgstr "例外が認められました"
 msgid "Certificate Generated"
 msgstr "証明書が生成されました"
 
+#: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:24
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:31
+msgid "Notes"
+msgstr "メモ"
+
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:37
 msgid "Remove from List"
 msgstr "リストから削除"
@@ -9346,6 +9307,10 @@ msgstr "証明書を無効にする"
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
 msgid "Student"
 msgstr "受講者"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+msgid "Invalidated By"
+msgstr "無効化したユーザー"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:30
 msgid "Invalidated"

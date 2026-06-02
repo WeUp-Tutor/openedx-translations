@@ -1,7 +1,7 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2026
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2023-05-19 00:50+0000\n"
 "Last-Translator: Lasha Kokilashvili, 2026\n"
 "Language-Team: Georgian (https://app.transifex.com/open-edx/teams/6205/ka/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,14 @@ msgstr ""
 #: models.py:39
 msgid "Display Correctness?"
 msgstr "გაჩვენოთ სწორია თუ არა?"
+
+#: models.py:41
+msgid ""
+"This is a flag that indicates if the indicator icon should be displayed "
+"after a student enters their response"
+msgstr ""
+"ეს არის დროშა, რომელიც მიუთითებს, უნდა გამოჩნდეს თუ არა ინდიკატორის ხატულა "
+"სტუდენტის მიერ პასუხის შეყვანის შემდეგ."
 
 #: models.py:49
 msgid "Display Other Student Responses"

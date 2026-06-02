@@ -17,7 +17,7 @@
   "record.table.header.letter.grade": "Nota e shkronjave",
   "record.table.header.verified.attempts": "Përpjekje të verifikuara",
   "record.table.header.date.earned": "Data e Fitimit",
-  "record.table.header.status": "Statusi",
+  "record.table.header.status": "Status",
   "no.public.record.link": "Nuk ka asnjë shembull publik për këtë regjistrim. Nxënësit duhet të krijojnë vetë një lidhje publike.",
   "no.records.found": "Nuk u gjetën rezultate për emrin e përdoruesit",
   "supportTools.accountActions.cancelRetirement": "Kjo do të anulojë daljen në pension për përdoruesin e kërkuar. Dëshironi të vazhdoni?",

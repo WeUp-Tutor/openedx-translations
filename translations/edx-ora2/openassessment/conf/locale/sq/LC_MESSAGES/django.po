@@ -5,16 +5,16 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
+# Transifex Bot <>, 2025
 # Brian Smith, 2025
-# Omar Al-Ithawi <i@omardo.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
+"POT-Creation-Date: 2025-12-07 00:38+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Albanian (https://app.transifex.com/open-edx/teams/6205/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -974,7 +974,7 @@ msgstr "Vlerësimet e përgjigjes suaj"
 #: templates/legacy/self/oa_self_closed.html:30
 #: templates/legacy/student_training/student_training_closed.html:27
 msgid "Status"
-msgstr "Statusi"
+msgstr "Status"
 
 #: templates/legacy/grade/oa_grade_complete.html:65
 msgid "Overall Grade"
@@ -1182,6 +1182,14 @@ msgid ""
 msgstr ""
 "Ju e keni përfunduar këtë detyrë. Nota juaj përfundimtare do të jetë e "
 "disponueshme kur të përfundojnë vlerësimet e përgjigjes suaj."
+
+#: templates/legacy/message/oa_message_complete.html:10
+msgid ""
+"You have completed this assignment. Review your grade and your assessment "
+"details."
+msgstr ""
+"Ju e keni përfunduar këtë detyrë. Rishikoni notën tuaj dhe detajet e "
+"vlerësimit tuaj."
 
 #: templates/legacy/message/oa_message_incomplete.html:9
 msgid ""
@@ -1480,7 +1488,7 @@ msgstr ""
 
 #: templates/legacy/peer/oa_peer_complete.html:13
 msgid "Completed"
-msgstr "E përfunduar"
+msgstr "Kompletuar"
 
 #: templates/legacy/peer/oa_peer_complete.html:31
 #: templates/legacy/peer/oa_peer_turbo_mode.html:41
@@ -1913,7 +1921,7 @@ msgstr ""
 #: templates/legacy/self/oa_self_complete.html:18
 #: templates/legacy/student_training/student_training_complete.html:17
 msgid "Complete"
-msgstr "E plotësuar"
+msgstr "Plotësuar"
 
 #: templates/legacy/response/oa_response_graded.html:30
 #: templates/legacy/response/oa_response_submitted.html:51
@@ -2113,7 +2121,7 @@ msgstr "Nxënës aktivë në hap"
 
 #: templates/legacy/staff_area/oa_staff_area.html:113
 msgid "Dates"
-msgstr "Data"
+msgstr "Datë"
 
 #: templates/legacy/staff_area/oa_staff_area.html:118
 msgid "Release Date"
@@ -2817,6 +2825,16 @@ msgstr "Dorëzimi nuk u gjet"
 #: xblock/staff_area_mixin.py:725
 msgid "Submission for team assignment has no associated team submission"
 msgstr "Dorëzimi për caktimin e ekipit nuk ka asnjë dorëzim ekipor"
+
+#: xblock/staff_area_mixin.py:754
+msgid ""
+"The learner submission has been removed from peer assessment. The learner "
+"receives a grade of zero unless you delete the learner's state for the "
+"problem to allow them to resubmit a response."
+msgstr ""
+"Paraqitja e nxënësit është hequr nga vlerësimi i kolegëve. Nxënësi merr një "
+"notë zero nëse nuk e fshini gjendjen e nxënësit për problemin për t&#39;i "
+"lejuar ata të riparaqisin një përgjigje."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""

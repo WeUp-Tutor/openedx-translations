@@ -4,19 +4,27 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Brian Smith, 2025
+# Transifex Bot <>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:38+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Polish (https://app.transifex.com/open-edx/teams/301281/pl/)\n"
+"POT-Creation-Date: 2026-03-10 00:42+0000\n"
+"PO-Revision-Date: 2026-03-10 01:26+0000\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
+"Language-Team: Polish (https://app.transifex.com/open-edx/teams/6205/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: channel/braze.py:105 channel/sailthru.py:172
+msgid "Unsubscribe from this list"
+msgstr "Wypisz się z tej listy"
+
+#: channel/sailthru.py:169
+msgid "View on Web"
+msgstr "Zobacz w internecie"

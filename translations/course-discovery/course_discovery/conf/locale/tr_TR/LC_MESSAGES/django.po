@@ -5,16 +5,19 @@
 # 
 # Translators:
 # Translators:
-# Brian Smith, 2025
+# Nathan Robertson, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Gerardo Núñez, 2026
 # Ali Işıngör <ali@artistanbul.io>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:32+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2026\n"
+"POT-Creation-Date: 2026-05-20 01:05+0000\n"
+"PO-Revision-Date: 2023-01-26 15:39+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/open-edx/teams/6205/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,7 +194,7 @@ msgstr ""
 "Ders düzenleme başarısız oldu. Ders URL yolu \"[{url_slug}]\" zaten "
 "kullanımda. Lütfen bu alanı güncelleyin ve tekrar deneyin."
 
-#: apps/api/views.py:58
+#: apps/api/views.py:57
 msgid "You are not permitted to access the API documentation."
 msgstr "API belgelerine erişim izniniz bulunmamaktadır."
 
@@ -669,6 +672,36 @@ msgstr "Özel B2B Kurumsal"
 msgid "Custom B2C"
 msgstr "Özel B2C"
 
+#: apps/course_metadata/data_loaders/course_type.py:27
+#, python-brace-format
+msgid ""
+"Existing course type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
+msgstr ""
+"{key} ( {id} ) için mevcut ders türü {type} , kendi yetkileriyle eşleşmiyor."
+
+#: apps/course_metadata/data_loaders/course_type.py:61
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match course type "
+"{type}.Skipping type."
+msgstr ""
+"{key} ({id}) için mevcut çalıştırma türü {run_type}, {type} kurs türüyle "
+"eşleşmiyor. Atlama türü."
+
+#: apps/course_metadata/data_loaders/course_type.py:75
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match its own seats."
+msgstr ""
+"{key} ( {id} ) için mevcut çalışma türü {run_type} kendi koltuklarıyla "
+"eşleşmiyor."
+
+#: apps/course_metadata/data_loaders/course_type.py:91
+#, python-brace-format
+msgid "Course {key} ({id}) matched type {type}"
+msgstr "Ders {key} ({id}) tür {type} ile eşleşti"
+
 #: apps/course_metadata/data_loaders/course_type.py:101
 #, python-brace-format
 msgid "Could not convert course {key} ({id}) to type {type}"
@@ -818,9 +851,17 @@ msgstr "İş ortağı için kısakod."
 msgid "UUID"
 msgstr "UUID"
 
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:22
+msgid "Course to backpopulate."
+msgstr "Geri doldurma dersi."
+
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
 msgstr "ANAHTAR"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:29
+msgid "Organization to backpopulate."
+msgstr "Geri doldurulacak kuruluş."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:35
 msgid ""
@@ -861,6 +902,13 @@ msgstr "Sağlanan Ders Türü bilgisi [{ct_slug}] mevcut değil."
 msgid "No courses found. Did you specify an argument?"
 msgstr "Ders bulunamadı. Bir argüman belirttiniz mi?"
 
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:101
+#, python-brace-format
+msgid ""
+"Could not backpopulate a course type for the following courses: "
+"{course_keys}"
+msgstr "Aşağıdaki dersler için ders türü geri doldurulamadı: {course_keys}"
+
 #: apps/course_metadata/management/commands/delete_person_dups.py:21
 msgid "Delete duplicate persons in course_metadata."
 msgstr "course_metadata içindeki mükerrer kişileri sil."
@@ -885,6 +933,16 @@ msgstr ""
 "Komut satırı yerine DeletePersonDupsConfig modelindeki bağımsız değişkenleri"
 " kullanın."
 
+#: apps/course_metadata/management/commands/delete_person_dups.py:60
+msgid "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
+msgstr ""
+"Hatalı biçimlendirilmiş bağımsız değişken \"{}\", UUID:TARGET_UUID biçiminde"
+" olmalıdır"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:62
+msgid "Malformed argument \"{}\", UUIDs cannot be equal"
+msgstr "Hatalı biçimlendirilmiş argüman \"{}\", UUIDler aynı olamaz"
+
 #: apps/course_metadata/management/commands/delete_person_dups.py:85
 msgid "Deleting"
 msgstr "Siliniyor"
@@ -896,6 +954,10 @@ msgstr "Silinir"
 #: apps/course_metadata/management/commands/delete_person_dups.py:86
 msgid "Name"
 msgstr "İsim"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:87
+msgid "Endorsements"
+msgstr "Onaylar"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:88
 msgid "Programs"
@@ -944,6 +1006,14 @@ msgstr "Tüm derslere olan yönlendirmeleri kaldır"
 msgid "Redirects to remove"
 msgstr "Silinecek olan yönlendirmeler"
 
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:25
+msgid ""
+"Use arguments from the RemoveRedirectsConfig model instead of the command "
+"line."
+msgstr ""
+"Komut satırı yerine RemoveRedirectsConfig modelindeki bağımsız değişkenleri "
+"kullanın."
+
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:32
 msgid "Invalid arguments"
 msgstr "Geçersiz argümanlar"
@@ -975,7 +1045,7 @@ msgstr "{key} dersinde başarıyla yayından kaldırılan çalıştırmalar"
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:53
 #, python-brace-format
 msgid "Failed to unpublish runs in course {key}"
-msgstr "{key} ders yayınları yayından kaldırılamadı"
+msgstr "{key} dersindeki çalıştırmaları yayından kaldıramadık."
 
 #: apps/course_metadata/models.py:239
 msgid ""
@@ -1062,6 +1132,17 @@ msgstr "Harici bir ürün kaynağındaki ilgili kurum kodu"
 msgid "LevelType model translations"
 msgstr "LevelType model çevirileri"
 
+#: apps/course_metadata/models.py:475
+msgid ""
+"Seat types that qualify for completion of programs of this type. Learners "
+"completing associated courses, but enrolled in other seat types, will NOT "
+"have their completion of the course counted toward the completion of the "
+"program."
+msgstr ""
+"Bu tür programların tamamlanmasına uygun koltuk türleri. İlgili dersleri "
+"tamamlayan ancak diğer koltuk türlerine kayıtlı olan öğrencilerin dersi "
+"tamamlamaları, programın tamamlanmasına dahil olmayacaktır."
+
 #: apps/course_metadata/models.py:489
 msgid "Please provide an image file with transparent background"
 msgstr "Lütfen şeffaf arkaplanlı bir görüntü dosyası sağlayın"
@@ -1121,6 +1202,14 @@ msgid ""
 msgstr ""
 "Tüm kurumlara izin vermek için bunu boş bırakın. Aksi takdirde, Publisher'da"
 " bu ders türünü hangi kurumların görebileceğini belirtir."
+
+#: apps/course_metadata/models.py:732
+msgid "Subject model translations"
+msgstr "Konu modeli çevirileri"
+
+#: apps/course_metadata/models.py:779
+msgid "Topic model translations"
+msgstr "Konu modeli çevirileri"
 
 #: apps/course_metadata/models.py:846
 msgid "SEO Meta tags for Products"
@@ -1823,9 +1912,18 @@ msgstr "Maliyetin ne için olduğunu açıklar (ör. Okul harçı)"
 msgid "String-based field stating how much the cost is (e.g. $1000)."
 msgstr "Maliyetin ne kadar olduğunu belirten dizge tabanlı alan (örn. 1000$)."
 
+#: apps/course_metadata/models.py:4435
+msgid ""
+"A high-level overview of the degree's courseware. The \"brief\"\n"
+"            text is the first 750 characters of \"marketing_text\" and must be\n"
+"            valid HTML."
+msgstr ""
+"Derecenin eğitim yazılımına üst düzey bir genel bakış. \"Kısa\"  \n"
+"metin, \"pazarlama_metni\"nin ilk 750 karakteridir ve geçerli HTML'dir."
+
 #: apps/course_metadata/models.py:4443
 msgid "A high-level overview of the degree's courseware."
-msgstr "Lisans programının ders içeriğine ilişkin üst düzey bir genel bakış."
+msgstr "Derecenin eğitim yazılımına üst düzey bir genel bakış."
 
 #: apps/course_metadata/models.py:4568
 msgid "Organization name"
@@ -1833,7 +1931,7 @@ msgstr "Kurum adı"
 
 #: apps/course_metadata/models.py:4595
 msgid "These programs are for a different partner than the pathway itself: {}"
-msgstr "Bu programlar, patikanın kendisinden farklı bir iş ortağı içindir: {}"
+msgstr "Bu programlar, yolun kendisinden farklı bir iş ortağı içindir: {}"
 
 #: apps/course_metadata/models.py:4622
 msgid "Facebook"
@@ -1850,6 +1948,24 @@ msgstr "Blog"
 #: apps/course_metadata/models.py:4625
 msgid "Others"
 msgstr "Diğerleri"
+
+#: apps/course_metadata/models.py:4685
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url slug {url_slug}"
+msgstr ""
+"İş ortağı {partner_key} ve kurs ortağı {course_partner_key} , {url_slug} url"
+" bilgisini kaydetmeye çalışırken eşleşmiyor"
+
+#: apps/course_metadata/models.py:4705
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url redirect {url_path}"
+msgstr ""
+"{partner_key} ortağı ve {course_partner_key} ders ortağı, {url_path} URL "
+"yönlendirmesini kaydetmeye çalışırken eşleşmiyor"
 
 #: apps/course_metadata/models.py:4726
 msgid "It expects the data will be provided in a csv file format "
@@ -2011,21 +2127,36 @@ msgstr ""
 "%(user_name)s %(time)s adresinde %(course_name)s %(date)s hakkında aşağıdaki"
 " yorumu yaptı"
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:7
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:8
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
 msgid "Hi Course Team,"
 msgstr "Merhaba Ders Ekibi,"
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:16
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:20
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
 msgid ""
-"To ensure uninterrupted learner access and enrollment, please take one of "
-"the following actions:"
+"If no action is taken, the course will be automatically archived after this "
+"date. If you decide not to extend the course or create a new run at this "
+"time, please inform your dedicated Project Coordinator and share your plans."
+" This helps ensure our internal teams remain aligned and can support you "
+"effectively."
 msgstr ""
-"Öğrenci erişim ve kayıt işlemlerinin kesintisiz bir şekilde gerçekleşmesi "
-"için lütfen aşağıdaki işlemlerden birini gerçekleştiriniz:"
+"Herhangi bir işlem yapılmazsa, Ders bu tarihten sonra otomatik olarak "
+"arşivlenecektir. Bu süre zarfında Dersi uzatmama veya yeni bir dönem açmama "
+"kararı alırsanız, lütfen Proje Koordinatörünüzü bilgilendirin ve "
+"planlarınızı paylaşın. Bu, dahili ekiplerimizin uyumlu kalmasına ve size "
+"etkili bir şekilde destek olmasına yardımcı olur."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:24
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:12
+msgid ""
+"To ensure a smooth experience for our edX Learners, please take one of the "
+"following actions:"
+msgstr ""
+"edX Öğrencilerimiz için sorunsuz bir deneyim sağlamak amacıyla lütfen "
+"aşağıdaki eylemlerden birini gerçekleştirin:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:23
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
@@ -2038,61 +2169,180 @@ msgstr ""
 "sağlamak için iki seçeneğiniz mevcut:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:21
-msgid ""
-"Extend the current course run’s end date if the same course is meant to "
-"remain available."
-msgstr ""
-"Bu dersin yayını uzatılmak isteniyorsa, mevcut dersin bitiş tarihini uzatın."
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:62
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:95
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:14
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:48
+msgid "Create a New Course Run:"
+msgstr "Yeni Bir Ders Dönemi Oluştur:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:22
-msgid ""
-"Create a new course run if you are planning to offer this course again with "
-"updated content, pacing, or a new cohort of learners."
-msgstr ""
-"Bu dersi güncellenmiş içerik, öğrenme yöntemi veya yeni bir öğrenci "
-"kohortuna tekrar sunmayı planlıyorsanız, yeni bir ders yayını oluşturun."
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:64
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:97
+msgid "You can get started"
+msgstr "Başlayabilirsiniz"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
-msgid "Visit the Course in Publisher"
-msgstr "Dersi Publisher içinde göster"
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:39
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:65
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:72
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:98
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:105
+msgid "here"
+msgstr "burada"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:36
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:69
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:102
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:35
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:51
+msgid "Extend the Course End Date:"
+msgstr "Ders Bitiş Tarihini Uzatın:"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
-msgid "You can review and modify the course end settings here:"
-msgstr "Ders sonu ayarlarını buradan inceleyebilir ve değiştirebilirsiniz:"
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:70
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:103
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:19
+msgid ""
+"If the content is still relevant, you can extend the course end date in "
+"Studio."
+msgstr "İçerik hala güncelse, Studio'da ders bitiş tarihini uzatabilirsiniz."
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:41
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:46
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:24
 #, python-format
 msgid ""
 "\n"
-"        If no action is taken, the course will no longer be available for enrollment or access by learners on \n"
-"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> after the end date.\n"
-"        "
+"Our records indicate that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in 7 days on %(course_end_date)s. Despite previous reminders, we’ve noticed that no action has been taken yet.\n"
 msgstr ""
 "\n"
-"        Herhangi bir işlem yapılmadığı takdirde, bitiş tarihinden sonra \n"
-"       <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> adresi öğrenciler tarafından  derse kayıt veya erişim için kullanılamayacak. \n"
-"   "
+"Kayıtlarımıza göre \"%(course_name)s\" adlı Dersin (Ders Anahtarı: %(course_key)s) 7 gün içinde, yani %(course_end_date)s tarihinde sona ermesi planlanmaktadır. Daha önceki hatırlatmalara rağmen henüz herhangi bir işlem yapılmadığını fark ettik.\n"
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
-msgid "Thanks"
-msgstr "Teşekkürler"
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:52
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:85
+msgid "Important:"
+msgstr "Önemli:"
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
-msgid "Visit the Course in Publisher:"
-msgstr "Dersi Publisher içinde görüntüleyin:"
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:53
+msgid ""
+"If no action is taken, the course will be automatically archived after the "
+"current end date. If you choose not to extend or create a new course run at "
+"this time, you must inform your dedicated Project Coordinator with your "
+"reasons. This will ensure our internal teams are properly informed about "
+"your plans."
+msgstr ""
+"Herhangi bir işlem yapılmazsa, Ders mevcut bitiş tarihinden sonra otomatik "
+"olarak arşivlenecektir. Bu aşamada Dersi uzatmamayı veya yeni bir Ders "
+"dönemi oluşturmamayı seçerseniz, nedenlerinizle birlikte ilgili Proje "
+"Koordinatörünüzü bilgilendirmeniz gerekmektedir. Bu, dahili ekiplerimizin "
+"planlarınız hakkında doğru şekilde bilgilendirilmesini sağlayacaktır."
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:57
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:30
+msgid ""
+"To prevent disruption to learner access, please choose one of the following "
+"options:"
+msgstr ""
+"Öğrencilerin erişiminde aksaklık yaşanmaması için lütfen aşağıdaki "
+"seçeneklerden birini belirleyin:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:79
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:40
 #, python-format
 msgid ""
 "\n"
-"If no action is taken, the course will no longer be available for enrollment or access by learners on %(partner_marketing_site_url)s after the end date.\n"
+"Our records show that the course \"%(course_name)s\" (Course Key: %(course_key)s) officially ended on %(course_end_date)s and has now entered the archived state. Despite our previous reminders, it appears no action has been taken yet.\n"
 msgstr ""
 "\n"
-"Herhangi bir işlem yapılmadığı takdirde, bitiş tarihinden sonra ders %(partner_marketing_site_url)s adresindeki öğrenciler tarafından kayıt veya erişime kapatılacaktır.\n"
+"Kayıtlarımıza göre \"%(course_name)s\" adlı Ders (Ders Anahtarı: %(course_key)s) resmi olarak %(course_end_date)s tarihinde sona ermiş ve arşivlenmiş duruma geçmiştir. Önceki hatırlatmalarımıza rağmen henüz herhangi bir işlem yapılmadığı görülmektedir.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:86
+msgid ""
+"If you decide not to extend the course or create a new course run at this "
+"time, you must inform your dedicated Project Coordinator with the reasons "
+"behind this. This will help ensure our internal teams are fully updated on "
+"your plans for the course."
+msgstr ""
+"Bu aşamada Dersi uzatmama veya yeni bir Ders dönemi oluşturmama kararı "
+"alırsanız, bunun nedenlerini ilgili Proje Koordinatörünüze bildirmelisiniz. "
+"Bu, dahili ekiplerimizin Dersle ilgili planlarınız hakkında tam olarak bilgi"
+" sahibi olmasını sağlayacaktır."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:112
+msgid "NOTE:"
+msgstr "NOT:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:113
+msgid ""
+"This email address isn’t monitored for replies. If you have any questions or"
+" need assistance, please reach out to your dedicated Project Coordinator."
+msgstr ""
+"Bu e-posta adresi yanıtlar için izlenmemektedir. Herhangi bir sorunuz varsa "
+"veya yardıma ihtiyacınız olursa lütfen Proje Koordinatörünüzle iletişime "
+"geçin."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:117
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:58
+msgid "Thank you for your attention to this—looking forward to your updates!"
+msgstr "İlginiz için teşekkür ederiz; güncellemelerinizi bekliyoruz!"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:121
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:60
+msgid "Best,"
+msgstr "En iyi dileklerimizle,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:122
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:61
+msgid "edX Operational Team"
+msgstr "edX Operasyon Ekibi"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid "You can get started here:"
+msgstr "Buradan başlayabilirsiniz:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:20
+msgid "Simply visit the Schedule and Details tab here:"
+msgstr ""
+"Bunun için buradaki Takvim ve Ayrıntılar sekmesini ziyaret etmeniz "
+"yeterlidir:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:28
+msgid ""
+"Important: If no action is taken, the course will be automatically archived "
+"after the current end date. If you choose not to extend or create a new "
+"course run at this time, you must inform your dedicated Project Coordinator "
+"with your reasons. This will ensure our internal teams are properly informed"
+" about your plans."
+msgstr ""
+"Önemli: Herhangi bir işlem yapılmazsa, Ders mevcut bitiş tarihinden sonra "
+"otomatik olarak arşivlenecektir. Bu aşamada Dersi uzatmamayı veya yeni bir "
+"Ders dönemi oluşturmamayı seçerseniz, nedenlerinizi özel Proje "
+"Koordinatörünüze bildirmelisiniz. Bu, dahili ekiplerimizin planlarınız "
+"hakkında doğru şekilde bilgilendirilmesini sağlayacaktır."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:44
+msgid ""
+"Important: If you decide not to extend the course or create a new course run"
+" at this time, you must inform your dedicated Project Coordinator with the "
+"reasons behind this. This will help ensure our internal teams are fully "
+"updated on your plans for the course."
+msgstr ""
+"Önemli: Bu aşamada Dersi uzatmama veya yeni bir Ders dönemi oluşturmama "
+"kararı alırsanız, bunun nedenlerini ilgili Proje Koordinatörünüze "
+"bildirmeniz gerekmektedir. Bu, dahili ekiplerimizin Dersle ilgili "
+"planlarınız hakkında tam olarak bilgi sahibi olmasını sağlayacaktır."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:56
+msgid ""
+"NOTE: This email address isn’t monitored for replies. If you have any "
+"questions or need assistance, please reach out to your dedicated Project "
+"Coordinator."
+msgstr ""
+"NOT: Bu e-posta adresi yanıtlar için izlenmemektedir. Herhangi bir sorunuz "
+"varsa veya yardıma ihtiyacınız olursa lütfen Proje Koordinatörünüzle "
+"iletişime geçin."
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
@@ -2142,10 +2392,10 @@ msgid ""
 "{link_start}{course_page_url}{link_middle}View this course run in "
 "Publisher{link_end} to review the changes and mark it as reviewed."
 msgstr ""
-"{org_name} {course_key} dersini incelemeye gönderdi. {link_start} "
-"{course_page_url} {link_middle} Değişiklikleri incelemek ve incelendi olarak"
-" işaretlemek için {link_end} Publisher içinde çalıştırılan bu ders yayınını "
-"görüntüleyin."
+"{org_name}, {course_key} incelemek üzere gönderdi. "
+"{link_start}{course_page_url}{link_middle}Değişiklikleri incelemek ve "
+"incelendi olarak işaretlemek için bu dersi Publisher'da "
+"görüntüleyin{link_end}."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
 #, python-brace-format
@@ -2197,6 +2447,17 @@ msgstr ""
 "belirlemek için {link_start}{course_page_url}{link_middle}Publisher'da "
 "çalıştırılan bu dersi görüntüleyin{link_end}."
 
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+msgstr ""
+"{org_name} {course_name} dersini incelemeye gönderdi. OFAC durumunu "
+"belirlemek için {link_start}{course_page_url}{link_middle}Publisher'da "
+"çalıştırılan bu dersi görüntüleyin{link_end}."
+
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
 #, python-format
 msgid "%(org_name)s has submitted %(course_name)s for review."
@@ -2224,8 +2485,8 @@ msgid ""
 "run{link_end} of {course_name} has been reviewed and approved by "
 "{platform_name}."
 msgstr ""
-"{link_start}{course_page_url}{link_middle} {course_run_number} "
-"{course_name}{link_end} ders yayını {platform_name} tarafından incelendi ve "
+"{link_start}{course_page_url}{link_middle}{course_run_number} ders "
+"yayını{link_end} {course_name} {platform_name} tarafından incelendi ve "
 "onaylandı."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
@@ -2249,7 +2510,7 @@ msgid ""
 "The %(course_run_number)s course run of %(course_name)s has been reviewed "
 "and approved by %(platform_name)s."
 msgstr ""
-"%(course_name)s %(course_run_number)s ders yayını %(platform_name)s "
+"%(course_name)s dersinin %(course_run_number)s yayını %(platform_name)s "
 "tarafından incelendi ve onaylandı."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
@@ -2277,7 +2538,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"     '%(course_name)s ' dersi edX tarafından başarıyla incelendi ve artık yayına hazır. Ders %(course_publish_date)s tarihinde yayınlanacaktır.\n"
+"     '%(course_name)s ' dersi edX tarafından başarıyla incelendi ve artık yayına hazır. Ders %(course_publish_date)s adresinde yayınlanacaktır.\n"
 "     Ders Hakkında Sayfasının önizlemesini görmek için buraya gidin: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 
@@ -2298,8 +2559,8 @@ msgid ""
 "    To see a preview of the Course About Page, go here: %(course_preview_url)s\n"
 msgstr ""
 "\n"
-"   '%(course_name)s ' dersi edX tarafından başarıyla incelendi ve artık yayına hazır. Ders %(course_publish_date)s tarihinde yayınlanacaktır.\n"
-"    Ders Hakkında Sayfasının önizlemesini görmek için buraya gidin: %(course_preview_url)s\n"
+"   '%(course_name)s' Ders edX tarafından başarıyla incelendi ve artık yayına hazır. Ders %(course_publish_date)s tarihinde yayınlanacaktır.\n"
+"    Hakkında Sayfasının önizlemesini görmek için buraya gidin: %(course_preview_url)s\n"
 
 #: apps/course_metadata/utils.py:391
 msgid "Special characters not allowed in Course Number."

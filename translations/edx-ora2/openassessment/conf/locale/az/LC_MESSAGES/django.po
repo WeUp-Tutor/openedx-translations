@@ -5,14 +5,16 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
+# Transifex Bot <>, 2025
+# Eden Huthmacher, 2025
 # Brian Smith, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"POT-Creation-Date: 2025-11-24 00:36+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Azerbaijani (https://app.transifex.com/open-edx/teams/6205/az/)\n"
 "MIME-Version: 1.0\n"
@@ -2022,7 +2024,7 @@ msgid ""
 msgstr ""
 "\n"
 "               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
-"```           "
+"           "
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45

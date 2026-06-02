@@ -5,16 +5,21 @@
 # 
 # Translators:
 # Translators:
-# Brian Smith, 2025
+# Sarina Canelake <sarina@tcril.org>, 2023
+# Nathan Robertson, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Cecilia Liu, 2024
+# Eden Huthmacher, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:32+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/301281/zh_CN/)\n"
+"POT-Creation-Date: 2026-05-20 01:05+0000\n"
+"PO-Revision-Date: 2023-01-26 15:39+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,6 +122,13 @@ msgstr "无法设置课程运行数据：{}"
 msgid "Can only update status, ofac restrictions, and ofac comment"
 msgstr "只能更新状态、ofac 限制和 ofac 评论"
 
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr "开课时间类型“{course_run_type}”对于此课程类型“{course_type}”无效。"
+
 #: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
 msgstr "课程运行正在审查中。禁用编辑。"
@@ -169,7 +181,7 @@ msgid ""
 "in use. Please update this field and try again."
 msgstr "课程编辑不成功。课程 URL 别名“[{url_slug}]”已被使用。请更新此字段并重试。"
 
-#: apps/api/views.py:58
+#: apps/api/views.py:57
 msgid "You are not permitted to access the API documentation."
 msgstr "您没有权限访问API文档"
 
@@ -410,6 +422,26 @@ msgstr "（保存并继续编辑以创建链接）"
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "成功 %(status)s %(count)d %(items)s。"
 
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "证书"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "路径到学位"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "新手营"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "学士学位"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "硕士"
+
 #: apps/course_metadata/algolia_models.py:116
 #: apps/course_metadata/algolia_models.py:667
 msgid "Available now"
@@ -497,9 +529,49 @@ msgstr "演示"
 msgid "other"
 msgstr "其他"
 
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "课程创建"
+
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "部分更新"
+
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "课程重播"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "课程编辑器更新"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "等待"
+
 #: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "已认证"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "处理中"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "完成"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "已失败"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "部分完成"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "错误"
 
 #: apps/course_metadata/choices.py:74
 msgid "Honor"
@@ -1297,6 +1369,15 @@ msgstr "完成一门课程开课每周所需要投入的最多小时数"
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "本次开课预计所需周数。"
 
+#: apps/course_metadata/models.py:2329
+msgid ""
+"A JSON dict detailing the available translations and transcriptions for this"
+" run. The dict has two keys: translation_languages and "
+"transcription_languages."
+msgstr ""
+"一份 JSON 字典，详细说明本次运行可用的翻译和转录。该字典有两个键：translation_languages 和 "
+"transcription_languages。"
+
 #: apps/course_metadata/models.py:2336
 msgid "Total number of learners who have enrolled in this course run"
 msgstr "参加本次课程运行的学习者总数"
@@ -1739,6 +1820,10 @@ msgstr ""
 msgid "It expects the data will be provided in a csv file format "
 msgstr "它预计数据将以 csv 文件格式提供 "
 
+#: apps/course_metadata/models.py:4738
+msgid "A csv file containing uuid of the courses to be archived"
+msgstr "包含要存档的课程的 uuid 的 csv 文件"
+
 #: apps/course_metadata/models.py:4752 apps/course_metadata/models.py:4765
 #: apps/course_metadata/models.py:4778 apps/course_metadata/models.py:4813
 #: apps/course_metadata/models.py:4826 apps/course_metadata/models.py:4845
@@ -1792,6 +1877,34 @@ msgstr "从所有已发布的课程 url slugs 添加重定向"
 #: apps/course_metadata/models.py:4979 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
 msgstr "课程uuid"
+
+#: apps/course_metadata/models.py:5044
+msgid "User who uploaded the file"
+msgstr "上传文件的用户"
+
+#: apps/course_metadata/models.py:5049
+msgid "Summary of the task"
+msgstr "任务概要"
+
+#: apps/course_metadata/models.py:5052
+msgid "Task Type"
+msgstr "任务类型"
+
+#: apps/course_metadata/models.py:5055
+msgid "Type of Bulk Task to be performed"
+msgstr "待执行的批量任务类型"
+
+#: apps/course_metadata/models.py:5058
+msgid "Status"
+msgstr "状态"
+
+#: apps/course_metadata/models.py:5061
+msgid "Status of the Bulk Task"
+msgstr "批量任务状态"
+
+#: apps/course_metadata/models.py:5069
+msgid "Identifier of the celery task associated with this bulk task"
+msgstr "与此批量任务关联的 celery 任务的标识符"
 
 #: apps/course_metadata/salesforce.py:78
 msgid "Attempted to query Salesforce with no client for partner={}"
@@ -1856,6 +1969,203 @@ msgid ""
 "%(user_name)s made the following comment on %(course_name)s %(date)s at "
 "%(time)s"
 msgstr "%(user_name)s 在 %(time)s 上对 %(course_name)s %(date)s 发表了以下评论"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:8
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
+msgid "Hi Course Team,"
+msgstr "嗨课程团队，"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:20
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
+msgid ""
+"If no action is taken, the course will be automatically archived after this "
+"date. If you decide not to extend the course or create a new run at this "
+"time, please inform your dedicated Project Coordinator and share your plans."
+" This helps ensure our internal teams remain aligned and can support you "
+"effectively."
+msgstr ""
+"如未採取任何行動，課程將於此日期後自動存檔。如果您決定此時不延長課程或建立新課程，請通知您的專案統籌，並分享您的計劃。這有助於確保我們的內部團隊保持一致，並能有效地支援您。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:24
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:12
+msgid ""
+"To ensure a smooth experience for our edX Learners, please take one of the "
+"following actions:"
+msgstr "為確保 edX 學習者有流暢的體驗，請採取以下其中一項行動："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:62
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:95
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:14
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:48
+msgid "Create a New Course Run:"
+msgstr "建立新課程單元："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:30
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:63
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:96
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:15
+msgid ""
+"Planning to update the content or offer the course to a new cohort? We "
+"recommend setting up a new course run in Publisher."
+msgstr "計劃更新內容或向新一批學員提供課程？我們建議您在 Publisher 中設定新的課程運行。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:64
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:97
+msgid "You can get started"
+msgstr "您可以開始"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:39
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:65
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:72
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:98
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:105
+msgid "here"
+msgstr "此处"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:36
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:69
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:102
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:35
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:51
+msgid "Extend the Course End Date:"
+msgstr "延長課程結束日期："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:70
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:103
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:19
+msgid ""
+"If the content is still relevant, you can extend the course end date in "
+"Studio."
+msgstr "如果內容仍然適用，你可以在 Studio 延長課程結束日期。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:38
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:71
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:104
+msgid "Simply visit the Schedule and Details tab"
+msgstr "只需前往「時間表與詳情」分頁"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:46
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:24
+#, python-format
+msgid ""
+"\n"
+"Our records indicate that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in 7 days on %(course_end_date)s. Despite previous reminders, we’ve noticed that no action has been taken yet.\n"
+msgstr ""
+"\n"
+"我們的記錄顯示，課程「%(course_name)s」（課程編號：%(course_key)s）將於 %(course_end_date)s 結束，距離現在還有 7 天。儘管我們已發出多次提醒，但仍未見任何行動。\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:52
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:85
+msgid "Important:"
+msgstr "重要事項："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:53
+msgid ""
+"If no action is taken, the course will be automatically archived after the "
+"current end date. If you choose not to extend or create a new course run at "
+"this time, you must inform your dedicated Project Coordinator with your "
+"reasons. This will ensure our internal teams are properly informed about "
+"your plans."
+msgstr ""
+"如不採取任何行動，課程將於目前結束日期後自動存檔。如果您此時選擇不延長或建立新的課程運行，您必須向您的專屬項目統籌員說明原因。這將確保我們的內部團隊充分了解您的計劃。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:57
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:30
+msgid ""
+"To prevent disruption to learner access, please choose one of the following "
+"options:"
+msgstr "為免影響學員存取，請選擇以下其中一個選項："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:79
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:40
+#, python-format
+msgid ""
+"\n"
+"Our records show that the course \"%(course_name)s\" (Course Key: %(course_key)s) officially ended on %(course_end_date)s and has now entered the archived state. Despite our previous reminders, it appears no action has been taken yet.\n"
+msgstr ""
+"\n"
+"我们的记录显示，课程“%(course_name)s”（课程密钥：%(course_key)s）已于%(course_end_date)s正式结束，并已进入归档状态。尽管我们之前已多次提醒，但似乎尚未采取任何行动。\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:86
+msgid ""
+"If you decide not to extend the course or create a new course run at this "
+"time, you must inform your dedicated Project Coordinator with the reasons "
+"behind this. This will help ensure our internal teams are fully updated on "
+"your plans for the course."
+msgstr "如果您此時決定不延長課程或建立新的課程運行，您必須告知您的專案統籌員原因。這將有助於確保我們的內部團隊充分了解您對課程的計劃。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:90
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:46
+msgid ""
+"If you wish to keep this course active, please choose one of the following "
+"options:"
+msgstr "如欲保持此課程活躍，請選擇以下其中一個選項："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:112
+msgid "NOTE:"
+msgstr "笔记："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:113
+msgid ""
+"This email address isn’t monitored for replies. If you have any questions or"
+" need assistance, please reach out to your dedicated Project Coordinator."
+msgstr "此電郵地址不設回覆。如有任何疑問或需要協助，請聯絡您的專屬項目統籌。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:117
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:58
+msgid "Thank you for your attention to this—looking forward to your updates!"
+msgstr "感謝您的關注—期待您的最新消息！"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:121
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:60
+msgid "Best,"
+msgstr "最好的，"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:122
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:61
+msgid "edX Operational Team"
+msgstr "edX營運團隊"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid "You can get started here:"
+msgstr "你可以在這裡開始："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:20
+msgid "Simply visit the Schedule and Details tab here:"
+msgstr "只需前往「時間表與詳情」分頁："
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:28
+msgid ""
+"Important: If no action is taken, the course will be automatically archived "
+"after the current end date. If you choose not to extend or create a new "
+"course run at this time, you must inform your dedicated Project Coordinator "
+"with your reasons. This will ensure our internal teams are properly informed"
+" about your plans."
+msgstr ""
+"重要提示：如沒有採取任何行動，課程將在目前結束日期後自動存檔。如果您選擇此時不延長或建立新的課程期，您必須向您的專屬項目統籌員說明原因。這將確保我們的內部團隊充分了解您的計劃。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:44
+msgid ""
+"Important: If you decide not to extend the course or create a new course run"
+" at this time, you must inform your dedicated Project Coordinator with the "
+"reasons behind this. This will help ensure our internal teams are fully "
+"updated on your plans for the course."
+msgstr "重要提示：如果您決定此時不延長課程或不開設新課程，您必須告知您的專屬項目統籌員原因。這將有助於確保我們的內部團隊充分了解您對課程的計劃。"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:56
+msgid ""
+"NOTE: This email address isn’t monitored for replies. If you have any "
+"questions or need assistance, please reach out to your dedicated Project "
+"Coordinator."
+msgstr "請注意：此電郵地址不設回覆。如有任何疑問或需要協助，請聯絡您的專屬項目統籌。"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7

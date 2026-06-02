@@ -1,19 +1,21 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2026
-# Lasha Kokilashvili, 2026
+# Transifex Bot <>, 2026
+# Lasha Kokilashvili <lasha.kokilashvili@gmail.com>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Lasha Kokilashvili, 2026\n"
+"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Georgian (https://app.transifex.com/open-edx/teams/6205/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,390 +51,284 @@ msgid "No valid user id found in endpoint URL"
 msgstr "ენდპოინტის URL-ში მოქმედი მომხმარებლის ID ვერ მოიძებნა"
 
 #: lti_xblock.py:147
-msgid "Configuration on block"
-msgstr "კონფიგურაცია ბლოკზე"
+msgid "New"
+msgstr "ახალი"
 
 #: lti_xblock.py:151
-msgid "Database Configuration"
-msgstr "ბაზის მორგება"
+msgid "Database"
+msgstr "მონაცემთა ბაზა"
 
 #: lti_xblock.py:154
-msgid "Reusable Configuration"
-msgstr "გადასაყენებელი კონფიგურაცია"
+msgid "Existing"
+msgstr "არსებული"
 
 #: lti_xblock.py:262
 msgid "Display Name"
 msgstr "ხილვადი სახელი"
 
-#: lti_xblock.py:268
+#: lti_xblock.py:264
+msgid ""
+"Enter the name learners see for this component. This name may also appear in"
+" reports."
+msgstr ""
+"შეიყვანეთ სახელი, რომელსაც მოსწავლეები ხედავენ ამ კომპონენტისთვის. ეს სახელი"
+" შეიძლება გამოჩნდეს ანგარიშებშიც."
+
+#: lti_xblock.py:267
 msgid "LTI Consumer"
 msgstr "LTI მომხმარებელი"
 
-#: lti_xblock.py:271
-msgid "LTI Application Information"
-msgstr "ინფორმაცია LTI აპლიკაციის შესახებ"
+#: lti_xblock.py:270
+msgid "Data Sharing Notice"
+msgstr "მონაცემთა გაზიარების შეტყობინება"
 
-#: lti_xblock.py:273
+#: lti_xblock.py:272
 msgid ""
-"Enter a description of the third party application. If requesting username "
-"and/or email, use this text box to inform users why their username and/or "
-"email will be forwarded to a third party application."
+"Enter a short notice about the tool. Use this field to explain why learner "
+"data may be shared with it."
 msgstr ""
-"შეიყვანეთ მესამე მხარის აპლიკაციის აღწერა. მომხმარებლის სახელის და/ან "
-"ელფოსტის მოთხოვნის შემთხვევაში, ამ ტექსტური გრაფის გამოყენებით შეატყობინეთ "
-"მომხმარებლებს თუ რატომ გაეგზავნება მესამე მხარის აპლიკაციას მათი "
-"მომხმარებლის სახელი და/ან ელფოსტა."
+"შეიყვანეთ მოკლე შეტყობინება ხელსაწყოს შესახებ. გამოიყენეთ ეს ველი იმის "
+"ასახსნელად, თუ რატომ შეიძლება იყოს მასთან მოსწავლის მონაცემები გაზიარებული."
 
-#: lti_xblock.py:281
+#: lti_xblock.py:278
 msgid "Configuration Type"
 msgstr "კონფიგურაციის ტიპი"
 
-#: lti_xblock.py:286
+#: lti_xblock.py:283
 msgid ""
-"Select 'Configuration on block' to configure a new LTI Tool. If the support "
-"staff provided you with a pre-configured LTI reusable Tool ID, "
-"select'Reusable Configuration' and enter it in the text field below."
+"Select 'New' to configure a new LTI Tool. If your admin has provided you "
+"with ID of an existing reusable tool configuration, select 'Existing' and "
+"enter it in the text field on the right."
 msgstr ""
-"ახალი LTI ინსტრუმენტის კონფიგურაციისთვის აირჩიეთ \"ბლოკზე კონფიგურაცია\". თუ"
-" მხარდაჭერის სამსახურმა მოგაწოდათ წინასწარ კონფიგურირებული LTI განმეორებით "
-"გამოყენებადი ინსტრუმენტის ID, აირჩიეთ \"განმეორებით გამოყენებადი "
-"კონფიგურაცია\" და შეიყვანეთ ის ქვემოთ მოცემულ ტექსტურ ველში."
+"აირჩიეთ „ახალი“ ახალი LTI ხელსაწყოს კონფიგურაციისთვის. თუ თქვენმა ადმინმა "
+"მოგაწოდათ არსებული ხელახლა გამოსაყენებელი ხელსაწყოს კონფიგურაციის ID, "
+"აირჩიეთ „არსებული“ და შეიყვანეთ ის მარჯვნივ მდებარე ტექსტურ ველში."
 
-#: lti_xblock.py:293
+#: lti_xblock.py:289
 msgid "LTI Version"
 msgstr "LTI ვერსია"
 
-#: lti_xblock.py:301
+#: lti_xblock.py:297
+msgid "Select the LTI version supported by your tool."
+msgstr "აირჩიეთ LTI ვერსია, რომელსაც თქვენი ხელსაწყო მხარს უჭერს."
+
+#: lti_xblock.py:302
+msgid "LTI Reusability ID"
+msgstr "LTI-ის ხელახალი გამოყენების ID"
+
+#: lti_xblock.py:304
+msgid "Enter the ID of an existing reusable tool configuration."
+msgstr "შეიყვანეთ არსებული ხელსაწყოს კონფიგურაციის ID."
+
+#: lti_xblock.py:309
+msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
+msgstr "Lti 1.3 პასპორტის ID, რომელიც მიუთითებს Lti1p3Passport ცხრილზე"
+
+#: lti_xblock.py:316
+msgid "Launch URL"
+msgstr "გაშვების URL"
+
+#: lti_xblock.py:320
 msgid ""
-"Select the LTI version that your tool supports.<br />The XBlock LTI Consumer"
-" fully supports LTI 1.1.1, LTI 1.3 and LTI Advantage features."
+"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
+"uses to launch the tool."
 msgstr ""
-"აირჩიეთ თქვენი ინსტრუმენტის მიერ მხარდაჭერილი LTI ვერსია.<br />XBlock LTI "
-"Consumer სრულად უჭერს მხარს LTI 1.1.1-ის, LTI 1.3-ისა და LTI Advantage-ის "
-"ფუნქციებს."
-
-#: lti_xblock.py:308
-msgid "LTI Reusable Configuration ID"
-msgstr "LTI-ის მრავალჯერადი გამოყენების კონფიგურაციის ID"
-
-#: lti_xblock.py:310
-msgid ""
-"Enter the reusable LTI external configuration ID provided by the support "
-"staff."
-msgstr ""
-"შეიყვანეთ ხელახლა გამოყენებადი LTI გარე კონფიგურაციის ID, რომელიც "
-"მოწოდებულია მხარდაჭერის სამსახურის მიერ."
-
-#: lti_xblock.py:315
-msgid "Tool Launch URL"
-msgstr "ინსტრუმენტის გაშვების URL"
-
-#: lti_xblock.py:319
-msgid ""
-"Enter the LTI 1.3 Tool Launch URL. <br />This is the URL the LMS will use to"
-" launch the LTI Tool."
-msgstr ""
-"შეიყვანეთ LTI 1.3 ინსტრუმენტის გაშვების URL. <br />ეს არის URL, რომელსაც LMS"
-" გამოიყენებს LTI ინსტრუმენტის გასაშვებად."
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL"
-msgstr "ინსტრუმენტი: ავტორიზაციის URL-ის ინიცირება"
+"შეიყვანეთ ამ ხელსაწყოს გაშვების URL. LTI 1.3-ისთვის ეს არის URL, რომელსაც "
+"Open edX იყენებს ხელსაწყოს გასაშვებად."
 
 #: lti_xblock.py:328
 msgid ""
-"Enter the LTI 1.3 Tool OIDC Authorization url (can also be called login or "
-"login initiation URL).<br />This is the URL the LMS will use to start a LTI "
-"authorization prior to doing the launch request."
+"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
+"the LTI 1.3 login flow."
 msgstr ""
-"შეიყვანეთ LTI 1.3 ინსტრუმენტის OIDC ავთენტიფიკაციის URL (ასევე შეიძლება "
-"ეწოდოს შესვლის ან ავთენტიფიკაციის დაწყების URL).<br />ეს არის URL, რომელსაც "
-"LMS გამოიყენებს LTI ავტორიზაციის დასაწყებად, გაშვების მოთხოვნის გაკეთებამდე."
+"შეიყვანეთ ხელსაწყოს OIDC შესვლის ინიცირების URL. Open edX იყენებს ამ URL-ს "
+"LTI 1.3 შესვლის პროცესის დასაწყებად."
 
-#: lti_xblock.py:334
+#: lti_xblock.py:332
 msgid "Registered Redirect URIs"
 msgstr "რეგისტრირებული გადამისამართების URI-ები"
 
-#: lti_xblock.py:336
+#: lti_xblock.py:334
 msgid ""
-"Valid urls the Tool may request us to redirect the id token to. The redirect"
-" uris are often the same as the launch url/deep linking url so if this field"
-" is empty, it will use them as the default. If you need to use different "
-"redirect uri's, enter them here. If you use this field you must enter all "
-"valid redirect uri's the tool may request."
+"Enter the redirect URIs this tool is allowed to use during login e.g. "
+"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
+"use the launch URL and deep linking URL by default."
 msgstr ""
-"საკუთრების უფლების გადაცემის (redirect) დასაშვები URI-ები, რომლებსაც "
-"ინსტრუმენტი შეიძლება მოგვთხოვოს ID ტოკენის გადასამისამართებლად. "
-"გადამისამართების URI-ები ხშირად იდენტურია გაშვების URI-ს/ღრმა დაბმულობის "
-"URI-ს, ამიტომ, თუ ეს ველი ცარიელია, ისინი გამოიყენება ნაგულისხმევად. თუ "
-"გჭირდებათ სხვადასხვა გადამისამართების URI-ების გამოყენება, შეიყვანეთ ისინი "
-"აქ. თუ ამ ველს იყენებთ, უნდა შეიყვანოთ ყველა დასაშვები გადამისამართების URI,"
-" რომლებსაც ინსტრუმენტი შეიძლება მოითხოვდეს."
+"შეიყვანეთ გადამისამართების URI-ები, რომელთა გამოყენების უფლებაც ამ ხელსაწყოს"
+" აქვს შესვლისას, მაგ., [\"https://tool.com\", "
+"\"https://tool_deeplink.com\"]. დატოვეთ ცარიელი, რათა ნაგულისხმევად "
+"გამოიყენოთ გაშვების URL და ღრმა ბმულის URL."
 
-#: lti_xblock.py:346
+#: lti_xblock.py:342
 msgid "Tool Public Key Mode"
 msgstr "ხელსაწყოს საჯარო გასაღების რეჟიმი"
 
-#: lti_xblock.py:354
-msgid "Select how the tool's public key information will be specified."
+#: lti_xblock.py:350
+msgid ""
+"Choose how Open edX will get the tool’s public key for validating signed "
+"messages."
 msgstr ""
-"აირჩიეთ, თუ როგორ იქნება მითითებული ინსტრუმენტის საჯარო გასაღების "
-"ინფორმაცია."
+"აირჩიეთ, როგორ მიიღებს Open edX ხელსაწყოს საჯარო გასაღებს ხელმოწერილი "
+"შეტყობინებების ვალიდაციისთვის."
 
-#: lti_xblock.py:358
+#: lti_xblock.py:354
 msgid "Tool Keyset URL"
 msgstr "ხელსაწყოთა გასაღების ნაკრების URL"
 
-#: lti_xblock.py:362
+#: lti_xblock.py:358
 msgid ""
-"Enter the LTI 1.3 Tool's JWK keysets URL.<br />This link should retrieve a "
-"JSON file containing public keys and signature algorithm information, so "
-"that the LMS can check if the messages and launch requests received have the"
-" signature from the tool.<br /><b>This is not required when doing LTI 1.3 "
-"Launches without LTI Advantage nor Basic Outcomes requests.</b>"
+"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
+"the public keys needed to validate signed messages."
 msgstr ""
-"შეიყვანეთ LTI 1.3 ინსტრუმენტის JWK გასაღებების ნაკრების URL.<br />ამ ბმულს "
-"უნდა მოჰყვეს JSON ფაილი, რომელიც შეიცავს საჯარო გასაღებებსა და ხელმოწერის "
-"ალგორითმის შესახებ ინფორმაციას, რათა სასწავლო მართვის სისტემამ (LMS) შეძლოს "
-"მიიღოს თუ არა მიღებულ შეტყობინებებსა და გაშვების მოთხოვნებს ინსტრუმენტის "
-"მიერ გაცემული ხელმოწერა.<br /><b>ეს არ არის საჭირო, როდესაც LTI 1.3-ის "
-"გაშვებებს ახორციელებთ LTI Advantage-ის ან საბაზისო შედეგების მოთხოვნების "
-"გარეშე.</b>"
+"შეიყვანეთ ხელსაწყოს JWK გასაღებების ნაკრების URL. Open edX ამ URL-ს იყენებს "
+"ხელმოწერილი შეტყობინებების ვალიდაციისთვის საჭირო საჯარო გასაღებების "
+"მოსაძიებლად."
 
-#: lti_xblock.py:372
+#: lti_xblock.py:363
 msgid "Tool Public Key"
 msgstr "ხელსაწყოს საჯარო გასაღები"
 
-#: lti_xblock.py:377
+#: lti_xblock.py:368
 msgid ""
-"Enter the LTI 1.3 Tool's public key.<br />This is a string that starts with "
-"'-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if "
-"the messages and launch requests received have the signature from the "
-"tool.<br /><b>This is not required when doing LTI 1.3 Launches without LTI "
-"Advantage nor Basic Outcomes requests.</b>"
+"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
+"KEY-----). Use this when the tool provides a static public key directly."
 msgstr ""
-"შეიყვანეთ LTI 1.3 ინსტრუმენტის საჯარო გასაღები.<br />ეს არის სტრიქონი, "
-"რომელიც იწყება '-----BEGIN PUBLIC KEY-----'-ით და საჭიროა, რათა LMS-მა "
-"შეამოწმოს, მიღებულ შეტყობინებებსა და გაშვების მოთხოვნებს ხელსაწყოდან "
-"მოწერილობა აქვს თუ არა.<br /><b>ეს არ არის საჭირო, როდესაც LTI 1.3-ის "
-"გაშვებებს ახორციელებთ LTI Advantage-ის ან Basic Outcomes-ის მოთხოვნების "
-"გარეშე.</b>"
+"შეიყვანეთ ხელსაწყოს საჯარო გასაღები PEM ფორმატში (იწყება -----BEGIN PUBLIC "
+"KEY-----). გამოიყენეთ ეს, როდესაც ხელსაწყო პირდაპირ გთავაზობთ სტატიკურ "
+"საჯარო გასაღებს."
 
-#: lti_xblock.py:387
-msgid "Enable LTI NRPS"
-msgstr "ჩართეთ LTI NRPS"
+#: lti_xblock.py:374
+msgid "Names & Roles (NRPS)"
+msgstr "სახელები და როლები (NRPS)"
 
-#: lti_xblock.py:388
-msgid "Enable LTI Names and Role Provisioning Services."
-msgstr "ჩართეთ LTI სახელებისა და როლების მიწოდების სერვისები."
+#: lti_xblock.py:376
+msgid ""
+"Enable this to allow the tool to access the names and roles of enrolled "
+"learners, if the tool supports NRPS."
+msgstr ""
+"ჩართეთ ეს, რათა ხელსაწყოს მიეცეს საშუალება, წვდომა ჰქონდეს ჩარიცხული "
+"მოსწავლეების სახელებსა და როლებზე, თუ ხელსაწყო მხარს უჭერს NRPS-ს."
 
-#: lti_xblock.py:395
+#: lti_xblock.py:385
 msgid "Deep linking"
 msgstr "ღრმა დაბმულობა"
 
-#: lti_xblock.py:396
-msgid "Select True if you want to enable LTI Advantage Deep Linking."
-msgstr ""
-"აირჩიეთ \"ჭეშმარიტი\", თუ გსურთ LTI Advantage-ის ღრმა ბმულების ფუნქციის "
-"ჩართვა."
-
-#: lti_xblock.py:401
+#: lti_xblock.py:393
 msgid "Deep Linking Launch URL"
 msgstr "ღრმა ბმულის საწყისი URL"
 
-#: lti_xblock.py:405
+#: lti_xblock.py:397
 msgid ""
-"Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
-"specify one, use the same value as 'Tool Launch URL'."
+"Enter the deep linking URL for this tool. If the tool does not specify one, "
+"enter the 'Launch URL' here."
 msgstr ""
-"შეიყვანეთ LTI Advantage-ის Deep Linking-ის გაშვების URL. თუ ინსტრუმენტი არ "
-"მიუთითებს, გამოიყენეთ იგივე მნიშვნელობა, რაც \"ინსტრუმენტის გაშვების "
-"URL\"-ისთვის."
+"შეიყვანეთ ამ ხელსაწყოს ღრმა ბმულის URL. თუ ხელსაწყო არ აკონკრეტებს მას, "
+"შეიყვანეთ „გაშვების URL“ აქ."
 
-#: lti_xblock.py:410
-msgid "LTI Assignment and Grades Service"
-msgstr "LTI დავალებებისა და ქულების სერვისი"
+#: lti_xblock.py:401
+msgid "Assignment and Grades"
+msgstr "დავალება და შეფასებები"
 
-#: lti_xblock.py:412
+#: lti_xblock.py:403
+msgid "Declarative"
+msgstr "დეკლარაციული"
+
+#: lti_xblock.py:404
+msgid "Programmatic"
+msgstr "პროგრამული"
+
+#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
+#: templates/html/lti_studio_edit/_step_advantage.html:114
+#: templates/html/lti_studio_edit/_step_review.html:97
+#: templates/html/lti_studio_edit/_step_review.html:218
 msgid "Disabled"
 msgstr "გამორთულია"
 
-#: lti_xblock.py:413
-msgid "Allow tools to submit grades only (declarative)"
-msgstr ""
-"ნებართვა მიეცით ინსტრუმენტებს მხოლოდ შეფასებების წარსადგენად (დეკლარაციული)"
+#: lti_xblock.py:417
+msgid "LTI Passport ID"
+msgstr "LTI პასპორტის ID"
 
-#: lti_xblock.py:414
-msgid "Allow tools to manage and submit grade (programmatic)"
-msgstr ""
-"მიეცეთ საშუალება ინსტრუმენტებს, მართონ და წარადგინონ შეფასება (პროგრამული)"
-
-#: lti_xblock.py:419
-msgid ""
-"Enable the LTI-AGS service and select the functionality enabled for LTI "
-"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
-"created from the XBlock settings, while the 'programmatic' one will allow "
-"tools to manage, create and link the grades."
-msgstr ""
-"ჩართეთ LTI-AGS სერვისი და აირჩიეთ LTI ინსტრუმენტებისთვის ჩართული "
-"ფუნქციონალი. \"დეკლარაციული\" რეჟიმი (ნაგულისხმევი) ინსტრუმენტს მიაწვდის "
-"LineItem-ს, რომელიც შექმნილია XBlock-ის პარამეტრებიდან, ხოლო \"პროგრამული\" "
-"რეჟიმი ინსტრუმენტებს საშუალებას მისცემს, მართონ, შექმნან და დააკავშირონ "
-"შეფასებები."
-
-#: lti_xblock.py:427
-msgid "LTI ID"
-msgstr "LTI ID"
-
-#: lti_xblock.py:429
-#, python-brace-format
-msgid ""
-"Enter the LTI ID for the external LTI provider. This value must be the same "
-"LTI ID that you entered in the LTI Passports setting on the Advanced "
-"Settings page.<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
-msgstr ""
-"შეიყვანეთ გარე LTI პროვაიდერის LTI ID. ეს მნიშვნელობა უნდა ემთხვეოდეს იმ LTI"
-" ID-ს, რომელიც შეიყვანეთ LTI პასპორტების პარამეტრებში, გვერდზე "
-"\"გაფართოებული პარამეტრები\".<br />ამ პარამეტრის შესახებ დამატებითი "
-"ინფორმაციისთვის იხილეთ {docs_anchor_open}edX LTI-ის "
-"დოკუმენტაცია{anchor_close}."
-
-#: lti_xblock.py:441
+#: lti_xblock.py:426
 msgid "LTI URL"
 msgstr "LTI URL"
 
-#: lti_xblock.py:443
-#, python-brace-format
+#: lti_xblock.py:428
 msgid ""
-"Enter the URL of the external tool that this component launches. This "
-"setting is only used when Hide External Tool is set to False.<br />See the "
-"{docs_anchor_open}edX LTI documentation{anchor_close} for more details on "
-"this setting."
+"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
+"edX uses to launch the tool."
 msgstr ""
-"შეიყვანეთ იმ გარე ინსტრუმენტის URL, რომელსაც ეს კომპონენტი იწყებს. ეს "
-"პარამეტრი გამოიყენება მხოლოდ მაშინ, როდესაც \"გარე ინსტრუმენტის დამალვა\" "
-"დაყენებულია \"ყალბზე\".<br />ამ პარამეტრის შესახებ დამატებითი "
-"ინფორმაციისთვის იხილეთ {docs_anchor_open}edX LTI-ს "
-"დოკუმენტაცია{anchor_close}."
+"შეიყვანეთ ამ ხელსაწყოს გაშვების URL. LTI 1.1/1.2-ისთვის ეს არის URL, "
+"რომელსაც Open edX იყენებს ხელსაწყოს გასაშვებად."
 
-#: lti_xblock.py:456
+#: lti_xblock.py:436
 msgid "Custom Parameters"
 msgstr "მორგებული პარამეტრები"
 
+#: lti_xblock.py:438
+msgid ""
+"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
+"\"color=white\"]."
+msgstr ""
+"შეიყვანეთ გასაღები-მნიშვნელობის წყვილები ყოველი გაშვებისას გასაგზავნად, "
+"მაგ., [\"page=1\", \"color=white\"]."
+
+#: lti_xblock.py:445
+msgid ""
+"Choose how the tool opens for learners: inline in the page, in a modal, or "
+"in a new window."
+msgstr ""
+"აირჩიეთ, როგორ გაიხსნება ხელსაწყო მოსწავლეებისთვის: გვერდზე, მოდალურ "
+"ფანჯარაში ან ახალ ფანჯარაში."
+
+#: lti_xblock.py:456
+msgid "Launch Button Text"
+msgstr "გაშვების ღილაკის ტექსტი"
+
 #: lti_xblock.py:458
-#, python-brace-format
 msgid ""
-"Add the key/value pair for any custom parameters, such as the page your "
-"e-book should open to or the background color for this component. Ex. "
-"[\"page=1\", \"color=white\"]<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
+"Enter the label shown on the launch button when the tool opens in a modal or"
+" new window."
 msgstr ""
-"დაამატეთ გასაღების/მნიშვნელობის წყვილი ნებისმიერი მორგებული პარამეტრისთვის, "
-"მაგალითად, იმ გვერდისთვის, რომელზეც უნდა გაიხსნას თქვენი ელექტრონული წიგნი, "
-"ან ამ კომპონენტის ფონის ფერისთვის. მაგ.: [\"page=1\", \"color=white\"]<br "
-"/>ამ პარამეტრის შესახებ დამატებითი ინფორმაციისთვის იხილეთ  "
-"{docs_anchor_open}edX LTI დოკუმენტაცია{anchor_close}."
+"შეიყვანეთ ღილაკზე ნაჩვენები წარწერა, როდესაც ინსტრუმენტი იხსნება მოდალურ ან "
+"ახალ ფანჯარაში."
 
-#: lti_xblock.py:468
-msgid "LTI Launch Target"
-msgstr "LTI-ის გაშვების სამიზნე"
+#: lti_xblock.py:466
+msgid "Enter the height of the inline iframe in pixels."
+msgstr "შეიყვანეთ ჩაშენებული iframe-ის სიმაღლე პიქსელებში."
 
-#: lti_xblock.py:470
-msgid ""
-"Select Inline if you want the LTI content to open in an IFrame in the "
-"current page. Select Modal if you want the LTI content to open in a modal "
-"window in the current page. Select New Window if you want the LTI content to"
-" open in a new browser window. This setting is only used when Hide External "
-"Tool is set to False."
-msgstr ""
-"აირჩიეთ \"Inline\", თუ გსურთ, რომ LTI კონტენტი მიმდინარე გვერდზე IFrame-ში "
-"გაიხსნას. აირჩიეთ \"Modal\", თუ გსურთ, რომ LTI კონტენტი მიმდინარე გვერდზე "
-"მოდალურ ფანჯარაში გაიხსნას. აირჩიეთ \"New Window\", თუ გსურთ, რომ LTI "
-"კონტენტი ბრაუზერის ახალ ფანჯარაში გაიხსნას. ეს პარამეტრი გამოიყენება მხოლოდ "
-"მაშინ, როდესაც \"Hide External Tool\" დაყენებულია \"False\"-ზე."
+#: lti_xblock.py:472
+msgid "Modal Height (%)"
+msgstr "მოდელის სიმაღლე (%)"
 
-#: lti_xblock.py:484
-msgid "Button Text"
-msgstr "ღილაკის ტექსტი"
+#: lti_xblock.py:474
+msgid "Enter the modal height as a percentage of the browser window."
+msgstr "შეიყვანეთ მოდალური ფანჯრის სიმაღლე ბრაუზერის ფანჯრის პროცენტით."
 
-#: lti_xblock.py:486
-msgid ""
-"Enter the text on the button used to launch the third party application. "
-"This setting is only used when Hide External Tool is set to False and LTI "
-"Launch Target is set to Modal or New Window."
-msgstr ""
-"შეიყვანეთ ტექსტი ღილაკზე, რომელიც გამოიყენება მესამე მხარის აპლიკაციის "
-"გასაშვებად. ეს პარამეტრი გამოიყენება მხოლოდ მაშინ, როდესაც \"გარე "
-"ინსტრუმენტის დამალვა\" დაყენებულია \"ყალბზე\" და \"LTI-ის გაშვების სამიზნე\""
-" დაყენებულია \"მოდალურ ფანჯარაზე\" ან \"ახალ ფანჯარაზე\"."
+#: lti_xblock.py:480
+msgid "Modal Width (%)"
+msgstr "მოდელის სიგანე (%)"
+
+#: lti_xblock.py:482
+msgid "Enter the modal width as a percentage of the browser window."
+msgstr "შეიყვანეთ მოდალური ფანჯრის სიგანე ბრაუზერის ფანჯრის პროცენტით."
+
+#: lti_xblock.py:488
+msgid "This activity is graded"
+msgstr "ეს აქტივობა ფასდება"
+
+#: lti_xblock.py:489
+msgid "Enable this if the tool sends a numeric score back to Open edX."
+msgstr "ჩართეთ ეს ვარიანტი, თუ ინსტრუმენტი Open edX-ს რიცხვით ქულას უგზავნის."
 
 #: lti_xblock.py:494
-msgid "Inline Height"
-msgstr "რიგში სიმაღლე"
+msgid "Grade Weight"
+msgstr "შეფასების წონა"
 
 #: lti_xblock.py:496
-msgid ""
-"Enter the desired pixel height of the iframe which will contain the LTI "
-"tool. This setting is only used when Hide External Tool is set to False and "
-"LTI Launch Target is set to Inline."
-msgstr ""
-"შეიყვანეთ LTI ინსტრუმენტის შემცველი iframe-ის სასურველი სიმაღლე პიქსელებში. "
-"ეს პარამეტრი გამოიყენება მხოლოდ მაშინ, როდესაც \"გარე ინსტრუმენტის დამალვა\""
-" დაყენებულია \"ყალბზე\", ხოლო \"LTI-ის გაშვების სამიზნე\" — \"შიდაზე\"."
+msgid "Enter the maximum number of points for this component."
+msgstr "შეიყვანეთ ამ კომპონენტისთვის ქულების მაქსიმალური რაოდენობა."
 
-#: lti_xblock.py:504
-msgid "Modal Height"
-msgstr "მოდალური სიმაღლე"
-
-#: lti_xblock.py:506
-msgid ""
-"Enter the desired viewport percentage height of the modal overlay which will"
-" contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"შეიყვანეთ მოდალური ფენის სასურველი ხედვის არეალის სიმაღლე პროცენტებში, "
-"რომელიც LTI ინსტრუმენტს შეიცავს. ეს პარამეტრი გამოიყენება მხოლოდ მაშინ, "
-"როდესაც \"გარე ინსტრუმენტის დამალვა\" დაყენებულია \"მცდარად\", ხოლო \"LTI-ის"
-" გაშვების სამიზნე\" — \"მოდალურად\"."
-
-#: lti_xblock.py:514
-msgid "Modal Width"
-msgstr "მოდალური სიგანე"
-
-#: lti_xblock.py:516
-msgid ""
-"Enter the desired viewport percentage width of the modal overlay which will "
-"contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"შეიყვანეთ მოდალური ფენის სასურველი სიგანე ხედვის არეში, რომელიც LTI "
-"ინსტრუმენტს შეიცავს. ეს პარამეტრი გამოიყენება მხოლოდ მაშინ, როდესაც \"გარე "
-"ინსტრუმენტის დამალვა\" დაყენებულია \"ყალბზე\", ხოლო \"LTI-ის გაშვების "
-"სამიზნე\" — \"მოდალურზე\"."
-
-#: lti_xblock.py:524
-msgid "Scored"
-msgstr "შეფასებული"
-
-#: lti_xblock.py:525
-msgid ""
-"Select True if this component will receive a numerical score from the "
-"external LTI system."
-msgstr ""
-"მონიშნეთ სწორი, თუ ეს კომპონენტი მიიღებს რიცხობრივ შეფასება LTI-ს გარე "
-"სისტემიდან."
-
-#: lti_xblock.py:532
-msgid ""
-"Enter the number of points possible for this component.  The default value "
-"is 1.0.  This setting is only used when Scored is set to True."
-msgstr ""
-"შეიყვანეთ ამ კომპონენტისთვის შესაძლო ქულების რაოდენობა. ნაგულისხმევი "
-"მნიშვნელობა არის 1.0. ეს პარამეტრი გამოიყენება მხოლოდ მაშინ, როდესაც "
-"შეფასებული მონიშნულია როგორც სწორი."
-
-#: lti_xblock.py:541
+#: lti_xblock.py:503
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -440,89 +336,53 @@ msgstr ""
 "KVS xblock-ში შენახული შეფასება -- ჯანგოს ბაზაში გამოქვეყნებული შეფასების "
 "ასლია"
 
-#: lti_xblock.py:546
+#: lti_xblock.py:508
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "დააკომენტეთ, როგორც შემფასებლისგან მობრუნებული, LTI2.0 სპეციფიკაცია"
 
-#: lti_xblock.py:551
+#: lti_xblock.py:513
 msgid "Hide External Tool"
 msgstr "გარე ხელსაწყოს დამალვა"
 
-#: lti_xblock.py:553
+#: lti_xblock.py:522
 msgid ""
-"Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
-"setting hides the Launch button and any IFrames for this component."
+"Enable this to allow the tool to send grades after the due date has passed."
 msgstr ""
-"მონიშნეთ სწორი, თუ გსურთ, გარე ხელსაწყოს გაშვების მაგივრად, ამ კომპონენტის "
-"შეფასების გარე სისტემასთან სინქრონიზაციის შემცვლელად გამოყენება. აღნიშნული "
-"პარამეტრი დამალავს გაშვების ღილაკს და ამ კომპონენტის ნებისმიერ IFrames."
+"ამ ფუნქციის ჩართვით ინსტრუმენტს შეეძლება შეფასებების გაგზავნა საბოლოო ვადის "
+"გასვლის შემდეგ."
 
-#: lti_xblock.py:561
-msgid "Accept grades past deadline"
-msgstr "ვადაგადაცილებული შეფასებების მიღება"
-
-#: lti_xblock.py:562
-msgid ""
-"Select True to allow third party systems to post grades past the deadline."
-msgstr ""
-"მონიშნე სწორი, მესამე მხარის სისტემებისთვის ვადაგადაცილებული შეფასების "
-"გამოქვეყნების უფლების მინიჭების მიზნით."
-
-#: lti_xblock.py:570
-msgid "Request user's username"
-msgstr "მოითხოვეთ მომხმარებლის სახელი"
+#: lti_xblock.py:530
+msgid "Share Username"
+msgstr "მომხმარებლის სახელის გაზიარება"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
-#: lti_xblock.py:572
-msgid "Select True to request the user's username."
-msgstr "მონიშნეთ, მომხამრებლის სახელის სავა;დებულო მოთხოვნის მიზნით."
+#: lti_xblock.py:532
+msgid "Enable this to send the learner’s username to the tool."
+msgstr ""
+"ჩართეთ ეს ფუნქცია, რათა მოსწავლის მომხმარებლის სახელი გაეგზავნოს ხელსაწყოს."
 
-#: lti_xblock.py:577
-msgid "Request user's full name"
-msgstr "მომხმარებლის სრული სახელის მოთხოვნა"
+#: lti_xblock.py:537
+msgid "Share Full name"
+msgstr "გააზიარეთ სრული სახელი"
 
-#. Translators: This is used to request the user's full name for a third party
-#. service.
-#: lti_xblock.py:579
-msgid "Select True to request the user's full name."
-msgstr "აირჩიეთ \"ჭეშმარიტი\", რომ მოითხოვოთ მომხმარებლის სრული სახელი."
+#: lti_xblock.py:544
+msgid "Share Email"
+msgstr "ელ.ფოსტის გაზიარება"
 
-#: lti_xblock.py:584
-msgid "Request user's email"
-msgstr "მოითხოვეთ მომხმარებლის ელფოსტა"
-
-#. Translators: This is used to request the user's email for a third party
-#. service.
-#: lti_xblock.py:586
-msgid "Select True to request the user's email address."
-msgstr "მომხმარებლის ელფოსტის მისამართის მოთხოვნის მიზნით, მონიშნეთ სწორი."
-
-#: lti_xblock.py:592
+#: lti_xblock.py:552
 msgid "Send extra parameters"
 msgstr "გაგზავნეთ დამატებითი პარამეტრები"
 
-#: lti_xblock.py:593
-msgid ""
-"Select True to send the extra parameters, which might contain Personally "
-"Identifiable Information. The processors are site-wide, please consult the "
-"site administrator if you have any questions."
-msgstr ""
-"აირჩიეთ \"ჭეშმარიტი\" დამატებითი პარამეტრების გასაგზავნად, რომლებიც შეიძლება"
-" შეიცავდეს პერსონალურად საიდენტიფიკაციო ინფორმაციას. დამმუშავებლები "
-"ვრცელდება მთელ საიტზე. თუ რაიმე შეკითხვა გაგიჩნდებათ, გთხოვთ, დაუკავშირდეთ "
-"საიტის ადმინისტრატორს."
-
-#: lti_xblock.py:668
+#: lti_xblock.py:627
 msgid "Custom Parameters must be a list"
 msgstr "მორგებული პარამეტრები უნდა იყოს სია"
 
-#: lti_xblock.py:675
+#: lti_xblock.py:634
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "მორგებული პარამეტრები უნდა იყოს სტრიქონები \"x=y\" ფორმატში."
 
-#: lti_xblock.py:685
+#: lti_xblock.py:644
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -530,18 +390,18 @@ msgstr ""
 "გარე კონფიგურაციის გამოყენებისას, აუცილებელია მითითდეს ხელახლა გამოყენებადი "
 "კონფიგურაციის ID (მაგალითად: \"x:y\")."
 
-#: lti_xblock.py:709
+#: lti_xblock.py:668
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "მითითებული LTI ID არ არის კონფიგურირებული ამ კურსის გაფართოებულ "
 "პარამეტრებში."
 
-#: lti_xblock.py:838 lti_xblock.py:1129
+#: lti_xblock.py:802 lti_xblock.py:1119
 msgid "Could not get user data for current request"
 msgstr "მიმდინარე მოთხოვნისთვის მომხმარებლის მონაცემების მიღება ვერ მოხერხდა"
 
-#: lti_xblock.py:878
+#: lti_xblock.py:842
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -549,11 +409,11 @@ msgstr ""
 "LTI პასპორტის პარსირება ვერ მოხერხდა: {lti_passport!r}. უნდა იყოს სტრიქონი "
 "\"id:key:secret\"."
 
-#: lti_xblock.py:896 lti_xblock.py:910 lti_xblock.py:926
+#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
 msgid "Could not get user id for current request"
 msgstr "მიმდინარე მოთხოვნისთვის მომხმარებლის ID ვერ იქნა მიღებული"
 
-#: lti_xblock.py:1062
+#: lti_xblock.py:1052
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -561,72 +421,28 @@ msgstr ""
 "ვერ გაანალიზდა მორგებული პარამეტრი: {custom_parameter!r}. უნდა იყოს სტრიქონი"
 " \"x=y\"."
 
-#: lti_xblock.py:1452
+#: lti_xblock.py:1507
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: რეალური მომხმარებელი არ მოიძებნა anon_id-ის მიხედვით: {}"
 
-#: models.py:85
-msgid "Configuration Stored on XBlock fields"
-msgstr "კონფიგურაცია შენახულია XBlock-ის ველებში"
-
-#: models.py:86
-msgid "Configuration Stored on this model"
-msgstr "კონფიგურაცია შენახულია ამ მოდელზე"
-
-#: models.py:87
-msgid "Configuration Stored on external service"
-msgstr "კონფიგურაცია შენახულია გარე სერვისზე"
-
-#: models.py:119
-msgid "LTI configuration data."
-msgstr "LTI კონფიგურაციის მონაცემები."
-
-#: models.py:126
-msgid "The URL of the external tool that initiates the launch."
-msgstr "გარე ინსტრუმენტის URL-ი, რომელიც გაშვებას იწყებს."
-
-#: models.py:131
-msgid "Client key provided by the LTI tool provider."
-msgstr ""
-"კლიენტის გასაღები, რომელიც მოწოდებულია LTI ინსტრუმენტის მომწოდებლის მიერ."
-
-#: models.py:137
-msgid "Client secret provided by the LTI tool provider."
-msgstr ""
-"კლიენტის საიდუმლო, რომელიც მოწოდებულია LTI ინსტრუმენტის პროვაიდერის მიერ."
-
-#: models.py:143
+#: models.py:61
 msgid "Platform's generated Private key. Keep this value secret."
 msgstr ""
 "პლატფორმამ გენერირა პირადი გასაღები. შეინახეთ ეს მნიშვნელობა საიდუმლოდ."
 
-#: models.py:149
+#: models.py:67
 msgid "Platform's generated Private key ID"
 msgstr "პლატფორმის გენერირებული პირადი გასაღების ID"
 
-#: models.py:154
+#: models.py:72
 msgid "Platform's generated JWK keyset."
 msgstr "პლატფორმამ გენერირა JWK გასაღების ნაკრები."
 
-#: models.py:160
+#: models.py:78
 msgid "Client ID used by LTI tool"
 msgstr "კლიენტის ID, რომელიც გამოიყენება LTI ინსტრუმენტის მიერ"
 
-#: models.py:256
-msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr ""
-"XBlock-ზე LTI კონფიგურაციის შესანახად საჭიროა ბლოკის ადგილმდებარეობის "
-"მითითება."
-
-#: models.py:261
-msgid ""
-"LTI Configuration using reusable configuration needs a external ID in "
-"\"x:y\" format."
-msgstr ""
-"LTI კონფიგურაცია ხელახლა გამოყენებადი კონფიგურაციის გამოყენებით მოითხოვს "
-"გარე ID-ს \"x:y\" ფორმატში."
-
-#: models.py:268
+#: models.py:159
 msgid ""
 "LTI Configuration stored on the model for LTI 1.3 must have a value for one "
 "of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
@@ -634,7 +450,51 @@ msgstr ""
 "მოდელზე შენახულ LTI 1.3 კონფიგურაციას უნდა ჰქონდეს მნიშვნელობა "
 "lti_1p3_tool_public_key-სთვის ან lti_1p3_tool_keyset_url-სთვის."
 
-#: models.py:275
+#: models.py:203
+msgid "Configuration Stored on XBlock fields"
+msgstr "კონფიგურაცია შენახულია XBlock-ის ველებში"
+
+#: models.py:204
+msgid "Configuration Stored on this model"
+msgstr "კონფიგურაცია შენახულია ამ მოდელზე"
+
+#: models.py:205
+msgid "Configuration Stored on external service"
+msgstr "კონფიგურაცია შენახულია გარე სერვისზე"
+
+#: models.py:239
+msgid "LTI configuration data."
+msgstr "LTI კონფიგურაციის მონაცემები."
+
+#: models.py:246
+msgid "The URL of the external tool that initiates the launch."
+msgstr "გარე ინსტრუმენტის URL-ი, რომელიც გაშვებას იწყებს."
+
+#: models.py:251
+msgid "Client key provided by the LTI tool provider."
+msgstr ""
+"კლიენტის გასაღები, რომელიც მოწოდებულია LTI ინსტრუმენტის მომწოდებლის მიერ."
+
+#: models.py:257
+msgid "Client secret provided by the LTI tool provider."
+msgstr ""
+"კლიენტის საიდუმლო, რომელიც მოწოდებულია LTI ინსტრუმენტის პროვაიდერის მიერ."
+
+#: models.py:346
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr ""
+"XBlock-ზე LTI კონფიგურაციის შესანახად საჭიროა ბლოკის ადგილმდებარეობის "
+"მითითება."
+
+#: models.py:351
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr ""
+"LTI კონფიგურაცია ხელახლა გამოყენებადი კონფიგურაციის გამოყენებით მოითხოვს "
+"გარე ID-ს \"x:y\" ფორმატში."
+
+#: models.py:361
 msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
 "Proctoring Services."
@@ -642,19 +502,19 @@ msgstr ""
 "CONFIG_ON_XBLOCK და CONFIG_EXTERNAL არ არის მხარდაჭერილი LTI 1.3-ის "
 "პროქტორინგის სერვისებისთვის."
 
-#: models.py:283
+#: models.py:369
 msgid "Invalid LTI configuration."
 msgstr "LTI კონფიგურაცია არასწორია."
 
-#: plugin/views.py:575
+#: plugin/views.py:620
 msgid "The selected content type is not supported by Open edX."
 msgstr "არჩეული კონტენტის ტიპი არ არის მხარდაჭერილი Open edX-ის მიერ."
 
-#: plugin/views.py:590
+#: plugin/views.py:635
 msgid "You don't have access to save LTI Content Items."
 msgstr "თქვენ არ გაქვთ LTI კონტენტის ერთეულების შენახვის წვდომა."
 
-#: plugin/views.py:591
+#: plugin/views.py:636
 msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
@@ -777,9 +637,99 @@ msgstr "გაბრუნებთ თქვენს გამოცდაზ�
 msgid "Return to exam."
 msgstr "გამოცდაზე დაბრუნება."
 
+#: templates/html/lti_studio_edit/_actions.html:5
+msgid "Previous"
+msgstr "წინა"
+
+#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "გაუქმება"
+
+#: templates/html/lti_studio_edit/_actions.html:13
+msgid "Next"
+msgstr "მომდევნო"
+
+#: templates/html/lti_studio_edit/_actions.html:16
+msgid "Save"
+msgstr "შენახვა"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:20
+#: templates/html/lti_studio_edit/_step_advantage.html:104
+#: templates/html/lti_studio_edit/_step_review.html:87
+#: templates/html/lti_studio_edit/_step_review.html:208
+msgid "Enabled"
+msgstr "ჩართულია"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:142
+msgid "Public Key"
+msgstr "საჯარო გასაღები"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:152
+msgid "Keyset URL"
+msgstr "კლავიშების ნაკრების URL"
+
+#: templates/html/lti_studio_edit/_step_review.html:22
+msgid "Grading"
+msgstr "შეფასება"
+
+#: templates/html/lti_studio_edit/_step_review.html:39
+msgid "Graded"
+msgstr "შეფასებული"
+
+#: templates/html/lti_studio_edit/_step_review.html:49
+msgid "Ungraded"
+msgstr "შეფასების გარეშე"
+
+#: templates/html/lti_studio_edit/_step_review.html:108
+msgid "Advanced Information Sharing"
+msgstr "განვითარებული ინფორმაციის გაზიარება"
+
+#: templates/html/lti_studio_edit/_step_review.html:174
+msgid "Administrators can enable advanced sharing options for LTI components."
+msgstr ""
+"ადმინისტრატორებს შეუძლიათ LTI კომპონენტებისთვის გაზიარების განვითარებული "
+"პარამეტრების ჩართვა."
+
+#: templates/html/lti_studio_edit/_step_review.html:179
+msgid "Learn more."
+msgstr "შეიტყვეთ მეტი."
+
+#: templates/html/lti_studio_edit/_step_review.html:229
+msgid "Appearance Options"
+msgstr "გარეგნობის პარამეტრები"
+
+#: templates/html/lti_studio_edit/_step_review.html:246
+msgid "True"
+msgstr "დიახ"
+
+#: templates/html/lti_studio_edit/_step_review.html:256
+msgid "False"
+msgstr "არა"
+
+#: templates/html/lti_studio_edit/_step_setup.html:5
+msgid "LTI Configuration"
+msgstr "LTI კონფიგურაცია"
+
+#: templates/html/lti_studio_edit/_step_setup.html:105
+msgid "LTI 1.1/1.2 Configuration"
+msgstr "LTI 1.1/1.2 კონფიგურაცია"
+
+#: templates/html/lti_studio_edit/_step_setup.html:119
+msgid "LTI 1.3 Configuration"
+msgstr "LTI 1.3 კონფიგურაცია"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:10
+msgid "Setup"
+msgstr "დაყენება"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:21
+msgid "Advantage Settings"
+msgstr "Advantage-ის პარამეტრები"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:33
+msgid "Review Options"
+msgstr "გადახედვის პარამეტრები"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -840,3 +790,19 @@ msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "დააჭირეთ \"უარყოფას\" ამ გვერდზე დასაბრუნებლად თქვენი ინფორმაციის გაგზავნის "
 "გარეშე."
+
+#: static/js/xblock_studio_view.js:477
+msgid "Unable to parse the custom parameters."
+msgstr "მორგებული პარამეტრების გაანალიზება ვერ მოხერხდა."
+
+#: static/js/xblock_studio_view.js:491
+msgid "Unable to parse the redirect URIs."
+msgstr "გადამისამართების URI-ების გაანალიზება ვერ ხერხდება."
+
+#: static/js/xblock_studio_view.js:511
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+"მიზეზი შესაძლოა ჩვენი სერვერის, ან თქვენი ინტერნეტ კავშირის გაუმართაობა "
+"იყოს. სცადეთ გვერდის განახლება, ან დარწმუნდით რომ იმყოფებით ონლაინ. "

@@ -1,7 +1,7 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2026
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2023-06-01 01:00+0000\n"
 "Last-Translator: Lasha Kokilashvili, 2026\n"
 "Language-Team: Georgian (https://app.transifex.com/open-edx/teams/6205/ka/)\n"
 "MIME-Version: 1.0\n"
@@ -21,28 +21,32 @@ msgstr ""
 "Language: ka\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: image_explorer.py:59
+#: image_explorer.py:57
 msgid "Display Name"
 msgstr "ხილვადი სახელი"
 
-#: image_explorer.py:60
+#: image_explorer.py:58
 msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "სახელი გამოჩნდება გვერდის ზედა ნაწილის ჰორიზონტალური ნავიგაციაზე."
 
-#: image_explorer.py:62
+#: image_explorer.py:60
 msgid "Image Explorer"
-msgstr "სურათების მნახველი"
+msgstr "სურათების მკვლევარი"
 
-#: image_explorer.py:66
+#: image_explorer.py:64
 msgid "Hot Spots Coordinates Centered"
 msgstr "ცხელი წერტილების კოორდინატები ცენტრში"
 
-#: image_explorer.py:72
+#: image_explorer.py:70
 msgid "Store hotspots opened by student, for completion"
 msgstr ""
 "სტუდენტის მიერ გახსნილი ცხელი წერტილების შენახვა, დავალების დასრულებისთვის"
 
-#: image_explorer.py:230
+#: image_explorer.py:75
+msgid "XML contents to display for this module"
+msgstr "ამ მოდულისთვის საჩვენებელი XML შინაარსი"
+
+#: image_explorer.py:228
 msgid "Missing event_type in JSON data"
 msgstr "JSON მონაცემებს აკლია event_type"
 
@@ -63,20 +67,24 @@ msgid ""
 "If set to true, hotspot coordinates interpreted to point to the center of "
 "the hotspot"
 msgstr ""
-"თუ მნიშვნელობა ჭეშმარიტია, true მაშინ, ნაგულისხმებია, რომ ცხელი წერტილის "
-"კოორდინატები მიუთითებენ ცხელი წერტილის ცენტრზე"
+"თუ მნიშვნელობა ჭეშმარიტია, true მაშინ ცხელი წერტილის კოორდინატები უთითებენ "
+"ცხელი წერტილის ცენტრზე"
 
 #: templates/html/image_explorer_edit.html:19
 msgid ""
 "If set to false, assumed to point to the top left corner of the hotspot "
 "image"
 msgstr ""
-"თუ ამ პარამეტრის მნიშვენლობაა მცდარი, false, მაშინ, ნაგულისხმებია, რომ "
-"მითითება ხდება სურათის ცხელი ზონის ზედა მარცხენა კუთხეზე"
+"თუ პარამეტრის მნიშვენლობაა მცდარი, ნაგულისხმებია, რომ ის მიუთითებს სურათის "
+"ცხელი ზონის ზედა მარცხენა კუთხეზე"
 
 #: templates/html/image_explorer_edit.html:24
 msgid "Definition"
 msgstr "განმარტება"
+
+#: templates/html/image_explorer_edit.html:25
+msgid "The XML definition for the Image Explorer"
+msgstr "სურათების მკვლევარის XML განმარტება"
 
 #: templates/html/image_explorer_edit.html:36
 msgid "Save"

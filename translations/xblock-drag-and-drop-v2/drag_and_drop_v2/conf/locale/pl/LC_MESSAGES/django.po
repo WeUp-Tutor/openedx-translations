@@ -1,19 +1,18 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2025
-# Mateusz Pyttel, 2026
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Mateusz Pyttel, 2026\n"
+"PO-Revision-Date: 2023-04-21 00:43+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Polish (https://app.transifex.com/open-edx/teams/6205/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,15 +58,15 @@ msgstr "Użyj tej strefy, aby powiązać element z dolną warstwą trójkąta."
 
 #: default_data.py:22
 msgid "Correct! This one belongs to The Top Zone."
-msgstr "Prawidłowo! Ten należy do Strefy Top."
+msgstr "Prawidłowy! Ten należy do Strefy Top."
 
 #: default_data.py:23
 msgid "Correct! This one belongs to The Middle Zone."
-msgstr "Prawidłowo! Ten należy do Strefy Środkowej."
+msgstr "Prawidłowy! Ten należy do Strefy Środkowej."
 
 #: default_data.py:24
 msgid "Correct! This one belongs to The Bottom Zone."
-msgstr "Prawidłowo! Ten należy do Strefy Dolnej."
+msgstr "Prawidłowy! Ten należy do Strefy Dolnej."
 
 #: default_data.py:25
 msgid "No, this item does not belong here. Try again."
@@ -75,7 +74,7 @@ msgstr "Nie, ten przedmiot nie pasuje tutaj. Spróbuj ponownie."
 
 #: default_data.py:26
 msgid "You silly, there are no zones for this one."
-msgstr "Oj, tutaj nie ma żadnych stref."
+msgstr "Głupi, nie ma dla tego żadnych stref."
 
 #: default_data.py:27
 msgid "Of course it goes here! It goes anywhere!"
@@ -91,7 +90,7 @@ msgstr "Idzie do środka"
 
 #: default_data.py:31
 msgid "Goes to the bottom"
-msgstr "Idzie w dół"
+msgstr "Idzie na dno"
 
 #: default_data.py:32
 msgid "Goes anywhere"
@@ -149,7 +148,7 @@ msgstr "Ocena"
 
 #: drag_and_drop_v2.py:108
 msgid "Maximum attempts"
-msgstr "Maksymalne próby"
+msgstr "Maksymalna liczba prób"
 
 #: drag_and_drop_v2.py:110
 msgid ""
@@ -165,7 +164,7 @@ msgstr "Pokaż Tytuł"
 
 #: drag_and_drop_v2.py:120
 msgid "Display the title to the learner?"
-msgstr "Wyświetlić tytuł uczniowi?"
+msgstr "Wyświetli tytuł uczniowi?"
 
 #: drag_and_drop_v2.py:127
 msgid "Problem text"
@@ -194,7 +193,7 @@ msgid ""
 " option."
 msgstr ""
 "Określa, kiedy ma zostać pokazana odpowiedź na problem. Wartość domyślną "
-"można ustawić w Ustawieniach zaawansowanych. Aby przywrócić ustawienie "
+"można ustawić w Ustawieniach Zaawansowanych. Aby przywrócić ustawienie "
 "wartości niestandardowej, wybierz opcję „Domyślne”."
 
 #: drag_and_drop_v2.py:149
@@ -211,11 +210,11 @@ msgstr "Odpowiedziano"
 
 #: drag_and_drop_v2.py:152
 msgid "Attempted or Past Due"
-msgstr "Próba lub przeterminowanie"
+msgstr "Próba lub termin przekroczony"
 
 #: drag_and_drop_v2.py:153
 msgid "Closed"
-msgstr "Zamknięto"
+msgstr "Zamknięty"
 
 #: drag_and_drop_v2.py:154
 msgid "Finished"
@@ -239,7 +238,7 @@ msgstr "Po wszystkich próbach"
 
 #: drag_and_drop_v2.py:159
 msgid "After All Attempts or Correct"
-msgstr "Po wszystkich próbach lub po poprawnej"
+msgstr "Po wszystkich próbach lub Poprawne"
 
 #: drag_and_drop_v2.py:160
 msgid "Attempted"
@@ -297,7 +296,7 @@ msgid ""
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
 msgstr ""
-"Informacje o strefach, przedmiotach, opinie, wyjaśnienie i obraz tła dla "
+"Informacje o strefach, przedmiotach, opinii, wyjaśnienie i obraz tła dla "
 "tego problemu. Informacje te pochodzą z danych wejściowych podanych przez "
 "autora kursu za pośrednictwem edytora interaktywnego podczas konfigurowania "
 "problemu."
@@ -352,7 +351,7 @@ msgstr "Odpowiedź jest niedostępna"
 
 #: drag_and_drop_v2.py:789
 msgid "do_attempt handler should only be called for assessment mode"
-msgstr "procedurę obsługi do_attempt należy wywoływać tylko w trybie oceny"
+msgstr "procedure obsługi do_attempt należy wywoływać tylko w trybie oceny"
 
 #: drag_and_drop_v2.py:794 drag_and_drop_v2.py:912
 msgid "Max number of attempts reached"
@@ -372,7 +371,7 @@ msgstr "Podstawowe ustawienia"
 
 #: templates/html/drag_and_drop_edit.html:53
 msgid "(inherited from Advanced Settings)"
-msgstr "(odziedziczony z Ustawień zaawansowanych)"
+msgstr "(odziedziczony z Ustawień Zaawansowanych)"
 
 #: templates/html/drag_and_drop_edit.html:90
 msgid "Introductory feedback"
@@ -428,7 +427,7 @@ msgstr "Liczba kolumn"
 
 #: templates/html/drag_and_drop_edit.html:150
 msgid "Number of rows"
-msgstr "Liczba wierszy"
+msgstr "Liczba rzędów"
 
 #: templates/html/drag_and_drop_edit.html:157
 msgid "Number of columns and rows."
@@ -467,9 +466,8 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Podaj opis obrazu dla użytkowników niewidzących.\n"
-" Opis powinien zawierać wystarczające informacje, aby każdy mógł je zobaczyć\n"
-" aby rozwiązać problem, nawet nie widząc obrazu.\n"
+"                            Podaj opis obrazu dla użytkowników niewidzących.  \n"
+"Opis powinien zawierać wystarczające informacje, aby każdy mógł rozwiązać problem, nawet nie widząc obrazu.\n"
 "                        "
 
 #: templates/html/drag_and_drop_edit.html:199
@@ -502,7 +500,7 @@ msgstr "Dodaj strefę"
 
 #: templates/html/drag_and_drop_edit.html:240
 msgid "Items"
-msgstr "Rzeczy"
+msgstr "Elementy"
 
 #: templates/html/drag_and_drop_edit.html:274
 msgid "Item definitions"
@@ -561,30 +559,30 @@ msgid_plural ""
 "Misplaced {misplaced_count} items (misplaced items were returned to the item"
 " bank)"
 msgstr[0] ""
-"Zagubiony przedmiot {misplaced_count} (zagubiony przedmiot został zwrócony "
+"Zagubiony {misplaced_count} przedmiot (zagubiony przedmiot został zwrócony "
 "do banku przedmiotów)"
 msgstr[1] ""
-"Zagubione przedmioty {misplaced_count} (zagubione przedmioty zostały "
+"Zagubiono {misplaced_count} przedmiotów (zagubione przedmioty zostały "
 "zwrócone do banku przedmiotów)"
 msgstr[2] ""
-"Zagubione przedmioty {misplaced_count} (zagubione przedmioty zostały "
+"Zagubiono {misplaced_count} przedmiotów (zagubione przedmioty zostały "
 "zwrócone do banku przedmiotów)"
 msgstr[3] ""
-"Zagubione przedmioty {misplaced_count} (zagubione przedmioty zostały "
+"Zagubiono {misplaced_count} przedmiotów (zagubione przedmioty zostały "
 "zwrócone do banku przedmiotów)"
 
 #: utils.py:163
 #, python-brace-format
 msgid "Did not place {missing_count} required item"
 msgid_plural "Did not place {missing_count} required items"
-msgstr[0] "Nie umieszczono wymaganego elementu {missing_count}"
-msgstr[1] "Nie umieszczono wymaganych elementów {missing_count}"
-msgstr[2] "Nie umieszczono wymaganych elementów {missing_count}"
-msgstr[3] "Nie umieszczono wymaganych elementów {missing_count}"
+msgstr[0] "Nie umieściłeś wymaganego elementu {missing_count}"
+msgstr[1] "Nie umieściliście wymaganych elementów {missing_count}"
+msgstr[2] "Nie umieściliście wymaganych elementów {missing_count}"
+msgstr[3] "Nie umieściliście wymaganych elementów {missing_count}"
 
 #: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
 msgid "Submitting"
-msgstr "Przesyłanie"
+msgstr "Wysyłanie"
 
 #: public/js/drag_and_drop.js:162
 msgid "Unknown Zone"
@@ -600,11 +598,11 @@ msgstr "Poprawnie umieszczone w: {zone_title}"
 
 #: public/js/drag_and_drop.js:182
 msgid ", draggable, grabbed"
-msgstr ", przeciągalny, chwycony"
+msgstr ", przeciągany, chwycony"
 
 #: public/js/drag_and_drop.js:182
 msgid ", draggable"
-msgstr ", przeciągalny"
+msgstr ", przeciągany"
 
 #: public/js/drag_and_drop.js:259
 msgid "No items placed here"
@@ -666,8 +664,8 @@ msgid ""
 "Use only TAB and SHIFT+TAB to navigate between draggable items and drop "
 "zones."
 msgstr ""
-"Do poruszania się między elementami, które można przeciągać, a strefami "
-"upuszczania używaj wyłącznie klawiszy TAB i SHIFT+TAB."
+"Używaj wyłącznie klawiszy TAB i SHIFT+TAB do poruszania się między "
+"elementami, które można przeciągać, a strefami upuszczania."
 
 #: public/js/drag_and_drop.js:368
 msgid "Press CTRL+M to select a draggable item (effectively picking it up)."
@@ -696,13 +694,13 @@ msgid ""
 "TAB back to the list of draggable items and repeat this process until all of"
 " the draggable items have been placed on their respective dropzones."
 msgstr ""
-"TAB wróć do listy elementów, które można przeciągać i powtarzaj ten proces, "
-"aż wszystkie elementy, które można przeciągać, zostaną umieszczone w "
-"odpowiednich strefach zrzutu."
+"ZAKŁADKA wróć do listy elementów, które można przeciągać i powtarzaj ten "
+"proces, aż wszystkie elementy, które można przeciągać, zostaną umieszczone w"
+" odpowiednich strefach zrzutu."
 
 #: public/js/drag_and_drop.js:389
 msgid "You have used {used} of {total} attempts."
-msgstr "Użyłeś {used} z {total} prób."
+msgstr "Wykorzystano {used} z {total} prób."
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
@@ -718,7 +716,7 @@ msgstr "Przejdź do początku"
 
 #: public/js/drag_and_drop.js:472
 msgid "Reset"
-msgstr "Resetuj"
+msgstr "Zresetuj"
 
 #: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1243
 msgid "Some of your answers were not correct."
@@ -730,11 +728,11 @@ msgstr "Poradnik:"
 
 #: public/js/drag_and_drop.js:577
 msgid "Correct"
-msgstr "Prawidłowo"
+msgstr "Prawidłowy"
 
 #: public/js/drag_and_drop.js:577
 msgid "Incorrect"
-msgstr "Błędnie"
+msgstr "Błędny"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -743,10 +741,10 @@ msgstr "Błędnie"
 #: public/js/drag_and_drop.js:610
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned} / {possible} punkt (stopniowany)"
-msgstr[1] "{earned} / {possible} punktów (stopniowane)"
-msgstr[2] "{earned} / {possible} punktów (stopniowane)"
-msgstr[3] "{earned} / {possible} punktów (stopniowane)"
+msgstr[0] "{earned}/{possible} punkt (oceniony)"
+msgstr[1] "{earned}/{possible} punktów (ocenione)"
+msgstr[2] "{earned}/{possible} punktów (ocenione)"
+msgstr[3] "{earned}/{possible} punktów (ocenione)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -755,17 +753,17 @@ msgstr[3] "{earned} / {possible} punktów (stopniowane)"
 #: public/js/drag_and_drop.js:617
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned} / {possible} punkt (bez oceny)"
-msgstr[1] "{earned} / {possible} punktów (bez oceny)"
-msgstr[2] "{earned} / {possible} punktów (bez oceny)"
-msgstr[3] "{earned} / {possible} punktów (bez oceny)"
+msgstr[0] "{earned}/{possible} punkt (nieoceniane)"
+msgstr[1] "{earned}/{possible} punktów (nieoceniane)"
+msgstr[2] "{earned}/{possible} punktów (nieoceniane)"
+msgstr[3] "{earned}/{possible} punktów (nieoceniane)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:627
 msgid "{possible} point possible (graded)"
 msgid_plural "{possible} points possible (graded)"
-msgstr[0] "{possible} możliwy punkt (stopniowany)"
+msgstr[0] "{possible} punkt możliwy do zdobycia (oceniane)"
 msgstr[1] "{possible} możliwych punktów (stopniowane)"
 msgstr[2] "{possible} możliwych punktów (stopniowane)"
 msgstr[3] "{possible} możliwych punktów (stopniowane)"
@@ -775,10 +773,10 @@ msgstr[3] "{possible} możliwych punktów (stopniowane)"
 #: public/js/drag_and_drop.js:634
 msgid "{possible} point possible (ungraded)"
 msgid_plural "{possible} points possible (ungraded)"
-msgstr[0] "{possible} możliwy punkt (bez oceny)"
-msgstr[1] "{possible} możliwych punktów (bez oceny)"
-msgstr[2] "{possible} możliwych punktów (bez oceny)"
-msgstr[3] "{possible} możliwych punktów (bez oceny)"
+msgstr[0] "{possible} punkt możliwy do zdobycia (nieoceniane)"
+msgstr[1] "{possible} możliwych punktów (nieklasyfikowanych)"
+msgstr[2] "{possible} możliwych punktów (nieklasyfikowanych)"
+msgstr[3] "{possible} możliwych punktów (nieklasyfikowanych)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"

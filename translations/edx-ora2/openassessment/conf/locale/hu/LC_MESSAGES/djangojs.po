@@ -5,16 +5,17 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Brian Smith, 2025
-# David Lakatos <david.lakatos@sysagnostic.com>, 2026
+# Transifex Bot <>, 2025
+# Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: David Lakatos <david.lakatos@sysagnostic.com>, 2026\n"
+"POT-Creation-Date: 2026-01-13 00:33+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Hungarian (https://app.transifex.com/open-edx/teams/6205/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,6 +148,11 @@ msgstr "Nem sikerült a rubrikát klónozni"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:61
+msgid "View and grade responses"
+msgstr "Nézd meg és értékeld a válaszokat"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:309
+#: xblock/static/js/src/lms/oa_course_items_listing.js:61
 msgid "Demo the new Grading Experience"
 msgstr "Próbálja ki az új értékelési élményt"
 
@@ -210,7 +216,7 @@ msgstr "Stáb"
 #: xblock/static/js/src/lms/oa_course_items_listing.js:161
 #: xblock/static/js/src/lms/oa_course_items_listing.js:162
 msgid "Final Grade Received"
-msgstr "Végső osztályzat"
+msgstr "Végső osztályzat megkapva"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:169
@@ -341,6 +347,11 @@ msgstr ""
 "új választ."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:582
+msgid "Confirm Reset"
+msgstr "Megerősítés visszaállítása"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:584
 msgid ""
 "You're about to reset your response for this assignment. You will need to "
@@ -384,6 +395,11 @@ msgstr "(kötelező):"
 #: xblock/static/js/src/lms/oa_response.js:768
 msgid "Thumbnail view of "
 msgstr "Bélyegkép nézete a következőhöz: "
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:845
+msgid "Confirm Delete Uploaded File"
+msgstr "Megerősítés: Feltöltött fájl törlése"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:870
@@ -471,6 +487,10 @@ msgstr "Felülvizsgálat"
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid "Username"
 msgstr "Felhasználónév"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+msgid "Peers Assessed"
+msgstr "Társak felmérve"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid "Peer Responses Received"
@@ -658,6 +678,11 @@ msgstr "A következő fájl típusok nem támogatottak: "
 #: xblock/static/js/src/studio/oa_edit.js:183
 msgid "Save Unsuccessful"
 msgstr "Sikertelen mentés"
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit.js:184
+msgid "Errors detected on the following tabs: "
+msgstr "Hibák észlelve a következő lapokon: "
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 msgid ""

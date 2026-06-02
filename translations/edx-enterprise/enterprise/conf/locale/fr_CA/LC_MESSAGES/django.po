@@ -4,16 +4,19 @@
 # EdX Team <info@edx.org>, 2025.
 # 
 # Translators:
-# Brian Smith, 2025
+# Gabriel D'Amours <gabriel@opencraft.com>, 2024
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Maxime Boissonneault, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/301281/fr_CA/)\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: Maxime Boissonneault, 2025\n"
+"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1177,7 +1180,7 @@ msgid ""
 "education."
 msgstr ""
 "Conçus par des leaders de l'industrie et des universités de premier plan "
-"pour améliorer les compétences professionnelles, les certificats "
+"pour améliorer les compétences professionnelles, les attestations "
 "professionnels développent les compétences et l'expertise recherchées par "
 "les employeurs grâce à une formation spécialisée et à une formation "
 "professionnelle."
@@ -2275,6 +2278,22 @@ msgstr "Adhésion à un groupe d'entreprises"
 msgid "Enterprise Group Memberships"
 msgstr "Adhésions aux groupes d’entreprises"
 
+#: enterprise/models.py:4969
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Spécifie si ce flux est actif et affiché aux administrateurs lors de la "
+"visite d'intégration."
+
+#: enterprise/models.py:5002
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "L'administrateur a annulé la visite d'intégration."
+
+#: enterprise/models.py:5006
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "L'administrateur a terminé la visite d'intégration."
+
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
 #: enterprise/views.py:1616 enterprise/views.py:2118
 msgid "Close"
@@ -2747,7 +2766,7 @@ msgstr "votre progrès d'apprentissage"
 
 #: enterprise/views.py:617
 msgid "course completion"
-msgstr "complétion du cours"
+msgstr "Achèvement du cours"
 
 #: enterprise/views.py:985
 msgid "Enterprise Slug Login"

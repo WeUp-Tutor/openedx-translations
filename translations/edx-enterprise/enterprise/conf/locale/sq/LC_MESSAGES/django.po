@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
 "Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
 "Language-Team: Albanian (https://app.transifex.com/open-edx/teams/6205/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -153,6 +153,20 @@ msgid ""
 "consent is course.</li></ul>"
 msgstr ""
 "Plotësoni një tekst për titullin e njoftimit që shfaqet në panelin e "
+"kontrollit kur përdoruesi refuzon të japë pëlqimin. Variablat e mëposhtëm "
+"mund të jenë të disponueshëm:<br /><ul><li> Emri_e_konsumatorit: Një emër i "
+"klientit të ndërmarrjes.</li><li> kurs_title: Titulli sigurisht. Ofrohet kur"
+" lloji i pëlqimit është kursi.</li></ul>"
+
+#: consent/models.py:318
+msgid ""
+"Fill in a text for message of the notification which appears on dashboard "
+"when user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li></ul>"
+msgstr ""
+"Plotësoni një tekst për mesazhin e njoftimit që shfaqet në panelin e "
 "kontrollit kur përdoruesi refuzon të japë pëlqimin. Variablat e mëposhtëm "
 "mund të jenë të disponueshëm:<br /><ul><li> Emri_e_konsumatorit: Një emër i "
 "klientit të ndërmarrjes.</li><li> kurs_title: Titulli sigurisht. Ofrohet kur"
@@ -1293,7 +1307,7 @@ msgstr "Llojet e klientëve të ndërmarrjeve"
 msgid "Specifies enterprise customer type."
 msgstr "Përcakton llojin e klientit të ndërmarrjes."
 
-#: enterprise/models.py:215 enterprise/models.py:3404
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "Klient i ndërmarrjes"
 
@@ -1599,42 +1613,42 @@ msgstr "Nxënës i klientit të ndërmarrjes"
 msgid "Enterprise Customer Learners"
 msgstr "Nxënësit e klientëve të ndërmarrjeve"
 
-#: enterprise/models.py:1738
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "Imazhet e logos duhet të jenë në formatin .png."
 
-#: enterprise/models.py:1765
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "Konfigurimi i markës"
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "Konfigurimet e markës"
 
-#: enterprise/models.py:1854
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 "Përcakton nëse ky është ofruesi i paracaktuar për klientin e ndërmarrjes."
 
-#: enterprise/models.py:1939
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 "UUID-ja e kursit (jo kursi i drejtuar) në të cilin nxënësi ka të drejtë."
 
-#: enterprise/models.py:1949
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Nxënësi i ndërmarrjes të cilit i bashkëngjitet kjo e drejtë."
 
-#: enterprise/models.py:2072
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "Nxënësi i ndërmarrjes të cilit i është bashkangjitur ky regjistrim."
 
-#: enterprise/models.py:2079
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "ID-ja e kursit në të cilin nxënësi është regjistruar."
 
-#: enterprise/models.py:2086
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -1642,7 +1656,7 @@ msgstr ""
 "Përcakton nëse një përdorues e ka shënuar këtë kurs si të ruajtur për më "
 "vonë në portalin e nxënësve."
 
-#: enterprise/models.py:2102
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1650,7 +1664,7 @@ msgstr ""
 "Përcakton nëse objekti i regjistrimit të kursit të regjistrimit të kursit të"
 " ndërmarrjes ishte çregjistruar."
 
-#: enterprise/models.py:2112
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
@@ -1658,15 +1672,15 @@ msgstr ""
 "Përcakton kur objekti i regjistrimit të kurseve të regjistrimit të një kursi"
 " të ndërmarrjes nuk u regjistrua."
 
-#: enterprise/models.py:2370
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "E drejta e kursit për subvencionimin shoqërues është."
 
-#: enterprise/models.py:2381
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "Për regjistrimin e kursit është subvencionimi i lidhur."
 
-#: enterprise/models.py:2388
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -1674,15 +1688,15 @@ msgstr ""
 "Nëse revokohet subvencioni i ndërmarrjes, p.sh. kur i hiqet licenca një "
 "përdoruesi."
 
-#: enterprise/models.py:2549
+#: enterprise/models.py:2550
 msgid "The customer for which this default enrollment will be realized."
 msgstr "Klienti për të cilin do të realizohet ky regjistrim i paracaktuar."
 
-#: enterprise/models.py:2558
+#: enterprise/models.py:2559
 msgid "The type of content (e.g. a course vs. a course run)."
 msgstr "Lloji i përmbajtjes (p.sh. një kurs kundrejt një kursi të drejtuar)."
 
-#: enterprise/models.py:2566
+#: enterprise/models.py:2567
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
@@ -1690,7 +1704,7 @@ msgstr ""
 "Një kurs ose kurs i drejtuar në të cilin përdoruesit e lidhur duhet të "
 "regjistrohen automatikisht."
 
-#: enterprise/models.py:2738
+#: enterprise/models.py:2739
 #, python-brace-format
 msgid ""
 "A default enrollment intention with this enterprise customer and content key"
@@ -1701,11 +1715,11 @@ msgstr ""
 "çelësin e përmbajtjes ekziston tashmë, por është fshirë me lehtësi. Ju "
 "lutemi rivendoseni <a href=\"{existing_record_admin_url}\">këtu</a> ."
 
-#: enterprise/models.py:2753
+#: enterprise/models.py:2754
 msgid "The content key did not resolve to a valid course run."
 msgstr "Çelësi i përmbajtjes nuk u zgjidh në një kurs të vlefshëm."
 
-#: enterprise/models.py:2821
+#: enterprise/models.py:2822
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1718,7 +1732,7 @@ msgstr ""
 "disponueshëm të përmbajtjes do të përfshihen në katalog. Duhet të jetë "
 "unike."
 
-#: enterprise/models.py:2836
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1730,15 +1744,15 @@ msgstr ""
 "&#39;kurse&#39; duhet të përfshihen në katalog, llojet e kurseve ekzekutive-"
 "edukative-2u nuk do të përjashtohen nga përmbajtja e katalogut shoqërues."
 
-#: enterprise/models.py:2843
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "Pyetja e Katalogut të Ndërmarrjeve"
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "Pyetjet e Katalogut të Ndërmarrjeve"
 
-#: enterprise/models.py:2957
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1750,7 +1764,7 @@ msgstr ""
 "objekt Json. Një objekt Json bosh do të thotë që të gjithë artikujt e "
 "disponueshëm të përmbajtjes do të përfshihen në katalog."
 
-#: enterprise/models.py:2965
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1758,7 +1772,7 @@ msgstr ""
 "Lista e renditur e mënyrave të regjistrimit që mund t&#39;u shfaqen nxënësve"
 " për kursin në këtë katalog."
 
-#: enterprise/models.py:2971
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -1766,15 +1780,15 @@ msgstr ""
 "Përcakton nëse kurset duhet të publikohen me URL-të e regjistrimit direkt në"
 " auditim."
 
-#: enterprise/models.py:2978
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "Katalogu i Klientëve të Ndërmarrjeve"
 
-#: enterprise/models.py:2979 enterprise/models.py:3526
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "Katalogjet e Klientëve të Ndërmarrjeve"
 
-#: enterprise/models.py:3246
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1782,7 +1796,7 @@ msgstr ""
 "Plotësoni një shabllon standard të Django që, kur jepet, prodhon emailin që dëshironi t&#39;u dërgohet nxënësve të saporegjistruar të klientëve të ndërmarrjes. Variablat e mëposhtëm mund të jenë të disponueshëm:\n"
 "<ul><li> user_name: Një emër i lexueshëm nga njeriu për personin që i dërgohet email. Sigurohuni që të trajtoni rastin kur kjo nuk është e përcaktuar, pasi mund të mungojë në disa raste. Mund të jetë gjithashtu një emër përdoruesi, nëse nxënësi nuk e ka konfiguruar emrin e tij &quot;të vërtetë&quot; në sistem.</li><li> emri_organizatës: Emri i organizatës që sponsorizon regjistrimin.</li><li> enrolled_in: Detaje të kursit ose programit në të cilin është regjistruar. Mund të përmbajë:<ul><li> emri: Emri i artikullit që mund të regjistrohet (p.sh., &quot;Kursi demonstrues&quot;).</li><li> url: Një lidhje në faqen kryesore të artikullit të regjistruar.</li><li> markë: Një emër i personalizuar i markës për artikullin e regjistruar. Për shembull, markimi i një programi MicroMasters do të ishte &quot;MicroMasters&quot;.</li><li> start: Data kur artikulli i regjistruar bëhet i disponueshëm. Paraqiteni këtë në tekst duke përdorur filtrin e shabllonit &quot;data&quot; e Django (shih <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">dokumentacionin e Django</a> ).</li><li> lloji: Nëse artikulli i regjistruar është një kurs, një program ose diçka tjetër.</li></ul></ul>"
 
-#: enterprise/models.py:3264
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1793,27 +1807,27 @@ msgstr ""
 "subjektit për emailet e njoftimeve. Vendmbajtësi {course_name} do të "
 "zëvendësohet me emrin e kursit ose programit në të cilin është regjistruar."
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "Aktiv"
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "Përfshi datën"
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "Përfshi datën në emrin e skedarit të raportit"
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "Mënyra e dorëzimit"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "Metoda në të cilën duhet të dërgohen të dhënat."
 
-#: enterprise/models.py:3420
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -1821,43 +1835,43 @@ msgstr ""
 "Përcakton nëse raporti duhet të kompresohet. Pa skedarët e kompresimit nuk "
 "do të mbrohen ose kodohen me fjalëkalim."
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "Çelësi i enkriptimit PGP"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr "Çelësi për kriptim, nëse kërkohet skedar i koduar PGP."
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "Lloji i të dhënave"
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "Lloji i të dhënave që duhet të përmbajë ky raport."
 
-#: enterprise/models.py:3444
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "Lloji i raportit"
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "Lloji i këtij raporti duhet të dërgohet si, p.sh. CSV."
 
-#: enterprise/models.py:3449
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "Email"
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr "Email(et), një për rresht, ku duhet të dërgohet raporti."
 
-#: enterprise/models.py:3457
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "Frekuenca"
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
@@ -1865,11 +1879,11 @@ msgstr ""
 "Intervali i frekuencës (ditore, javore ose mujore) që duhet të dërgohet "
 "raporti."
 
-#: enterprise/models.py:3463
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "Dita e muajit"
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1877,11 +1891,11 @@ msgstr ""
 "Dita e muajit për të dërguar raportin. Kjo fushë është e nevojshme dhe e "
 "vlefshme vetëm kur frekuenca është mujore."
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "Dita e javës"
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1889,11 +1903,11 @@ msgstr ""
 "Dita e javës për të dërguar raportin. Kjo fushë është e nevojshme dhe e "
 "vlefshme vetëm kur frekuenca është javore."
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "Ora e ditës"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1901,7 +1915,7 @@ msgstr ""
 "Ora e ditës për të dërguar raportin, në Orën Standarde Lindore (EST). Kjo "
 "kërkohet për të gjitha cilësimet e frekuencës."
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1909,28 +1923,28 @@ msgstr ""
 "Ky fjalëkalim do të përdoret për të siguruar skedarin zip. Ai do të kodohet "
 "kur të ruhet në bazën e të dhënave."
 
-#: enterprise/models.py:3493
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "Emri i hostit SFTP"
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr ""
 "Nëse metoda e dorëzimit është sftp, hosti duhet t&#39;i dorëzojë raportin."
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "Porta SFTP"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr "Nëse mënyra e dorëzimit është sftp, porta në host për t&#39;u lidhur."
 
-#: enterprise/models.py:3507
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "Emri i përdoruesit SFTP"
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1938,7 +1952,7 @@ msgstr ""
 "Nëse mënyra e dorëzimit është sftp, emri i përdoruesit që do të përdoret për"
 " të hyrë në mënyrë të sigurt në host."
 
-#: enterprise/models.py:3514
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1947,11 +1961,11 @@ msgstr ""
 "hyrë në mënyrë të sigurtë në host. Fjalëkalimi do të kodohet kur të ruhet në"
 " bazën e të dhënave."
 
-#: enterprise/models.py:3521
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "Rruga e skedarit SFTP"
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
@@ -1959,55 +1973,55 @@ msgstr ""
 "Nëse metoda e dorëzimit është sftp, shtegu në host ku duhet të dorëzohet "
 "raporti."
 
-#: enterprise/models.py:3630
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "Mënyra e dorëzimit nuk mund të përditësohet"
 
-#: enterprise/models.py:3646
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "Dita e javës duhet të caktohet nëse frekuenca është javore."
 
-#: enterprise/models.py:3650
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "Dita e muajit duhet të caktohet nëse frekuenca është mujore."
 
-#: enterprise/models.py:3653
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr "Frekuenca duhet të vendoset në çdo ditë, javore ose mujore."
 
-#: enterprise/models.py:3659
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "Email(et) duhet të vendosen nëse mënyra e dërgimit është email."
 
-#: enterprise/models.py:3663
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 "Duhet të vendoset fjalëkalimi i deshifruar nëse mënyra e dërgimit është "
 "email."
 
-#: enterprise/models.py:3667
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr ""
 "Emri i hostit SFTP duhet të vendoset nëse mënyra e dorëzimit është sftp."
 
-#: enterprise/models.py:3669
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr ""
 "Emri i përdoruesit SFTP duhet të vendoset nëse mënyra e dorëzimit është "
 "sftp."
 
-#: enterprise/models.py:3671
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr ""
 "Rruga e skedarit SFTP duhet të vendoset nëse metoda e dorëzimit është sftp."
 
-#: enterprise/models.py:3674
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 "Fjalëkalimi i deshifruar SFTP duhet të vendoset nëse mënyra e dorëzimit "
 "është SFTP."
 
-#: enterprise/models.py:3737
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2021,19 +2035,19 @@ msgstr ""
 "ndërmarrjes, ju lutemi së pari krijoni regjistrimin dhe më pas modifikoni "
 "fushën e klientit të ndërmarrjes duke përdorur listën rënëse."
 
-#: enterprise/models.py:4026
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "Filtra për të shfaqur me kusht njoftimet e banerëve."
 
-#: enterprise/models.py:4031
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "Filtri i njoftimit të administratorit"
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "Filtrat e njoftimit të administratorit"
 
-#: enterprise/models.py:4058
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -2041,7 +2055,7 @@ msgstr ""
 "Titulli i banerit të njoftimit i cili do t&#39;i shfaqet administratorit të "
 "ndërmarrjes në portalin e administratorit."
 
-#: enterprise/models.py:4066
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2052,36 +2066,36 @@ msgstr ""
 "karaktere. Ky tekst mbështet shënimin. Shikoni https://commonmark.org/help/ "
 "për veçoritë e mbështetura të shënimit."
 
-#: enterprise/models.py:4083
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "Njoftimi i administratorit"
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "Njoftimet e administratorit"
 
-#: enterprise/models.py:4122
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "Lexoni njoftimin e administratorit"
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "Lexoni njoftimet e administratorit"
 
-#: enterprise/models.py:4156 enterprise/models.py:4260
-#: enterprise/models.py:4405
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "Ndërmarrja që mund të lidhet duke përdorur këtë çelës."
 
-#: enterprise/models.py:4165
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr "Sa herë mund të përdoret ky çelës për të lidhur një nxënës."
 
-#: enterprise/models.py:4174
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "Çelësi nuk do të jetë më i vlefshëm pas kësaj date."
 
-#: enterprise/models.py:4183
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2089,60 +2103,60 @@ msgstr ""
 "Përcakton nëse çelësi është aktiv. Pasi të çaktivizohet, çelësi nuk është më"
 " i vlefshëm dhe nuk mund të riaktivizohet."
 
-#: enterprise/models.py:4264
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "Prompt ChatGPT."
 
-#: enterprise/models.py:4266
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "Përgjigja ChatGPT."
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "Lloji i shpejtë."
 
-#: enterprise/models.py:4271
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "Përgjigje ChatGPT"
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "Përgjigjet e ChatGPT"
 
-#: enterprise/models.py:4382
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "Konfigurimi i SSO klientit të ndërmarrjes"
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "Konfigurimet e SSO të klientëve të ndërmarrjes"
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "Emri i shfaqur i konfigurimit të SSO."
 
-#: enterprise/models.py:4414
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "Përcakton nëse integrimi me orkestrimin e SSO është aktiv."
 
-#: enterprise/models.py:4423
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "Ofruesi i identitetit i integruar me nga orkestratori i SSO."
 
-#: enterprise/models.py:4432
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "URL-ja e meta të dhënave të ofruesit të identitetit."
 
-#: enterprise/models.py:4440
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "Të dhënat meta xml të ofruesit të identitetit."
 
-#: enterprise/models.py:4449
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "ID-ja e entitetit të ofruesit të identitetit."
 
-#: enterprise/models.py:4458
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2150,54 +2164,54 @@ msgstr ""
 "Përcakton nëse integrimi me ofruesin e identitetit të klientit duhet të "
 "përditësojë automatikisht të dhënat meta."
 
-#: enterprise/models.py:4512
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "Data dhe ora kur konfigurimi iu dorëzua orkestrimit të SSO."
 
-#: enterprise/models.py:4520
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "Data dhe ora kur përfundoi konfigurimi nga orkestrimi i SSO."
 
-#: enterprise/models.py:4528
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr ""
 "Data dhe ora kur konfigurimi u vërtetua dhe u përdor për herë të parë."
 
-#: enterprise/models.py:4536
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr "Data dhe ora kur orkestratori hasi në një gabim gjatë konfigurimit."
 
-#: enterprise/models.py:4545
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Nëse administratori ka treguar se të dhënat meta të ofruesit të shërbimit "
 "janë ngarkuar."
 
-#: enterprise/models.py:4555 enterprise/models.py:4591
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr ""
 "Konfigurimi specifik SAP: intervali i skadimit për API OData në sekonda."
 
-#: enterprise/models.py:4565
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "Konfigurimi specifik i SAP: url-ja kryesore e API-së OData."
 
-#: enterprise/models.py:4574
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "Konfigurimi specifik i SAP: ID-ja e kompanisë së API-së OData."
 
-#: enterprise/models.py:4583
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
@@ -2205,46 +2219,46 @@ msgstr ""
 "Konfigurimi specifik i SAP: url-ja kryesore e API-së SAP SuccessFactors "
 "OAuth."
 
-#: enterprise/models.py:4600
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "Konfigurimi specifik SAP: çelësi privat i përdorur për të nënshkruar pohimin"
 " SAML."
 
-#: enterprise/models.py:4609
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "Konfigurimi specifik i SAP: ID-ja e klientit të API-së OData."
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "Konfigurimi specifik i SAP: ID-ja e përdoruesit të OAuth API."
 
-#: enterprise/models.py:4640
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "Fusha është e kyçur pasi konfigurimi është dorëzuar tashmë."
 
-#: enterprise/models.py:4678
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "Regjistrimi tashmë është dorëzuar për konfigurim."
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "Specifikon emrin e grupit të ndërmarrjes."
 
-#: enterprise/models.py:4743
+#: enterprise/models.py:4744
 msgid "The type of enterprise group"
 msgstr "Lloji i grupit të ndërmarrjeve"
 
-#: enterprise/models.py:4749
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Grupi i Ndërmarrjeve"
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "Grupet e Ndërmarrjeve"
 
-#: enterprise/models.py:4863
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -2252,11 +2266,11 @@ msgstr ""
 "Momenti në të cilin rekordi i anëtarësimit shkruhet me një regjistrim të "
 "përdoruesit të klientit të ndërmarrjes."
 
-#: enterprise/models.py:4873
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "Statusi aktual i rekordit të anëtarësimit"
 
-#: enterprise/models.py:4880
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
@@ -2264,7 +2278,7 @@ msgstr ""
 "Momenti në të cilin rekordi i anëtarësimit u revokua nga një administrator i"
 " Ndërmarrjes."
 
-#: enterprise/models.py:4888
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
@@ -2272,19 +2286,19 @@ msgstr ""
 "Herën e fundit që veprimi i anëtarësimit ishte në një gjendje gabimi. Null "
 "do të thotë se anëtarësimi nuk është i gabuar."
 
-#: enterprise/models.py:4893
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "Anëtarësimi i Grupit të Ndërmarrjeve"
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Anëtarësimet e Grupit të Ndërmarrjeve"
 
-#: enterprise/models.py:4963
+#: enterprise/models.py:4964
 msgid "Title summarizing the onboarding flow."
 msgstr "Titulli që përmbledh rrjedhën e hyrjes."
 
-#: enterprise/models.py:4969
+#: enterprise/models.py:4970
 msgid ""
 "Specifies whether this flow is active and shown to admin users in the "
 "onboarding tour."
@@ -2292,31 +2306,31 @@ msgstr ""
 "Përcakton nëse kjo rrjedhë është aktive dhe nëse u shfaqet përdoruesve të "
 "administratorëve në turneun e hyrjes."
 
-#: enterprise/models.py:4988
+#: enterprise/models.py:4989
 msgid "The enterprise customer user who is an admin."
 msgstr "Përdoruesi i klientit të ndërmarrjes që është administrator."
 
-#: enterprise/models.py:4993
+#: enterprise/models.py:4994
 msgid "The last time the admin logged into the admin portal."
 msgstr "Hera e fundit që administratori u fut në portalin e administratorit."
 
-#: enterprise/models.py:4998
+#: enterprise/models.py:4999
 msgid "The onboarding flows that this admin has completed."
 msgstr "Rrjedhat e hyrjes që ky administrator ka përfunduar."
 
-#: enterprise/models.py:5002
+#: enterprise/models.py:5003
 msgid "Whether the admin has dismissed the onboarding tour."
 msgstr "Nëse administratori ka hequr dorë nga turneu i hyrjes."
 
-#: enterprise/models.py:5006
+#: enterprise/models.py:5007
 msgid "Whether the admin has completed the onboarding tour."
 msgstr "Nëse administratori ka përfunduar turneun e hyrjes."
 
-#: enterprise/models.py:5011
+#: enterprise/models.py:5012
 msgid "Enterprise Customer Admin"
 msgstr "Administratori i Klientit të Ndërmarrjes"
 
-#: enterprise/models.py:5012
+#: enterprise/models.py:5013
 msgid "Enterprise Customer Admins"
 msgstr "Administratorët e Klientëve të Ndërmarrjes"
 

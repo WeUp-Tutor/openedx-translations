@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:49+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"POT-Creation-Date: 2025-12-07 00:39+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
 "Language-Team: Albanian (https://app.transifex.com/open-edx/teams/6205/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "kurse me provime aktive"
 
 #: admin.py:354
 msgid "Course Id"
-msgstr "Id e kursit"
+msgstr "Id i kursit"
 
 #: admin.py:392
 msgid "Created"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: templates/proctored_exam/error_wrong_browser.html:22
 msgid "End My Exam"
-msgstr "Mbyll provimin tim"
+msgstr "Mbyll provimin"
 
 #: templates/proctored_exam/expired.html:4 templates/timed_exam/expired.html:4
 msgid ""
@@ -1675,6 +1675,11 @@ msgstr "{num_of_hours} orë"
 #, python-brace-format
 msgid "{num_of_hours} hours"
 msgstr "{num_of_hours} orë"
+
+#: utils.py:98 utils.py:108
+#, python-brace-format
+msgid "{num_of_minutes} minutes"
+msgstr "{num_of_minutes} minuta"
 
 #: utils.py:101
 #, python-brace-format

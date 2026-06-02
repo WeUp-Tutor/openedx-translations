@@ -1,19 +1,22 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2025
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Wu SiMin, 2024
+# Lu Luo Heng, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/301281/zh_HK/)\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/6205/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1134,7 +1137,7 @@ msgstr "企業客戶類型"
 msgid "Specifies enterprise customer type."
 msgstr "指定企業客戶類型。"
 
-#: enterprise/models.py:215 enterprise/models.py:3404
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "企業客戶"
 
@@ -1357,72 +1360,72 @@ msgstr "企業客戶學生"
 msgid "Enterprise Customer Learners"
 msgstr "企業客戶學生"
 
-#: enterprise/models.py:1738
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "標誌圖像必須採用 .png 格式。"
 
-#: enterprise/models.py:1765
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "品牌設定"
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "品牌設定"
 
-#: enterprise/models.py:1854
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr "指定這是否是企業客戶的預設提供者。"
 
-#: enterprise/models.py:1939
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr "學生有權參與的課程（不是運行的課程）的 UUID。"
 
-#: enterprise/models.py:1949
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "此註冊所附加的企業學生。"
 
-#: enterprise/models.py:2072
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "此註冊所附加的企業學生。"
 
-#: enterprise/models.py:2079
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "學生註冊的課程的 ID。"
 
-#: enterprise/models.py:2086
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr "指定用户是否將此課程標記為保存以供稍後在學生入口網站中使用。"
 
-#: enterprise/models.py:2102
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
 msgstr "指定企業課程註冊的課程註冊對像是否已取消註冊。"
 
-#: enterprise/models.py:2112
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr "指定企業課程註冊的課程註冊對象何時取消註冊。"
 
-#: enterprise/models.py:2370
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "相關補助的課程權利。"
 
-#: enterprise/models.py:2381
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "相關補助適用於課程註冊。"
 
-#: enterprise/models.py:2388
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
 msgstr "企業補貼是否被撤銷，例如用户許可證被撤銷等。"
 
-#: enterprise/models.py:2821
+#: enterprise/models.py:2822
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1431,7 +1434,7 @@ msgid ""
 msgstr ""
 "將用於過濾發現服務的搜尋/所有端點結果的查詢參數，指定為 JSON 物件。空 JSON 物件意味著所有可用的內容項目都將包含在目錄中。必須是獨一無二的。"
 
-#: enterprise/models.py:2836
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1441,15 +1444,15 @@ msgstr ""
 "指定是否允許目錄包含 exec ed (2U) 課程。這意味著，當 content_filter "
 "指定「課程」內容類型應包含在目錄中時，executive-education-2u 課程類型不會從關聯目錄的內容中排除。"
 
-#: enterprise/models.py:2843
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "企業目錄查詢"
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "企業目錄查詢"
 
-#: enterprise/models.py:2957
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1457,27 +1460,27 @@ msgid ""
 "catalog."
 msgstr "將用於篩選發現服務的搜尋/所有端點結果的查詢參數，指定為 JSON。空白的 JSON 意味著所有可用的內容項目都將包含在目錄中。"
 
-#: enterprise/models.py:2965
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
 msgstr "註冊模式的有序列表，可以向學生顯示此目錄中的課程運行。"
 
-#: enterprise/models.py:2971
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr "指定是否應使用直接審核註冊 URL 來發佈課程。"
 
-#: enterprise/models.py:2978
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "企業客戶目錄"
 
-#: enterprise/models.py:2979 enterprise/models.py:3526
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "企業客戶目錄"
 
-#: enterprise/models.py:3246
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1485,7 +1488,7 @@ msgstr ""
 "填寫標準 Django 模板，該模板在呈現時會產生您想要發送給新註冊的企業客戶學生的電郵。以下變數可能發生：\n"
 "<ul><li> user_name：接受電郵的人的可讀名稱。請務必處理未定義的情況，因為在某些情況下可能會遺失。如果學生尚未在系統中設定他們的「真實」姓名，它也可能是用户名稱。</li><li> Organization_name：贊助註冊的組織的名稱。</li><li> enrolled_in：已註冊的課程或精選課程的詳細資訊。<ul><li>名稱：可註冊課程的名稱（例如“示範課程”）。</li><li> url：註冊課程主頁的連結。</li><li>品牌：已註冊精選課程的自訂品牌名稱。例如，MicroMasters 精選課程的品牌將是「MicroMasters」。</li><li>開始：註冊課程可用的日期。使用 Django `date` 模板篩選器將其渲染為文字（請參閱<a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">Django 文件</a>）。</li><li> type：註冊的精選課程是課程、精選課程還是其他。</li></ul></ul>"
 
-#: enterprise/models.py:3264
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1493,193 +1496,193 @@ msgid ""
 " name of the course or program that was enrolled in."
 msgstr "輸入可用於產生通知電郵的動態主旨行的字串。佔位符{course_name}將替換為已註冊的課程或精選課程的名稱。"
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "啟動"
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "包含日期"
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "在報告檔案名稱中包含日期"
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "運輸方式"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "發送資料的方法。"
 
-#: enterprise/models.py:3420
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
 msgstr "指定是否應壓縮報告。如果沒有壓縮，檔案將不會受到密碼保護或加密。"
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "PGP 加密金鑰"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr "如果需要 PGP 加密文件，則用於加密的金鑰。"
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "資料類型"
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "該報告應包含的資料類型。"
 
-#: enterprise/models.py:3444
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "報告類型"
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "此報告應發送的類型，例如 CSV。"
 
-#: enterprise/models.py:3449
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "電郵"
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr "報告應發送到的電郵，每行一封。"
 
-#: enterprise/models.py:3457
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "頻率"
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr "報告發送的頻率間隔（每日、每週或每月）。"
 
-#: enterprise/models.py:3463
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "每月的某一天"
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
 msgstr "發送報告的月份日期。此字段為必填字段，僅當頻率為每月時才有效。"
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "星期幾"
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
 msgstr "將在星期幾發送報告。此字段為必填字段，僅當頻率為每週時才有效。"
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "一天中的某個時刻"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
 msgstr "一天中發送報告的時間，採用東部標準時間 (EST)。這對於所有頻率設定都是必需的。"
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
 msgstr "該密碼將用於保護 zip 檔案的安全性。儲存在資料庫中時將被加密。"
 
-#: enterprise/models.py:3493
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "SFTP 主機名"
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr "如果傳送方法是 sftp，則為要將報表傳送到的主機。"
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "SFTP連接埠"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr "如果傳送方法是 sftp，則為要連接到的主機上的連接埠。"
 
-#: enterprise/models.py:3507
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "SFTP用户名稱"
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
 msgstr "如果傳送方法是 sftp，則用於安全存取主機的用户名稱。"
 
-#: enterprise/models.py:3514
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
 msgstr "如果傳送方法是 sftp，則用於安全存取主機的密碼。密碼儲存在資料庫中時將被加密。"
 
-#: enterprise/models.py:3521
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "SFTP 檔案路徑"
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr "如果傳送方法是 sftp，則為主機上要將報告傳送到的路徑。"
 
-#: enterprise/models.py:3630
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "配送方式無法更新"
 
-#: enterprise/models.py:3646
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "如果頻率是每週，則必須設定星期幾。"
 
-#: enterprise/models.py:3650
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "如果頻率是每月，則必須設定每月的日期。"
 
-#: enterprise/models.py:3653
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr "頻率必須設定為每天、每週或每月。"
 
-#: enterprise/models.py:3659
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "如果傳送方式是電郵，則必須設定電郵。"
 
-#: enterprise/models.py:3663
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr "如果傳送方式是電郵，則必須設定解密密碼。"
 
-#: enterprise/models.py:3667
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr "如果傳送方式為 sftp，則必須設定 SFTP 主機名稱。"
 
-#: enterprise/models.py:3669
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr "如果發送方式為sftp，則必須設定SFTP用户名稱。"
 
-#: enterprise/models.py:3671
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr "如果傳送方式為sftp，則必須設定SFTP檔案路徑。"
 
-#: enterprise/models.py:3674
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr "如果傳送方式是SFTP，則必須設定解密的SFTP密碼。"
 
-#: enterprise/models.py:3737
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -1688,25 +1691,25 @@ msgid ""
 "drop down."
 msgstr "為所提供的用户指派角色的 EnterpriseCustomer。預設為用户連結到的第一個活動企業客戶。"
 
-#: enterprise/models.py:4026
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "篩選器有條件地顯示橫幅通知。"
 
-#: enterprise/models.py:4031
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "管理員通知篩選器"
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "管理員通知篩選器"
 
-#: enterprise/models.py:4058
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
 msgstr "通知橫幅標題將在管理入口網站上向企業管理員顯示。"
 
-#: enterprise/models.py:4066
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -1715,209 +1718,209 @@ msgstr ""
 "將在管理入口網站上向企業管理員顯示的通知橫幅文字。您最多可以輸入 512 個字元。此文字支援 Markdown。請參閱 "
 "https://commonmark.org/help/ 以了解支援的 Markdown 功能。"
 
-#: enterprise/models.py:4083
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "管理員通知"
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "管理員通知"
 
-#: enterprise/models.py:4122
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "管理員通知已讀"
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "管理員通知已讀"
 
-#: enterprise/models.py:4156 enterprise/models.py:4260
-#: enterprise/models.py:4405
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "使用該密鑰可以連結的企業。"
 
-#: enterprise/models.py:4165
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr "此密鑰可用於連結學生的次數。"
 
-#: enterprise/models.py:4174
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "在此日期之後，密鑰將不再有效。"
 
-#: enterprise/models.py:4183
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
 msgstr "指定該鍵是否處於活動狀態。一旦停用，金鑰將不再有效且無法重新啟用。"
 
-#: enterprise/models.py:4264
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "ChatGPT 提示。"
 
-#: enterprise/models.py:4266
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "ChatGPT 回覆。"
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "提示類型。"
 
-#: enterprise/models.py:4271
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "ChatGPT 回覆"
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "ChatGPT 回覆"
 
-#: enterprise/models.py:4382
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "企業客戶SSO設定"
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "企業客戶 SSO 設定"
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "SSO 設定的顯示名稱。"
 
-#: enterprise/models.py:4414
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "指定與 SSO 編排的整合是否處於活動狀態。"
 
-#: enterprise/models.py:4423
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "由 SSO 協調器整合的身份提供者。"
 
-#: enterprise/models.py:4432
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "身分提供者的元資料 url。"
 
-#: enterprise/models.py:4440
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "身分提供者的元資料 xml。"
 
-#: enterprise/models.py:4449
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "身分提供者的實體 ID。"
 
-#: enterprise/models.py:4458
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
 msgstr "指定與客戶身分提供者的整合是否應自動更新元資料。"
 
-#: enterprise/models.py:4512
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "設定提交到 SSO 編排的日期和時間。"
 
-#: enterprise/models.py:4520
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "SSO 編排完成設定的日期和時間。"
 
-#: enterprise/models.py:4528
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr "首次驗證和使用設定的日期和時間。"
 
-#: enterprise/models.py:4536
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr "Orchestrator 在設定期間遇到錯誤的日期和時間。"
 
-#: enterprise/models.py:4545
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr "管理員是否已指示服務提供者元資料已上傳。"
 
-#: enterprise/models.py:4555 enterprise/models.py:4591
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr "SAP 特定設定：OData API 的逾時間隔（以秒為單位）。"
 
-#: enterprise/models.py:4565
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "SAP 特定設定：OData API 的根 url。"
 
-#: enterprise/models.py:4574
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "SAP 特定設定：OData API 的公司 ID。"
 
-#: enterprise/models.py:4583
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr "SAP 特定設定：SAP SuccessFactors OAuth API 的根 url。"
 
-#: enterprise/models.py:4600
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr "SAP 特定設定：用於簽署 SAML 聲明的私人密鑰。"
 
-#: enterprise/models.py:4609
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "SAP 特定設定：OData API 的客戶端 ID。"
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "SAP 特定設定：OAuth API 的用户 ID。"
 
-#: enterprise/models.py:4640
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "由於設定已提交，因此欄位已鎖定。"
 
-#: enterprise/models.py:4678
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "記錄已提交用於設定。"
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "指定企業組名稱。"
 
-#: enterprise/models.py:4749
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "企業集團"
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "企業集團"
 
-#: enterprise/models.py:4863
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
 msgstr "會員記錄與企業客戶用戶記錄一起寫入的時刻。"
 
-#: enterprise/models.py:4873
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "會員記錄的現狀"
 
-#: enterprise/models.py:4880
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr "會員記錄被企業管理員撤銷的時刻。"
 
-#: enterprise/models.py:4888
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
 msgstr "上次會員資格操作處於錯誤狀態的時間。 Null 表示成員資格沒有錯誤。"
 
-#: enterprise/models.py:4893
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "企業團體會員"
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "企業集團會員資格"
 

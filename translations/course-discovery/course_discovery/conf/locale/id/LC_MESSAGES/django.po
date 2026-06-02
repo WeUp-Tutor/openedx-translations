@@ -5,16 +5,18 @@
 # 
 # Translators:
 # Translators:
-# Brian Smith, 2025
+# Gerardo Núñez, 2026
+# Eden Huthmacher, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:32+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Indonesian (https://app.transifex.com/open-edx/teams/301281/id/)\n"
+"POT-Creation-Date: 2026-05-20 01:05+0000\n"
+"PO-Revision-Date: 2023-01-26 15:39+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
+"Language-Team: Indonesian (https://app.transifex.com/open-edx/teams/6205/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,13 +44,37 @@ msgstr "Jumlah kursus yang terdapat dalam katalog ini"
 msgid "Usernames of users with explicit access to view this catalog"
 msgstr "Nama pengguna dengan akses untuk melihat katalog ini"
 
+#: apps/api/serializers.py:1023
+msgid "Start date cannot be after the End date"
+msgstr "Tanggal mulai tidak bisa melewati tanggal berakhir"
+
+#: apps/api/serializers.py:1028
+msgid "Term cannot be changed"
+msgstr "Term cannot be changed"
+
 #: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
 msgstr "Bahasa yang terdaftar untuk kursus ini"
 
+#: apps/api/serializers.py:1152
+msgid "Course cannot be changed for an existing course run"
+msgstr "Kursus tidak dapat diubah untuk kursus berjalan"
+
+#: apps/api/serializers.py:1157
+msgid "Minimum effort cannot be greater than Maximum effort"
+msgstr "Minimum effort tidak boleh lebih besar dari Maximum effort"
+
+#: apps/api/serializers.py:1159
+msgid "Minimum effort and Maximum effort cannot be the same"
+msgstr "Minimum effort dan Maximum effort tidak boleh sama"
+
 #: apps/api/serializers.py:1205
 msgid "Dictionary mapping course run IDs to boolean values"
 msgstr "Kamus pemetaan kursus mengubah ID menjadi nilai boolean"
+
+#: apps/api/serializers.py:1309
+msgid "Restriction Type cannot be empty"
+msgstr "Restriction Type cannot be empty"
 
 #: apps/api/serializers.py:1775
 msgid "Dictionary mapping course IDs to boolean values"
@@ -63,13 +89,122 @@ msgid ""
 "Languages that course runs in this program have available transcripts in."
 msgstr "Bahasa yang terdaftar dan memiliki transkrip untuk kursus ini."
 
-#: apps/api/views.py:58
+#: apps/api/utils.py:346
+#, python-brace-format
+msgid ""
+"An error occurred while setting the course run image for [{key}] in studio. "
+"All other fields were successfully saved in Studio."
+msgstr ""
+"An error occurred while setting the course run image for [{key}] in studio. "
+"All other fields were successfully saved in Studio."
+
+#: apps/api/v1/exceptions.py:13
+msgid "Specifying both editable=1 and a q parameter is not supported."
+msgstr "Specifying both editable=1 and a q parameter is not supported."
+
+#: apps/api/v1/views/comments.py:34
+msgid "You must include a course_uuid in your query parameters."
+msgstr "Anda harus menyertakan course_uuid dalam parameter kueri Anda."
+
+#: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:205
+#, python-brace-format
+msgid "Missing value for: [{name}]. "
+msgstr "Tidak ada hasil untuk :[{name}] "
+
+#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:216
+msgid "Incorrect data sent. "
+msgstr "Data yang dikirim tidak sesuai. "
+
+#: apps/api/v1/views/course_runs.py:49
+msgid "Failed to set course run data: {}"
+msgstr "Gagal untuk mengatur data kursus berjalan: {}"
+
+#: apps/api/v1/views/course_runs.py:328
+msgid "Can only update status, ofac restrictions, and ofac comment"
+msgstr "Can only update status, ofac restrictions, and ofac comment"
+
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr ""
+"Jenis kursus yang dijalankan '{course_run_type}' tidak valid untuk jenis "
+"kursus ini '{course_type}'."
+
+#: apps/api/v1/views/course_runs.py:381
+msgid "Course run is in review. Editing disabled."
+msgstr "Course run is in review. Editing disabled."
+
+#: apps/api/v1/views/course_runs.py:388
+msgid "Invalid parameter"
+msgstr "Parameter tidak sesuai"
+
+#: apps/api/v1/views/courses.py:62
+msgid "Failed to set data: {}"
+msgstr "Pengaturan data gagal: {}"
+
+#: apps/api/v1/views/courses.py:207
+#, python-brace-format
+msgid "Organization [{org}] does not exist. "
+msgstr "Organisasi [{org}] tidak ditemukan "
+
+#: apps/api/v1/views/courses.py:209
+#, python-brace-format
+msgid "Course Type [{course_type}] does not exist. "
+msgstr "Jenis Kursus [{course_type}] tidak ditemukan. "
+
+#: apps/api/v1/views/courses.py:212
+#, python-brace-format
+msgid "Product Source [{product_source}] does not exist. "
+msgstr "Product Source [{product_source}] does not exist. "
+
+#: apps/api/v1/views/courses.py:229
+#, python-brace-format
+msgid "A course with key [{key}] already exists."
+msgstr "Kursus dengan key [{key}] sudah ada."
+
+#: apps/api/v1/views/courses.py:237
+#, python-brace-format
+msgid ""
+"Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
+"already in use. Please update this field and try again."
+msgstr ""
+"Pembuatan kursus gagal. URL slug '{url_slug}' sudah digunakan. Mohon ubah "
+"bagian ini dan coba lagi."
+
+#: apps/api/v1/views/courses.py:298
+msgid ""
+"Switching entitlement types after being reviewed is not supported. Please "
+"reach out to your project coordinator for additional help if necessary."
+msgstr ""
+"Mengubah jenis hak setelah ditinjau tidak didukung. Silakan hubungi "
+"koordinator proyek Anda untuk bantuan tambahan jika diperlukan."
+
+#: apps/api/v1/views/courses.py:408
+#, python-brace-format
+msgid ""
+"Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
+"in use. Please update this field and try again."
+msgstr ""
+"Gagal melakukan perubahan kursus. URL slug ‘[{url_slug}]’ sudah digunakan. "
+"Mohon ubah bagian ini dan coba lagi."
+
+#: apps/api/views.py:57
 msgid "You are not permitted to access the API documentation."
 msgstr "Anda tidak diperkenankan mengakses dokumentasi API."
 
 #: apps/catalogs/models.py:17
 msgid "Catalog name"
 msgstr "Nama katalog"
+
+#: apps/catalogs/models.py:18
+msgid "Query to retrieve Course Run catalog contents"
+msgstr "Query to retrieve Course Run catalog contents"
+
+#: apps/catalogs/models.py:25
+msgid "Include archived courses"
+msgstr "Termasuk kursus yang diarsipkan"
 
 #: apps/core/admin.py:17
 msgid "Personal info"
@@ -102,6 +237,11 @@ msgid ""
 msgstr ""
 "Konfigurasikan URL situs marketing yang akan digunakan untuk memanggil data "
 "dan membuat URL."
+
+#: apps/core/admin.py:59
+msgid ""
+"Configure the analytics API that will be used to retrieve enrollment data"
+msgstr "Konfigurasikan analitik API untuk mengambil data pendaftaran"
 
 #. Translators: 'period_choices' is a list of possible values, like ('second',
 #. 'minute', 'hour')
@@ -192,6 +332,30 @@ msgstr "Mitra"
 msgid "Partners"
 msgstr "Mitra"
 
+#: apps/core/models.py:130
+msgid "Salesforce Username"
+msgstr "Salesforce Nama Pengguna"
+
+#: apps/core/models.py:134
+msgid "Salesforce Password"
+msgstr "Salesforce Sandi"
+
+#: apps/core/models.py:139
+msgid "Salesforce Organization Id"
+msgstr "Salesforce Organization Id"
+
+#: apps/core/models.py:145
+msgid "Salesforce Security Token"
+msgstr "Salesforce Security Token"
+
+#: apps/core/models.py:149
+msgid "Is a Salesforce Sandbox?"
+msgstr "Is a Salesforce Sandbox?"
+
+#: apps/core/models.py:155
+msgid "Case Record Type Id"
+msgstr "Case Record Type Id"
+
 #: apps/course_metadata/admin.py:38
 #, python-brace-format
 msgid ""
@@ -217,6 +381,44 @@ msgstr "Tidak"
 msgid "Included course runs"
 msgstr "Termasuk kursus berjalan"
 
+#: apps/course_metadata/admin.py:889
+msgid "Edit link"
+msgstr "Edit link"
+
+#: apps/course_metadata/admin.py:897
+msgid "Edit course run exclusions"
+msgstr "Edit course run exclusions"
+
+#: apps/course_metadata/admin.py:899
+msgid "(save and continue editing to create a link)"
+msgstr "(save and continue editing to create a link)"
+
+#: apps/course_metadata/admin.py:1037
+#, python-format
+msgid "Successfully %(status)s %(count)d %(items)s."
+msgstr "Successfully %(status)s %(count)d %(items)s."
+
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "Sertifikat"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "Jalur Menuju Derajat"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "Kamp Pelatihan"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "Sarjana"
+
+#: apps/course_metadata/algolia_models.py:116
+#: apps/course_metadata/algolia_models.py:667
+msgid "Available now"
+msgstr "Tersedia sekarang"
+
 #: apps/course_metadata/algolia_models.py:118
 #: apps/course_metadata/models.py:2757
 msgid "Upcoming"
@@ -228,10 +430,22 @@ msgstr "Akan Datang"
 msgid "Archived"
 msgstr "Diarsipkan"
 
+#: apps/course_metadata/algolia_models.py:678
+msgid "Available by subscription"
+msgstr "Tersedia dengan berlangganan"
+
 #: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:22
 #: apps/course_metadata/choices.py:36
 msgid "Unpublished"
 msgstr "Belum diterbitkan"
+
+#: apps/course_metadata/choices.py:7
+msgid "Awaiting Review from Legal"
+msgstr "Awaiting Review from Legal"
+
+#: apps/course_metadata/choices.py:8
+msgid "Awaiting Internal Review"
+msgstr "Awaiting Internal Review"
 
 #: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:23
 #: apps/course_metadata/choices.py:101
@@ -263,9 +477,69 @@ msgstr "Aktif"
 msgid "Deleted"
 msgstr "Sudah dihapus"
 
+#: apps/course_metadata/choices.py:43
+msgid "mooc"
+msgstr "mooc"
+
+#: apps/course_metadata/choices.py:44
+msgid "spoc"
+msgstr "spoc"
+
+#: apps/course_metadata/choices.py:45
+msgid "test"
+msgstr "test"
+
+#: apps/course_metadata/choices.py:46
+msgid "demo"
+msgstr "demo"
+
+#: apps/course_metadata/choices.py:47
+msgid "other"
+msgstr "lainnya"
+
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "Kursus Membuat"
+
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "Pembaruan Sebagian"
+
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "Kursus Ulang"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "Pembaruan Editor Kursus"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "Tertunda"
+
 #: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "Terverifikasi"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "Pengolahan"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "Selesai"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "Gagal"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "Sebagian Selesai"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "salah"
 
 #: apps/course_metadata/choices.py:74
 msgid "Honor"
@@ -279,6 +553,26 @@ msgstr "Kredit"
 msgid "Professional"
 msgstr "Profesional"
 
+#: apps/course_metadata/choices.py:78
+msgid "Executive Education"
+msgstr "Pendidikan Eksekutif"
+
+#: apps/course_metadata/choices.py:79
+msgid "Paid Executive Education"
+msgstr "Pendidikan Eksekutif Berbayar"
+
+#: apps/course_metadata/choices.py:80
+msgid "Unpaid Executive Education"
+msgstr "Pendidikan Eksekutif Tidak Berbayar"
+
+#: apps/course_metadata/choices.py:81
+msgid "Paid Bootcamp"
+msgstr "Kamp Pelatihan Berbayar"
+
+#: apps/course_metadata/choices.py:82
+msgid "Unpaid Bootcamp"
+msgstr "Kamp Pelatihan Tidak Berbayar"
+
 #: apps/course_metadata/choices.py:86
 msgid "Platform"
 msgstr "Platform"
@@ -286,6 +580,165 @@ msgstr "Platform"
 #: apps/course_metadata/choices.py:87
 msgid "Organization"
 msgstr "Organisasi"
+
+#: apps/course_metadata/choices.py:91
+msgid "Short"
+msgstr "Pendek"
+
+#: apps/course_metadata/choices.py:92
+msgid "Medium"
+msgstr "Sedang"
+
+#: apps/course_metadata/choices.py:93
+msgid "Long"
+msgstr "Panjang"
+
+#: apps/course_metadata/choices.py:108
+msgid "Short Course"
+msgstr "Kursus Singkat"
+
+#: apps/course_metadata/choices.py:109
+msgid "Sprint"
+msgstr "Sprint"
+
+#: apps/course_metadata/choices.py:110
+msgid "Course Stack"
+msgstr "Course Stack"
+
+#: apps/course_metadata/choices.py:114
+msgid "Custom B2B Enterprise"
+msgstr "Perusahaan B2B Kustom"
+
+#: apps/course_metadata/choices.py:115
+msgid "Custom B2C"
+msgstr "B2C khusus"
+
+#: apps/course_metadata/data_loaders/course_type.py:27
+#, python-brace-format
+msgid ""
+"Existing course type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
+msgstr ""
+"Existing course type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
+
+#: apps/course_metadata/data_loaders/course_type.py:61
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match course type "
+"{type}.Skipping type."
+msgstr ""
+"Existing run type {run_type} for {key} ({id}) doesn't match course type "
+"{type}.Skipping type."
+
+#: apps/course_metadata/data_loaders/course_type.py:75
+#, python-brace-format
+msgid ""
+"Existing run type {run_type} for {key} ({id}) doesn't match its own seats."
+msgstr ""
+"Existing run type {run_type} for {key} ({id}) doesn't match its own seats."
+
+#: apps/course_metadata/data_loaders/course_type.py:91
+#, python-brace-format
+msgid "Course {key} ({id}) matched type {type}"
+msgstr "Course {key} ({id}) matched type {type}"
+
+#: apps/course_metadata/data_loaders/course_type.py:101
+#, python-brace-format
+msgid "Could not convert course {key} ({id}) to type {type}"
+msgstr "Tidak dapat mengonversi kursus {key} ({id}) ke tipe {type}"
+
+#: apps/course_metadata/emails.py:37
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no "
+"organization is defined for course {course}"
+msgstr ""
+"Notifikasi email tidak dikirim untuk template {template} karena tidak ada "
+"organisasi yang ditentukan untuk kursus {course}"
+
+#: apps/course_metadata/emails.py:42
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no project "
+"coordinator is defined for organization {org}"
+msgstr ""
+"Tidak mengirim email notifikasi untuk template {template} karena tidak ada "
+"koordinator proyek yang ditentukan untuk organisasi {org}"
+
+#: apps/course_metadata/emails.py:96
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no publisher "
+"URL is defined for partner {partner}"
+msgstr ""
+"Tidak mengirim email notifikasi untuk template {template} karena URL "
+"penerbit tidak ditentukan untuk mitra {partner}"
+
+#: apps/course_metadata/emails.py:104
+#, python-brace-format
+msgid ""
+"Not sending notification email for template {template} because no studio URL"
+" is defined for partner {partner}"
+msgstr ""
+"Tidak mengirim email notifikasi untuk template {template} karena URL studio "
+"tidak ditentukan untuk mitra {partner}"
+
+#: apps/course_metadata/emails.py:170
+msgid "legal team"
+msgstr "legal team"
+
+#: apps/course_metadata/emails.py:188
+msgid "Project Coordinator team"
+msgstr "Project Coordinator team"
+
+#: apps/course_metadata/emails.py:212
+msgid "course team"
+msgstr "Tim Kursus"
+
+#: apps/course_metadata/emails.py:221
+#, python-brace-format
+msgid "Legal review requested: {title}"
+msgstr "Legal review requested: {title}"
+
+#: apps/course_metadata/emails.py:234
+#, python-brace-format
+msgid "Course URL for {title}"
+msgstr "Course URL for {title}"
+
+#: apps/course_metadata/emails.py:280
+#, python-brace-format
+msgid "Review requested: {key} - {title}"
+msgstr "Review requested: {key} - {title}"
+
+#: apps/course_metadata/emails.py:292
+#, python-brace-format
+msgid "Review complete: {title}"
+msgstr "Review complete: {title}"
+
+#: apps/course_metadata/emails.py:308
+#, python-brace-format
+msgid "Published: {title}"
+msgstr "Published: {title}"
+
+#: apps/course_metadata/emails.py:312
+#, python-brace-format
+msgid "Published: {key} - {title}"
+msgstr "Published: {key} - {title}"
+
+#: apps/course_metadata/emails.py:327
+#, python-brace-format
+msgid "Comment added: {title}"
+msgstr "Comment added: {title}"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: apps/course_metadata/fields.py:33
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, slashes, underscores or"
+" hyphens."
+msgstr ""
+"Masukkan \"slug\" yang valid yang terdiri dari huruf, angka, garis miring, "
+"garis bawah, atau tanda hubung."
 
 #: apps/course_metadata/forms.py:102
 msgid "Programs can only be activated if they have a banner image."
@@ -303,9 +756,193 @@ msgstr "Program hanya dapat diaktifkan jika memiliki gambar banner."
 msgid "UUID"
 msgstr "UUID"
 
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:22
+msgid "Course to backpopulate."
+msgstr "Course to backpopulate."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:27
+msgid "KEY"
+msgstr "KEY"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:29
+msgid "Organization to backpopulate."
+msgstr "Organization to backpopulate."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:35
+msgid ""
+"CourseType/CourseRunType mismatches to allow. Specify like course-type-"
+"slug:run-type-slug."
+msgstr ""
+"CourseType/CourseRunType mismatches to allow. Specify like course-type-"
+"slug:run-type-slug."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:41
+#: apps/course_metadata/management/commands/delete_person_dups.py:38
+msgid "Actually commit the changes to the database."
+msgstr "Actually commit the changes to the database."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:46
+msgid ""
+"Use arguments from the BackpopulateCourseTypeConfig model instead of the "
+"command line."
+msgstr ""
+"Gunakan argumen dari model BackpopulateCourseTypeConfig alih-alih dari "
+"command line."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:64
+msgid "You must specify --partner"
+msgstr "You must specify --partner"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:71
+#, python-brace-format
+msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
+msgstr "Supplied Course Run Type slug [{rt_slug}] does not exist."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:78
+#, python-brace-format
+msgid "Supplied Course Type slug [{ct_slug}] does not exist."
+msgstr "Supplied Course Type slug [{ct_slug}] does not exist."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:89
+msgid "No courses found. Did you specify an argument?"
+msgstr "No courses found. Did you specify an argument?"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:101
+#, python-brace-format
+msgid ""
+"Could not backpopulate a course type for the following courses: "
+"{course_keys}"
+msgstr ""
+"Could not backpopulate a course type for the following courses: "
+"{course_keys}"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:21
+msgid "Delete duplicate persons in course_metadata."
+msgstr "Hapus duplikat orang di course_metadata."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:26
+msgid "PERSON"
+msgstr "PERSON"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:28
+msgid "People to delete, in UUID:TARGET_UUID form."
+msgstr "People to delete, in UUID:TARGET_UUID form."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:32
+msgid "PARTNER"
+msgstr "PARTNER"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:43
+msgid ""
+"Use arguments from the DeletePersonDupsConfig model instead of the command "
+"line."
+msgstr ""
+"Use arguments from the DeletePersonDupsConfig model instead of the command "
+"line."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:60
+msgid "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
+msgstr "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:62
+msgid "Malformed argument \"{}\", UUIDs cannot be equal"
+msgstr "Malformed argument \"{}\", UUIDs cannot be equal"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:85
+msgid "Deleting"
+msgstr "Menghapus"
+
 #: apps/course_metadata/management/commands/delete_person_dups.py:86
 msgid "Name"
 msgstr "Nama"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:87
+msgid "Endorsements"
+msgstr "Endorsements"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:88
+msgid "Programs"
+msgstr "Program-program"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:89
+msgid "Course Runs"
+msgstr "Course Runs"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:90
+msgid "Target"
+msgstr "Target"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:129
+msgid "You must specify --partner-code"
+msgstr "You must specify --partner-code"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:132
+msgid "You must specify at least one person"
+msgstr "Anda harus menentukan setidaknya satu orang"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:23
+#, python-brace-format
+msgid "Publishing course run {key}"
+msgstr "Publishing course run {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:28
+#, python-brace-format
+msgid "Failed to publish {key}"
+msgstr "Failed to publish {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:31
+#, python-brace-format
+msgid "Successfully published {key}"
+msgstr "Berhasil menerbitkan {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:34
+msgid "One or more course runs failed to publish."
+msgstr "Satu atau lebih sesi kursus gagal dipublikasikan."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
+msgid "Remove all redirects to all courses"
+msgstr "Remove all redirects to all courses"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:23
+msgid "Redirects to remove"
+msgstr "Redirects to remove"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:25
+msgid ""
+"Use arguments from the RemoveRedirectsConfig model instead of the command "
+"line."
+msgstr ""
+"Gunakan argumen dari model RemoveRedirectsConfig alih-alih dari command "
+"line."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:56
+#, python-brace-format
+msgid "Cannot remove active url_slug {url_slug}"
+msgstr "Cannot remove active url_slug {url_slug}"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
+#, python-brace-format
+msgid "Path /course/{url_slug} not in use, nothing to delete"
+msgstr "Path /course/{url_slug} not in use, nothing to delete"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
+#, python-brace-format
+msgid "Path {url_path} not in use, nothing to delete"
+msgstr "Path {url_path} not in use, nothing to delete"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:44
+msgid "One or more courses failed to unpublish."
+msgstr "One or more courses failed to unpublish."
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:50
+#, python-brace-format
+msgid "Successfully unpublished runs in course {key}"
+msgstr "Successfully unpublished runs in course {key}"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:53
+#, python-brace-format
+msgid "Failed to unpublish runs in course {key}"
+msgstr "Failed to unpublish runs in course {key}"
 
 #: apps/course_metadata/models.py:239
 msgid ""
@@ -314,6 +951,22 @@ msgid ""
 msgstr ""
 "Mohon tidak menggunakan spasi atau karakter khusus selain titik, garis bawah"
 " atau tanda hubung. Kunci ini akan digunakan dalam kunci kursus."
+
+#: apps/course_metadata/models.py:244
+msgid "If populated, this field will overwrite name in platform."
+msgstr "Jika diisi, kolom ini akan menimpa nama di platform."
+
+#: apps/course_metadata/models.py:249
+msgid "Spanish Description"
+msgstr "Spanish Description"
+
+#: apps/course_metadata/models.py:250
+msgid ""
+"For seo, this field allows for alternate spanish description to be manually "
+"inputted"
+msgstr ""
+"For seo, this field allows for alternate spanish description to be manually "
+"inputted"
 
 #: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
 #: apps/course_metadata/models.py:2372
@@ -324,11 +977,114 @@ msgstr ""
 "Pilih label dari saran. Untuk membuat label baru, tambahkan koma setelah "
 "nama label."
 
+#: apps/course_metadata/models.py:281
+msgid ""
+"When this flag is enabled, the key of a new course run will be auto "
+"generated.  When this flag is disabled, the key can be manually set."
+msgstr ""
+"Ketika bendera ini diaktifkan, kunci dari pelaksanaan kursus baru akan "
+"dihasilkan secara otomatis. Ketika bendera ini dinonaktifkan, kunci dapat "
+"diatur secara manual."
+
+#: apps/course_metadata/models.py:287
+msgid ""
+"This field signifies if any of this org's courses are in the enterprise "
+"subscription catalog"
+msgstr ""
+"Bidang ini menunjukkan apakah ada kursus dari organisasi ini yang termasuk "
+"dalam katalog langganan perusahaan."
+
+#: apps/course_metadata/models.py:290
+msgid ""
+"The 6 character-hex-value of the orgnization theme color,\n"
+"            all related course under same organization will use this color as theme color.\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
+msgstr ""
+"Nilai heksadesimal 6 karakter dari warna tema organisasi,\n"
+"            semua kursus terkait di bawah organisasi yang sama akan menggunakan warna ini sebagai warna tema.\n"
+"            (misalnya, \"#ff0000\" yang berarti merah) Tidak perlu menyertakan `#`"
+
+#: apps/course_metadata/models.py:306
+msgid "The timestamp of the last time the organization data was modified."
+msgstr "The timestamp of the last time the organization data was modified."
+
+#: apps/course_metadata/models.py:322
+msgid ""
+"Please do not use any spaces or special characters other than period, "
+"underscore or hyphen in the key field."
+msgstr ""
+"Mohon tidak menggunakan spasi atau karakter khusus selain titik, garis bawah"
+" atau tanda hubung di kolom kunci."
+
+#: apps/course_metadata/models.py:393
+msgid "Corresponding organization code in an external product source"
+msgstr "Kode organisasi yang sesuai di sumber produk eksternal"
+
+#: apps/course_metadata/models.py:450
+msgid "LevelType model translations"
+msgstr "LevelType model translations"
+
+#: apps/course_metadata/models.py:489
+msgid "Please provide an image file with transparent background"
+msgstr "Silakan sediakan file gambar dengan latar belakang transparan"
+
 #: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
 #: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
 #: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3386
 msgid "Leave this field blank to have the value generated automatically."
 msgstr "Kosongkan kolom ini untuk mendapatkan nilai secara otomatis."
+
+#: apps/course_metadata/models.py:533
+msgid "Name of the external source."
+msgstr "Nama sumber eksternal."
+
+#: apps/course_metadata/models.py:538
+msgid "Description of the external source."
+msgstr "Deskripsi sumber eksternal."
+
+#: apps/course_metadata/models.py:543
+msgid "Programs of these types will be OFAC restricted"
+msgstr "Program jenis ini akan dibatasi OFAC"
+
+#: apps/course_metadata/models.py:557
+msgid "ProgramType model translations"
+msgstr "ProgramType model translations"
+
+#: apps/course_metadata/models.py:571
+msgid "This mode requires ID verification."
+msgstr "Mode ini memerlukan verifikasi ID."
+
+#: apps/course_metadata/models.py:574
+msgid "Completion can grant credit toward an organization’s degree."
+msgstr "Penyelesaian dapat memberikan kredit menuju gelar organisasi."
+
+#: apps/course_metadata/models.py:578
+msgid ""
+"Certificate type granted if this mode is eligible for a certificate, or "
+"blank if not."
+msgstr ""
+"Jenis sertifikat diberikan jika mode ini memenuhi syarat untuk sertifikat, "
+"atau kosong jika tidak."
+
+#: apps/course_metadata/models.py:582
+msgid ""
+"Who gets paid for the course? Platform is the site owner, Organization is "
+"the school."
+msgstr ""
+"Who gets paid for the course? Platform is the site owner, Organization is "
+"the school."
+
+#: apps/course_metadata/models.py:679
+msgid "Sets the order for displaying Course Run Types."
+msgstr "Sets the order for displaying Course Run Types."
+
+#: apps/course_metadata/models.py:682
+msgid ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this course type in Publisher."
+msgstr ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this course type in Publisher."
 
 #: apps/course_metadata/models.py:732
 msgid "Subject model translations"
@@ -338,9 +1094,136 @@ msgstr "Terjemahan model subjek"
 msgid "Topic model translations"
 msgstr "Terjemahan model topik"
 
+#: apps/course_metadata/models.py:846
+msgid "SEO Meta tags for Products"
+msgstr "SEO Meta tags for Products"
+
+#: apps/course_metadata/models.py:881
+msgid ""
+"The ID of the Taxi Form (by 2U) that would be rendered in place of the "
+"hubspot capture form"
+msgstr ""
+"The ID of the Taxi Form (by 2U) that would be rendered in place of the "
+"hubspot capture form"
+
+#: apps/course_metadata/models.py:933
+msgid "The URL of the paid landing page on external site"
+msgstr "The URL of the paid landing page on external site"
+
+#: apps/course_metadata/models.py:939
+msgid "The URL of the organic landing page on external site"
+msgstr "url of the organic landing page on external site"
+
+#: apps/course_metadata/models.py:950
+msgid "The start date of the external course offering for marketing purpose"
+msgstr "Tanggal mulai penawaran kursus eksternal untuk tujuan pemasaran"
+
+#: apps/course_metadata/models.py:954
+msgid "The ends date of the external course offering for marketing purpose"
+msgstr "Tanggal berakhirnya penawaran kursus eksternal untuk tujuan pemasaran"
+
+#: apps/course_metadata/models.py:958
+msgid "The suggested deadline for enrollment for marketing purpose"
+msgstr "The suggested deadline for enrollment for marketing purpose"
+
+#: apps/course_metadata/models.py:962
+msgid "The identifier for a product variant."
+msgstr "The identifier for a product variant."
+
+#: apps/course_metadata/models.py:966
+msgid "Course override"
+msgstr "Course override"
+
+#: apps/course_metadata/models.py:993
+msgid ""
+"This field contain external course marketing type specific to product lines"
+msgstr ""
+"This field contain external course marketing type specific to product lines"
+
+#: apps/course_metadata/models.py:1002
+msgid ""
+"Determines weather the course should be displayed on the owning "
+"organization's page"
+msgstr ""
+"Determines weather the course should be displayed on the owning "
+"organization's page"
+
+#: apps/course_metadata/models.py:1073
+msgid "A list of major works by this person. Must be valid HTML."
+msgstr "A list of major works by this person. Must be valid HTML."
+
 #: apps/course_metadata/models.py:1081
 msgid "People"
 msgstr "Orang"
+
+#: apps/course_metadata/models.py:1272
+msgid ""
+"Add the collaborator image, please make sure its dimensions are 200x100px"
+msgstr "Tambahkan gambar kolaborator, pastikan dimensinya adalah 200x100px"
+
+#: apps/course_metadata/models.py:1296
+msgid "U.S. Value Per Lead"
+msgstr "U.S. Value Per Lead"
+
+#: apps/course_metadata/models.py:1297
+msgid "U.S. value per lead in U.S. dollars."
+msgstr "U.S. value per lead in U.S. dollars."
+
+#: apps/course_metadata/models.py:1302
+msgid "International Value Per Lead"
+msgstr "International Value Per Lead"
+
+#: apps/course_metadata/models.py:1303
+msgid "International value per lead in U.S. dollars."
+msgstr "International value per lead in U.S. dollars."
+
+#: apps/course_metadata/models.py:1308
+msgid "U.S. Value Per Click"
+msgstr "U.S. Value Per Click"
+
+#: apps/course_metadata/models.py:1309
+msgid "U.S. value per click in U.S. dollars."
+msgstr "U.S. value per click in U.S. dollars."
+
+#: apps/course_metadata/models.py:1314
+msgid "International Value Per Click"
+msgstr "International Value Per Click"
+
+#: apps/course_metadata/models.py:1315
+msgid "International value per click in U.S. dollars."
+msgstr "Nilai internasional per klik dalam dolar AS."
+
+#: apps/course_metadata/models.py:1359
+msgid "Latitude"
+msgstr "Latitude"
+
+#: apps/course_metadata/models.py:1366
+msgid "Longitude"
+msgstr "Garis bujur"
+
+#: apps/course_metadata/models.py:1409
+msgid "Allowlist"
+msgstr "Allowlist"
+
+#: apps/course_metadata/models.py:1410
+msgid "Blocklist"
+msgstr "Blocklist"
+
+#: apps/course_metadata/models.py:1460
+msgid ""
+"When making reruns for this course, they will use this key instead of the "
+"course key."
+msgstr ""
+"When making reruns for this course, they will use this key instead of the "
+"course key."
+
+#: apps/course_metadata/models.py:1477
+msgid ""
+"The actual duration of this course as experienced by learners who complete "
+"it."
+msgstr ""
+"Durasi sebenarnya dari kursus ini seperti yang dialami oleh pelajar yang "
+"menyelesaikannya."
 
 #: apps/course_metadata/models.py:1498
 msgid "Add the course image"
@@ -350,6 +1233,172 @@ msgstr "Tambahkan gambar kursus"
 msgid "FAQ"
 msgstr "FAQ"
 
+#: apps/course_metadata/models.py:1504
+msgid "Total number of learners who have enrolled in this course"
+msgstr "Jumlah total peserta yang telah mendaftar di kursus ini"
+
+#: apps/course_metadata/models.py:1509
+msgid ""
+"Total number of learners who have enrolled in this course in the last 6 "
+"months"
+msgstr ""
+"Jumlah total peserta yang telah mendaftar di kursus ini dalam 6 bulan "
+"terakhir"
+
+#: apps/course_metadata/models.py:1523
+msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
+msgstr "Format nomor kursus misalnya CS002x, BIO1.1x, BIO1.2x"
+
+#: apps/course_metadata/models.py:1537
+msgid "Additional Information"
+msgstr "Informasi Tambahan"
+
+#: apps/course_metadata/models.py:1559
+msgid "The last time this course was modified in the database."
+msgstr "Terakhir kali kursus ini diubah dalam database."
+
+#: apps/course_metadata/models.py:1564
+msgid ""
+"This field signifies if this course is in the enterprise subscription "
+"catalog"
+msgstr ""
+"Bidang ini menunjukkan apakah kursus ini ada dalam katalog langganan "
+"perusahaan"
+
+#: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3517
+msgid ""
+"If checked, this item will not be indexed in Algolia and will not show up in"
+" search results."
+msgstr ""
+"Jika dicentang, item ini tidak akan diindeks di Algolia dan tidak akan "
+"muncul dalam hasil pencarian."
+
+#: apps/course_metadata/models.py:1580 apps/course_metadata/models.py:3525
+msgid "If checked, the About Page will have a meta tag with noindex value"
+msgstr ""
+"If checked, the Tentang Halaman will have a meta tag with noindex value"
+
+#: apps/course_metadata/models.py:1585
+msgid "Watchers"
+msgstr "Watchers"
+
+#: apps/course_metadata/models.py:1587
+msgid ""
+"The list of email addresses that will be notified if any of the course runs "
+"is published or scheduled."
+msgstr ""
+"Daftar alamat email yang akan diberitahu jika ada sesi kursus yang "
+"diterbitkan atau dijadwalkan."
+
+#: apps/course_metadata/models.py:1834
+msgid "Past"
+msgstr "Past"
+
+#: apps/course_metadata/models.py:2276 apps/course_metadata/models.py:3369
+msgid "Blocked"
+msgstr "Blocked"
+
+#: apps/course_metadata/models.py:2298
+msgid ""
+"Title specific for this run of a course. Leave this value blank to default "
+"to the parent course's title."
+msgstr ""
+"Title specific for this run of a course. Leave this value blank to default "
+"to the parent course's title."
+
+#: apps/course_metadata/models.py:2307
+msgid ""
+"Short description specific for this run of a course. Leave this value blank "
+"to default to the parent course's short_description attribute."
+msgstr ""
+"Deskripsi singkat khusus untuk pelaksanaan kursus ini. Biarkan nilai ini "
+"kosong untuk menggunakan atribut short_description dari kursus induk."
+
+#: apps/course_metadata/models.py:2311
+msgid ""
+"Full description specific for this run of a course. Leave this value blank "
+"to default to the parent course's full_description attribute."
+msgstr ""
+"Deskripsi lengkap khusus untuk pelaksanaan kursus ini. Biarkan nilai ini "
+"kosong untuk menggunakan atribut full_description dari kursus induk."
+
+#: apps/course_metadata/models.py:2316
+msgid ""
+"Estimated minimum number of hours per week needed to complete a course run."
+msgstr ""
+"Perkiraan jumlah minimum jam per minggu yang dibutuhkan untuk menyelesaikan "
+"satu rangkaian kursus."
+
+#: apps/course_metadata/models.py:2319
+msgid ""
+"Estimated maximum number of hours per week needed to complete a course run."
+msgstr ""
+"Perkiraan jumlah maksimum jam per minggu yang dibutuhkan untuk menyelesaikan"
+" satu kursus."
+
+#: apps/course_metadata/models.py:2322
+msgid "Estimated number of weeks needed to complete this course run."
+msgstr ""
+"Perkiraan jumlah minggu yang dibutuhkan untuk menyelesaikan jalur kursus "
+"ini."
+
+#: apps/course_metadata/models.py:2329
+msgid ""
+"A JSON dict detailing the available translations and transcriptions for this"
+" run. The dict has two keys: translation_languages and "
+"transcription_languages."
+msgstr ""
+"Kamus JSON yang merinci terjemahan dan transkripsi yang tersedia untuk "
+"proses ini. Kamus memiliki dua kunci: translation_languages dan "
+"transcription_languages."
+
+#: apps/course_metadata/models.py:2336
+msgid "Total number of learners who have enrolled in this course run"
+msgstr ""
+"Jumlah total peserta yang telah mendaftar dalam pelaksanaan kursus ini"
+
+#: apps/course_metadata/models.py:2340
+msgid ""
+"Total number of learners who have enrolled in this course run in the last 6 "
+"months"
+msgstr ""
+"Jumlah total peserta yang telah mendaftar dalam pelaksanaan kursus ini dalam"
+" 6 bulan terakhir"
+
+#: apps/course_metadata/models.py:2353
+msgid ""
+"Whether this run should be hidden from API responses.  Do not edit here - "
+"this value will be overwritten by the \"Course Visibility In Catalog\" field"
+" in Studio via Refresh Course Metadata."
+msgstr ""
+"Apakah pelaksanaan ini harus disembunyikan dari respons API. Jangan edit di "
+"sini - nilai ini akan ditimpa oleh bidang \"Visibilitas Kursus Dalam "
+"Katalog\" di Studio melalui Penyegaran Metadata Kursus."
+
+#: apps/course_metadata/models.py:2359
+msgid "Indicates whether the course relation has been manually overridden."
+msgstr "Indicates whether the course relation has been manually overridden."
+
+#: apps/course_metadata/models.py:2379 apps/course_metadata/models.py:3553
+msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
+msgstr "Add OFAC restriction text to the FAQ section of the Marketing site"
+
+#: apps/course_metadata/models.py:2399
+msgid ""
+"This calculated field signifies if this course run is in the enterprise "
+"subscription catalog"
+msgstr ""
+"This calculated field signifies if this course run is in the enterprise "
+"subscription catalog"
+
+#: apps/course_metadata/models.py:2405
+msgid ""
+"The identifier for a product variant. This is used to link a course run to a"
+" product variant for external LOBs (i.e; ExecEd & Bootcamps)."
+msgstr ""
+"The identifier for a product variant. This is used to link a course run to a"
+" product variant for external LOBs (i.e; ExecEd & Bootcamps)."
+
 #: apps/course_metadata/models.py:2753 apps/course_metadata/models.py:2766
 msgid "Current"
 msgstr "Saat Ini"
@@ -358,9 +1407,370 @@ msgstr "Saat Ini"
 msgid "Starting Soon"
 msgstr "Segera Dimulai"
 
+#: apps/course_metadata/models.py:2805
+msgid ""
+"Switching seat types after being reviewed is not supported. Please reach out"
+" to your project coordinator for additional help if necessary."
+msgstr ""
+"Mengubah jenis kursi setelah ditinjau tidak didukung. Silakan hubungi "
+"koordinator proyek Anda untuk bantuan tambahan jika diperlukan."
+
+#: apps/course_metadata/models.py:3159
+msgid "Change careers"
+msgstr "Beralih karier"
+
+#: apps/course_metadata/models.py:3161
+msgid "Learn valuable skills"
+msgstr "Pelajari keterampilan berharga"
+
+#: apps/course_metadata/models.py:3162
+msgid "Learn for fun"
+msgstr "Belajar untuk bersenang-senang"
+
 #: apps/course_metadata/models.py:3359
 msgid "FAQs"
 msgstr "FAQ"
+
+#: apps/course_metadata/models.py:3374
+msgid "The user-facing display title for this Program."
+msgstr "The user-facing display title for this Program."
+
+#: apps/course_metadata/models.py:3376
+msgid "A brief, descriptive subtitle for the Program."
+msgstr "Sebuah subjudul singkat dan deskriptif untuk Program ini."
+
+#: apps/course_metadata/models.py:3378
+msgid "A brief hook for the marketing website"
+msgstr "A brief hook for the marketing website"
+
+#: apps/course_metadata/models.py:3381
+msgid "The lifecycle status of this Program."
+msgstr "The lifecycle status of this Program."
+
+#: apps/course_metadata/models.py:3393
+msgid ""
+"If this box is not checked, courses will be ordered as in the courses select"
+" box above."
+msgstr ""
+"If this box is not checked, courses will be ordered as in the courses select"
+" box above."
+
+#: apps/course_metadata/models.py:3408
+msgid ""
+"This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
+" complete a course run belonging to this program."
+msgstr ""
+"This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
+" complete a course run belonging to this program."
+
+#: apps/course_metadata/models.py:3434
+msgid "DEPRECATED: Use the card image field"
+msgstr "DEPRECATED: Use the card image field"
+
+#: apps/course_metadata/models.py:3441
+msgid ""
+"This field can be used by API clients to determine the order in which "
+"instructors will be displayed on program pages. Instructors in this list "
+"should appear before all others associated with this programs courses runs."
+msgstr ""
+"Bidang ini dapat digunakan oleh klien API untuk menentukan urutan di mana "
+"instruktur akan ditampilkan pada halaman program. Instruktur dalam daftar "
+"ini harus muncul sebelum semua instruktur lain yang terkait dengan "
+"pelaksanaan kursus program ini."
+
+#: apps/course_metadata/models.py:3457
+msgid "Allow courses in this program to be purchased in a single transaction"
+msgstr "Izinkan kursus dalam program ini dibeli dalam satu transaksi"
+
+#: apps/course_metadata/models.py:3464
+msgid "Total number of learners who have enrolled in courses this program"
+msgstr "Jumlah total peserta yang telah mendaftar dalam kursus program ini"
+
+#: apps/course_metadata/models.py:3469
+msgid ""
+"Total number of learners who have enrolled in courses in this program in the"
+" last 6 months"
+msgstr ""
+"Jumlah total peserta yang telah mendaftar dalam kursus di program ini dalam "
+"6 bulan terakhir"
+
+#: apps/course_metadata/models.py:3474
+msgid ""
+"Number of credits a learner will earn upon successful completion of the "
+"program"
+msgstr ""
+"Jumlah kredit yang akan diperoleh peserta didik setelah berhasil "
+"menyelesaikan program"
+
+#: apps/course_metadata/models.py:3478
+msgid ""
+"This calculated field signifies if all the courses in this program are "
+"included in the enterprise subscription catalog "
+msgstr ""
+"This calculated field signifies if all the courses in this program are "
+"included in the enterprise subscription catalog "
+
+#: apps/course_metadata/models.py:3482
+msgid ""
+"A field to override Organization short code alias specific for this program."
+msgstr ""
+"Sebuah bidang untuk mengganti alias kode singkat Organisasi yang spesifik "
+"untuk program ini."
+
+#: apps/course_metadata/models.py:3489
+msgid "A field to override Organization logo specific for this program."
+msgstr "A field to override Organization logo specific for this program."
+
+#: apps/course_metadata/models.py:3493
+msgid ""
+"Primary subject field specific for this program. Useful field in case there "
+"are no courses associated with this program."
+msgstr ""
+"Bidang subjek utama khusus untuk program ini. Bidang yang berguna jika tidak"
+" ada kursus yang terkait dengan program ini."
+
+#: apps/course_metadata/models.py:3498
+msgid ""
+"Level type specific for this program. Useful field in case there are no "
+"courses associated with this program."
+msgstr ""
+"Jenis tingkat khusus untuk program ini. Bidang yang berguna jika tidak ada "
+"kursus yang terkait dengan program ini."
+
+#: apps/course_metadata/models.py:3503
+msgid ""
+"Language code specific for this program. Useful field in case there are no "
+"courses associated with this program."
+msgstr ""
+"Kode bahasa khusus untuk program ini. Bidang yang berguna jika tidak ada "
+"kursus yang terkait dengan program ini."
+
+#: apps/course_metadata/models.py:3537
+msgid ""
+"Useful field to overwrite the duration of a program. It can be a text "
+"describing a period of time, Ex: 6-9 months."
+msgstr ""
+"Field yang berguna untuk menimpa durasi program. Ini bisa berupa teks yang "
+"menggambarkan periode waktu, Contoh: 6-9 bulan."
+
+#: apps/course_metadata/models.py:3546
+msgid ""
+"Pick a tag/label from the suggestions. To make a new tag, add a comma after "
+"the tag name."
+msgstr ""
+"Pilih label dari saran. Untuk membuat label baru, tambahkan koma setelah "
+"nama label."
+
+#: apps/course_metadata/models.py:3557
+msgid "The last time this program was modified."
+msgstr "Terakhir kali program ini dimodifikasi."
+
+#: apps/course_metadata/models.py:4009 apps/course_metadata/models.py:4026
+msgid "ID"
+msgstr "ID"
+
+#: apps/course_metadata/models.py:4045
+msgid "The actual rank number"
+msgstr "The actual rank number"
+
+#: apps/course_metadata/models.py:4046
+msgid "What does the rank number mean"
+msgstr "Apa arti dari nomor peringkat tersebut"
+
+#: apps/course_metadata/models.py:4047
+msgid "From where the rank is obtained"
+msgstr "From where the rank is obtained"
+
+#: apps/course_metadata/models.py:4094
+msgid "Callback URL to partner application flow"
+msgstr "Callback url to partner application flow"
+
+#: apps/course_metadata/models.py:4097
+msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
+msgstr "Overall program ranking (e.g. \"#1 in the U.S.\")"
+
+#: apps/course_metadata/models.py:4102
+msgid ""
+"The 6 character hex value of the color to make the banner borders\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
+msgstr ""
+"Nilai hex 6 karakter dari warna untuk membuat batas spanduk\n"
+"            (misalnya \"#ff0000\" yang berarti merah) Tidak perlu menyertakan `#`"
+
+#: apps/course_metadata/models.py:4111
+msgid "Provide a campus image for the header of the degree"
+msgstr "Sediakan gambar kampus untuk header gelar"
+
+#: apps/course_metadata/models.py:4117
+msgid "Provide a background image for the title section of the degree"
+msgstr "Sediakan gambar latar belakang untuk bagian judul dari gelar"
+
+#: apps/course_metadata/models.py:4122
+msgid "The fine print that displays at the Tuition section's bottom"
+msgstr "Tulisan kecil yang ditampilkan di bagian bawah bagian Biaya Kuliah"
+
+#: apps/course_metadata/models.py:4127
+msgid "The fine print that displays at the Deadline section's bottom"
+msgstr "The fine print that displays at the Deadline section's bottom"
+
+#: apps/course_metadata/models.py:4134
+msgid "The sailthru email list name to capture leads"
+msgstr "The sailthru email list name to capture leads"
+
+#: apps/course_metadata/models.py:4148
+msgid "Please provide an image file for the lead capture banner."
+msgstr "Silakan sediakan file gambar untuk banner penangkapan prospek."
+
+#: apps/course_metadata/models.py:4151
+msgid "The Hubspot form ID for the lead capture form"
+msgstr "The Hubspot form ID for the lead capture form"
+
+#: apps/course_metadata/models.py:4157
+msgid "URL to micromasters landing page"
+msgstr "URL to micromasters landing page"
+
+#: apps/course_metadata/models.py:4163
+msgid "Micromasters verbose title"
+msgstr "Micromasters verbose title"
+
+#: apps/course_metadata/models.py:4169
+msgid "Micromasters descriptive paragraph"
+msgstr "Micromasters descriptive paragraph"
+
+#: apps/course_metadata/models.py:4182
+msgid "Customized background image for the MicroMasters section."
+msgstr "Customized background image for the MicroMasters section."
+
+#: apps/course_metadata/models.py:4186
+msgid ""
+"Override org name if micromasters program comes from different organization "
+"than Masters program"
+msgstr ""
+"Override org name if micromasters program comes from different organization "
+"than Masters program"
+
+#: apps/course_metadata/models.py:4193
+msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
+msgstr "Ranking display for search card (e.g. \"#1 in the U.S.\""
+
+#: apps/course_metadata/models.py:4213
+msgid ""
+"Designates whether the degree should be displayed on the owning "
+"organization's page"
+msgstr ""
+"Designates whether the degree should be displayed on the owning "
+"organization's page"
+
+#: apps/course_metadata/models.py:4232
+msgid "The redirect URL of the degree on external site"
+msgstr "The redirect URL of the degree on external site"
+
+#: apps/course_metadata/models.py:4237
+msgid "The URL of the landing page on external site"
+msgstr "The URL of the landing page on external site"
+
+#: apps/course_metadata/models.py:4288
+msgid "Bell"
+msgstr "Bell"
+
+#: apps/course_metadata/models.py:4289
+msgid "Certificate"
+msgstr "Sertifikat"
+
+#: apps/course_metadata/models.py:4290
+msgid "Checkmark"
+msgstr "Checkmark"
+
+#: apps/course_metadata/models.py:4291
+msgid "Clock"
+msgstr "Jam"
+
+#: apps/course_metadata/models.py:4292
+msgid "Desktop"
+msgstr "Desktop"
+
+#: apps/course_metadata/models.py:4293
+msgid "Info"
+msgstr "Info"
+
+#: apps/course_metadata/models.py:4294
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: apps/course_metadata/models.py:4295
+msgid "User"
+msgstr "Pengguna"
+
+#: apps/course_metadata/models.py:4296
+msgid "Dollar"
+msgstr "Dollar"
+
+#: apps/course_metadata/models.py:4297
+msgid "Book"
+msgstr "Book"
+
+#: apps/course_metadata/models.py:4298
+msgid "Mortar Board"
+msgstr "Mortar Board"
+
+#: apps/course_metadata/models.py:4299
+msgid "Star"
+msgstr "Star"
+
+#: apps/course_metadata/models.py:4300
+msgid "Trophy"
+msgstr "Trophy"
+
+#: apps/course_metadata/models.py:4304
+msgid "Icon FA class"
+msgstr "Icon FA class"
+
+#: apps/course_metadata/models.py:4305
+msgid "Paired text"
+msgstr "Paired text"
+
+#: apps/course_metadata/models.py:4344
+msgid "Describes the deadline (e.g. Early Admission Deadline)"
+msgstr "Menjelaskan tenggat waktu (misalnya, Tenggat Waktu Penerimaan Awal)"
+
+#: apps/course_metadata/models.py:4348
+msgid "The date after which the deadline expires (e.g. January 1, 2019)"
+msgstr "Tanggal setelah batas waktu berakhir (misalnya 1 Januari 2019)"
+
+#: apps/course_metadata/models.py:4352
+msgid "The time after which the deadline expires (e.g. 11:59 PM EST)."
+msgstr "The time after which the deadline expires (e.g. 11:59 PM EST)."
+
+#: apps/course_metadata/models.py:4388
+msgid "Describes what the cost is for (e.g. Tuition)"
+msgstr "Describes what the cost is for (e.g. Tuition)"
+
+#: apps/course_metadata/models.py:4392
+msgid "String-based field stating how much the cost is (e.g. $1000)."
+msgstr "String-based field stating how much the cost is (e.g. $1000)."
+
+#: apps/course_metadata/models.py:4435
+msgid ""
+"A high-level overview of the degree's courseware. The \"brief\"\n"
+"            text is the first 750 characters of \"marketing_text\" and must be\n"
+"            valid HTML."
+msgstr ""
+"Ikhtisar tingkat tinggi dari materi kursus gelar. Teks \"singkat\" adalah "
+"750 karakter pertama dari \"teks_pemasaran\" dan harus berupa HTML yang "
+"valid."
+
+#: apps/course_metadata/models.py:4443
+msgid "A high-level overview of the degree's courseware."
+msgstr "Ikhtisar tingkat tinggi dari materi kursus gelar."
+
+#: apps/course_metadata/models.py:4568
+msgid "Organization name"
+msgstr "Nama Organisasi"
+
+#: apps/course_metadata/models.py:4595
+msgid "These programs are for a different partner than the pathway itself: {}"
+msgstr ""
+"These programs are for a different partner than the pathway itself: {}"
 
 #: apps/course_metadata/models.py:4622
 msgid "Facebook"
@@ -378,6 +1788,414 @@ msgstr "Blog"
 msgid "Others"
 msgstr "Lainnya"
 
+#: apps/course_metadata/models.py:4685
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url slug {url_slug}"
+msgstr ""
+"Partner {partner_key} dan course partner {course_partner_key} tidak cocok "
+"saat mencoba menyimpan url slug {url_slug}"
+
+#: apps/course_metadata/models.py:4705
+#, python-brace-format
+msgid ""
+"Partner {partner_key} and course partner {course_partner_key} do not match "
+"when attempting to save url redirect {url_path}"
+msgstr ""
+"Partner {partner_key} dan mitra kursus {course_partner_key} tidak cocok "
+"ketika mencoba menyimpan pengalihan url {url_path}"
+
+#: apps/course_metadata/models.py:4726
+msgid "It expects the data will be provided in a csv file format "
+msgstr "Diharapkan data akan disediakan dalam format berkas csv "
+
+#: apps/course_metadata/models.py:4738
+msgid "A csv file containing uuid of the courses to be archived"
+msgstr "File csv yang berisi uuid kursus yang akan diarsipkan"
+
+#: apps/course_metadata/models.py:4752 apps/course_metadata/models.py:4765
+#: apps/course_metadata/models.py:4778 apps/course_metadata/models.py:4813
+#: apps/course_metadata/models.py:4826 apps/course_metadata/models.py:4845
+#: apps/course_metadata/models.py:4865 apps/course_metadata/models.py:4880
+#: apps/course_metadata/models.py:5033
+msgid ""
+"It expects the data will be provided in a csv file format with first row "
+"containing all the headers."
+msgstr ""
+"Diharapkan data akan disediakan dalam format file csv dengan baris pertama "
+"berisi semua header."
+
+#: apps/course_metadata/models.py:4837
+msgid "Open Courses"
+msgstr "Open Courses"
+
+#: apps/course_metadata/models.py:4838
+msgid "2U Executive Education Courses"
+msgstr "2U Executive Education Courses"
+
+#: apps/course_metadata/models.py:4839
+msgid "Bootcamps"
+msgstr "Bootcamps"
+
+#: apps/course_metadata/models.py:4850 apps/course_metadata/models.py:4954
+msgid "Course UUIDs"
+msgstr "Course UUIDs"
+
+#: apps/course_metadata/models.py:4930
+msgid "Course Run IDs"
+msgstr "Course Run IDs"
+
+#: apps/course_metadata/models.py:4946
+msgid "Profile Image UUIDs"
+msgstr "Profile Image UUIDs"
+
+#: apps/course_metadata/models.py:4969
+msgid "Remove All Redirects"
+msgstr "Remove All Redirects"
+
+#: apps/course_metadata/models.py:4970
+msgid "Url Paths"
+msgstr "Url Paths"
+
+#: apps/course_metadata/models.py:4978
+msgid "Add redirects from all published course url slugs"
+msgstr "Menambahkan pengalihan dari semua slug url kursus yang diterbitkan"
+
+#: apps/course_metadata/models.py:4979 apps/taxonomy_support/models.py:55
+msgid "Course uuids"
+msgstr "Course uuids"
+
+#: apps/course_metadata/models.py:5044
+msgid "User who uploaded the file"
+msgstr "Pengguna mengunggah file"
+
+#: apps/course_metadata/models.py:5049
+msgid "Summary of the task"
+msgstr "Ringkasan tugas"
+
+#: apps/course_metadata/models.py:5052
+msgid "Task Type"
+msgstr "Jenis Tugas"
+
+#: apps/course_metadata/models.py:5055
+msgid "Type of Bulk Task to be performed"
+msgstr "Jenis Tugas Massal yang Akan Dilakukan"
+
+#: apps/course_metadata/models.py:5058
+msgid "Status"
+msgstr "Status"
+
+#: apps/course_metadata/models.py:5061
+msgid "Status of the Bulk Task"
+msgstr "Status Tugas Massal"
+
+#: apps/course_metadata/models.py:5069
+msgid "Identifier of the celery task associated with this bulk task"
+msgstr "Pengidentifikasi tugas seledri yang terkait dengan tugas massal ini"
+
+#: apps/course_metadata/salesforce.py:78
+msgid "Attempted to query Salesforce with no client for partner={}"
+msgstr "Attempted to query Salesforce with no client for partner={}"
+
+#: apps/course_metadata/salesforce.py:237
+msgid "Unable to associate a case for comments for {}"
+msgstr "Unable to associate a case for comments for {}"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_run.html:24
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_run.html:27
+msgid "Back to Program"
+msgstr "Back to Program"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_run.html:29
+msgid "Save Course Run"
+msgstr "Save Course Run"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_skills.html:11
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:7
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:7
+msgid "Home"
+msgstr "Beranda"
+
+#: apps/course_metadata/templates/admin/course_metadata/course_skills.html:26
+msgid "Course Skills"
+msgstr "Course Skills"
+
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:22
+#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:32
+msgid "Refresh Course Skills"
+msgstr "Refresh Course Skills"
+
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:22
+#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:32
+msgid "Refresh Program Skills"
+msgstr "Refresh Program Skills"
+
+#: apps/course_metadata/templates/course_metadata/email/comment.html:7
+#, python-format
+msgid ""
+"%(user_name)s made the following comment on %(course_name)s on %(date)s at "
+"%(time)s"
+msgstr ""
+"%(user_name)s membuat komentar berikut pada %(course_name)s pada %(date)s "
+"pukul %(time)s"
+
+#: apps/course_metadata/templates/course_metadata/email/comment.html:19
+#: apps/course_metadata/templates/course_metadata/email/comment.txt:9
+msgid "View comment in Publisher"
+msgstr "View comment in Publisher"
+
+#: apps/course_metadata/templates/course_metadata/email/comment.html:21
+#: apps/course_metadata/templates/course_metadata/email/comment.txt:11
+msgid "The edX team"
+msgstr "Tim IndonesiaX"
+
+#: apps/course_metadata/templates/course_metadata/email/comment.txt:3
+#, python-format
+msgid ""
+"%(user_name)s made the following comment on %(course_name)s %(date)s at "
+"%(time)s"
+msgstr ""
+"%(user_name)s membuat komentar berikut pada %(course_name)s %(date)s pukul "
+"%(time)s"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:8
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
+msgid "Hi Course Team,"
+msgstr "Hai Tim Kursus,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:20
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
+msgid ""
+"If no action is taken, the course will be automatically archived after this "
+"date. If you decide not to extend the course or create a new run at this "
+"time, please inform your dedicated Project Coordinator and share your plans."
+" This helps ensure our internal teams remain aligned and can support you "
+"effectively."
+msgstr ""
+"Jika tidak ada tindakan yang diambil, kursus akan otomatis diarsipkan "
+"setelah tanggal ini. Jika Anda memutuskan untuk tidak memperpanjang kursus "
+"atau membuat sesi baru saat ini, harap informasikan kepada Koordinator "
+"Proyek khusus Anda dan bagikan rencana Anda. Ini membantu memastikan tim "
+"internal kami tetap selaras dan dapat mendukung Anda secara efektif."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:24
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:12
+msgid ""
+"To ensure a smooth experience for our edX Learners, please take one of the "
+"following actions:"
+msgstr ""
+"Untuk memastikan pengalaman yang lancar bagi Pembelajar edX kami, harap "
+"lakukan salah satu tindakan berikut:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:62
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:95
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:14
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:48
+msgid "Create a New Course Run:"
+msgstr "Buat Jalankan Kursus Baru:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:30
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:63
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:96
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:15
+msgid ""
+"Planning to update the content or offer the course to a new cohort? We "
+"recommend setting up a new course run in Publisher."
+msgstr ""
+"Berencana untuk memperbarui konten atau menawarkan kursus kepada angkatan "
+"baru? Kami merekomendasikan untuk menjalankan kursus baru di Publisher."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:64
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:97
+msgid "You can get started"
+msgstr "Anda bisa memulai"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:39
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:65
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:72
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:98
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:105
+msgid "here"
+msgstr "here"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:36
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:69
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:102
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:35
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:51
+msgid "Extend the Course End Date:"
+msgstr "Perpanjang Tanggal Akhir Kursus:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:70
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:103
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:19
+msgid ""
+"If the content is still relevant, you can extend the course end date in "
+"Studio."
+msgstr ""
+"Jika konten masih relevan, Anda dapat memperpanjang tanggal berakhir kursus "
+"di Studio."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:38
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:71
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:104
+msgid "Simply visit the Schedule and Details tab"
+msgstr "Cukup kunjungi tab Jadwal dan Detail"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:46
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:24
+#, python-format
+msgid ""
+"\n"
+"Our records indicate that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in 7 days on %(course_end_date)s. Despite previous reminders, we’ve noticed that no action has been taken yet.\n"
+msgstr ""
+"\n"
+"Catatan kami menunjukkan bahwa kursus \"%(course_name)s\" (Kunci Kursus: %(course_key)s) dijadwalkan berakhir dalam 7 hari pada %(course_end_date)s. Meskipun sudah ada pengingat sebelumnya, kami melihat bahwa belum ada tindakan yang diambil.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:52
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:85
+msgid "Important:"
+msgstr "Penting:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:53
+msgid ""
+"If no action is taken, the course will be automatically archived after the "
+"current end date. If you choose not to extend or create a new course run at "
+"this time, you must inform your dedicated Project Coordinator with your "
+"reasons. This will ensure our internal teams are properly informed about "
+"your plans."
+msgstr ""
+"Jika tidak ada tindakan yang diambil, kursus akan otomatis diarsipkan "
+"setelah tanggal berakhir saat ini. Jika Anda memilih untuk tidak "
+"memperpanjang atau membuat kursus baru saat ini, Anda harus memberi tahu "
+"Koordinator Proyek khusus Anda beserta alasannya. Ini akan memastikan tim "
+"internal kami mendapatkan informasi yang tepat mengenai rencana Anda."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:57
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:30
+msgid ""
+"To prevent disruption to learner access, please choose one of the following "
+"options:"
+msgstr ""
+"Untuk mencegah gangguan akses bagi peserta didik, silakan pilih salah satu "
+"opsi berikut:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:79
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:40
+#, python-format
+msgid ""
+"\n"
+"Our records show that the course \"%(course_name)s\" (Course Key: %(course_key)s) officially ended on %(course_end_date)s and has now entered the archived state. Despite our previous reminders, it appears no action has been taken yet.\n"
+msgstr ""
+"\n"
+"Catatan kami menunjukkan bahwa kursus \"%(course_name)s\" (Kunci Kursus: %(course_key)s) secara resmi berakhir pada %(course_end_date)s dan kini telah memasuki status arsip. Meskipun kami telah memberikan pengingat sebelumnya, tampaknya belum ada tindakan yang diambil.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:86
+msgid ""
+"If you decide not to extend the course or create a new course run at this "
+"time, you must inform your dedicated Project Coordinator with the reasons "
+"behind this. This will help ensure our internal teams are fully updated on "
+"your plans for the course."
+msgstr ""
+"Jika Anda memutuskan untuk tidak memperpanjang kursus atau membuat "
+"pelaksanaan kursus baru saat ini, Anda harus memberi tahu Koordinator Proyek"
+" khusus Anda beserta alasannya. Ini akan membantu memastikan tim internal "
+"kami sepenuhnya mengetahui rencana Anda untuk kursus tersebut."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:90
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:46
+msgid ""
+"If you wish to keep this course active, please choose one of the following "
+"options:"
+msgstr ""
+"Jika Anda ingin kursus ini tetap aktif, silakan pilih salah satu opsi "
+"berikut:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:112
+msgid "NOTE:"
+msgstr "NOTE:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:113
+msgid ""
+"This email address isn’t monitored for replies. If you have any questions or"
+" need assistance, please reach out to your dedicated Project Coordinator."
+msgstr ""
+"Alamat email ini tidak dipantau untuk balasan. Jika Anda memiliki pertanyaan"
+" atau membutuhkan bantuan, silakan hubungi Koordinator Proyek khusus Anda."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:117
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:58
+msgid "Thank you for your attention to this—looking forward to your updates!"
+msgstr ""
+"Terima kasih atas perhatian Anda—kami menantikan kabar terbaru dari Anda!"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:121
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:60
+msgid "Best,"
+msgstr "Terbaik,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:122
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:61
+msgid "edX Operational Team"
+msgstr "Tim Operasional edX"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid "You can get started here:"
+msgstr "Anda bisa memulai di sini:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:20
+msgid "Simply visit the Schedule and Details tab here:"
+msgstr "Cukup kunjungi tab Jadwal dan Detail di sini:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:28
+msgid ""
+"Important: If no action is taken, the course will be automatically archived "
+"after the current end date. If you choose not to extend or create a new "
+"course run at this time, you must inform your dedicated Project Coordinator "
+"with your reasons. This will ensure our internal teams are properly informed"
+" about your plans."
+msgstr ""
+"Penting: Jika tidak ada tindakan yang diambil, kursus akan otomatis "
+"diarsipkan setelah tanggal berakhir saat ini. Jika Anda memilih untuk tidak "
+"memperpanjang atau membuat pelaksanaan kursus baru saat ini, Anda harus "
+"memberitahukan alasan Anda kepada Koordinator Proyek khusus Anda. Ini akan "
+"memastikan tim internal kami mendapatkan informasi yang benar tentang "
+"rencana Anda."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:44
+msgid ""
+"Important: If you decide not to extend the course or create a new course run"
+" at this time, you must inform your dedicated Project Coordinator with the "
+"reasons behind this. This will help ensure our internal teams are fully "
+"updated on your plans for the course."
+msgstr ""
+"Penting: Jika Anda memutuskan untuk tidak memperpanjang kursus atau membuat "
+"pelaksanaan kursus baru saat ini, Anda harus memberi tahu Koordinator Proyek"
+" khusus Anda beserta alasannya. Ini akan membantu memastikan tim internal "
+"kami sepenuhnya mengetahui rencana Anda untuk kursus tersebut."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:56
+msgid ""
+"NOTE: This email address isn’t monitored for replies. If you have any "
+"questions or need assistance, please reach out to your dedicated Project "
+"Coordinator."
+msgstr ""
+"CATATAN: Alamat email ini tidak dipantau untuk balasan. Jika Anda memiliki "
+"pertanyaan atau membutuhkan bantuan, silakan hubungi Koordinator Proyek "
+"khusus Anda."
+
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
 #, python-format
@@ -392,6 +2210,15 @@ msgstr ""
 "setelah beberapa kali penerapan berikutnya—biasanya dalam 24 hingga 48 jam "
 "kerja."
 
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
+#, python-brace-format
+msgid ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+msgstr ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
 msgid ""
 "Note: This is a no-reply email. For any questions or comments, please "
@@ -399,3 +2226,363 @@ msgid ""
 msgstr ""
 "Catatan: Ini adalah email tanpa balasan. Untuk pertanyaan atau komentar, "
 "silakan hubungi Koordinator Proyek Anda di"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:3
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:9
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:3
+#, python-format
+msgid "Dear %(recipient_name)s,"
+msgstr "Kepada %(recipient_name)s ,"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_key} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to review the changes and mark it as reviewed."
+msgstr ""
+"{org_name} telah mengajukan {course_key} untuk ditinjau. "
+"{link_start}{course_page_url}{link_middle}Lihat pelaksanaan kursus ini di "
+"Publisher{link_end} untuk meninjau perubahan dan menandainya sebagai telah "
+"ditinjau."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
+#, python-brace-format
+msgid ""
+"This is a good time to {link_start}{studio_url}{link_middle}review this "
+"course run in Studio{link_end}."
+msgstr ""
+"This is a good time to {link_start}{studio_url}{link_middle}review this "
+"course run in Studio{link_end}."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
+#, python-brace-format
+msgid ""
+"Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
+"admin page{link_end} to set embargo rules for this course, as needed."
+msgstr ""
+"Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
+"admin page{link_end} to set embargo rules for this course, as needed."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
+#, python-format
+msgid "%(org_name)s has submitted %(course_key)s for review."
+msgstr "%(org_name)s has submitted %(course_key)s for review."
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:10
+#, python-format
+msgid "Publisher page: %(course_page_url)s"
+msgstr "Publisher page: %(course_page_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:14
+#, python-format
+msgid "Studio page: %(studio_url)s"
+msgstr "Studio page: %(studio_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
+#, python-format
+msgid "Restricted Course admin: %(restricted_admin_url)s"
+msgstr "Restricted Course admin: %(restricted_admin_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
+#, python-brace-format
+msgid ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+msgstr ""
+"{org_name} has submitted {course_name} for review. "
+"{link_start}{course_page_url}{link_middle}View this course run in "
+"Publisher{link_end} to determine OFAC status."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
+#, python-format
+msgid "%(org_name)s has submitted %(course_name)s for review."
+msgstr "%(org_name)s telah mengajukan %(course_name)s untuk ditinjau."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
+msgid "View this course run in Publisher above to determine OFAC status."
+msgstr "View this course run in Publisher above to determine OFAC status."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Note: Alamat email ini tidak menerima balasan. Untuk pertanyaan atau "
+"komentar, silakan hubungi Koordinator Proyek Anda:"
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
+#, python-brace-format
+msgid ""
+"The {link_start}{course_page_url}{link_middle}{course_run_number} course "
+"run{link_end} of {course_name} has been reviewed and approved by "
+"{platform_name}."
+msgstr ""
+"The {link_start}{course_page_url}{link_middle}{course_run_number} course "
+"run{link_end} of {course_name} has been reviewed and approved by "
+"{platform_name}."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:12
+#, python-format
+msgid ""
+"The course run about page will be published on %(go_live_date)s, pending no "
+"further edits."
+msgstr ""
+"The course run about page will be published on %(go_live_date)s, pending no "
+"further edits."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
+msgid "The course run about page is now published."
+msgstr "Halaman tentang kursus sekarang sudah diterbitkan."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
+#, python-format
+msgid ""
+"The %(course_run_number)s course run of %(course_name)s has been reviewed "
+"and approved by %(platform_name)s."
+msgstr ""
+"The %(course_run_number)s course run of %(course_name)s has been reviewed "
+"and approved by %(platform_name)s."
+
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
+#, python-format
+msgid "View the course run in Publisher: %(course_page_url)s"
+msgstr "View the course run in Publisher: %(course_page_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:8
+#, python-format
+msgid ""
+"\n"
+"        Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+msgstr ""
+"\n"
+"        Kursus '%(course_name)s' telah berhasil ditinjau oleh edX dan sekarang diterbitkan pada %(course_publish_date)s. Untuk melihat kursus yang sudah tayang, kunjungi di sini: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:12
+#, python-format
+msgid ""
+"\n"
+"        Course '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The course will be published on %(course_publish_date)s.\n"
+"        To see a preview of the Course About Page, go here: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+msgstr ""
+"\n"
+"        Kursus '%(course_name)s' telah berhasil ditinjau oleh edX dan sekarang siap untuk dipublikasikan. Kursus akan dipublikasikan pada %(course_publish_date)s.\n"
+"        Untuk melihat pratinjau Tentang Halaman Kursus, kunjungi di sini: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:4
+#, python-format
+msgid ""
+"\n"
+"    Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: %(course_marketing_url)s\n"
+msgstr ""
+"\n"
+"    Kursus '%(course_name)s' telah berhasil ditinjau oleh edX dan sekarang diterbitkan pada %(course_publish_date)s. Untuk melihat kursus yang sudah tayang, kunjungi: %(course_marketing_url)s\n"
+
+#: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
+#, python-format
+msgid ""
+"\n"
+"   Course '%(course_name)s' has been successfully reviewed by edX and is now ready for publication. The course will be published on %(course_publish_date)s.\n"
+"    To see a preview of the Course About Page, go here: %(course_preview_url)s\n"
+msgstr ""
+"\n"
+"   Kursus '%(course_name)s' telah berhasil ditinjau oleh edX dan sekarang siap untuk dipublikasikan. Kursus akan dipublikasikan pada %(course_publish_date)s.\n"
+"    Untuk melihat pratinjau Tentang Halaman Kursus, kunjungi di sini: %(course_preview_url)s\n"
+
+#: apps/course_metadata/utils.py:391
+msgid "Special characters not allowed in Course Number."
+msgstr "Special characters not allowed in Course Number."
+
+#: apps/course_metadata/validators.py:30
+#, python-brace-format
+msgid "Invalid HTML received: {0}"
+msgstr "Invalid HTML received: {0}"
+
+#: apps/course_metadata/validators.py:31
+msgid "Invalid HTML received"
+msgstr "Invalid HTML received"
+
+#: apps/course_metadata/validators.py:35 apps/course_metadata/validators.py:46
+#, python-brace-format
+msgid "{0} tag is not allowed"
+msgstr "{0} tag is not allowed"
+
+#: apps/course_metadata/validators.py:42
+#, python-brace-format
+msgid "{0} attribute is not allowed on the {1} tag"
+msgstr "{0} attribute is not allowed on the {1} tag"
+
+#: apps/course_metadata/views.py:38
+msgid "Update excluded course runs"
+msgstr "Update excluded course runs"
+
+#: apps/course_metadata/views.py:45
+msgid "The program was changed successfully."
+msgstr "Program berhasil diubah."
+
+#: apps/course_metadata/views.py:127
+msgid "The refresh program skills task triggered successfully."
+msgstr "The refresh program skills task triggered successfully."
+
+#: apps/course_metadata/views.py:206
+msgid "The refresh course skills task triggered successfully."
+msgstr "The refresh course skills task triggered successfully."
+
+#: apps/course_metadata/views.py:306
+msgid "The course skills were updated successfully."
+msgstr "Keterampilan kursus berhasil diperbarui."
+
+#: apps/edx_elasticsearch_dsl_extensions/exceptions.py:17
+msgid ""
+"Request could not be completed due to an incorrect ElasticSearch query "
+"parameters"
+msgstr ""
+"Request could not be completed due to an incorrect ElasticSearch query "
+"parameters"
+
+#: apps/ietf_language_tags/models.py:34
+msgid "Name for translation"
+msgstr "Name for translation"
+
+#: apps/ietf_language_tags/models.py:38
+msgid "LanguageTag model translations"
+msgstr "LanguageTag model translations"
+
+#: apps/learner_pathway/choices.py:7
+msgid "Inactive"
+msgstr "Tidak aktif"
+
+#: apps/learner_pathway/models.py:84
+msgid "Title of the learner pathway."
+msgstr "Judul jalur pembelajaran."
+
+#: apps/learner_pathway/models.py:87
+msgid "Course/Program associated pathways also appear in search results"
+msgstr "Jalur terkait Kursus/Program juga muncul dalam hasil pencarian"
+
+#: apps/learner_pathway/models.py:90
+msgid "The active/inactive status of this Pathway."
+msgstr "Status aktif dan tidak aktif dari Jalur ini."
+
+#: apps/learner_pathway/models.py:118
+msgid "Learner Pathway"
+msgstr "Learner Pathway"
+
+#: apps/learner_pathway/models.py:119
+msgid "Learner Pathways"
+msgstr "Learner Pathways"
+
+#: apps/learner_pathway/models.py:165
+msgid "Minimum number of nodes to complete this step of the pathway"
+msgstr "Minimum number of nodes to complete this step of the pathway"
+
+#: apps/learner_pathway/models.py:169
+msgid "Learner Pathway Step"
+msgstr "Learner Pathway Step"
+
+#: apps/learner_pathway/models.py:170
+msgid "Learner Pathway Steps"
+msgstr "Learner Pathway Steps"
+
+#: apps/learner_pathway/models.py:237
+msgid "Learner Pathway Course"
+msgstr "Learner Pathway Course"
+
+#: apps/learner_pathway/models.py:238
+msgid "Learner Pathway Courses"
+msgstr "Learner Pathway Courses"
+
+#: apps/learner_pathway/models.py:275
+msgid "Learner Pathway Program"
+msgstr "Learner Pathway Program"
+
+#: apps/learner_pathway/models.py:276
+msgid "Learner Pathway Programs"
+msgstr "Learner Pathway Programs"
+
+#: apps/publisher/models.py:34
+msgid "Organization Role"
+msgstr "Peran Organisasi"
+
+#: apps/taxonomy_support/management/commands/update_course_recommendations.py:19
+msgid "Update the course recommendations based on skills."
+msgstr "Perbarui rekomendasi kursus berdasarkan keterampilan."
+
+#: apps/taxonomy_support/management/commands/update_course_recommendations.py:41
+msgid ""
+"Use arguments from the UpdateCourseRecommendationsConfig model instead of "
+"the command line."
+msgstr ""
+"Gunakan argumen dari model UpdateCourseRecommendationsConfig alih-alih dari "
+"command line."
+
+#: apps/taxonomy_support/models.py:24
+msgid "The original course, whose recommendation is stored here."
+msgstr "Kursus asli, yang menyimpan rekomendasinya di sini."
+
+#: apps/taxonomy_support/models.py:29
+msgid ""
+"This is the course recommended after learner completes the original course."
+msgstr ""
+"Ini adalah kursus yang direkomendasikan setelah pelajar menyelesaikan kursus"
+" asli."
+
+#: apps/taxonomy_support/models.py:32
+msgid "Ratio of number of common skills and total skill count."
+msgstr "Ratio of number of common skills and total skill count."
+
+#: apps/taxonomy_support/models.py:35
+msgid ""
+"Count of common skills between the original course and recommended course."
+msgstr ""
+"Jumlah keterampilan umum antara kursus asli dan kursus yang "
+"direkomendasikan."
+
+#: apps/taxonomy_support/models.py:38
+msgid "Ratio of number of common subjects and total subject count."
+msgstr ""
+"Rasio antara jumlah mata pelajaran umum dan total jumlah mata pelajaran."
+
+#: apps/taxonomy_support/models.py:41
+msgid ""
+"Count of common subjects between the original course and recommended course."
+msgstr ""
+"Jumlah mata pelajaran yang sama antara kursus asli dan kursus yang "
+"direkomendasikan."
+
+#: apps/taxonomy_support/models.py:46
+msgid "Course Recommendation"
+msgstr "Course Recommendation"
+
+#: apps/taxonomy_support/models.py:47
+msgid "Course Recommendations"
+msgstr "Course Recommendations"
+
+#: apps/taxonomy_support/models.py:54
+msgid "Adds recommendations for all published courses"
+msgstr "Menambahkan rekomendasi untuk semua kursus yang diterbitkan"
+
+#: apps/taxonomy_support/models.py:58
+msgid ""
+"Adds recommendations for courses created or modified in the past num days"
+msgstr ""
+"Adds recommendations for courses created or modified in the past num days"
+
+#: apps/taxonomy_support/providers.py:198
+msgid "No partner object found!"
+msgstr "Tidak ada objek mitra yang ditemukan!"
+
+#: urls.py:32
+msgid "Discovery Service Administration"
+msgstr "Discovery Service Administration"

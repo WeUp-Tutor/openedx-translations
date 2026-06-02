@@ -2,10 +2,9 @@
   "learner-dash.loadingSR": "Po ngarkohet...",
   "learner-dash.error-page-message": "Nëse përjetoni dështime të përsëritura, ju lutemi dërgoni me email mbështetjen në {supportEmail}",
   "learner-dash.title": "Shtëpia e nxënësit",
-  "learner-dash.notices.error404Message": "Kjo ndoshta ndodhi sepse shtojca e njoftimeve nuk është instaluar në platformë.",
   "learner-dash.courseCard.bannerAlt": "Miniatura e kursit",
   "learner-dash.courseCard.verifiedBanner": "Verifikuar",
-  "learner-dash.courseCard.verifiedHoverDescription": "Ke regjistruar si student i verifikuar",
+  "learner-dash.courseCard.verifiedHoverDescription": "Ju regjistroheni si student i verifikuar",
   "learner-dash.courseCard.verifiedBannerRibbonAlt": "Shiriti/Distinktivi i Verifikuar i ID-së",
   "learner-dash.courseListFilters.courseStatus": "Statusi i kursit",
   "learner-dash.courseListFilters.inProgress": "Në vazhdim",
@@ -144,5 +143,6 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} nuk e miratoi kërkesën tuaj për kreditimin e kursit. Për më shumë informacion, kontaktoni drejtpërdrejt {linkToProviderSite} .",
   "learner-dash.courseCard.banners.credit.requestCredit": "Kërkoni kredi",
   "learner-dash.courseCard.banners.credit.viewCredit": "Shiko kreditin",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Shiko Detajet"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Shiko Detajet",
+  "learner-dash.page.title": ""
 }

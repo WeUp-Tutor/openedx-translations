@@ -1,160 +1,42 @@
 {
-  "Hyperlink.externalLinkAltText": {
-    "string": ""
-  },
-  "Hyperlink.externalLinkTitle": {
-    "string": ""
-  },
-  "dropzone.Dropzone.invalidSizeLessError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.invalidSizeMoreError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.invalidType": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.multipleDraggedError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.unexpectedValidationError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.uploadError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Alert.closeLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.CardCarousel.scrollToNext": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.CardCarousel.scrollToPrevious": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ChipCarousel.scrollToNext": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ChipCarousel.scrollToPrevious": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectAllText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectedText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.ExpandAll.collapseAllLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.ExpandAll.expandAllLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.FilterStatus.clearFiltersText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.RowStatus.statusText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.SidebarFilters.title": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.filtersDropdownTitle": {
-    "developer_comment": "Фильтрлер ашылмалы тізімінің атауы",
-    "string": "Сүзгілер"
-  },
-  "pgn.DataTable.paginationLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeBetween": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeMax": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeMin": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.label": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.UploadProgress.cancelLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.UploadProgress.uploadLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.FormAutosuggest.iconButtonClosed": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.FormAutosuggest.iconButtonOpened": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Modal.closeButon": {
-    "developer_comment": "Модальды диалогтағы жабу түймесінің қолжетімді атауы",
-    "string": "Жабу"
-  },
-  "pgn.ProductTour.Checkpoint.bottom-position-text": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ProductTour.Checkpoint.page-index-text": {
-    "developer_comment": "Өнім турындағы орныңызды көрсететін бет индексі",
-    "string": ""
-  },
-  "pgn.ProductTour.Checkpoint.top-position-text": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ProductTour.checkpointHeader.close": {
-    "developer_comment": "ӨнімТур компоненті үшін балама мәтінді жабу",
-    "string": "Турды жабу"
-  },
-  "pgn.Toast.closeLabel": {
-    "developer_comment": "",
-    "string": ""
-  }
+  "Hyperlink.externalLinkAltText": "жаңа қойындыда",
+  "Hyperlink.externalLinkTitle": "Жаңа қойындыда ашылады",
+  "dropzone.Dropzone.invalidSizeLessError": "Файл {size} өлшемінен үлкен болуы керек.",
+  "dropzone.Dropzone.invalidSizeMoreError": "Файл {size} аз болуы керек.",
+  "dropzone.Dropzone.invalidType": "Файл түрі {count, plural, one { {typeString} файл} бір { {typeString} файлдарының бірі}} болуы керек.",
+  "dropzone.Dropzone.multipleDraggedError": "Тек бір жүктеп салуға рұқсат етілген.",
+  "dropzone.Dropzone.unexpectedValidationError": "Файлды тексеру кезінде күтпеген мәселе орын алды. Қайталап көріңіз.",
+  "dropzone.Dropzone.uploadError": "Файлыңызды жүктеп салу кезінде мәселе орын алды. Қайталап көріңіз.",
+  "pgn.Alert.closeLabel": "Босату",
+  "pgn.CardCarousel.scrollToNext": "Келесіге жылжыңыз",
+  "pgn.CardCarousel.scrollToPrevious": "Алдыңғыға жылжыңыз",
+  "pgn.ChipCarousel.scrollToNext": "Келесіге жылжыңыз",
+  "pgn.ChipCarousel.scrollToPrevious": "Алдыңғыға жылжыңыз",
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "Барлық {numSelectedRows} таңдалды",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Таңдауды тазалау",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Барлық {itemCount} таңдаңыз",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} таңдалды",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} таңдалды ( {numSelectedRowsOnPage} төменде көрсетілген)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "Барлығын жию",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "Барлығын кеңейту",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Сүзгілерді тазалау",
+  "pgn.DataTable.RowStatus.statusText": "{itemCount} ішінен {firstRow} - {lastRow} көрсетілуде.",
+  "pgn.DataTable.SidebarFilters.title": "Сүзгілер",
+  "pgn.DataTable.filtersDropdownTitle": "Сүзгілер",
+  "pgn.DataTable.paginationLabel": "кестені беттеу",
+  "pgn.Dropzone.DefaultContent.fileSizeBetween": "{sizeMin} және {sizeMax} арасында",
+  "pgn.Dropzone.DefaultContent.fileSizeMax": "Макс {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMin": "Мин {sizeMin}",
+  "pgn.Dropzone.DefaultContent.fileTypeRestriction": "Жүктеп салу {count, plural, one { {firstPart} файл} басқа { {firstPart} немесе {secondPart} файлдары}}",
+  "pgn.Dropzone.DefaultContent.label": "Файлыңызды осы жерге сүйреп апарыңыз немесе жүктеп салу үшін басыңыз.",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "Болдырмау",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} жүктеп салынуда.",
+  "pgn.FormAutosuggest.iconButtonClosed": "Параметрлер мәзірін жабыңыз",
+  "pgn.FormAutosuggest.iconButtonOpened": "Параметрлер мәзірін ашыңыз",
+  "pgn.Modal.closeButon": "Жабу",
+  "pgn.ProductTour.Checkpoint.bottom-position-text": "{step} қадамының төменгі жағы",
+  "pgn.ProductTour.Checkpoint.page-index-text": "{қадам} / {барлығы}",
+  "pgn.ProductTour.Checkpoint.top-position-text": "{step} қадамының жоғарғы жағы",
+  "pgn.ProductTour.checkpointHeader.close": "Турды жабу",
+  "pgn.Toast.closeLabel": "Жабу"
 }

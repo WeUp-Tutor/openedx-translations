@@ -6,15 +6,16 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Eden Huthmacher, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Italian (Italy) (https://app.transifex.com/open-edx/teams/301281/it_IT/)\n"
+"POT-Creation-Date: 2025-12-13 00:33+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
+"Last-Translator: Eden Huthmacher, 2025\n"
+"Language-Team: Italian (Italy) (https://app.transifex.com/open-edx/teams/6205/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -47,6 +48,18 @@ msgstr ""
 #: xblock/static/js/src/oa_server.js:215
 msgid "This response could not be submitted."
 msgstr "Impossibile inoltrare la risposta."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:237
+msgid "The submission could not be reset."
+msgstr "Impossibile reimpostare la sottomissione."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
+#: xblock/static/js/src/oa_server.js:260
+msgid "Please check your internet connection."
+msgstr "Per favore controlla la tua connessione Internet."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -243,9 +256,48 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:272
+msgid ""
+"There is still file upload in progress. Please wait until it is finished."
+msgstr ""
+"È ancora in corso il caricamento del file. Si prega di attendere fino al "
+"termine."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:262
+msgid "Cannot submit empty response even everything is optional."
+msgstr "Impossibile inviare una risposta vuota anche se tutto è facoltativo."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:254
+msgid "Please upload a file."
+msgstr "Carica un file, per favore."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:247
+msgid "Please provide a response."
+msgstr "Si prega di fornire una risposta."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:347
+msgid "No files selected for upload."
+msgstr "Nessun file selezionato per il caricamento."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:354
+msgid "Please provide a description for each file you are uploading."
+msgstr ""
+"Si prega di fornire una descrizione per ogni file che si sta caricando."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:363
 msgid "Your file has been deleted or path has been changed: "
 msgstr "Il tuo file è stato eliminato o il percorso è stato modificato:"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:458
+msgid "Saving draft"
+msgstr "Bozza di salvataggio"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:465
@@ -255,6 +307,16 @@ msgid ""
 msgstr ""
 "Se si esce da questa pagina senza salvare o inoltrare la propria risposta, "
 "tutto il lavoro eseguito sulla risposta verrà perso. "
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:480
+msgid "Saving draft..."
+msgstr "Salvataggio bozza..."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:496
+msgid "Draft saved!"
+msgstr "Bozza salvata!"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:509
@@ -267,6 +329,17 @@ msgid "Confirm Submit Response"
 msgstr "Conferma Invia risposta"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:534
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you may have a limited time to resubmit before your "
+"submission is graded."
+msgstr ""
+"Stai per inviare la tua risposta per questa Assegnazione. Dopo aver inviato "
+"questa risposta, potresti avere un tempo limitato per inviarla nuovamente "
+"prima che la risposta venga valutata."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:540
 msgid ""
 "You're about to submit your response for this assignment. After you submit "
@@ -274,6 +347,22 @@ msgid ""
 msgstr ""
 "Stai per inviare la risposta per questo compito. Dopo aver inviato questa "
 "risposta, non è possibile modificarla o inviare una nuova risposta."
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:582
+msgid "Confirm Reset"
+msgstr "Conferma la reimpostazione"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+#: xblock/static/js/src/lms/oa_response.js:584
+msgid ""
+"You're about to reset your response for this assignment. You will need to "
+"submit a new response in order to complete this step. Are you sure you want "
+"to continue?"
+msgstr ""
+"Stai per reimpostare la tua risposta per questo compito. Sarà necessario "
+"inviare una nuova risposta per completare questo passaggio. Sei sicuro di "
+"voler continuare?"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:655
@@ -392,6 +481,14 @@ msgstr ""
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid "Refresh"
 msgstr "Aggiorna"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+msgid "Action"
+msgstr "Azione"
+
+#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
+msgid "Review"
+msgstr "Revisione"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid "Username"
@@ -565,6 +662,15 @@ msgid ""
 msgstr ""
 "Le modifiche ai passaggi che non sono selezionati come parte del compito non"
 " verranno salvate."
+
+#: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
+#: xblock/static/js/src/studio/oa_edit_settings.js:104
+msgid ""
+"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the"
+" hours between 00 and 23, and the minutes between 00 and 59."
+msgstr ""
+"L&#39;ora deve essere nel formato gg:hh:mm. I giorni devono essere compresi "
+"tra 00 e 99, le ore tra 00 e 23 e i minuti tra 00 e 59."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:118

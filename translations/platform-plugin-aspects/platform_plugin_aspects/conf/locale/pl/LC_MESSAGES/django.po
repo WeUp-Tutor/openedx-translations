@@ -4,22 +4,26 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Brian Smith, 2025
-# Mateusz Pyttel, 2026
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2026
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:53+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Mateusz Pyttel, 2026\n"
+"POT-Creation-Date: 2026-03-18 00:49+0000\n"
+"PO-Revision-Date: 2024-04-20 01:08+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Polish (https://app.transifex.com/open-edx/teams/6205/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: extensions/filters.py:58
+msgid "Reports"
+msgstr "Raporty"
 
 #: settings/common.py:31
 msgid "Course Dashboard"
@@ -78,12 +82,12 @@ msgstr "Nieprawidłowy identyfikator kursu: „{course_id}”"
 #: views.py:179
 #, python-brace-format
 msgid "Invalid usage id: '{usage_id}'"
-msgstr "Nieprawidłowy identyfikator użycia: \"{usage_id}"
+msgstr "Nieprawidłowy identyfikator użycia: '{usage_id}'"
 
 #: views.py:208
 #, python-brace-format
 msgid "No dashboard for block type: '{block_type}'"
-msgstr "Brak pulpitu nawigacyjnego dla typu bloku: \"{block_type}"
+msgstr "Brak pulpitu nawigacyjnego dla typu bloku: \"{block_type}\""
 
 #: xblock.py:48 xblock.py:49
 msgid "Display name"
@@ -109,14 +113,14 @@ msgstr ""
 msgid "Filters"
 msgstr "Filtry"
 
-#: xblock.py:66
+#: xblock.py:65
 msgid ""
 "List of SQL filters to apply to the\n"
 "               dashboard. E.g: [\"org='edX'\", \"country in ('us', 'co')\"]\n"
 "               The fields used here must be available on every dataset used by the dashboard.\n"
 "               "
 msgstr ""
-"Lista filtrów SQL, które można zastosować do\n"
-" panel. Np.: [&quot;org=&#39;edX&#39;&quot;, &quot;kraj w (&#39;nas&#39;, &#39;co&#39;)&quot;]\n"
-" Pola użyte w tym miejscu muszą być dostępne w każdym zbiorze danych używanym przez dashboard.\n"
+"Lista filtrów SQL do zastosowania w panelu. Np.: [\"org='edX'\", \"country in ('us', 'co')\"]\n"
+"\n"
+"Pola użyte tutaj muszą być dostępne w każdym zbiorze danych używanym przez panel.\n"
 "               "

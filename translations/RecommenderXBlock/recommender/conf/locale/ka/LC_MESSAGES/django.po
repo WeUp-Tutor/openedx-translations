@@ -1,7 +1,7 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2026
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
+"PO-Revision-Date: 2023-06-03 00:54+0000\n"
 "Last-Translator: Lasha Kokilashvili, 2026\n"
 "Language-Team: Georgian (https://app.transifex.com/open-edx/teams/6205/ka/)\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ka\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: recommender.py:314
+msgid "Invalid location URL provided"
+msgstr "მითითებულია არასწორი მდებარეობის URL"
+
+#: recommender.py:325
+msgid "The resource you are attempting to provide already exists"
+msgstr "რესურსი, რომლის მიწოდებასაც ცდილობთ, უკვე არსებობს"
+
+#: recommender.py:338
+msgid ""
+"The resource you are attempting to provide has been disallowed by the staff."
+" Reason: "
+msgstr ""
+"რესურსი, რომლის მიწოდებასაც ცდილობთ, დაუშვებელია პერსონალის მიერ. მიზეზი: "
+
+#: recommender.py:355
+msgid "The selected resource does not exist"
+msgstr "არჩეული რესურსი არ არსებობს"
+
+#: recommender.py:403
+msgid "Size of uploaded file exceeds threshold"
+msgstr "ატვირთული ფაილის ზომა აღემატება ზღურბლს"
+
+#: recommender.py:414
+msgid "The configuration of pyfs is not properly set"
+msgstr "pyfs-ის კონფიგურაცია სათანადოდ არ არის დაყენებული"
+
+#: recommender.py:753
+msgid "Endorse resource without permission"
+msgstr "რესურსის დამტკიცება ნებართვის გარეშე"
 
 #: recommender.py:797
 msgid "You don't have the permission to remove this resource"
@@ -475,3 +506,19 @@ msgstr "რესურსის დამტკიცება"
 #: static/js/src/cats.js:216
 msgid "Unendorse resource"
 msgstr "რესურსის გაუქმება"
+
+#: static/js/src/cats.js:218
+msgid "Remove resource"
+msgstr "რესურსის წაშლა"
+
+#: static/js/src/cats.js:219
+msgid "Hovering resource"
+msgstr "Hovering რესურსი"
+
+#: static/js/src/cats.js:220
+msgid "A resource was clicked"
+msgstr "რესურსზე დაწკაპუნებით"
+
+#: static/js/src/cats.js:221
+msgid "Back to resource list mode"
+msgstr "რესურსების სიის რეჟიმში დაბრუნება"

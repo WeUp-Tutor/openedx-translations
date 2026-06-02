@@ -5,16 +5,18 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Brian Smith, 2025
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Joel Edwards, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Afrikaans (South Africa) (https://app.transifex.com/open-edx/teams/301281/af_ZA/)\n"
+"POT-Creation-Date: 2026-03-05 00:57+0000\n"
+"PO-Revision-Date: 2023-05-10 00:48+0000\n"
+"Last-Translator: Joel Edwards, 2026\n"
+"Language-Team: Afrikaans (South Africa) (https://app.transifex.com/open-edx/teams/6205/af_ZA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -268,12 +270,12 @@ msgstr "Kan nie leë antwoord indien nie, selfs alles is opsioneel."
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:254
 msgid "Please upload a file."
-msgstr "Laai asseblief &#39;n lêer op."
+msgstr "Laai asseblief 'n lêer op."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:247
 msgid "Please provide a response."
-msgstr "Gee asseblief &#39;n antwoord."
+msgstr "Gee asseblief 'n antwoord."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:347
@@ -283,7 +285,7 @@ msgstr "Geen lêers gekies vir oplaai nie."
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:354
 msgid "Please provide a description for each file you are uploading."
-msgstr "Verskaf asseblief &#39;n beskrywing vir elke lêer wat jy oplaai."
+msgstr "Verskaf asseblief 'n beskrywing vir elke lêer wat jy oplaai."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:363
@@ -332,8 +334,8 @@ msgid ""
 "submission is graded."
 msgstr ""
 "Jy is op die punt om jou antwoord vir hierdie werkopdrag in te dien. Nadat "
-"jy hierdie antwoord ingedien het, kan jy &#39;n beperkte tyd hê om weer in "
-"te dien voordat jou indiening gegradeer word."
+"jy hierdie antwoord ingedien het, kan jy 'n beperkte tyd hê om weer in te "
+"dien voordat jou indiening gegradeer word."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:540
@@ -342,7 +344,7 @@ msgid ""
 "this response, you can't change it or submit a new response."
 msgstr ""
 "Jy is op die punt om jou antwoord vir hierdie werkopdrag in te dien. Nadat "
-"jy hierdie antwoord ingedien het, kan jy dit nie verander of &#39;n nuwe "
+"jy hierdie antwoord ingedien het, kan jy dit nie verander of 'n nuwe "
 "antwoord indien nie."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -358,8 +360,8 @@ msgid ""
 "to continue?"
 msgstr ""
 "Jy is op die punt om jou antwoord vir hierdie opdrag terug te stel. Jy sal "
-"&#39;n nuwe antwoord moet indien om hierdie stap te voltooi. Is jy seker jy "
-"wil voortgaan?"
+"'n nuwe antwoord moet indien om hierdie stap te voltooi. Is jy seker jy wil "
+"voortgaan?"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:655
@@ -429,7 +431,7 @@ msgstr "Onverwagte bedienerfout."
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:147
 msgid "You must provide a learner name."
-msgstr "Jy moet &#39;n leerder se naam verskaf."
+msgstr "Jy moet 'n leerder se naam verskaf."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:214
@@ -513,9 +515,8 @@ msgid ""
 "The \"{name}\" problem is configured to require a minimum of {min_grades} "
 "peer grades, and asks to review {min_graded} peers."
 msgstr ""
-"Die &quot; {name} &quot; probleem is opgestel om &#39;n minimum van "
-"{min_grades} eweknie grade te vereis, en vra om {min_graded} eweknieë te "
-"hersien."
+"Die \" {name} \" probleem is opgestel om 'n minimum van {min_grades} eweknie"
+" grade te vereis, en vra om {min_graded} eweknieë te hersien."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid ""
@@ -530,8 +531,8 @@ msgid ""
 "However, {overwritten_count} of these students have received a grade through"
 " the staff grade override tool already."
 msgstr ""
-"{overwritten_count} van hierdie studente het egter reeds &#39;n graad deur "
-"die personeelgraad-oorskryf-nutsding ontvang."
+"{overwritten_count} van hierdie studente het egter reeds 'n graad deur die "
+"personeelgraad-oorskryf-nutsding ontvang."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 msgid "Error while fetching student data."
@@ -599,9 +600,9 @@ msgid ""
 "criterion in the Learner Training step. To do this, click the Assessment "
 "Steps tab."
 msgstr ""
-"Jy het &#39;n kriterium bygevoeg. Jy sal &#39;n opsie vir die kriterium in "
-"die Leerderopleidingstap moet kies. Om dit te doen, klik die "
-"Assesseringstappe-oortjie."
+"Jy het 'n kriterium bygevoeg. Jy sal 'n opsie vir die kriterium in die "
+"Leerderopleidingstap moet kies. Om dit te doen, klik die Assesseringstappe-"
+"oortjie."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:150
@@ -616,9 +617,9 @@ msgid ""
 "in the sample responses in the Learner Training step. You might have to "
 "select a new option for the criterion."
 msgstr ""
-"Jy het &#39;n opsie uitgevee. Daardie opsie is van sy kriterium verwyder in "
-"die voorbeeldantwoorde in die Leerderopleidingstap. Jy sal dalk &#39;n nuwe "
-"opsie vir die maatstaf moet kies."
+"Jy het 'n opsie uitgevee. Daardie opsie is van sy kriterium verwyder in die "
+"voorbeeldantwoorde in die Leerderopleidingstap. Jy sal dalk 'n nuwe opsie "
+"vir die maatstaf moet kies."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:188
@@ -640,7 +641,7 @@ msgid ""
 "You have deleted a criterion. The criterion has been removed from the "
 "example responses in the Learner Training step."
 msgstr ""
-"Jy het &#39;n maatstaf uitgevee. Die maatstaf is verwyder uit die "
+"Jy het 'n maatstaf uitgevee. Die maatstaf is verwyder uit die "
 "voorbeeldreaksies in die Leerderopleidingstap."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11

@@ -1,19 +1,20 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2025
+# Brian Smith, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2025-11-17 07:23+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
-"Language-Team: Russian (https://app.transifex.com/open-edx/teams/301281/ru/)\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1291,7 +1292,7 @@ msgstr "Типы корпоративных клиентов"
 msgid "Specifies enterprise customer type."
 msgstr "Указывает тип корпоративного клиента."
 
-#: enterprise/models.py:215 enterprise/models.py:3404
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "Корпоративный клиент "
 
@@ -1584,42 +1585,42 @@ msgstr "Обучающийся корпоративных клиентов"
 msgid "Enterprise Customer Learners"
 msgstr "Обучающиеся корпоративных клиентов"
 
-#: enterprise/models.py:1738
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "Изображения логотипов должны быть в формате .png."
 
-#: enterprise/models.py:1765
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "Конфигурация брендинга"
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "Конфигурации брендинга"
 
-#: enterprise/models.py:1854
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 "Указывает, является ли это поставщиком по умолчанию для корпоративного "
 "клиента."
 
-#: enterprise/models.py:1939
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr "UUID курса (не курса), на который имеет право учащийся."
 
-#: enterprise/models.py:1949
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Учащийся предприятия, которому предоставлено это право."
 
-#: enterprise/models.py:2072
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "Учащийся предприятия, к которому прикреплена эта регистрация."
 
-#: enterprise/models.py:2079
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "Идентификатор курса, на который был зачислен учащийся."
 
-#: enterprise/models.py:2086
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -1627,7 +1628,7 @@ msgstr ""
 "Указывает, пометил ли пользователь этот курс как сохраненный для дальнейшего"
 " использования на портале для учащихся."
 
-#: enterprise/models.py:2102
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1635,23 +1636,23 @@ msgstr ""
 "Указывает, была ли отменена регистрация объекта регистрации курса "
 "корпоративного курса."
 
-#: enterprise/models.py:2112
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr ""
 "Указывает, когда объект регистрации курса корпоративного курса был отменен."
 
-#: enterprise/models.py:2370
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "Право на курс, на которое рассчитана соответствующая субсидия."
 
-#: enterprise/models.py:2381
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr ""
 "Зачисление на курс, для которого предназначена соответствующая субсидия."
 
-#: enterprise/models.py:2388
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -1659,7 +1660,7 @@ msgstr ""
 "Отменяется ли субсидия предприятия, например, при отзыве лицензии "
 "пользователя."
 
-#: enterprise/models.py:2836
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1671,15 +1672,15 @@ msgstr ""
 "включены в каталог, типы курсов Executive-education-2u не будут исключены из"
 " содержимого связанного каталога."
 
-#: enterprise/models.py:2843
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "Запрос каталога предприятия"
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "Запросы корпоративного каталога"
 
-#: enterprise/models.py:2957
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1691,7 +1692,7 @@ msgstr ""
 "Пустой объект Json означает, что все доступные элементы контента будут "
 "включены в каталог."
 
-#: enterprise/models.py:2965
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1699,7 +1700,7 @@ msgstr ""
 "Упорядоченный список режимов регистрации, который может отображаться "
 "учащимся при прохождении курса в этом каталоге."
 
-#: enterprise/models.py:2971
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -1707,15 +1708,15 @@ msgstr ""
 "Указывает, следует ли публиковать курсы с URL-адресами регистрации, "
 "предназначенными для прямого аудита."
 
-#: enterprise/models.py:2978
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "Каталог корпоративных клиентов"
 
-#: enterprise/models.py:2979 enterprise/models.py:3526
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "Каталоги корпоративных клиентов"
 
-#: enterprise/models.py:3246
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1723,7 +1724,7 @@ msgstr ""
 "Заполните стандартный шаблон Django, который при отображении создаст электронное письмо, которое вы хотите отправить вновь зарегистрированным учащимся корпоративных клиентов. Могут быть доступны следующие переменные:\n"
 "<ul><li> user_name: удобочитаемое имя человека, которому отправляется электронное письмо. Обязательно обработайте случай, когда это не определено, поскольку в некоторых случаях оно может отсутствовать. Это также может быть имя пользователя, если учащийся не указал свое «настоящее» имя в системе.</li><li> имя_организации: название организации, спонсирующей регистрацию.</li><li> enrolled_in: Подробная информация о курсе или программе, на которую вы были зачислены. Может содержать:<ul><li> name: название записываемого элемента (например, «Демо-курс»).</li><li> URL: ссылка на домашнюю страницу зарегистрированного элемента.</li><li> Брендинг: собственное фирменное наименование зарегистрированного элемента. Например, программа MicroMasters будет называться «MicroMasters».</li><li> Начало: дата, когда зарегистрированный элемент станет доступен. Преобразуйте это в текст, используя шаблонный фильтр Django `date` (см. <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">документацию Django</a> ).</li><li> тип: является ли зарегистрированный элемент курсом, программой или чем-то еще.</li></ul></ul>"
 
-#: enterprise/models.py:3264
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1734,27 +1735,27 @@ msgstr ""
 "для уведомлений по электронной почте. Заполнитель {course_name} будет "
 "заменен названием курса или программы, на которую вы были зачислены."
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "Активный"
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "Включить дату"
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "Включить дату в имя файла отчета"
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "способ доставки"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "Метод, которым должны быть отправлены данные."
 
-#: enterprise/models.py:3420
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -1762,56 +1763,56 @@ msgstr ""
 "Указывает, следует ли сжимать отчет. Без сжатия файлы не будут защищены "
 "паролем или зашифрованы."
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "Ключ шифрования PGP"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr "Ключ для шифрования, если требуется файл, зашифрованный PGP."
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "Тип данных"
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "Тип данных, которые должен содержать этот отчет."
 
-#: enterprise/models.py:3444
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "Тип отчета"
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "Тип, в котором должен быть отправлен этот отчет, например CSV."
 
-#: enterprise/models.py:3449
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "Электронная почта"
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr ""
 "Адрес электронной почты (по одному в каждой строке), куда следует отправить "
 "отчет."
 
-#: enterprise/models.py:3457
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "Частота"
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr ""
 "Интервал частоты (ежедневно, еженедельно или ежемесячно) отправки отчета."
 
-#: enterprise/models.py:3463
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "День месяца"
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1819,11 +1820,11 @@ msgstr ""
 "День месяца для отправки отчета. Это поле является обязательным и "
 "действительным только при ежемесячной частоте."
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "День недели"
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1831,11 +1832,11 @@ msgstr ""
 "День недели для отправки отчета. Это поле является обязательным и "
 "действительным только при еженедельной частоте."
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "Час дня"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1843,7 +1844,7 @@ msgstr ""
 "Час отправки отчета по восточному стандартному времени (EST). Это необходимо"
 " для всех настроек частоты."
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1851,27 +1852,27 @@ msgstr ""
 "Этот пароль будет использоваться для защиты zip-файла. Он будет зашифрован "
 "при хранении в базе данных."
 
-#: enterprise/models.py:3493
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "Имя SFTP-хоста"
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr "Если метод доставки — sftp, хост, на который будет доставлен отчет."
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "SFTP-порт"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr "Если метод доставки — sftp, порт хоста для подключения."
 
-#: enterprise/models.py:3507
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "Имя пользователя SFTP"
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1879,7 +1880,7 @@ msgstr ""
 "Если методом доставки является sftp, имя пользователя, которое будет "
 "использоваться для безопасного доступа к хосту."
 
-#: enterprise/models.py:3514
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1887,11 +1888,11 @@ msgstr ""
 "Если методом доставки является sftp, пароль, используемый для безопасного "
 "доступа к хосту. Пароль будет зашифрован при хранении в базе данных."
 
-#: enterprise/models.py:3521
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "Путь к SFTP-файлу"
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
@@ -1899,57 +1900,57 @@ msgstr ""
 "Если методом доставки является sftp, это путь на хосте, на который будет "
 "доставлен отчет."
 
-#: enterprise/models.py:3630
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "Способ доставки не может быть обновлен."
 
-#: enterprise/models.py:3646
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "Если частота еженедельная, необходимо установить день недели."
 
-#: enterprise/models.py:3650
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "День месяца должен быть установлен, если частота ежемесячная."
 
-#: enterprise/models.py:3653
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr ""
 "Частота должна быть установлена на ежедневное, еженедельное или ежемесячное "
 "значение."
 
-#: enterprise/models.py:3659
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr ""
 "Адреса электронной почты должны быть установлены, если способом доставки "
 "является электронная почта."
 
-#: enterprise/models.py:3663
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 "Расшифрованный пароль должен быть установлен, если способом доставки "
 "является электронная почта."
 
-#: enterprise/models.py:3667
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr ""
 "Имя хоста SFTP должно быть установлено, если методом доставки является sftp."
 
-#: enterprise/models.py:3669
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr ""
 "Имя пользователя SFTP должно быть установлено, если метод доставки — sftp."
 
-#: enterprise/models.py:3671
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr "Путь к файлу SFTP должен быть установлен, если метод доставки — sftp."
 
-#: enterprise/models.py:3674
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 "Расшифрованный пароль SFTP должен быть установлен, если методом доставки "
 "является SFTP."
 
-#: enterprise/models.py:3737
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -1963,19 +1964,19 @@ msgstr ""
 "сначала создайте запись, а затем измените поле корпоративного клиента, "
 "используя раскрывающийся список."
 
-#: enterprise/models.py:4026
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "Фильтры для условного отображения баннерных уведомлений."
 
-#: enterprise/models.py:4031
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "Фильтр уведомлений администратора"
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "Фильтры уведомлений администратора"
 
-#: enterprise/models.py:4058
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -1983,7 +1984,7 @@ msgstr ""
 "Заголовок баннера уведомления, который будет отображаться администратору "
 "предприятия на портале администрирования."
 
-#: enterprise/models.py:4066
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -1994,36 +1995,36 @@ msgstr ""
 "символов. Этот текст поддерживает уценку. См. https://commonmark.org/help/ "
 "для получения информации о поддерживаемых функциях уценки."
 
-#: enterprise/models.py:4083
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "Уведомление администратора"
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "Уведомления администратора"
 
-#: enterprise/models.py:4122
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "Уведомление администратора прочитано"
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "Уведомления администратора прочитаны"
 
-#: enterprise/models.py:4156 enterprise/models.py:4260
-#: enterprise/models.py:4405
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "Предприятие, которое можно связать с помощью этого ключа."
 
-#: enterprise/models.py:4165
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr "Сколько раз этот ключ можно использовать для связи с учащимся."
 
-#: enterprise/models.py:4174
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "После этой даты ключ перестанет быть действительным."
 
-#: enterprise/models.py:4183
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2031,61 +2032,61 @@ msgstr ""
 "Указывает, активен ли ключ. После деактивации ключ становится "
 "недействительным и не может быть повторно активирован."
 
-#: enterprise/models.py:4264
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "Подсказка ChatGPT."
 
-#: enterprise/models.py:4266
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "Ответ ChatGPT."
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "Тип подсказки."
 
-#: enterprise/models.py:4271
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "Ответ ChatGPT"
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "Ответы ChatGPT"
 
-#: enterprise/models.py:4382
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "Конфигурация единого входа для корпоративных клиентов"
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "Конфигурации единого входа для корпоративных клиентов"
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "Отображаемое имя конфигурации единого входа."
 
-#: enterprise/models.py:4414
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "Указывает, активна ли интеграция с оркестровкой единого входа."
 
-#: enterprise/models.py:4423
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr ""
 "Поставщик удостоверений, интегрированный с оркестратором единого входа."
 
-#: enterprise/models.py:4432
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "URL-адрес метаданных поставщика удостоверений."
 
-#: enterprise/models.py:4440
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "XML-файл метаданных поставщика удостоверений."
 
-#: enterprise/models.py:4449
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "Идентификатор объекта поставщика удостоверений."
 
-#: enterprise/models.py:4458
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2093,38 +2094,38 @@ msgstr ""
 "Указывает, должна ли интеграция с поставщиком удостоверений клиента "
 "автоматически обновлять метаданные."
 
-#: enterprise/models.py:4512
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr "Дата и время отправки конфигурации в систему единого входа."
 
-#: enterprise/models.py:4520
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
 msgstr "Дата и время завершения настройки оркестрацией единого входа."
 
-#: enterprise/models.py:4528
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
 msgstr ""
 "Дата и время, когда конфигурация была проверена и использована в первый раз."
 
-#: enterprise/models.py:4536
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr "Дата и время, когда оркестратор обнаружил ошибку во время настройки."
 
-#: enterprise/models.py:4545
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Указал ли администратор, что метаданные поставщика услуг были загружены."
 
-#: enterprise/models.py:4555 enterprise/models.py:4591
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
@@ -2132,15 +2133,15 @@ msgstr ""
 "Конфигурация, специфичная для SAP: интервал ожидания для API OData в "
 "секундах."
 
-#: enterprise/models.py:4565
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "Специальная конфигурация SAP: корневой URL-адрес OData API."
 
-#: enterprise/models.py:4574
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "Специальная конфигурация SAP: идентификатор компании OData API."
 
-#: enterprise/models.py:4583
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
@@ -2148,42 +2149,42 @@ msgstr ""
 "Конфигурация, специфичная для SAP: корневой URL-адрес SAP SuccessFactors "
 "OAuth API."
 
-#: enterprise/models.py:4600
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "Конфигурация, специфичная для SAP: закрытый ключ, используемый для подписи "
 "утверждения SAML."
 
-#: enterprise/models.py:4609
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "Специальная конфигурация SAP: идентификатор клиента OData API."
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "Специальная конфигурация SAP: идентификатор пользователя OAuth API."
 
-#: enterprise/models.py:4640
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "Поле заблокировано, поскольку конфигурация уже отправлена."
 
-#: enterprise/models.py:4678
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "Запись уже отправлена на настройку."
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "Указывает имя корпоративной группы."
 
-#: enterprise/models.py:4749
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Группа предприятий"
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "Корпоративные группы"
 
-#: enterprise/models.py:4863
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -2191,18 +2192,18 @@ msgstr ""
 "Момент, в который запись о членстве записывается вместе с записью "
 "пользователя корпоративного клиента."
 
-#: enterprise/models.py:4873
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "Текущий статус записи о членстве"
 
-#: enterprise/models.py:4880
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr ""
 "Момент, когда запись о членстве была отозвана администратором предприятия."
 
-#: enterprise/models.py:4888
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
@@ -2210,11 +2211,11 @@ msgstr ""
 "Последний раз действие членства находилось в состоянии ошибки. Значение Null"
 " означает, что членство не ошибочно."
 
-#: enterprise/models.py:4893
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "Членство в корпоративной группе"
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Членство в корпоративных группах"
 
