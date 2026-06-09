@@ -2852,10 +2852,9 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"Tu y es presque! Utilisez le lien ci-dessous pour activer votre compte et "
-"accéder à des cours %(platform_name)s attrayants et de haute qualité. Notez "
-"que vous ne pourrez pas vous reconnecter à votre compte tant que vous ne "
-"l&#39;aurez pas activé."
+"Bonjour,"
+"Votre compte Hexafret a bien été créé."
+"Pour finaliser votre inscription et accéder à la plateforme, veuillez cliquer sur le bouton ci-dessous :"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
@@ -2865,7 +2864,7 @@ msgstr "Activer votre compte"
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr "Avec %(platform_name)s, c'est un plaisir d'apprendre."
+msgstr " "
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:50
 #, python-format, python-brace-format
@@ -2874,9 +2873,11 @@ msgid ""
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
-"Si vous avez besoin d&#39;aide, veuillez utiliser notre formulaire Web à "
-"{start_anchor_web} %(support_url)s {end_anchor} ou par courrier électronique"
-" à {start_anchor_email} %(support_email)s {end_anchor} ."
+"Veuillez noter que vous ne pourrez pas vous connecter tant que votre compte n'aura pas été activé."
+"Si vous n'êtes pas à l'origine de cette inscription, vous pouvez simplement ignorer cet e-mail."
+"Pour toute question ou demande d'assistance, contactez-nous à l'adresse suivante : ne-pas-repondre@weuplearning.com.
+"Cordialement,"
+"L'équipe Hexafret"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:64
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:10
@@ -2886,9 +2887,7 @@ msgid ""
 "attempted to create an account on %(platform_name)s using this email "
 "address."
 msgstr ""
-"Cet e-mail a été envoyé automatiquement par %(lms_url)s car quelqu'un a "
-"tenté de créer un compte sur %(platform_name)s en utilisant cette adresse "
-"e-mail."
+"Cet e-mail a été envoyé automatiquement à la suite d'une demande de création de compte sur la plateforme Hexafret. Merci de ne pas y répondre."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
@@ -2897,10 +2896,9 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"Tu y es presque! Utilisez le lien ci-dessous pour activer votre compte et "
-"accéder à des cours %(platform_name)s attrayants et de haute qualité. Notez "
-"que vous ne pourrez pas vous reconnecter à votre compte tant que vous ne "
-"l'aurez pas activé."
+"Bonjour,"
+"Votre compte Hexafret a bien été créé."
+"Pour finaliser votre inscription et accéder à la plateforme, veuillez cliquer sur le bouton ci-dessous :"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
 #, python-format
@@ -3990,7 +3988,7 @@ msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
-msgstr "Tu y es presque !"
+msgstr " "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:3
 msgid "There's still time to reach your goal"
