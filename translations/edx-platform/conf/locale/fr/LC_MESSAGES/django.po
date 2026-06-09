@@ -4684,12 +4684,12 @@ msgid ""
 "You must be enrolled in the course to see course content. "
 "{enroll_link_start}Enroll now{enroll_link_end}."
 msgstr ""
-"Vous devez être inscrit au cours pour voir le contenu du cours. "
+"Vous devez être inscrit au cours pour voir son contenu. "
 "{enroll_link_start} Inscrivez-vous maintenant {enroll_link_end} ."
 
 #: lms/djangoapps/courseware/views/views.py:621
 msgid "You must be enrolled in the course to see course content."
-msgstr "Vous devez être inscrit au cours pour voir le contenu du cours."
+msgstr "Vous devez être inscrit au cours pour voir son contenu."
 
 #: lms/djangoapps/courseware/views/views.py:1248
 #: lms/djangoapps/instructor/views/api.py:171
