@@ -2876,7 +2876,7 @@ msgstr ""
 "Veuillez noter que vous ne pourrez pas vous connecter tant que votre compte n'aura pas été activé."
 "Si vous n'êtes pas à l'origine de cette inscription, vous pouvez simplement ignorer cet e-mail."
 "Pour toute question ou demande d'assistance, contactez-nous à l'adresse suivante : ne-pas-repondre@weuplearning.com "
-"Cordialement,"
+"Cordialement"
 "L'équipe Hexafret"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:64
