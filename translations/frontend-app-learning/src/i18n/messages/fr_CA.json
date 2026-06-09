@@ -449,7 +449,7 @@
   "notes.button.show": "Afficher les notes",
   "notes.button.hide": "Masquer les notes",
   "learn.contentLock.content.locked": "Contenu verrouillé",
-  "learn.contentLock.complete.prerequisite": "Vous devez compléter le prérequis : &#39;&#39; {prereqSectionName} &#39;&#39; pour accéder à ce contenu .",
+  "learn.contentLock.complete.prerequisite": "Vous devez compléter le prérequis : ’’ {prereqSectionName} ’’ pour accéder à ce contenu .",
   "learn.contentLock.goToSection": "Aller à la section de prérequis",
   "learn.hiddenAfterDue.header": "L’échéance de ce devoir est passée.",
   "learn.hiddenAfterDue.description": "Parce que l'échéance est passée, ce devoir n'est plus disponible.",
