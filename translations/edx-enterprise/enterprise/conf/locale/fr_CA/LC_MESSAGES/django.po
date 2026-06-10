@@ -1405,11 +1405,11 @@ msgid ""
 "signaling the expiration (and loss of usability) itself will still appear."
 msgstr ""
 "Si cette case est cochée, les apprenants et les administrateurs ne recevront"
-" pas de notifications avant la date d&#39;expiration des plans de crédit "
+" pas de notifications avant la date d'expiration des plans de crédit "
 "pour apprenants. Cela inclut la suppression de la date d’expiration de la "
 "case de subvention pour les expirations à venir. La boîte de résumé des "
-"subventions ne s’affichera pas pour les forfaits expirés. D&#39;autres "
-"notifications signalant l&#39;expiration (et la perte d&#39;utilisabilité) "
+"subventions ne s’affichera pas pour les forfaits expirés. D'autres "
+"notifications signalant l'expiration (et la perte d'utilisabilité) "
 "elle-même apparaîtront toujours."
 
 #: enterprise/models.py:341
@@ -1594,7 +1594,7 @@ msgid ""
 "Text shown on the learner portal dashboard for customer specific purposes. "
 "Open HTML field."
 msgstr ""
-"Texte affiché sur le tableau de bord du portail de l&#39;apprenant à des "
+"Texte affiché sur le tableau de bord du portail de l'apprenant à des "
 "fins spécifiques au client. Ouvrez le champ HTML."
 
 #: enterprise/models.py:867

@@ -141,8 +141,8 @@ msgid ""
 "The course run type '{course_run_type}' is not valid for this course type "
 "'{course_type}'."
 msgstr ""
-"Le type Session &#39;{course_run_type}&#39; n'est pas valide pour ce type de"
-" cours &#39;{course_type}&#39;."
+"Le type Session '{course_run_type}' n'est pas valide pour ce type de"
+" cours '{course_type}'."
 
 #: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
