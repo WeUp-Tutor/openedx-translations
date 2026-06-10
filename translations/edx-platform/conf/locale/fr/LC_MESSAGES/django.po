@@ -2759,7 +2759,7 @@ msgid ""
 "able to log back into your account until you have activated it."
 msgstr ""
 "Bonjour,"
-"Votre compte Hexafret a bien été créé."
+"Votre compte %(platform_name)s a bien été créé."
 "Pour finaliser votre inscription et accéder à la plateforme, veuillez cliquer sur le bouton ci-dessous :"
 
 
