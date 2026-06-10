@@ -2771,7 +2771,7 @@ msgstr "Activer mon compte"
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr " "
+msgstr "<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">%(platform_name)s</span>"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:50
 #, python-format, python-brace-format
@@ -2783,7 +2783,9 @@ msgstr ""
 "Veuillez noter que vous ne pourrez pas vous connecter tant que votre compte n'aura pas été activé. "
 "Si vous n'êtes pas à l'origine de cette inscription, vous pouvez simplement ignorer cet e-mail. "
 "Pour toute question ou demande d'assistance, contactez-nous à l'adresse suivante : "
-" ne-pas-repondre@weuplearning.com. "
+" {start_anchor_email}%(support_email)s{end_anchor} "
+"<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">%(support_url)s</span>"
+
 "Cordialement, "
 "L'équipe Hexafret"
 
@@ -2795,7 +2797,9 @@ msgid ""
 "attempted to create an account on %(platform_name)s using this email "
 "address."
 msgstr ""
-"Cet e-mail a été envoyé automatiquement à la suite d'une demande de création de compte sur la plateforme Hexafret. Merci de ne pas y répondre."
+"Cet e-mail a été envoyé automatiquement à la suite d'une demande de création de compte sur la plateforme %(platform_name)s. Merci de ne pas y répondre."
+"<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">%(lms_url)s</span>"
+
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
@@ -2805,7 +2809,7 @@ msgid ""
 "able to log back into your account until you have activated it."
 msgstr ""
 "Bonjour,"
-"Votre compte Hexafret a bien été créé."
+"Votre compte %(platform_name)s  a bien été créé."
 "Pour finaliser votre inscription et accéder à la plateforme, veuillez cliquer sur le bouton ci-dessous :"
 
 
@@ -2818,9 +2822,10 @@ msgstr ""
 "Veuillez noter que vous ne pourrez pas vous connecter tant que votre compte n'aura pas été activé. "
 "Si vous n'êtes pas à l'origine de cette inscription, vous pouvez simplement ignorer cet e-mail. "
 "Pour toute question ou demande d'assistance, contactez-nous à l'adresse suivante : "
-" ne-pas-repondre@weuplearning.com. "
+" %(support_email)s "
 "Cordialement, "
 "L'équipe Hexafret"
+"<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">%(support_url)s</span>"
 
 
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
