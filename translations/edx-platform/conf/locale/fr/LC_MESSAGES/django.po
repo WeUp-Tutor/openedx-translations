@@ -2784,7 +2784,7 @@ msgstr ""
 "Si vous n'êtes pas à l'origine de cette inscription, vous pouvez simplement ignorer cet e-mail. "
 "Pour toute question ou demande d'assistance, contactez-nous à l'adresse suivante : "
 " {start_anchor_email}%(support_email)s{end_anchor} "
-"<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">%(support_url)s</span>"
+"<span style=\"display:none; mso-hide:all; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;\">{start_anchor_web} %(support_url)s {end_anchor}</span>"
 
 "Cordialement, "
 "L'équipe Hexafret"
